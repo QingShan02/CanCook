@@ -1,5 +1,4 @@
 import { NextResponse,NextRequest } from "next/server"
-import db from "@/app/db";
 import { staffService } from "../../service/staff";
 import { query } from "../../constant/staff";
 export async function GET(request,context) {

@@ -1,10 +1,12 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
-import { useState } from 'react';
-import React from 'react';
-import TextEditor from '../../../components/TextEditor';
+import dynamic from 'next/dynamic'
 
-const admin = () => {
+const TextEditor = dynamic(() => import('../../../components/TextEditor'), {
+  ssr: false
+})
+import { useState } from 'react';
+
+const Admin = () => {
     const handleChange = (e: any) => setValue(e);
     const [value, setValue] = useState("");
 
@@ -24,4 +26,4 @@ const admin = () => {
         </>
     );
 }
-export default admin;
+export default Admin;

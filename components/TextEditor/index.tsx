@@ -1,7 +1,7 @@
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
-const TextEditor = ({value,handleChange}:any) => {
+const TextEditor = ({ value, handleChange }: any) => {
     const modules = {
         toolbar: [
             [{
@@ -23,8 +23,7 @@ const TextEditor = ({value,handleChange}:any) => {
         ]
     }
     return (
-                        <ReactQuill theme='snow' value={value} onChange={handleChange} modules={modules} />
-
+        <ReactQuill theme='snow' value={value} onChange={handleChange} modules={modules} />
     );
 }
 export default TextEditor;
