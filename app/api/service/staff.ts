@@ -1,4 +1,4 @@
-import db from "@/app/db";
+import db from "../../db";
 import { query } from "../constant/staff";
 
 export const staffService = {

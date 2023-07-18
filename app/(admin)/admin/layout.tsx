@@ -1,3 +1,5 @@
+import Sidebar from "../../../components/Sidebar";
+import "../../globals.css";
 import React from "react"
 export const metadata = {
   title: 'Next.js',
@@ -12,9 +14,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
+        {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" /> */}
       </head>
-      <body>{children}</body>
+      <body>
+        <div className="container-fluid d-flex">
+          <Sidebar />
+          <div style={{ width: "80%" }}>
+            {children}
+          </div>
+        </div>
+      </body>
     </html>
   )
 }

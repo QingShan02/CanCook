@@ -1,41 +1,24 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
-import { use, useEffect, useState } from 'react';
+import { useState } from 'react';
 import React from 'react';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
-const admin = () => {
+import TextEditor from '../../../components/TextEditor';
 
-    const modules = {
-        toolbar: [
-            [{
-                Headers: [1, 2, 3, 4, 5, 6, false],
-            }],
-            [{
-                font: [1, 2, 3, 4, 5, 6, false],
-            }],
-            [{
-                size: [1, 2, 3, 4, 5, 6, false],
-            }],
-            ["bold", "italic", "underline", "strike", "blockquote"],
-            [
-                { list: "ordered" },
-                { list: "bullet" },
-                { indent: "-1" },
-                { indent: "+1" }
-            ]
-        ]
-    }
+const admin = () => {
+    const handleChange = (e: any) => setValue(e);
     const [value, setValue] = useState("");
 
     return (
         <>
             <div className='container'>
                 <div className='row'>
-                    <div className='editor col-lg-6'>
+                    <div className="col-12">
                         Editor
-                        <ReactQuill theme='snow' value={value} onChange={(e: any) => setValue(e)} modules={modules} />
+                        <TextEditor value={value} handleChange={handleChange} />
                     </div>
-                    <div className='preview col-lg-6'>{value}</div>
+                    <div className="col-12">
+                        <button className="btn btn-success">Submit</button>
+                    </div>
                 </div>
             </div>
         </>
