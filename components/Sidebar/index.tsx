@@ -1,12 +1,13 @@
 "use client"
-
+import Link from "next/link";
+import {usePathname} from "next/navigation";
 import React, { useState } from "react";
 const Sidebar = () => {
-
+    const path = usePathname();
     let nav = [
         {
             id: 1,
-            url: "",
+            url: "/home",
             text: "Trang chủ"
         },
         {
@@ -37,7 +38,7 @@ const Sidebar = () => {
             <ul className="nav nav-pills flex-column mb-auto">
                 {
                     nav.map(s => (<li key={s.id} className="nav-item">
-                        <a href="#" className={`nav-link text-white ${s.id == 1 ? 'active' : ''}`}>{s.text}</a></li>)
+                        <Link href={`/admin${s.url =='/home'?'':s.url}`} className={`${path.replace("/admin","").includes(s.url) ? 'nav-link text-white active' : 'nav-link text-white'}`}>{s.text}</Link></li>)
                     )
                 }
             </ul>
