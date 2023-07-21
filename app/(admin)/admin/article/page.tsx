@@ -15,7 +15,7 @@ const Posts = () => {
   const [titleValue,setTitleValue] = useState("");
   const [value, setValue] = useState("");
   const search = useSearchParams();
-  const status = search.get("editPost");
+  const status = search.get("editArticle");
   return (
     <>
       {status ? (
