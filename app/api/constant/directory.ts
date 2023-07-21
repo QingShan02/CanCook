@@ -1,4 +1,4 @@
 export const query = {
-    findAll: "select * from staff",
-    findById: "SELECT directory.id as directoryid ,directory.name, posts.* FROM directory JOIN directoryofposts ON directory.id = directoryofposts.directoryId JOIN posts ON directoryofposts.postsId = posts.id WHERE directory.id = $1"
+    findAll: "select * from directory",
+    findById: "SELECT directory.id as directoryid ,directory.name, article.* FROM directory JOIN directoryofarticle ON directory.id = directoryofarticle.directoryId JOIN article ON directoryofarticle.articleId = article.id WHERE directory.id = $1"
 }
