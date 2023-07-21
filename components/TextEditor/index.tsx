@@ -4,14 +4,12 @@ import 'react-quill/dist/quill.snow.css';
 const TextEditor = ({ value, handleChange }: any) => {
     const modules = {
         toolbar: [
+            [{ header: [1, 2, 3, 4, 5, 6, false] }],
             [{
-                Headers: [1, 2, 3, 4, 5, 6, false],
+                font: [],
             }],
             [{
-                font: [1, 2, 3, 4, 5, 6, false],
-            }],
-            [{
-                size: [1, 2, 3, 4, 5, 6, false],
+                size: [],
             }],
             ["bold", "italic", "underline", "strike", "blockquote"],
             [

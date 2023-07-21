@@ -1,0 +1,21 @@
+/* .nav-item .dropdown {
+  position: relative !important;
+  display: inline-block !important;
+  float: right !important;
+} */
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    min-width: 158px;
+    z-index: 1;
+}
+
+/* 
+  .dropdown-menu ul:hover {
+    color: firebrick;
+  } */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
