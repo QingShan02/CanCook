@@ -12,7 +12,7 @@ const Sidebar = () => {
         },
         {
             id: 2,
-            url: "/posts",
+            url: "/article",
             text: "Bài viết"
         },
         {

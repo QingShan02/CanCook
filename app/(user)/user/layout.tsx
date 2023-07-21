@@ -2,7 +2,7 @@ import "../../globals.css";
 import React from "react"
 import Header from "../../../components/Header";
 import Navbar from "../../../components/Navbar";
-import ListPosts from "../../../components/ListPosts";
+import ListPosts from "../../../components/ListArticle";
 import Post from "../../../components/Article";
 import Article from "../../../components/Article";
 
