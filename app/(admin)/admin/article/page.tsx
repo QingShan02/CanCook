@@ -5,26 +5,33 @@ import { useSearchParams } from "next/navigation";
 const TextEditor = dynamic(() => import("../../../../components/TextEditor"), {
   ssr: false,
 });
-import { useState } from "react";
-import ListPosts from "../../../../components/ListPosts";
-import TitleEditor from "../../../../components/TitleEditor";
+import { useEffect, useState } from "react";
+import ListArticle from "../../../../components/ListArticle";
+import axios from "axios";
 
-const Posts = () => {      
+const Article = () => {
   const handleChange = (e: any) => setValue(e);
-  const titleHandleChange = (e:any) =>setTitleValue(e.target.value);
-  const [titleValue,setTitleValue] = useState("");
   const [value, setValue] = useState("");
   const search = useSearchParams();
   const status = search.get("editArticle");
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await axios.get("http://localhost:3000/api/article");
+        console.log(response.data);
+      } catch (error) {
+        console.log(error);
+      }
+    }
+    fetchData();
+  }, []);
   return (
     <>
       {status ? (
         <div className="container">
           <div className="row">
-          <div className="col-12">
-              <h2>Title Editor</h2>
-              <TitleEditor value={titleValue} handleChange={titleHandleChange} />
-            </div>
             <div className="col-12">
               <h2>Content Editor</h2>
               <TextEditor value={value} handleChange={handleChange} />
@@ -35,9 +42,9 @@ const Posts = () => {
           </div>
         </div>
       ) : (
-        <ListPosts />
+        <ListArticle />
       )}
     </>
   );
 };
-export default Posts;
+export default Article;

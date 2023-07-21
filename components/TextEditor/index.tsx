@@ -23,7 +23,12 @@ const TextEditor = ({ value, handleChange }: any) => {
         ]
     }
     return (
+        <>
+        <div className="form-outline">
+      <input type="text" className="form-control"  value={value} onChange={handleChange}/>
+    </div>
         <ReactQuill theme='snow' value={value} onChange={handleChange} modules={modules} />
+        </>
     );
 }
 export default TextEditor;

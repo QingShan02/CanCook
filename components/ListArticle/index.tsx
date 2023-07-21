@@ -1,4 +1,4 @@
-const ListPosts = () => {
+const ListArticle = () => {
     return (
         <div className="container mt-5">
             <div className="row">
@@ -76,4 +76,4 @@ const ListPosts = () => {
 
     );
 }
-export default ListPosts;
+export default ListArticle;
