@@ -12,5 +12,6 @@ export const query = {
     LEFT JOIN commentofarticle AS cop ON p.id = cop.articleid LEFT JOIN categoryofarticle AS cop2 ON p.id = cop2.articleid 
     LEFT JOIN directoryofarticle AS dop ON p.id = dop.articleid LEFT JOIN category AS c ON cop2.categoryid = c.id 
     LEFT JOIN directory AS d ON dop.directoryid = d.id WHERE p.id = $1 
-    GROUP BY p.id, p.title, c.id, c.name, d.id, d.name,c.id,c.name; `
+    GROUP BY p.id, p.title, c.id, c.name, d.id, d.name,c.id,c.name; `,
+    update:"UPDATE article SET title = $1, content = $2, createdate = $3 WHERE id = $4"
 }

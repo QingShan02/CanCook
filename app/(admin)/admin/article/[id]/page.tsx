@@ -6,13 +6,13 @@ const TextEditor = dynamic(() => import("../../../../../components/TextEditor"),
     ssr: false,
 
 });
-const detail = ({ params }) => {
+const Detail = ({ params }) => {
     const handleChange = (e: any) => setValue(e);
     const titleHandleChange = (e: any) => setTitleValue(e.target.value);
     const [titleValue, setTitleValue] = useState("");
     const [value, setValue] = useState("");
     const [status, setStatus] = useState(false);
-    const data =useMemo(() => {
+    const data = useMemo(() => {
         
         return  axios.get(`http://localhost:3000/api/article/${params.id}`).then(s => {
             console.log(s.data);
@@ -25,7 +25,7 @@ const detail = ({ params }) => {
                 <div className="row">
                     <div className="col-12">
                         <h2>Content Editor</h2>
-                        {data?.title}
+                        {/* {data?.title} */}
                         <TextEditor value={value} handleChange={handleChange} />
                     </div>
                     <div className="col-12">
@@ -37,4 +37,4 @@ const detail = ({ params }) => {
         </>
     )
 }
-export default detail;
+export default Detail;
