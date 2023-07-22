@@ -1,9 +1,9 @@
 
 export const query = {
     findAll: "select * from article ",
-    findById: "select * from id where id = $1",
-    findByTitle: "select * from title where title = $1",
-    findBycreateDate: "select * from createDate where createDate = $1",
+    findById: "select * from article where id = $1",
+    findByTitle: "select * from article where title = $1",
+    findBycreateDate: "select * from creaarticleeDate where createDate = $1",
     countLike: "SELECT p.id, p.title, COUNT(lp.id) AS like_count FROM article AS p LEFT JOIN likeofarticle AS lop ON p.id = lop.articleid LEFT JOIN likearticle AS lp ON lop.likeid = lp.id WHERE p.id=$1 GROUP BY p.id, p.title",
     countLikeAll: "SELECT p.id, p.title, COUNT(lp.id) AS like_count FROM article AS p LEFT JOIN likeofarticle AS lop ON p.id = lop.articleid LEFT JOIN likearticle AS lp ON lop.likeid = lp.id GROUP BY p.id, p.title",
     countLikeByUserId: "SELECT p.id, p.title, COUNT(lp.id) AS like_count FROM article AS p LEFT JOIN likeofarticle AS lop ON p.id = lop.articleid LEFT JOIN likearticle AS lp ON lop.likeid = lp.id where lp.userid = $1 GROUP BY p.id, p.title",
