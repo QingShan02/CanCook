@@ -1,5 +1,5 @@
 import "./index.css"
-import {ArticleProps} from "../../comman/model/ArticleProps"
+import {ArticleProps} from "../../../../common/model/ArticleProps"
 
 const Article = () => {
     return (
