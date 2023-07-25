@@ -49,7 +49,7 @@ export const articleService = {
             return acc;
         }, {});
 
-        return result;
+        return formattedResult;
     },
     update: async (title, content, createdate, id) => {
         const data = (await db.query(query.update, [title, content, createdate, id]))
