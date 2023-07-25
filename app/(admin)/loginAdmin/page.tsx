@@ -4,16 +4,18 @@ import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 const LoginAdmin = () => {
-    const { register, handleSubmit } = useForm({defaultValues:{
-        email:"son@gmail.com",
-        password:"123"
-    }});
-    const onSubmit =async (data) =>{
-        const result = await signIn("credentials",{
-            username:data.email,
-            password:data.password,
-            redirect:true,
-            callbackUrl:"/admin"
+    const { register, handleSubmit } = useForm({
+        defaultValues: {
+            email: "son@gmail.com",
+            password: "12345678"
+        }
+    });
+    const onSubmit = async (data) => {
+        const result = await signIn("credentials", {
+            username: data.email,
+            password: data.password,
+            redirect: true,
+            callbackUrl: "/admin"
         });
     }
     return (
@@ -22,11 +24,11 @@ const LoginAdmin = () => {
                 <img className="mb-4 d-block mx-auto" src="/assert/img/logo.png" alt="" width={72} height={57} />
                 <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
                 <div className="form-floating mb-3">
-                    <input type="email"{...register("email")}className="form-control" id="floatingInput" placeholder="name@example.com"/>
+                    <input type="email"  {...register("email")}    className="form-control" id="floatingInput" placeholder="name@example.com" />
                     <label htmlFor="floatingInput">Email address</label>
                 </div>
                 <div className="form-floating mb-3">
-                    <input type="password" {...register("password")} className="form-control" id="floatingPassword" placeholder="Password"/>
+                    <input type="password" {...register("password")} className="form-control" id="floatingPassword" placeholder="Password" />
                     <label htmlFor="floatingPassword">Password</label>
                 </div>
                 <div className="checkbox mb-3">
