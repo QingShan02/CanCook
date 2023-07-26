@@ -15,8 +15,11 @@ const LoginAdmin = () => {
             username: data.email,
             password: data.password,
             redirect: true,
-            callbackUrl: "/admin"
+            callbackUrl: "/admin",
+            
         });
+        console.log(data.id);
+        
     }
     return (
         <div className="container">
