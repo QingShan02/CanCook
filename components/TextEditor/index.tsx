@@ -3,9 +3,9 @@ import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import { useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
-import { SubmitHandler, useForm, UseFormRegisterReturn } from 'react-hook-form';
+import { SubmitHandler, useForm } from 'react-hook-form';
 import Input from '../Input';
-
+import { useSession } from 'next-auth/react';
 interface Data {
     category: Array<{
         id: string;
@@ -17,7 +17,7 @@ interface Data {
     }>;
 
 }
-type FormValues = {
+type ArticleValues = {
     title: string,
     content: string,
     categoryid: string;
@@ -30,18 +30,33 @@ const TextEditor = () => {
         category: [],
         directory: []
     });
-    const [values, setValues] = useState<FormValues>({
-        title: null,
-        content: null,
-        categoryid: null,
-        directory: []
+    const [article,setArticle] = useState<ArticleValues>();
+    const { register, setValue, handleSubmit, formState: { errors } } = useForm<ArticleValues>({
+        defaultValues: {
+            title: null,
+            content: null,
+            categoryid: null,
+            directory: []
+        }
     });
     useEffect(() => {
         axios.get("http://localhost:3000/api/homepage").then(s => {
             setData(s.data);
         });
-    }, []);
+        register("content", { required: {value:true,message:"Bạn không được bỏ trống"}});
+        
+    }, [register]);
 
+    const onEditorStateChange = (editorState) => {
+        setValue("content", editorState);
+    };
+
+    const Submit: SubmitHandler<ArticleValues> = async (data) => {
+        const { title, content, categoryid, directory } = data;
+        setArticle(data);
+        console.log(article);
+        
+    };
 
     const modules = useMemo(() => {
         return {
@@ -64,19 +79,9 @@ const TextEditor = () => {
         };
     }, []);
 
-    const { register, handleSubmit, formState: { errors } } = useForm<FormValues>({
-        defaultValues: {
-            title: null,
-            content: null,
-            categoryid: null,
-            directory: []
-        }
-    });
-    const Submit: SubmitHandler<FormValues> = async (data) => {
-        const { title, content, categoryid, directory } = data;
-        console.log('Form Data:', data);
 
-    };
+
+
     return (
         <form className="w-75 mx-auto" onSubmit={handleSubmit(Submit)}>
 
@@ -92,12 +97,7 @@ const TextEditor = () => {
             </div>
             <div className="form-outline">
                 <h3>Content</h3>
-                <ReactQuill modules={modules} register={register("content", {
-                    required: {
-                        value: true,
-                        message: "Bạn không được bỏ trống",
-                    }
-                })} />
+                <ReactQuill theme='snow' modules={modules} onChange={onEditorStateChange} />
                 <div className='text-danger mt-1'>{errors.content?.message}</div>
             </div>
             <div className="form-outline">
@@ -120,10 +120,10 @@ const TextEditor = () => {
             </div>
             <div className="form-outline">
                 <h3>Directory</h3>
-                {data.directory.map((value,index) => (
+                {data.directory.map((value, index) => (
                     <>
                         <div className="form-check form-check-inline">
-                        <Input register={register("directory", {
+                            <Input register={register("directory", {
                                 required: {
                                     value: true,
                                     message: "Bạn không được bỏ trống",
