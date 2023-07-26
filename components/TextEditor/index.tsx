@@ -24,12 +24,10 @@ type ArticleValues = {
     directory: Array<{
         id: string;
     }>,
-    staffid:string
-    ;
+    staffid:string;
 }
 const TextEditor = () => {
     const {data:session} = useSession();
-    console.log(session)
     const [data, setData] = useState<Data>({
         category: [],
         directory: []
@@ -41,31 +39,27 @@ const TextEditor = () => {
             content: null,
             categoryid: null,
             directory: [],
-            staffid:""
+            staffid:null
         }
     });
     useEffect(() => {
         axios.get("http://localhost:3000/api/homepage").then(s => {
             setData(s.data);
         });
-        // if(session){
         axios.get("http://localhost:3000/api/staff?email="+session?.user?.email).then((s)=>{
-            console.log(s.data);
             document.getElementById('staffid').setAttribute('value',s.data.id);
         })
         register("content", { required: {value:true,message:"Bạn không được bỏ trống"}});
-        
-    }, [session]);
+        register("staffid");
+    }, [session,register]);
 
     const onEditorStateChange = (editorState) => {
         setValue("content", editorState);
     };
 
     const Submit: SubmitHandler<ArticleValues> = async (data) => {
-        const { title, content, categoryid, directory } = data;
+        const { title, content, categoryid, directory,staffid } = data;
         setArticle(data);
-        console.log(article);
-        
     };
 
     const modules = useMemo(() => {
@@ -94,10 +88,9 @@ const TextEditor = () => {
 
     return (
         <form className="w-75 mx-auto" onSubmit={handleSubmit(Submit)}>
-
             <div className="form-outline">
                 <h3>Title</h3>
-                <Input type='hidden' id="staffid" name="staffid" register={register("staffid")}/>
+                <Input type='hidden' id="staffid" name="staffid" />
                 <Input className='form-control' type='text' name='title' register={register("title", {
                     required: {
                         value: true,
