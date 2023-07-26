@@ -1,4 +1,7 @@
-const Header = () => {
+'use client'
+import { signIn, signOut, useSession } from 'next-auth/react';
+const Header = ({ session }) => {
+    // const {data:session} = useSession()
     return (
         <>
             <div className="container mt-3">
@@ -21,7 +24,15 @@ const Header = () => {
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
                                             <i className="bi bi-person-circle bg-danger"></i>
-                                            <a className="nav-link" aria-current="page" href="#">| Đăng nhập</a>
+                                            {/* <a className="nav-link" aria-current="page" href="#">| Đăng nhập</a> */}
+                                            <div>{session ? (
+                                                <>
+                                                    <p>Hello, {session.user.name}!</p>
+                                                    <button onClick={() => signOut()}>Sign out</button>
+                                                </>
+                                            ) : (
+                                                <button onClick={() => signIn('facebook')}>Sign in with Facebook</button>
+                                            )}</div>
                                         </li>
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

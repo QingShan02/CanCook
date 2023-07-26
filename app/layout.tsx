@@ -22,10 +22,10 @@ export default function RootLayout({
       <body>
         <div className="container-fluid">
           <div>
-            <Header/>
-            <Navbar/>
+            <Header />
+            <Navbar />
             {children}
-            <Footer/>
+            <Footer />
           </div>
         </div>
       </body>
