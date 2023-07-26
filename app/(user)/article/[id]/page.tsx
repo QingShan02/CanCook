@@ -1,7 +1,7 @@
 "use client"
 
 import "./index.css"
-import {ArticleProps} from "../../../common/model/ArticleProps"
+import {ArticleProps} from "../../../../common/model/ArticleProps"
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 
