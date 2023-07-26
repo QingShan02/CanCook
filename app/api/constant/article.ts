@@ -14,5 +14,5 @@ export const query = {
     LEFT JOIN directory AS d ON dop.directoryid = d.id WHERE p.id = $1 
     GROUP BY p.id, p.title, c.id, c.name, d.id, d.name,c.id,c.name; `,
     update:"UPDATE article SET title = $1, content = $2, createdate = $3 WHERE id = $4",
-    
+    insert:"SELECT public.insert_article($1,$2,$3,$4,$5,$6,$7);"
 }

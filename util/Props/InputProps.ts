@@ -2,10 +2,10 @@ import { UseFormRegisterReturn } from 'react-hook-form';
 export interface InputProps {
     type: string,
     className?: string,
-    id?: string,
+    id?: any,
     name: string,
     placeholder?: string,
-    value?: string,
+    value?: any,
     defaultValue?: string,
     disabled?: string,
     min?: number,

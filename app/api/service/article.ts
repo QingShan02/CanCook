@@ -1,3 +1,4 @@
+import { Article } from '@/common/model/Article';
 import db from '../../db'
 import { query } from '../constant/article'
 
@@ -53,5 +54,9 @@ export const articleService = {
     },
     update: async (title, content, createdate, id) => {
         const data = (await db.query(query.update, [title, content, createdate, id]))
-   }
+    },
+
+    insert: async (data: Article) => {
+        await db.query(query.insert, [data.title, data.content, data.image, data.createDate, data.staffId, data.categoryId, data.directory])
+    }
 }
