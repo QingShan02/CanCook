@@ -53,5 +53,10 @@ export const articleService = {
     },
     update: async (title, content, createdate, id) => {
         const data = (await db.query(query.update, [title, content, createdate, id]))
+   },
+   findContent: async(content:string) => {
+    const data = (await db.query(query.findContent, [content]));
+    return data.rows[0];
    }
+
 }
