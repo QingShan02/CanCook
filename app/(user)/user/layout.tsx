@@ -2,6 +2,7 @@ import "../../globals.css";
 import Header from "../../../components/Header";
 import Navbar from "../../../components/Navbar";
 import React from 'react';
+import Card from "@/components/Card";
 
 export const metadata = {
   title: 'Next.js',
@@ -20,9 +21,10 @@ export default function RootLayout({
       </head>
       <body>
         <div className="container-fluid d-flex">
-          <div style={{ width: "80%" }}>
+          <div style={{ width: "100%" }}>
             <Header/>
             <Navbar/>
+            <Card />
             {children}
           </div>
         </div>
