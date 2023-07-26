@@ -23,9 +23,13 @@ type ArticleValues = {
     categoryid: string;
     directory: Array<{
         id: string;
-    }>;
+    }>,
+    staffid:string
+    ;
 }
 const TextEditor = () => {
+    const {data:session} = useSession();
+    console.log(session)
     const [data, setData] = useState<Data>({
         category: [],
         directory: []
@@ -36,16 +40,22 @@ const TextEditor = () => {
             title: null,
             content: null,
             categoryid: null,
-            directory: []
+            directory: [],
+            staffid:""
         }
     });
     useEffect(() => {
         axios.get("http://localhost:3000/api/homepage").then(s => {
             setData(s.data);
         });
+        // if(session){
+        axios.get("http://localhost:3000/api/staff?email="+session?.user?.email).then((s)=>{
+            console.log(s.data);
+            document.getElementById('staffid').setAttribute('value',s.data.id);
+        })
         register("content", { required: {value:true,message:"Bạn không được bỏ trống"}});
         
-    }, [register]);
+    }, [session]);
 
     const onEditorStateChange = (editorState) => {
         setValue("content", editorState);
@@ -87,6 +97,7 @@ const TextEditor = () => {
 
             <div className="form-outline">
                 <h3>Title</h3>
+                <Input type='hidden' id="staffid" name="staffid" register={register("staffid")}/>
                 <Input className='form-control' type='text' name='title' register={register("title", {
                     required: {
                         value: true,
@@ -104,7 +115,7 @@ const TextEditor = () => {
                 <h3>Category</h3>
                 {data.category.map((value, index) => (
                     <>
-                        <div className="form-check form-check-inline">
+                        <div key={index} className="form-check form-check-inline">
                             <Input register={register("categoryid", {
                                 required: {
                                     value: true,

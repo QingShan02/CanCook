@@ -1,10 +1,11 @@
 "use client"
 import { useEffect, useState } from "react";
 import TextEditor from "../../../../../components/TextEditor";
+import { useSession } from "next-auth/react";
 
 const Create = () => {
   return <>
-    <TextEditor />
+    <TextEditor/>
   </>;
 };
 export default Create;
