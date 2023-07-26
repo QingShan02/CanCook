@@ -12,6 +12,6 @@ export interface InputProps {
     max?: number,
     width?: number,
     onClick?: () => void,
-    onChange?: (event: any) => void
+    onChange?: (event: any) => void,
     register?: UseFormRegisterReturn;
 }

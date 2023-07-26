@@ -1,11 +1,12 @@
-'use client'
+"use client"
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
+import "react-quill/dist/quill.snow.css";
 import { useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import Input from '../Input';
 import { useSession } from 'next-auth/react';
+import { log } from 'console';
 interface Data {
     category: Array<{
         id: string;
@@ -20,46 +21,54 @@ interface Data {
 type ArticleValues = {
     title: string,
     content: string,
+    thumbnail: string,
     categoryid: string;
     directory: Array<{
         id: string;
     }>,
-    staffid:string;
+    staffid: string,
+    reduce: any
 }
+
 const TextEditor = () => {
-    const {data:session} = useSession();
+    const { data: session } = useSession();
     const [data, setData] = useState<Data>({
         category: [],
         directory: []
     });
-    const [article,setArticle] = useState<ArticleValues>();
-    const { register, setValue, handleSubmit, formState: { errors } } = useForm<ArticleValues>({
-        defaultValues: {
-            title: null,
-            content: null,
-            categoryid: null,
-            directory: [],
-            staffid:null
-        }
-    });
+    const [article, setArticle] = useState<ArticleValues>();
+    const { register, setValue, handleSubmit, formState: { errors } } = useForm<ArticleValues>();
     useEffect(() => {
-        axios.get("http://localhost:3000/api/homepage").then(s => {
-            setData(s.data);
-        });
-        axios.get("http://localhost:3000/api/staff?email="+session?.user?.email).then((s)=>{
-            document.getElementById('staffid').setAttribute('value',s.data.id);
-        })
-        register("content", { required: {value:true,message:"Bạn không được bỏ trống"}});
-        register("staffid");
-    }, [session,register]);
+        try {
+            axios.get("http://localhost:3000/api/homepage").then(s => {
+                setData(s.data);
+            });
+            if (session) {
+                axios.get("http://localhost:3000/api/staff?email=" + session?.user?.email).then((s) => {
+                    setValue("staffid", s.data.id)
+                })
+            }
+            register("content", { required: { value: true, message: "Bạn không được bỏ trống" } });
+            register("thumbnail", { required: { value: true, message: "Bạn không được bỏ trống" } });
+        } catch (error) {
+
+        }
+
+    }, [session]);
 
     const onEditorStateChange = (editorState) => {
+        const name = editorState.target?.files[0].name;
+        if(name){
+            setValue("thumbnail",name)
+        }
         setValue("content", editorState);
     };
 
     const Submit: SubmitHandler<ArticleValues> = async (data) => {
-        const { title, content, categoryid, directory,staffid } = data;
+
         setArticle(data);
+        console.log(article);
+
     };
 
     const modules = useMemo(() => {
@@ -82,15 +91,11 @@ const TextEditor = () => {
             ]
         };
     }, []);
-
-
-
-
     return (
         <form className="w-75 mx-auto" onSubmit={handleSubmit(Submit)}>
+
             <div className="form-outline">
                 <h3>Title</h3>
-                <Input type='hidden' id="staffid" name="staffid" />
                 <Input className='form-control' type='text' name='title' register={register("title", {
                     required: {
                         value: true,
@@ -98,6 +103,11 @@ const TextEditor = () => {
                     }
                 })} />
                 <div className='text-danger mt-1'>{errors.title?.message}</div>
+            </div>
+            <div className="form-outline">
+                <h3>Thumbnail</h3>
+                <Input className='form-control' type='file' name='thum' onChange={onEditorStateChange}/>
+                <div className='text-danger mt-1'>{errors.thumbnail?.message}</div>
             </div>
             <div className="form-outline">
                 <h3>Content</h3>
@@ -140,7 +150,7 @@ const TextEditor = () => {
                 ))}
                 <div className='text-danger mt-1'>{errors.directory?.message}</div>
             </div>
-            <button className="btn btn-success">Login</button>
+            <button className="btn btn-success">Create Article</button>
         </form>
     );
 }

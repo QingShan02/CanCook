@@ -4,8 +4,6 @@ import TextEditor from "../../../../../components/TextEditor";
 import { useSession } from "next-auth/react";
 
 const Create = () => {
-  return <>
-    <TextEditor/>
-  </>;
+  return <TextEditor/>
 };
 export default Create;
