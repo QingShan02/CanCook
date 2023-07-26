@@ -1,6 +1,5 @@
 import "../globals.css";
 import Header from "../../components/Header";
-import Navbar from "../../components/Navbar";
 import React from 'react';
 import Footer from "@/components/Footer";
 
@@ -23,7 +22,6 @@ export default function RootLayout({
         <div className="container-fluid">
           <div>
             <Header/>
-            <Navbar/>
             {children}
             <Footer/>
           </div>
