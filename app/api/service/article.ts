@@ -56,7 +56,11 @@ export const articleService = {
         const data = (await db.query(query.update, [title, content, createdate, id]))
     },
 
-    insert: async (data: Article) => {
-        await db.query(query.insert, [data.title, data.content, data.image, data.createDate, data.staffId, data.categoryId, data.directory])
+    insert: async (article) => {
+        await db.query(query.insert, [article.title, article.content, article.image, article.createDate, article.staffId, article.categoryid, article.directory])
+    },
+
+    lastInsertId: async () => {
+        return (await db.query(query.lastInsertId)).rows[0];
     }
 }

@@ -3,8 +3,8 @@ export interface Article {
     title: string,
     image?: string,
     content?: string,
-    createDate?: Date,
-    categoryId?:string,
+    createDate?: string,
+    categoryid?:string,
     directory?: Array<{
         id: string;
     }>,

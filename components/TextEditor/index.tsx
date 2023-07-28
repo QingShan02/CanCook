@@ -6,7 +6,6 @@ import axios from 'axios';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import Input from '../Input';
 import { useSession } from 'next-auth/react';
-import { log } from 'console';
 import { Article } from '@/common/model/Article';
 interface Data {
     category: Array<{
@@ -20,15 +19,15 @@ interface Data {
 
 }
 
-const TextEditor = () => {
+const TextEditor = ({ Submit }) => {
     const { data: session } = useSession();
     const [data, setData] = useState<Data>({
         category: [],
         directory: []
     });
-    const [article, setArticle] = useState<Article>();
     const { register, setValue, handleSubmit, formState: { errors } } = useForm<Article>();
     useEffect(() => {
+        const now = new Date().getFullYear() + "-" + (new Date().getMonth() + 1) + "-" + new Date().getDate();
         try {
             axios.get("http://localhost:3000/api/homepage").then(s => {
                 setData(s.data);
@@ -40,6 +39,7 @@ const TextEditor = () => {
             }
             register("content", { required: { value: true, message: "Bạn không được bỏ trống" } });
             register("image", { required: { value: true, message: "Bạn không được bỏ trống" } });
+            register("createDate", { value: now })
         } catch (error) {
 
         }
@@ -47,16 +47,13 @@ const TextEditor = () => {
 
     const onEditorStateChange = (editorState) => {
         const name = editorState.target?.files[0].name;
-        if(name){
-            setValue("image",name)
+        if (name) {
+            setValue("image", name)
         }
         setValue("content", editorState);
     };
 
-    const Submit: SubmitHandler<Article> = async (data) => {
-        setArticle(data);
-        console.log(article);
-    };
+
 
     const modules = useMemo(() => {
         return {
@@ -93,7 +90,7 @@ const TextEditor = () => {
             </div>
             <div className="form-outline">
                 <h3>Thumbnail</h3>
-                <Input className='form-control' type='file' name='thum' onChange={onEditorStateChange}/>
+                <Input className='form-control' type='file' name='thum' onChange={onEditorStateChange} />
                 <div className='text-danger mt-1'>{errors.image?.message}</div>
             </div>
             <div className="form-outline">
@@ -106,7 +103,7 @@ const TextEditor = () => {
                 {data.category.map((value, index) => (
                     <>
                         <div key={index} className="form-check form-check-inline">
-                            <Input register={register("categoryId", {
+                            <Input register={register("categoryid", {
                                 required: {
                                     value: true,
                                     message: "Bạn không được bỏ trống",
@@ -117,7 +114,7 @@ const TextEditor = () => {
                         </div>
                     </>
                 ))}
-                <div className='text-danger mt-1'>{errors.categoryId?.message}</div>
+                <div className='text-danger mt-1'>{errors.categoryid?.message}</div>
             </div>
             <div className="form-outline">
                 <h3>Directory</h3>
