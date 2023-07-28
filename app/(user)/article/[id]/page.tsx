@@ -1,12 +1,12 @@
 "use client"
 
 import "./index.css"
-import {ArticleProps} from "../../../../common/model/ArticleProps"
+import {Article} from "../../../../common/model/Article";
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 
 const Article = ({params}) => {
-    const [data,setData] = useState<ArticleProps>();
+    const [data,setData] = useState<Article>();
     useEffect(() => {
         const init = async()=>{
             const data=await axios.get(`http://localhost:3000/api/article/${params.id}`);
