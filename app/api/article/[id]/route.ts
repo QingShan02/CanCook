@@ -5,11 +5,10 @@ import  fs from "fs";
 export async function GET(request,context) {
     const id = context.params.id;
     const data = await articleService.totalLikeAndComment(id);
-    const content = data.content;
         
-    const filePath = path.join('D:\\PTBT_WEB\\app\\api\\article', content.toString());
+    const newpath = path.join(process.cwd() + "\\public\\article\\" + id + ".txt");
 
-    const readFile = await fs.promises.readFile(filePath, 'utf8');
+    const readFile = await fs.promises.readFile(newpath, 'utf8');
     return NextResponse.json(readFile);
 }
 
