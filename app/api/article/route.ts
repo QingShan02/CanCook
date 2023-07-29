@@ -1,15 +1,8 @@
 import fs from 'fs';
 import { NextRequest, NextResponse } from "next/server"
 import { articleService } from "../service/article";
-<<<<<<< HEAD
 import path from 'path';
 export async function GET() {
-=======
-import fs from 'fs';
-import path from "path";
-export async function GET() {
-
->>>>>>> 17d11d8d79a4f63b627fba39af7f6b2e6794dd10
     const data = await articleService.findAll();
     return NextResponse.json(data);
 }
