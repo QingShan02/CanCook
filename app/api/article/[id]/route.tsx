@@ -2,6 +2,7 @@ import { NextResponse,NextRequest } from "next/server"
 import { articleService } from "../../service/article";
 import path from "path";
 import  fs from "fs";
+
 export async function GET(request,context) {
     const id = context.params.id;
     const data = await articleService.totalLikeAndComment(id);
@@ -9,6 +10,11 @@ export async function GET(request,context) {
     const newpath = path.join(process.cwd() + "\\public\\content\\" + id + ".txt");
 
     const readFile = await fs.promises.readFile(newpath, 'utf8');
-    return NextResponse.json(readFile);
+    
+    return new NextResponse(readFile, {
+        headers: {
+          'Content-Type': 'text/plain; charset=utf-8',
+        },
+      });
 }
 

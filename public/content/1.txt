@@ -1,0 +1,105 @@
+
+    <style>
+        /* CSS cho tiêu đề */
+        h1 {
+            text-align: center;
+            color: #336699;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        /* CSS cho hình ảnh */
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* CSS cho nguyên liệu */
+        h2 {
+            color: #228B22;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        /* CSS cho hướng dẫn */
+        h3 {
+            color: #800000;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        /* CSS cho bài blog */
+        body {
+            margin: 0 auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+    </style>
+
+    <h1>Bánh Chuối Chiên - Thật là ngon!</h1>
+    <img src="/public/assert/ArticleImage/" alt="Bánh Chuối Chiên">
+
+    <h2>Nguyên Liệu</h2>
+    <ul>
+        <li>8 quả chuối xiêm/sứ chín: 20.000đ - 25.000đ/nải</li>
+        <li>170 g bột gạo</li>
+        <li>25 g bột mì</li>
+        <li>25 g bột nếp</li>
+        <li>25 g bột năng</li>
+        <li>30-65 g đường (nên dùng đường vàng)</li>
+        <li>¼ thìa cà phê muối</li>
+        <li>¼ thìa cà phê bột nghệ (không bắt buộc)</li>
+        <li>250-270 ml nước</li>
+        <li>Dầu ăn</li>
+    </ul>
+
+    <h2>Hướng dẫn</h2>
+    <h3>Bước 1: Pha bột</h3>
+    <p>
+        Trộn đều bột gạo, bột mì, bột nếp, bột năng, đường và muối. Từ từ cho nước vào tô bột, vừa cho vừa quấy
+        đều. Lọc hỗn hợp bột qua rây cho mịn mượt. Ủ bột 6-12 tiếng ở nhiệt độ phòng.
+    </p>
+
+    <h3>Bước 2: Chiên bánh chuối</h3>
+    <p>
+        Cho dầu vào chảo sao cho đủ để chiên chuối ngập dầu, làm nóng dầu. Chuối bóc vỏ. Ép nhẹ cho chuối dẹp ra
+        nếu dùng chuối sứ, cắt thành lát nếu dùng chuối tiêu. Khi dầu nóng đủ (dầu đạt 180 độ C, nhúng đũa gỗ vào
+        thấy đầu đũa sủi bọt, vẩy 1 ít bột vào chảo dầu thấy bột nổi lên ngay lập tức) thì nhúng chuối vào hỗn
+        hợp bột, gạt bớt bột dư, nhẹ nhàng thả chuối vào chảo. Mặt bột vừa se lại thì gắp chuối ra nhúng vào tô
+        bột lần nữa, thả chuối vào chiên tiếp lần 2. Nhúng bột từ 2-3 lần tùy thích ăn bánh dày hay mỏng bột.
+        Chiên tới khi mặt ngoài vàng nâu, phồng xốp, gắp ra để ráo dầu.
+    </p>
+
+    <h3>Bước 3: Hoàn thành</h3>
+    <p>
+        Bánh chuối có thể ăn ngay lúc nóng hoặc để nguội vài tiếng vẫn giòn. Có thể biến bánh chuối chiên thành một
+        món tráng miệng mới lạ khi kết hợp cùng đường xay, mật, kem, kem tươi, hoa quả, các loại sốt socola,
+        caramen...
+    </p>
+
+    <p>
+        Bánh chuối chiên là món ăn ngon dân dã, nguyên liệu dễ kiếm, thao tác thực hiện đơn giản, nhưng lại có thể
+        thỏa mãn nhu cầu của mọi lứa tuổi, của người ăn chay lẫn người ăn mặn. Hãy thử làm món này ngay và cùng gia
+        đình thưởng thức vị ngon tuyệt vời của bánh chuối chiên nhé!
+    </p>
+
+    <p>Nguồn: <a href="https://thatlangon.com/cach-lam-banh-chuoi-chien-thom-ngon-5047.html" target="_blank">thatlangon.com</a></p>
+
