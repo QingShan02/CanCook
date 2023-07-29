@@ -54,6 +54,7 @@ export const articleService = {
     },
     update: async (title, content, createdate, id) => {
         const data = (await db.query(query.update, [title, content, createdate, id]))
+<<<<<<< HEAD
     },
 
     insert: async (article) => {
@@ -63,4 +64,12 @@ export const articleService = {
     lastInsertId: async () => {
         return (await db.query(query.lastInsertId)).rows[0];
     }
+=======
+   },
+   findContent: async(content:string) => {
+    const data = (await db.query(query.findContent, [content]));
+    return data.rows[0];
+   }
+
+>>>>>>> 17d11d8d79a4f63b627fba39af7f6b2e6794dd10
 }
