@@ -14,7 +14,7 @@ interface IProps {
 }
 
 
-export default function RootLayout({
+export default function AdminLayout({
   children,
   session
 }: IProps) {

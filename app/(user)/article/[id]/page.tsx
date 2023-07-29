@@ -1,7 +1,21 @@
-import "./index.css"
-import {ArticleProps} from "../../../../common/model/ArticleProps"
+"use client"
 
-const Article = () => {
+import "./index.css"
+import {Article} from "../../../../common/model/Article";
+import { useEffect, useMemo, useState } from "react";
+import axios from "axios";
+
+const Article = ({params}) => {
+    const [data,setData] = useState<Article>();
+    useEffect(() => {
+        const init = async()=>{
+            const data=await axios.get(`http://localhost:3000/api/article/${params.id}`);
+            setData(data.data);
+        }
+        init();
+    }, []);
+    console.log(data);
+
     return (
         <>
             <div className="container">
@@ -9,7 +23,8 @@ const Article = () => {
                     <div className="col">
                     </div>
                     <div className="col-8">
-                        <h1 className="fw-bold mt-5">Homemade Smash Burgers</h1>
+                        {/* tiêu đề */}
+                        <h1 className="fw-bold mt-5">{data?.title}</h1>
                         <div className="fw-bold mb-3">
                             <span className="border-bottom border-danger">4 ĐÁNH GIÁ</span>
                             <span className="fw-light"> | </span>
@@ -17,7 +32,7 @@ const Article = () => {
                         </div>
 
                         <p>
-                            This smash burger recipe makes super juicy burgers with crispy edges. Don't use meat that is leaner than 80/20 for best results, and make sure the meat is very cold. I prefer to cook these outdoors to avoid smoking up the kitchen. These grill up very fast because of the high heat, so make sure you have everything ready to go!
+                            This smash burger recipe makes super juicy burgers with crispy edges.  use meat that is leaner than 80/20 for best results, and make sure the meat is very cold. I prefer to cook these outdoors to avoid smoking up the kitchen. These grill up very fast because of the high heat, so make sure you have everything ready to go!
                         </p>
                         <p className="post-source">
                             <span className="recipe-by">Nguồn: <b>Khang Ho</b></span>

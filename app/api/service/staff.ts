@@ -12,5 +12,9 @@ export const staffService = {
     login: async (object) =>{
         const result = await db.query(query.login,[object.email,object.password]);
         return result.rows[0];
+    },
+    findByEmail: async(email)=>{
+        const result = await db.query(query.findByEmail,[email]);
+        return result.rows[0];
     }
 }
