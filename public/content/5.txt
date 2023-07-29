@@ -1,4 +1,4 @@
-  <style>
+ <style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -52,58 +52,52 @@
       margin-bottom: 5px;
     }
   </style>
- 
- <h1>Canh Khổ Qua Nhồi Thịt</h1>
-  <img src="img/khoquanhoithit/khoquanhoithit.jpg" alt="Canh Khổ Qua Nhồi Thịt">
-  <p>Trong bài viết này, chúng ta sẽ tìm hiểu cách làm Canh Khổ Qua Nhồi Thịt - một món canh ngon và bổ dưỡng cho cả gia đình.</p>
+    <h1>Tên món: Đậu sốt cà chua</h1>
+    <h2>Khẩu phần: 2 người ăn</h2>
+    <img src="img/dausotcachua/dausotcachua.jpg" alt="Đậu sốt cà chua">
 
-  <h2>Nguyên liệu:</h2>
-  <ul>
-    <li>3 quả khổ qua (7000đ - 10000đ/kg)</li>
-    <li>200 g thịt heo xay (25000đ - 35000đ/200g)</li>
-    <li>50 g mộc nhĩ</li>
-    <li>1 quả trứng gà</li>
-    <li>600 ml nước hầm xương heo</li>
-    <li>1 thìa cà phê bột canh/ hạt nêm</li>
-    <li>Gia vị trộn thịt:</li>
+    <h3>Nguyên liệu chính</h3>
     <ul>
-      <li>1 củ hành tím</li>
-      <li>2 tép tỏi</li>
-      <li>1 thìa cà phê đường</li>
-      <li>1 thìa cà phê tiêu xay</li>
-      <li>1 thìa cà phê hạt nêm</li>
+        <li>4 bìa đậu phụ (400 g): 5000đ - 7000đ /bìa đậu phụ</li>
+        <li>2 quả cà chua : 2000đ - 3000đ</li>
     </ul>
-  </ul>
 
-  <h2>Hướng dẫn:</h2>
-  <p><strong>Bước 1: Sơ chế nguyên liệu</strong></p>
-  <ol>
-    <li>Khổ qua mua về cắt 2 đầu rồi rửa 2,3 lần với nước sạch.</li>
-    <li>Cắt đôi nạo ruột hoặc khứa dọc thân khổ qua rồi nạo ruột.</li>
-    <li>Ngâm khổ qua trong nước muối loãng 15 phút cho bớt đắng.</li>
-    <!-- ... -->
-  </ol>
+    <h3>Nguyên liệu phụ</h3>
+    <ul>
+        <li>2 nhánh tỏi hoặc hành tím</li>
+        <li>1 thìa cà phê hạt nêm</li>
+        <li>1 thìa cà phê đường</li>
+        <li>½ thìa cà phê gia vị</li>
+        <li>2 thìa canh tương cà (không bắt buộc)</li>
+        <li>½ thìa cà phê ớt băm (không bắt buộc)</li>
+        <li>80 ml nước sạch</li>
+        <li>1 thìa canh bột năng (không bắt buộc)</li>
+        <li>2 cọng hành lá</li>
+        <li>½ mớ rau mùi</li>
+    </ul>
 
-  <p><strong>Bước 2: Chuẩn bị nhân thịt</strong></p>
-  <ul>
-    <li>Thịt xay, trứng, hành tỏi, gia vị trút vào một âu sạch.</li>
-    <li>Trộn cho thật đều rồi để yên 15 phút cho ngấm gia vị.</li>
-    <!-- ... -->
-  </ul>
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <ol>
+        <li>Rửa sạch đậu phụ và để cho ráo nước.</li>
+        <li>Cắt đậu phụ thành những khối vuông hoặc chữ nhật 1,5-2 cm.</li>
+        <li>Cà chua rửa sạch, bỏ cuống rồi thái múi cau.</li>
+        <li>Băm tỏi hoặc thái lát hành tím. Rau mùi và hành lá nhặt sạch và rửa bằng nước nhiều lần. Vẩy cho ráo nước rồi thái nhỏ.</li>
+    </ol>
 
-  <p><strong>Bước 3: Nấu canh khổ qua nhồi thịt</strong></p>
-  <ol>
-    <li>Đun sôi nước hầm xương rồi cho từng miếng khổ qua vào nồi.</li>
-    <li>Khi nước sôi trở lại thì hớt bọt ra, nêm nếm gia vị cho vừa miệng.</li>
-    <!-- ... -->
-  </ol>
+    <h4>Bước 2: Rán đậu phụ</h4>
+    <ol>
+        <li>Chuẩn bị chảo sạch và làm nóng dầu ăn.</li>
+        <li>Rán chín vàng các mặt của miếng đậu phụ.</li>
+    </ol>
 
-  <p><strong>Bước 4: Hoàn thành</strong></p>
-  <ol>
-    <li>Tắt bếp và thêm hành lá, rau mùi vào nồi canh khổ qua nhồi thịt.</li>
-    <li>Múc ra bát và thưởng thức sau đó.</li>
-    <!-- ... -->
-  </ol>
+    <h4>Bước 3: Sốt đậu với cà chua</h4>
+    <ol>
+        <li>Phi thơm tỏi/ hành tím rồi cho cà chua vào xào cùng.</li>
+        <li>Thêm các loại gia vị vào đun cùng cà chua xào khoảng 5 phút.</li>
+        <li>Thêm đậu rồi đun thêm khoảng 5 phút cho ngấm. Nêm nếm gia vị cho vừa miệng.</li>
+        <li>Thêm hành lá đun khoảng 1-2 phút. Tắt bếp và thưởng thức.</li>
+    </ol>
 
-  <p>Như vậy, bạn đã hoàn thành món Canh Khổ Qua Nhồi Thịt ngon lành rồi. Hãy thử nấu và cảm nhận hương vị tuyệt vời của món canh này nhé!</p>
-  <p>Nguồn: <a href="https://thatlangon.com" target="_blank">thatlangon.com</a></p>
+    <h3>Cách làm đậu sốt cà chua chi tiết</h3>
+    <p>Để tìm hiểu chi tiết cách làm đậu sốt cà chua, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-dau-sot-ca-chua-ngon-dam-da.html" target="_blank">thatlangon.com</a></p>

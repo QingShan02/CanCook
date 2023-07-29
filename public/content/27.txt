@@ -1,0 +1,109 @@
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+ 
+ <h1>Canh Khổ Qua Nhồi Thịt</h1>
+  <img src="img/khoquanhoithit/khoquanhoithit.jpg" alt="Canh Khổ Qua Nhồi Thịt">
+  <p>Trong bài viết này, chúng ta sẽ tìm hiểu cách làm Canh Khổ Qua Nhồi Thịt - một món canh ngon và bổ dưỡng cho cả gia đình.</p>
+
+  <h2>Nguyên liệu:</h2>
+  <ul>
+    <li>3 quả khổ qua (7000đ - 10000đ/kg)</li>
+    <li>200 g thịt heo xay (25000đ - 35000đ/200g)</li>
+    <li>50 g mộc nhĩ</li>
+    <li>1 quả trứng gà</li>
+    <li>600 ml nước hầm xương heo</li>
+    <li>1 thìa cà phê bột canh/ hạt nêm</li>
+    <li>Gia vị trộn thịt:</li>
+    <ul>
+      <li>1 củ hành tím</li>
+      <li>2 tép tỏi</li>
+      <li>1 thìa cà phê đường</li>
+      <li>1 thìa cà phê tiêu xay</li>
+      <li>1 thìa cà phê hạt nêm</li>
+    </ul>
+  </ul>
+
+  <h2>Hướng dẫn:</h2>
+  <p><strong>Bước 1: Sơ chế nguyên liệu</strong></p>
+  <ol>
+    <li>Khổ qua mua về cắt 2 đầu rồi rửa 2,3 lần với nước sạch.</li>
+    <li>Cắt đôi nạo ruột hoặc khứa dọc thân khổ qua rồi nạo ruột.</li>
+    <li>Ngâm khổ qua trong nước muối loãng 15 phút cho bớt đắng.</li>
+    <!-- ... -->
+  </ol>
+
+  <p><strong>Bước 2: Chuẩn bị nhân thịt</strong></p>
+  <ul>
+    <li>Thịt xay, trứng, hành tỏi, gia vị trút vào một âu sạch.</li>
+    <li>Trộn cho thật đều rồi để yên 15 phút cho ngấm gia vị.</li>
+    <!-- ... -->
+  </ul>
+
+  <p><strong>Bước 3: Nấu canh khổ qua nhồi thịt</strong></p>
+  <ol>
+    <li>Đun sôi nước hầm xương rồi cho từng miếng khổ qua vào nồi.</li>
+    <li>Khi nước sôi trở lại thì hớt bọt ra, nêm nếm gia vị cho vừa miệng.</li>
+    <!-- ... -->
+  </ol>
+
+  <p><strong>Bước 4: Hoàn thành</strong></p>
+  <ol>
+    <li>Tắt bếp và thêm hành lá, rau mùi vào nồi canh khổ qua nhồi thịt.</li>
+    <li>Múc ra bát và thưởng thức sau đó.</li>
+    <!-- ... -->
+  </ol>
+
+  <p>Như vậy, bạn đã hoàn thành món Canh Khổ Qua Nhồi Thịt ngon lành rồi. Hãy thử nấu và cảm nhận hương vị tuyệt vời của món canh này nhé!</p>
+  <p>Nguồn: <a href="https://thatlangon.com" target="_blank">thatlangon.com</a></p>

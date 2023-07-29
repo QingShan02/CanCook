@@ -1,4 +1,4 @@
- <style>
+<style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -52,49 +52,44 @@
       margin-bottom: 5px;
     }
   </style>
-    <h1>Tên món: Chả Tôm Viên Chiên Xù</h1>
-    <h2>Khẩu phần: 3 người</h2>
-    <img src="img/chatom/chatom.jpg" alt="Chả Tôm Viên Chiên Xù">
+    <h1>Tên món: Rau muống xào</h1>
+  <h2>Khẩu phần: 2 người</h2>
+  <img src="img/raumuongxao/raumuongxao.jpg" alt="Rau muống xào">
 
-    <h3>Nguyên liệu chính</h3>
+  <h3>Nguyên liệu chính</h3>
+  <ul>
+    <li>1 bó rau muống to: 10000đ - 15000đ</li>
+  </ul>
+
+  <h3>Nguyên liệu phụ</h3>
+  <ul>
+    <li>1 củ tỏi to</li>
+    <li>2 thìa canh dầu ăn</li>
+    <li>Gia vị xào rau</li>
+    <li>1 thìa cà phê gia vị</li>
+    <li>1 thìa canh nước mắm</li>
+    <li>1 thìa canh dầu hào</li>
+    <li>½ thìa cà phê đường (không bắt buộc)</li>
+  </ul>
+
+  <h3>Hướng dẫn</h3>
+  <ol>
+    <li>Bước 1: Sơ chế nguyên liệu</li>
     <ul>
-        <li>300g tôm sú</li>
-        <li>200g thịt xay</li>
-        <li>2 quả trứng gà</li>
-        <li>100g bột chiên xù</li>
-        <li>50g bột chiên giòn</li>
+      <li>Nhặt rau muống loại bỏ phần thân giá, lá dập úa. Giữ lại phần xanh non.</li>
+      <li>Tỏi bóc vỏ và đập dập.</li>
     </ul>
-
-    <h3>Gia vị ướp chả tôm</h3>
+    <li>Bước 2: Luộc sơ rau muống</li>
     <ul>
-        <li>3 thìa canh dầu ăn</li>
-        <li>1 thìa cà phê hạt nêm</li>
-        <li>1 thìa cà phê đường (không bắt buộc)</li>
-        <li>1 thìa cà phê hạt tiêu xay</li>
+      <li>Đun sôi nước, bỏ thêm một chút muối rồi chần sơ rau muống khoảng 1 phút.</li>
+      <li>Ngâm ngay rau muống vào âu nước đá khoảng 10 phút cho rau săn lại.</li>
     </ul>
+    <li>Bước 3: Xào rau muống và hoàn thành</li>
+    <ul>
+      <li>Phi thơm tỏi cùng dầu ăn.</li>
+      <li>Xào sơ rau muống rồi thêm hỗn hợp gia vị đã hòa trước vào, nêm nếm lại cho vừa miệng.</li>
+      <li>Xào thêm khoảng 2 phút cho rau chín hẳn rồi gắp ra đĩa và thưởng thức.</li>
+    </ul>
+  </ol>
 
-    <h3>Hướng dẫn</h3>
-    <h4>Bước 1: Sơ chế nguyên liệu</h4>
-    <ol>
-        <li>Tôm tươi sơ chế, bóc hết vỏ lấy thịt, giữ lại đuôi tôm.</li>
-        <li>Băm nhỏ tôm rồi trộn đều với giò sống cùng hỗn hợp gia vị trong 15 phút.</li>
-        <li>Bạn đánh tan trứng gà trong 1 bát để sẵn để tí chúng mình nhúng chả tôm để chiên luôn.</li>
-    </ol>
-
-    <h4>Bước 2: Lăn bột chả tôm</h4>
-    <ol>
-        <li>Bạn nặn hỗn hợp thịt nguyên liệu thành từng viên tròn nhỏ hoặc hình dáng tùy theo sở thích. Gắn đuôi tôm vào viên chả.</li>
-        <li>Lăn từng viên thịt vào bột chiên giòn.</li>
-        <li>Tiếp tục nhúng từng viên thịt vào trứng gà rồi lăn qua lớp bột chiên xù sao cho bọc kín, bao lấy hết viên thịt.</li>
-    </ol>
-
-    <h4>Bước 3: Chiên xù chả tôm và hoàn thành</h4>
-    <ol>
-        <li>Đun nóng một lượng lớn dầu ăn đảm bảo chiên ngập chả tôm viên.</li>
-        <li>Thả từng viên thịt tôm đã tẩm bột vào chiên giòn.</li>
-        <li>Gắp ra giấy thấm dầu/khay hứng để cho ráo mỡ.</li>
-        <li>Bạn xếp tôm ra đĩa và thưởng thức cùng tương cà chua, tương ớt,...</li>
-    </ol>
-
-    <h3>Cách nấu chả tôm viên chiên xù chi tiết</h3>
-    <p>Để tìm hiểu cách nấu chả tôm viên chiên xù chi tiết, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-cha-tom-vien-chien-xu-ngon-hap-dan.html" target="_blank">thatlangon.com</a></p>
+  <p>Nguồn: thatlangon.com</p>

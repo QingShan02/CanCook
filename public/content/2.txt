@@ -1,4 +1,4 @@
-  <style>
+<style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -52,51 +52,33 @@
       margin-bottom: 5px;
     }
   </style>
-  <h1>Bánh Flan - Món ngon hấp dẫn</h1>
-  <img src="img/banhflan/banhflan.jpg" alt="Bánh Flan">
-  <h2>Nguyên Liệu:</h2>
-  <p>Phần caramen:</p>
+   <h1>Tên món: Trứng ốp la</h1>
+  <h2>Khẩu phần: 1 người</h2>
+  <img src="img/trungopla/trungopla.jpg" alt="Trứng ốp la">
+
+  <h3>Nguyên Liệu</h3>
   <ul>
-    <li>120 g đường</li>
-    <li>40 ml nước</li>
-    <li>1 thìa canh nước cốt chanh</li>
-    <li>30 ml nước sôi</li>
+    <li>1 quả trứng gà</li>
+    <li>2 thìa dầu ăn hoặc 1 thìa canh bơ, sử dụng bơ lạt sẽ thơm hơn dầu ăn</li>
+    <li>Muối và tiêu tuỳ thuộc vào khẩu vị</li>
   </ul>
-  <p>Phần bánh:</p>
-  <ul>
-    <li>4 quả trứng gà: 35,000đ - 40,000đ/vỉ</li>
-    <li>6 lòng đỏ trứng gà</li>
-    <li>50 g đường</li>
-    <li>600 ml sữa tươi không đường</li>
-  </ul>
-  <p>Dụng Cụ:</p>
-  <p>khuôn bánh flan</p>
 
-  <div class="recipe-instructions">
-    <h2>Hướng dẫn</h2>
-    <h3>Bước 1: Tạo lớp Caramen</h3>
-    <ol>
-      <li>Đổ 120 g đường và 40 ml nước vào nồi, đun lửa nhỏ cho đến khi lớp caramen chuyển màu hơi vàng.</li>
-      <li>Cho 1 muỗng nước cốt chanh vào và đợi lớp caramen chuyển màu cánh gián, sau đó tắt bếp.</li>
-      <li>Thêm 30 ml nước sôi, lắc nhẹ để lớp caramen đều màu, sau đó đổ một lớp mỏng caramen vào khay bánh flan và để ngăn mát tủ lạnh khoảng 15 phút.</li>
-    </ol>
+  <h3>Hướng dẫn</h3>
+  <ol>
+    <li>Bước 1: Làm nóng chảo</li>
+    <ul>
+      <li>Đầu tiên, bạn làm nóng chảo với lửa vừa.</li>
+      <li>Cho bơ lạt hoặc dầu ăn vào chảo, nghiêng chảo hoặc bạn có thể dùng cọ phết đều bề mặt chảo.</li>
+    </ul>
+    <li>Bước 2: Chiên trứng</li>
+    <ul>
+      <li>Đập trứng vào chảo một cách từ từ sao cho lòng đỏ nằm chính giữa lòng trắng.</li>
+      <li>Chiên trứng cho đến khi chín theo sở thích. Khoảng 1 phút cho trứng chín tái. Trứng chín lòng đào thì khoảng 2 phút. Trứng chín kỹ thì sau 2 phút bạn nên lật lại để vàng đều 2 mặt.</li>
+    </ul>
+    <li>Bước 3: Ra đĩa và thêm gia vị</li>
+    <ul>
+      <li>Nghiêng chảo để đổ trứng ra đĩa, rắc thêm tiêu và muối tuỳ vào khẩu vị của bạn.</li>
+    </ul>
+  </ol>
 
-    <h3>Bước 2: Làm phần bánh Flan</h3>
-    <ol>
-      <li>Tách trứng và đánh 10 lòng đỏ với 4 lòng trắng, cho 50 g đường vào và khuấy nhẹ.</li>
-      <li>Đun sữa không đường khoảng 70 °C, rồi đổ từ từ vào hỗn hợp trứng và khuấy nhẹ nhàng.</li>
-      <li>Lọc hỗn hợp trứng sữa qua một chiếc ray lỗ nhỏ để loại bỏ bọt khí.</li>
-      <li>Đổ nhân vào khay đã chứa lớp caramen, nhẹ nhàng để tránh làm vỡ lớp caramen bên dưới.</li>
-    </ol>
-
-    <h3>Bước 3: Hấp bánh</h3>
-    <ol>
-      <li>Cho khay bánh vào nồi hấp và hấp khoảng 20 phút cho bánh chín.</li>
-      <li>Kiểm tra xem bánh đã chín bằng que tăm. Nếu bánh đã chín, lấy ra và để nguội rồi cho vào tủ lạnh.</li>
-    </ol>
-
-    <h3>Bước 4: Hoàn thành</h3>
-    <p>Khi ăn, lật ngược chiếc khuôn lại và đổ bánh nhẹ nhàng để được một chiếc bánh hoàn hảo và không bị vỡ.</p>
-  </div>
-
-  <p class="source">Nguồn: thatlangon.com</p>
+  <p>Nguồn: thatlangon.com</p>

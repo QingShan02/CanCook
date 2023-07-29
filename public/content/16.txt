@@ -52,3 +52,50 @@
       margin-bottom: 5px;
     }
   </style>
+    <h1>Tôm Tẩm Bột Chiên Xù</h1>
+
+    <h2>Khẩu phần: 2 người</h2>
+    <img src="img/tomtambotchienxu/tomtambotchienxu.jpg">
+
+    <h3>Nguyên liệu chính:</h3>
+    <ul>
+        <li>10 con tôm sú : (Size: 50-60 con/kg :230k/kg)</li>
+    </ul>
+
+    <h3>Nguyên liệu phụ:</h3>
+    <ul>
+        <li>1 quả trứng gà</li>
+        <li>100 g bột mì</li>
+        <li>2 thìa canh nước sạch</li>
+        <li>100 g bột chiên xù</li>
+        <li>1 thìa cà phê muối trắng</li>
+        <li>1 thìa cà phê hạt tiêu xay</li>
+    </ul>
+
+    <h3>Hướng dẫn:</h3>
+    <p>Bước 1: Sơ chế tôm</p>
+    <ul>
+        <li>Chọn mua tôm sú loại ngon.</li>
+        <li>Bóc vỏ tôm, giữ lại phần đuôi và bỏ phần đầu, chân, sống lưng tôm.</li>
+        <li>Rửa sạch tôm và để ráo nước.</li>
+        <li>Ướp tôm cùng một chút muối, hạt tiêu khoảng 15 phút.</li>
+    </ul>
+
+    <p>Bước 2: Tẩm tôm với các lớp bột</p>
+    <ul>
+        <li>Trộn hỗn hợp bột mì và trứng.</li>
+        <li>Đổ bột chiên xù ra một chiếc đĩa/ khay nông lòng.</li>
+        <li>Nhúng từng con tôm qua lớp bột mì rồi đến bột chiên xù.</li>
+    </ul>
+
+    <p>Bước 3: Chiên vàng tôm và hoàn thành</p>
+    <ul>
+        <li>Đun sôi dầu ăn rồi chiên sơ tôm lần 1.</li>
+        <li>Chiên lại tôm cho tôm chín vàng đều các mặt.</li>
+        <li>Gắp ra để ráo dầu rồi trang trí và thưởng thức kèm các loại sốt ưa thích.</li>
+    </ul>
+
+    <h4>Chi tiết cách làm tôm tẩm bột chiên xù:</h4>
+    <p>(Nội dung hướng dẫn chi tiết)</p>
+
+    <p>Nguồn: thatlangon.com</p>

@@ -52,3 +52,50 @@
       margin-bottom: 5px;
     }
   </style>
+   <h1>Trứng Ngâm Tương</h1>
+    <h3>Khẩu phần: 3 người</h3>
+    <img src="img/trungngamtuong/trungngamtuong.jpg" alt="Trứng Ngâm Tương">
+
+    <h2>Nguyên Liệu</h2>
+    <ul>
+        <li>6 quả trứng gà (35000đ - 40000đ/vỉ)</li>
+        <li>180 ml nước tương</li>
+        <li>220 ml nước sạch</li>
+        <li>120 g đường</li>
+        <li>½ củ hành tây</li>
+        <li>2 quả ớt đỏ</li>
+        <li>1 cây hành ba rô hoặc 3 cây hành xanh</li>
+        <li>20 g mè trắng rang chín</li>
+    </ul>
+
+    <h2>Hướng dẫn</h2>
+    <h3>Bước 1: Chuẩn bị nguyên liệu</h3>
+    <ul>
+        <li>Chọn mua trứng gà loại ngon.</li>
+        <li>Nếu trứng còn lạnh thì để trứng ngoài nhiệt độ phòng 30 phút.</li>
+        <li>Hành tây bỏ vỏ, rửa sạch và cắt miếng cỡ 2x2 cm.</li>
+        <li>Ớt đỏ bỏ cuống, rửa sạch và bỏ hạt, thái vát 0,5 cm.</li>
+        <li>Hành ba rô bỏ gốc, rửa sạch và thái vát khoảng 0,5 cm.</li>
+    </ul>
+
+    <h3>Bước 2: Luộc trứng và bóc vỏ</h3>
+    <p>Luộc trứng với thời gian phù hợp để có được độ chín mong muốn.</p>
+    <p>Ngâm trứng luộc vào bát nước có chút đá.</p>
+    <p>Bóc vỏ trứng rồi để vào hộp/ âu sạch.</p>
+
+    <h3>Bước 3: Chế nước tương</h3>
+    <ul>
+        <li>Đun sôi hỗn hợp nước với nước tương, thêm đường khuấy cho tan.</li>
+        <li>Bắc khỏi bếp và để nguội trong 20 phút.</li>
+        <li>Thêm hành tây, ớt, hành lá vào.</li>
+    </ul>
+
+    <h3>Bước 4: Trứng ngâm với nước tương và thưởng thức</h3>
+    <p>Đổ hỗn hợp nước tương ngập trứng gà trong âu/ hộp.</p>
+    <p>Để trứng ngâm tương trong ngăn mát tủ lạnh 6-8 tiếng cho ngấm gia vị.</p>
+    <p>Lấy ra thưởng thức cùng cơm hoặc mì theo sở thích.</p>
+
+    <h2>Cách làm trứng ngâm tương chi tiết</h2>
+    <!-- Chi tiết cách làm trứng ngâm tương -->
+
+    <p>Nguồn: thatlangon.com</p>

@@ -52,61 +52,62 @@
       margin-bottom: 5px;
     }
   </style>
-   <h1>Tên món: Gà chiên mắm</h1>
-    <h2>Khẩu phần: 4 người</h2>
-    <img src="img/gachienmam/gachienmam.jpg" alt="Gà chiên mắm">
+ <h1>Nem rán</h1>
 
-    <h3>Nguyên liệu chính</h3>
-    <ul>
-        <li>500 g thịt gà: 45000đ - 55000đ/500g</li>
-    </ul>
+    <h2>Khẩu phần: 2 người</h2>
+    <img src="img/nemran/nemran.jpg">
 
-    <h3>Nguyên liệu phụ</h3>
+    <h3>Nguyên liệu</h3>
     <ul>
-        <li>2 thìa canh rượu trắng</li>
-        <li>1 nắm muối hạt</li>
-        <li>1/2 quả chanh</li>
-        <li>50 g bột chiên giòn</li>
-        <li>30 g hành tím</li>
-        <li>15 g tỏi</li>
-        <li>15 g sả</li>
-        <li>5 g gừng</li>
-        <li>1 quả ớt</li>
-        <li>Dầu ăn</li>
-        <li>20 ml nước mắm</li>
-        <li>40 ml nước lọc</li>
-        <li>1 thìa cà phê hạt nêm</li>
-        <li>1/2 thìa cà phê tiêu</li>
-        <li>2 thìa canh đường nâu</li>
-        <li>1/2 thìa canh tương ớt</li>
+        <li>300 g thịt heo xay: 40,000đ - 50,000đ/300g</li>
+        <li>1 củ hành tây nhỏ</li>
+        <li>1 củ cà rốt nhỏ</li>
+        <li>1 củ su hào nhỏ</li>
+        <li>50 g hành lá</li>
+        <li>50 g miến khô</li>
+        <li>30 g mộc nhĩ</li>
+        <li>30 g nấm hương</li>
+        <li>1 thìa cà phê bột canh</li>
+        <li>½ thìa cà phê tiêu xay</li>
+        <li>2 quả trứng gà</li>
+        <li>2 thếp bánh đa nem (khoảng 20 cái)</li>
     </ul>
 
     <h3>Hướng dẫn</h3>
-    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
     <ol>
-        <li>Chặt gà thành miếng nhỏ vừa ăn, bóp qua với rượu, gừng và muối hạt để khử mùi tanh.</li>
-        <li>Rửa gà lại cho sạch với nước pha một chút nước cốt chanh rồi dùng nĩa hoặc mũi dao nhọn xóc vào thịt gà để gia vị dễ ngấm.</li>
-        <li>Ớt, tỏi, gừng, sả và hành tím bóc vỏ, rửa sạch và băm nhỏ.</li>
-        <li>Ướp gà với hạt nêm, tiêu và 1/3 phần hành, tỏi, ớt, gừng, sả đã băm. Ướp khoảng 15-20 phút.</li>
+        <li>Thịt heo mua về rửa sạch, để cho ráo nước rồi đem xay.</li>
+        <li>Mộc nhĩ, nấm hương ngâm mềm, bỏ chân rồi thái sợi chỉ.</li>
+        <li>Hành tây, su hào và cà rốt bỏ vỏ, rửa sạch, để cho ráo nước.</li>
+        <li>Su hào, cà rốt nạo nhỏ còn hành tây thái hạt lựu.</li>
+        <li>Miến khô ngâm cho mềm, vớt ra để ráo nước rồi cắt đoạn dài khoảng 5 cm.</li>
+        <li>Hành lá cắt gốc, rửa sạch rồi thái nhỏ.</li>
+        <li>Cho tất cả nguyên liệu vào một âu trộn lớn.</li>
+        <li>Thêm gia vị vào để yên 5 phút cho ngấm.</li>
     </ol>
 
-    <h4>Bước 2: Chiên thịt gà</h4>
+    <h4>Bước 2: Cuốn nem</h4>
     <ol>
-        <li>Cho gà vào lò vi sóng quay nóng 2 lần, mỗi lần 2 phút để gà chín sơ.</li>
-        <li>Áo gà qua với bột chiên giòn rồi mang đi chiên vàng bề mặt.</li>
-        <li>Vớt gà ra để ráo dầu.</li>
+        <li>Đập trứng gà vào bát nhỏ, đánh đều rồi đổ lượng vừa đủ vào nhân nem.</li>
+        <li>Trộn nhân nem cho thật đều.</li>
+        <li>Trải bánh đa ra, múc nhân nem vào một phía rồi cuốn một vòng đầu tiên.</li>
+        <li>Từ từ gấp hai đầu lại và cuốn tròn vỏ bánh đa bao lấy nhân nem.</li>
+        <li>Cuốn nem lần lượt cho đến hết phần nhân.</li>
     </ol>
 
-    <h4>Bước 3: Pha sốt mắm</h4>
+    <h4>Bước 3: Rán nem</h4>
     <ol>
-        <li>Cho phần hành, tỏi, ớt, gừng và sả băm lần lượt vào chảo, phi thơm vàng với 2 thìa canh dầu chiên gà.</li>
-        <li>Thêm mắm, đường, tương ớt và nước vào đun đến khi sôi thì tắt bếp rồi cho mật ong vào khuấy đều.</li>
+        <li>Đun sôi một lượng dầu ăn lớn trong chảo.</li>
+        <li>Rán nem chín vàng hai mặt, gắp ra phới lồng/giấy thấm dầu để cho ráo mỡ.</li>
     </ol>
 
     <h4>Bước 4: Hoàn thành</h4>
     <ol>
-        <li>Cho gà vào đảo xóc với sốt mắm cho thấm đều và bày ra thưởng thức.</li>
+        <li>Gắp nem rán ra đĩa.</li>
+        <li>Thưởng thức khi còn nóng cùng nước chấm, rau sống, bún,...</li>
     </ol>
 
-    <h3>Cách làm gà chiên mắm chi tiết</h3>
-    <p>Để tìm hiểu chi tiết cách làm gà chiên mắm, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-ga-chien-mam-thom-ngon-gion-ngot-dam.html" target="_blank">thatlangon.com</a></p>
+    <h3>Cách làm nem rán chi tiết</h3>
+    <!-- Chi tiết hướng dẫn cách làm nem rán -->
+
+    <p>Nguồn: thatlangon.com</p>

@@ -1,4 +1,4 @@
- <style>
+<style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -52,51 +52,41 @@
       margin-bottom: 5px;
     }
   </style>
-   <h1>Tên món: Kho quẹt</h1>
-    <p>Khẩu phần: 4 người</p>
-    <img src="img/khoquet/khoquet.jpg" alt="Hình ảnh kho quẹt">
+    <h1>Salad Cá Hồi</h1>
 
-    <h2>Nguyên Liệu:</h2>
+    <h2>Khẩu phần: 3 người</h2>
+    <img src="img/salad/salad.jpg">
+
+    <h3>Nguyên liệu chính:</h3>
     <ul>
-        <li>200 g thịt ba chỉ: 35000đ - 45000đ/200g</li>
-        <li>50 -100 g tôm nõn khô: 65000đ/100g</li>
-        <li>2 củ hành tím</li>
-        <li>1 củ tỏi</li>
-        <li>1 nắm hành tươi</li>
-        <li>10 muỗng canh nước mắm</li>
-        <li>1 muỗng canh nhỏ dầu ăn</li>
-        <li>5 muỗng canh đường</li>
-        <li>7 muỗng canh nước lọc</li>
-        <li>3 quả ớt</li>
-        <li>Hạt tiêu</li>
+        <li>200 g cá hồi phi lê: 100,000đ - 110,000đ/200g</li>
     </ul>
 
-    <h2>Hướng dẫn:</h2>
-    <h3>Bước 1: Sơ chế nguyên liệu</h3>
+    <h3>Nguyên liệu phụ:</h3>
+    <ul>
+        <li>2 cây xà lách</li>
+        <li>2 quả cà chua to (200 g cà chua bi)</li>
+        <li>3 quả trứng gà</li>
+        <li>1 quả chanh tươi</li>
+        <li>2 thìa canh dầu ô liu</li>
+    </ul>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
     <ol>
-        <li>Thịt ba chỉ rửa sạch rồi để ráo nước, lọc bì, thái miếng hạt lựu.</li>
-        <li>Ngâm tôm nõn khô với nước nóng trong vòng 30 phút để tôm mềm, đem rửa sạch, để ráo nước.</li>
-        <li>Hành tỏi bóc vỏ, rửa sạch rồi băm nhỏ. Ớt có thể thái nhỏ 1 quả và để nguyên những trái còn lại.</li>
-        <li>Nhặt hành tươi, bỏ rễ, rửa sạch, cắt thành đoạn dài từ 4-5 cm, rồi chẻ làm đôi hoặc làm tư.</li>
+        <li>Sơ chế cá hồi bằng cách rửa sạch kèm chút rượu gừng.</li>
+        <li>Thái cá hồi thành từng miếng cỡ 3x4 cm hoặc để nguyên theo sở thích, khi trộn sẽ dùng dĩa/thìa làm thịt cá tơi ra.</li>
+        <li>Làm nóng chút dầu ăn hoặc bơ để áp chảo cá hồi chín đều các mặt.</li>
+        <li>Trứng gà luộc chín hẳn hoặc chín lòng đào rồi cắt đôi.</li>
+        <li>Rau xà lách và cà chua rửa sạch rồi cắt nhỏ vừa ăn.</li>
     </ol>
 
-    <h3>Bước 2: Pha nước kho quẹt</h3>
+    <h4>Bước 2: Trộn salad</h4>
     <ol>
-        <li>Cho 5 muỗng canh đường pha với 7 muỗng canh nước lọc rồi khuấy đều để hòa tan đường. Sau đó, đổ tiếp 10 muỗng canh nước mắm vào hỗn hợp nước vừa pha.</li>
+        <li>Xếp các nguyên liệu đã được sơ chế vào âu trộn lớn.</li>
+        <li>Vắt chanh lấy nước cốt rồi cho cùng dầu ô liu vào trộn đều salad.</li>
+        <li>Thêm chút muối tinh, tiêu xay nếu thích ăn đậm một chút.</li>
+        <li>Gắp salad ra đĩa và thưởng thức.</li>
     </ol>
 
-    <h3>Bước 3: Nấu kho quẹt</h3>
-    <ol>
-        <li>Cho chảo hoặc nồi đất lên bếp, cho thịt ba chỉ vào đảo đều trong 1 phút, sau đó cho 1 muỗng canh nhỏ dầu ăn vào đảo đều.</li>
-        <li>Đợi thịt mỡ tóp ở mức vừa phải, thịt bắt đầu teo lại thì vớt thịt ra bát.</li>
-        <li>Phi thơm hành tỏi rồi cho tôm nõn vào đảo trong 1 phút với lửa vừa, rồi đổ hỗn hợp nước kho quẹt vào. Thêm thịt, ớt, hạt tiêu vào chảo, khuấy đều trong khoảng 5 phút cho đến khi hỗn hợp hơi keo lại.</li>
-        <li>Nêm nếm lại gia vị và đun hỗn hợp trong lửa vừa khoảng 10-15 phút cho đến khi hỗn hợp sánh lại.</li>
-        <li>Khi kho quẹt đã keo lại thì tắt bếp và thêm hành tươi vào đảo đều.</li>
-    </ol>
-
-    <h3>Bước 4: Hoàn thành</h3>
-    <p>Cuối cùng, múc kho quẹt ra bát và thưởng thức nó cùng với rau củ luộc.</p>
-
-    <p>[Đoạn văn hướng dẫn chi tiết cách làm kho quẹt]</p>
-
-    <h2>Nguồn: thatlangon.com</h2>
+    <p>Nguồn: thatlangon.com</p>

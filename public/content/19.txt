@@ -52,3 +52,62 @@
       margin-bottom: 5px;
     }
   </style>
+<h1>Tên món: Xíu mại</h1>
+<p>Khẩu phần: 5 người</p>
+<img src="img/xiumai/xiumai.jpg" alt="">
+
+  <h3>Nguyên Liệu:</h3>
+<ul>
+  <li>Viên thịt xíu mại:</li>
+  <li>400 g thịt heo xay</li>
+  <li>100 g giò sống</li>
+  <li>1 quả trứng</li>
+  <li>250 g củ đậu (củ sắn)</li>
+  <li>2 thìa canh bột chiên xù</li>
+  <li>1 thìa canh bột năng</li>
+  <li>1 thìa canh thân mùi (ngò) băm</li>
+  <li>1 thìa canh tỏi phi</li>
+  <li>1 thìa canh dầu vừng (dầu mè)</li>
+  <li>1/2 thìa cà phê muối</li>
+  <li>1/2 thìa canh hạt nêm</li>
+  <li>1 thìa canh nước tương</li>
+  <li>1/2 thìa canh đường</li>
+  <li>1/2 thìa cà phê tiêu</li>
+  <li>Sốt cà chua:</li>
+  <li>300 g cà chua</li>
+  <li>1 thìa cà phê cà chua cô đặc (không bắt buộc)</li>
+  <li>1 củ hành khô</li>
+  <li>2 tép tỏi</li>
+  <li>1 thìa canh đường</li>
+  <li>1/2 thìa cà phê muối</li>
+  <li>1/2 thìa canh hạt nêm</li>
+  <li>Lá mùi (ngò) để trang trí</li>
+</ul>
+<h3>Hướng dẫn:</h3>
+<h4>Bước 1: Sơ chế nguyên liệu</h4>
+<ol>
+  <li>Củ đậu gọt vỏ, rửa sạch, xắt sợi hoặc băm nhỏ.</li>
+  <li>Hấp hoặc chần sơ củ đậu cho chín trong, sau đó vắt ráo nước.</li>
+  <li>Cà chua rửa sạch, bỏ hạt, xay nhuyễn.</li>
+  <li>Hành khô, tỏi bóc vỏ, băm nhuyễn.</li>
+  <li>Rau mùi rửa sạch, để ráo. Thân mùi băm nhỏ, lá giữ lại để trang trí.</li>
+</ol>
+<h4>Bước 2: Làm viên thịt xíu mại</h4>
+<ol>
+  <li>Trộn đều thịt xay, giò sống, trứng, củ đậu, bột chiên xù, bột năng, thân mùi (ngò) băm, tỏi phi, dầu vừng (dầu mè), muối, hạt nêm, nước tương, đường, và tiêu trong một tô.</li>
+  <li>Ướp hỗn hợp trên trong khoảng 15-30 phút trong tủ lạnh.</li>
+  <li>Viên thịt thành từng viên nhỏ khoảng 40-50 g.</li>
+  <li>Đun nước sôi trong một nồi và xếp viên thịt lên đĩa sâu lòng có thoa một lớp dầu mỏng. Hấp viên thịt trong khoảng 15-20 phút tùy kích thước viên thịt.</li>
+</ol>
+<h4>Bước 3: Nấu sốt cà chua</h4>
+<ol>
+  <li>Phi thơm hành tỏi, sau đó cho cà chua cô đặc vào xào.</li>
+  <li>Thêm cà chua xay nhuyễn vào chảo và nêm đường, muối, hạt nêm.</li>
+  <li>Khi sốt cà chua sôi, hạ nhỏ lửa, đậy nắp và đun liu riu cho sốt sánh lại.</li>
+</ol>
+<h4>Bước 4: Hoàn thành</h4>
+<ol>
+  <li>Trút toàn bộ thịt viên đã hấp chín vào sốt cà chua và đun nhỏ lửa thêm khoảng 5 phút. Nêm lại nếu cần thiết.</li>
+  <li>Xíu mại ăn cùng bánh mì, mì, cơm hoặc bún.</li>
+</ol>
+    <p>Nguồn: thatlangon.com</p>

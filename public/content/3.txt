@@ -1,4 +1,4 @@
-    <style>
+ <style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
@@ -52,49 +52,38 @@
       margin-bottom: 5px;
     }
   </style>
-  
-  <h1>Bò lúc lắc</h1>
-    <p><strong>Khẩu phần:</strong> 2 người</p>
-    <img src="img/boluclac/boluclac.jpg" alt="Bò lúc lắc">
-    <h2>Nguyên liệu chính:</h2>
+   <h1>Tên món: Cơm Chiên Trứng</h1>
+    <h2>Khẩu phần: 2 người</h2>
+    <img src="img/comchientrung/comchientrung.jpg" alt="Cơm Chiên Trứng">
+
+    <h3>Nguyên Liệu</h3>
     <ul>
-        <li>250g thịt bò (giá khoảng 50,000đ - 70,000đ)</li>
+        <li>2 chén cơm (để nguội)</li>
+        <li>2 quả trứng vịt (hoặc trứng gà tùy thích)</li>
+        <li>4 thìa cà phê nước mắm</li>
+        <li>1 thìa cà phê nước lọc</li>
+        <li>1-2 thìa cà phê dầu ăn</li>
+        <li>1 ít hạt nêm</li>
+        <li>1 ít hạt tiêu</li>
     </ul>
-    <h2>Nguyên liệu phụ:</h2>
-    <ul>
-        <li>3 tép tỏi</li>
-        <li>1 củ hành tím</li>
-        <li>2 cây hành lá</li>
-        <li>100g ớt chuông</li>
-        <li>100g hành tây</li>
-        <li>1 thìa canh dầu hào</li>
-        <li>1 thìa canh nước tương</li>
-        <li>1 thìa cà phê đường</li>
-        <li>1 thìa cà phê tiêu</li>
-        <li>1/4 thìa cà phê hắc xì dầu (không bắt buộc)</li>
-        <li>2 thìa canh bơ lạt (không bắt buộc)</li>
-        <li>Dầu ăn</li>
-    </ul>
-    <h2>Hướng dẫn:</h2>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
     <ol>
-        <li><strong>Bước 1: Sơ chế nguyên liệu</strong>
-            <ul>
-                <li>Rửa sạch thịt bò, thấm khô, cắt khối vuông cỡ quân cờ.</li>
-                <li>Băm nhỏ tỏi và hành tím.</li>
-                <li>Ướp thịt bò với một nửa lượng hành tỏi, dầu hào, nước tương, đường, tiêu, hắc xì dầu (nếu có), và dầu ăn trong tối thiểu 30 phút.</li>
-                <li>Rửa sạch hành lá và cắt khúc khoảng 3-4 phân.</li>
-                <li>Rửa sạch ớt chuông, bỏ hạt. Bóc vỏ hành tây và rửa sạch. Cắt ớt chuông và hành tây thành khối vuông.</li>
-            </ul>
-        </li>
-        <li><strong>Bước 2: Xào bò lúc lắc</strong>
-            <ul>
-                <li>Bắc chảo lên bếp, đợi chảo thật nóng, cho một ít dầu ăn vào chảo, xào ớt chuông và hành tây với một nhúm muối nhỏ trên lửa lớn tới khi ớt và hành chín tái, trút ra đĩa.</li>
-                <li>Chảo nóng bốc khói, cho một ít dầu ăn vào chảo, phi thơm hành tỏi, nhanh tay trút thịt bò vào xào.</li>
-                <li>Thịt bò xém cạnh, lên màu đẹp, chín tới thì cho hành lá, hành tây+ớt chuông đã xào sơ, bơ lạt vào xóc đều.</li>
-            </ul>
-        </li>
-        <li><strong>Bước 3: Hoàn thành</strong>
-            <p>Bò lúc lắc có thể ăn kèm với khoai tây chiên, cơm và các loại rau salad (xà lách, cà chua, dưa chuột, cải xoong, rau mầm...).</p>
-        </li>
+        <li>Cho cơm ra tô, đánh tơi cơm.</li>
+        <li>Cho nước lọc, hạt nêm và 2 thìa nước mắm vào chén, khuấy cho hạt nêm tan hết rồi rưới vào cơm, trộn đều.</li>
+        <li>Đập trứng vào chén, cho tiêu và 2 muỗng nước mắm còn lại vào, đảo đều.</li>
+        <li>Hành lá rửa sạch, thái nhỏ phần đầu hành riêng, phần lá riêng.</li>
     </ol>
-    <p><strong>Chi tiết cách làm bò lúc lắc:</strong> Bạn có thể tham khảo tại nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>
+
+    <h4>Bước 2: Chiên cơm</h4>
+    <ol>
+        <li>Làm nóng chảo và cho dầu ăn vào.</li>
+        <li>Dầu nóng, cho đầu hành vào phi thơm.</li>
+        <li>Khi hành bắt đầu dậy mùi, cho cơm vào chiên.</li>
+        <li>Chiên cơm đến khi hạt cơm săn lại, cho trứng vào.</li>
+        <li>Đảo đều tay để hạt cơm rời ra, chiên đến khi trứng vàng ươm thì cho hành lá vào đảo một chút để hành chín là xong.</li>
+    </ol>
+
+    <h3>Cách làm cơm chiên trứng chi tiết</h3>
+    <p>Để tìm hiểu chi tiết cách làm cơm chiên trứng, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-com-chien-trung-ngon-hap-dan.html" target="_blank">thatlangon.com</a></p>

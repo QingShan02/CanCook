@@ -1,0 +1,103 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+<h1>Tên món: Sủi Cảo</h1>
+<p>Khẩu phần: 3 người</p>
+<img src="img/xiumai/xiumai.jpg" alt="">
+<h3>Nguyên Liệu:</h3>
+<ul>
+  <li>Phần vỏ sủi cảo:</li>
+  <li>200 g bột mỳ</li>
+  <li>110 - 130 ml nước</li>
+  <li>1 xíu muối</li>
+  <li>50 g bột bắp (làm bột áo)</li>
+  <li>Phần nhân:</li>
+  <li>200 g thịt lơn xay</li>
+  <li>1 quả trứng gà</li>
+  <li>4 - 6 lá cải thảo non</li>
+  <li>1 nắm hành lá</li>
+  <li>1 thìa phở nước mắm</li>
+  <li>1 thìa phở xì dầu</li>
+  <li>1 thìa phở dầu hào</li>
+  <li>1 thìa phở dầu vừng</li>
+  <li>1 nhánh gừng</li>
+  <li>1 chút hạt tiêu</li>
+</ul>
+<h3>Hướng dẫn:</h3>
+<h4>Bước 1: Nhào bột</h4>
+<ol>
+  <li>Đổ bột mỳ vào bát tô. Hòa ½ thìa cafe muối vào nước ấm khoảng 60 độ rồi đổ dần 100 ml nước vào bát bột, dùng phới khuấy đều. Thêm dần nước để bột hòa thành khối, không còn bột khô rồi nhồi bột trong khoảng 15 phút.</li>
+  <li>Sau đó đậy bột bằng màng thực phẩm rồi ủ khoảng 30 phút.</li>
+</ol>
+<h4>Bước 2: Chế biến nhân bánh</h4>
+<ol>
+  <li>Gừng đập dập băm nhỏ. Rau mùi, hành lá thái nhỏ. Lá cải thảo rửa sach, ngâm với nước muối loãng khoảng 10 phút, để ráo nước, thái nhỏ.</li>
+  <li>Cho tất cả nguyên liệu phần nhân vào âu trộn đều, rắc thêm 1 chút hạt tiêu.</li>
+</ol>
+<h4>Bước 3: Làm vỏ bánh</h4>
+<ol>
+  <li>Trên bề mặt phẳng, sạch có rắc chút bột bắp, bạn cho bột ra, cắt thành 4 phần bằng nhau rồi, lăn thành hình trụ dài. Bạn cắt các thanh dài thành 8 miếng bằng nhau.</li>
+  <li>Đặt một miếng bột vào lòng bàn tay, vo tròn, ấn dẹt, rồi dùng thanh cán bột cán mỏng miếng bột thành hình tròn có phần giữa hơi dày hơn mép.</li>
+  <li>Nếu không cán được tròn đều thì dùng khuôn cắt hình tròn đường kính 8 cm lần lượt ấn vào từng miếng bột.</li>
+</ol>
+<h4>Bước 4: Gói sủi cảo</h4>
+<ol>
+  <li>Cho nhân bánh vào trong vỏ bánh, gấp lại thành hình bán nguyệt, miết và gấp mép dọc theo viền bánh để bao hết nhân.</li>
+</ol>
+<h4>Bước 5: Hấp sủi cảo</h4>
+<ol>
+  <li>Xếp sủi cảo vào vỉ hấp rồi hấp khoảng 15 phút cho chín. Sủi cảo chín xếp ra đĩa để thưởng thức.</li>
+</ol>
+<h4>Bước 6: Hoàn thành</h4>
+Cuối cùng, bạn xếp sủi cảo ra đĩa và mời mọi người cùng thưởng thức. Bạn có thể chấm sủi cảo trực tiếp với nước tương hoặc pha thêm chút giấm, cắt hành, ớt rắc lên trên để làm nước chấm.

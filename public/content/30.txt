@@ -1,0 +1,102 @@
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+  <h1>Bánh Flan - Món ngon hấp dẫn</h1>
+  <img src="img/banhflan/banhflan.jpg" alt="Bánh Flan">
+  <h2>Nguyên Liệu:</h2>
+  <p>Phần caramen:</p>
+  <ul>
+    <li>120 g đường</li>
+    <li>40 ml nước</li>
+    <li>1 thìa canh nước cốt chanh</li>
+    <li>30 ml nước sôi</li>
+  </ul>
+  <p>Phần bánh:</p>
+  <ul>
+    <li>4 quả trứng gà: 35,000đ - 40,000đ/vỉ</li>
+    <li>6 lòng đỏ trứng gà</li>
+    <li>50 g đường</li>
+    <li>600 ml sữa tươi không đường</li>
+  </ul>
+  <p>Dụng Cụ:</p>
+  <p>khuôn bánh flan</p>
+
+  <div class="recipe-instructions">
+    <h2>Hướng dẫn</h2>
+    <h3>Bước 1: Tạo lớp Caramen</h3>
+    <ol>
+      <li>Đổ 120 g đường và 40 ml nước vào nồi, đun lửa nhỏ cho đến khi lớp caramen chuyển màu hơi vàng.</li>
+      <li>Cho 1 muỗng nước cốt chanh vào và đợi lớp caramen chuyển màu cánh gián, sau đó tắt bếp.</li>
+      <li>Thêm 30 ml nước sôi, lắc nhẹ để lớp caramen đều màu, sau đó đổ một lớp mỏng caramen vào khay bánh flan và để ngăn mát tủ lạnh khoảng 15 phút.</li>
+    </ol>
+
+    <h3>Bước 2: Làm phần bánh Flan</h3>
+    <ol>
+      <li>Tách trứng và đánh 10 lòng đỏ với 4 lòng trắng, cho 50 g đường vào và khuấy nhẹ.</li>
+      <li>Đun sữa không đường khoảng 70 °C, rồi đổ từ từ vào hỗn hợp trứng và khuấy nhẹ nhàng.</li>
+      <li>Lọc hỗn hợp trứng sữa qua một chiếc ray lỗ nhỏ để loại bỏ bọt khí.</li>
+      <li>Đổ nhân vào khay đã chứa lớp caramen, nhẹ nhàng để tránh làm vỡ lớp caramen bên dưới.</li>
+    </ol>
+
+    <h3>Bước 3: Hấp bánh</h3>
+    <ol>
+      <li>Cho khay bánh vào nồi hấp và hấp khoảng 20 phút cho bánh chín.</li>
+      <li>Kiểm tra xem bánh đã chín bằng que tăm. Nếu bánh đã chín, lấy ra và để nguội rồi cho vào tủ lạnh.</li>
+    </ol>
+
+    <h3>Bước 4: Hoàn thành</h3>
+    <p>Khi ăn, lật ngược chiếc khuôn lại và đổ bánh nhẹ nhàng để được một chiếc bánh hoàn hảo và không bị vỡ.</p>
+  </div>
+
+  <p class="source">Nguồn: thatlangon.com</p>

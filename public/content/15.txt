@@ -52,46 +52,59 @@
       margin-bottom: 5px;
     }
   </style>
-      <h1>Tên món: Mực Xào Dứa</h1>
-    <p>Khẩu phần: 3 người</p>
-    <img src="img/mucxaodua/mucxaodua.jpg" alt="Mực Xào Dứa">
+    <h1>Sườn Xào Chua Ngọt</h1>
 
-    <h2>Nguyên Liệu</h2>
+    <h2>Khẩu phần: 4 người</h2>
+    <img src="img/suonxaochuangot/suonxaochuangot.jpg">
+
+    <h3>Nguyên liệu chính:</h3>
     <ul>
-        <li>300 g mực ống: Mực ống loại 3 (16-20 con/kg ): 180.000 – 200.000 đồng/kg</li>
-        <li>100 g dứa</li>
-        <li>2 cây cần tây</li>
-        <li>1 củ hành tây nhỏ</li>
-        <li>8 tép tỏi</li>
-        <li>1½ thìa cà phê hạt nêm</li>
-        <li>½ thìa cà phê tiêu xay</li>
-        <li>1 thìa cà phê nước mắm</li>
+        <li>700g sườn non: 150000đ - 170000đ/kg</li>
     </ul>
 
-    <h2>Hướng dẫn</h2>
-    <p><strong>Bước 1: Sơ chế mực</strong></p>
-    <ol>
-        <li>Mực tươi mua về rút đầu, tách bỏ nội tạng, xương sống và cả lớp da tím (nếu muốn).</li>
-        <li>Rửa lại mực với nước sạch nhiều lần, để cho ráo nước và thái mực theo hình tùy thích (bông hoa, vảy rồng, ống tròn,...)</li>
-        <li>Tỏi và gừng bỏ vỏ, rửa với nước và đập dập.</li>
-        <li>Đun sôi nồi nước với gừng rồi cho mực vào chần trong 30 giây rồi vớt ra để ráo nước.</li>
-    </ol>
-   <p><strong>Bước 2: Sơ chế các nguyên liệu khác</strong></p>
-    <ol>
-        <li>Dứa gọt bỏ vỏ, khoét mắt, rửa qua nước sạch rồi thái lát dày cỡ 1 cm.</li>
-        <li>Cần tây cắt gốc, rửa với nước sạch rồi thái đoạn 3 cm.</li>
-        <li>Hành tây bóc vỏ, cắt rễ, rửa qua và bổ múi cau.</li>
-    </ol>
-     <p><strong>Bước 3: Xào các nguyên liệu</strong></p>
-    <ol>
-        <li>Phi thơm ½ phần tỏi cùng chút dầu ăn, xào mực cùng gia vị rồi trút ra một chiếc đĩa sạch.</li>
-        <li>Vẫn sử dụng chiếc chảo nóng đó, phi thơm nốt chỗ tỏi còn lại.</li>
-        <li>Cho lần lượt hành tây, dứa và cần tây vào xào, nêm nếm gia vị cho vừa.</li>
-        <li>Sau khi rau củ chín, cho mực vào đảo cùng khoảng 1 phút trên lửa vừa rồi tắt bếp.</li>
-    </ol>
-   
+    <h3>Nguyên liệu phụ:</h3>
+    <ul>
+        <li>1/2 thìa cơm muối</li>
+        <li>1 thìa cơm dầu ăn</li>
+        <li>2 quả cà chua</li>
+        <li>1 củ tỏi</li>
+        <li>3 củ hành tím</li>
+    </ul>
 
-    <p><strong>Bước 4: Hoàn thành</strong></p>
-    <p>Múc mực xào dứa ra đĩa, rắc hạt tiêu lên trên và thưởng thức cùng cơm khi còn nóng.</p>
-    
-    <p><em>Nguồn: thatlangon.com</em></p>
+    <h3>Gia vị ướp:</h3>
+    <ul>
+        <li>1 thìa cơm dầu hào</li>
+        <li>1 thìa cơm tương cà</li>
+        <li>1.5 thìa cơm nước mắm</li>
+        <li>1 thìa cơm giấm</li>
+        <li>2 thìa cơm đường</li>
+        <li>1/2 quả ớt băm nhuyễn</li>
+    </ul>
+
+    <h3>Hướng dẫn:</h3>
+    <p>Bước 1: Sơ chế sườn</p>
+    <ul>
+        <li>Rửa sạch sườn với nước lạnh rồi trần sơ với nước sôi có thêm 1 chút muối.</li>
+        <li>Rửa sạch sườn lại với nước lạnh và chặt miếng vừa ăn.</li>
+        <li>Rán sơ qua sườn cho đến khi các mặt vàng đều.</li>
+    </ul>
+
+    <p>Bước 2: Ướp sườn</p>
+    <ul>
+        <li>Cà chua lột vỏ, bỏ hạt và thái nhỏ.</li>
+        <li>Hành tỏi đập dập, băm nhuyễn, phi lên cho thơm thì cho cà chua vào xào cho đến khi chín mềm.</li>
+        <li>Cho sườn vào chảo cà chua và thêm các gia vị ướp, đảo đều và ướp khoảng 30 phút.</li>
+    </ul>
+
+    <p>Bước 3: Rim sườn và hoàn thành</p>
+    <ul>
+        <li>Rim sườn trên lửa vừa cho đến khi nước sốt sệt lại và miếng sườn có màu vàng cam óng ả.</li>
+    </ul>
+
+    <h4>Chi tiết công thức sườn xào chua ngọt:</h4>
+    <p>(Nội dung hướng dẫn chi tiết)</p>
+
+    <p>Thưởng thức:</p>
+    <p>(Nội dung thưởng thức)</p>
+
+    <p>Nguồn: thatlangon.com</p>

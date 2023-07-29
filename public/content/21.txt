@@ -1,0 +1,92 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+<h1>Tên món: Tokbokki</h1>
+<p>Khẩu phần: 4 người</p>
+<img src="img/xiumai/xiumai.jpg" alt="">
+ <h3>Nguyên Liệu:</h3>
+<ul>
+  <li>400 g bánh gạo dạng ống</li>
+  <li>4 tấm bánh chả cá vuông</li>
+  <li>150 g bắp cải</li>
+  <li>200 g hành baro</li>
+  <li>1 lít nước</li>
+  <li>2 quả trứng gà</li>
+  <li>2 thìa cà phê vừng trắng rang chín</li>
+  <li>80 g tương ớt đỏ Hàn Quốc</li>
+  <li>80 ml nước tương đen</li>
+  <li>30 g bột ớt đỏ loại mịn</li>
+  <li>20 g bột ớt đỏ loại thô</li>
+  <li>70 g đường nâu</li>
+  <li>5 g bột ngọt (không bắt buộc)</li>
+</ul>
+<h3>Hướng dẫn:</h3>
+<h4>Bước 1: Sơ chế nguyên liệu</h4>
+<ol>
+  <li>Hành baro, bắp cải rửa với nước sạch rồi để ráo.</li>
+  <li>Cắt lát chéo hành baro dày khoảng 5 mm. Bắp cải và bánh chả cá cắt thành từng miếng nhỏ hơn cỡ vừa ăn.</li>
+  <li>Bánh gạo tráng qua nước sạch và để ráo nước.</li>
+  <li>Luộc chín trứng gà rồi bóc vỏ.</li>
+</ol>
+<h4>Bước 2: Nấu tokbokki</h4>
+<ol>
+  <li>Đun sôi nước sạch, nước tương, đường nâu, sốt tương ớt, bột ớt thô, bột ớt mịn và bắp cải, hành baro khoảng 5 phút.</li>
+  <li>Khi nước sốt sôi lên, thêm bánh gạo và trứng luộc vào. Cho thêm bột ngọt nếu cần.</li>
+  <li>Tiếp tục thêm bánh chả cá vào đun cùng. Thêm nước sạch nếu thấy nước sốt bị đặc.</li>
+</ol>
+<h4>Bước 3: Hoàn thành và thưởng thức tokbokki</h4>
+<ol>
+  <li>Đun tokbokki ở mức lửa vừa khoảng 10 phút cho ngấm.</li>
+  <li>Múc từng phần tokbokki ra đĩa, rắc vừng rang lên trên và thưởng thức.</li>
+</ol>
