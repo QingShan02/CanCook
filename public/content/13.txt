@@ -1,0 +1,96 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+
+  <h1>Măng Tây Xào Tỏi</h1>
+    <h2>Khẩu Phần: 2 người</h2>
+
+    <img src="img/mangtayxao/mangtayxaotoi.jpg" alt="Măng Tây Xào Tỏi">
+
+    <h3>Nguyên Liệu Chính:</h3>
+    <ul>
+        <li>200 g măng tây: 10,000đ - 20,000đ</li>
+    </ul>
+
+    <h3>Nguyên Liệu Phụ:</h3>
+    <ul>
+        <li>1 củ tỏi to</li>
+        <li>40 ml nước sạch</li>
+        <li>2 thìa cà phê hạt nêm</li>
+        <li>½ thìa cà phê gia vị</li>
+        <li>½ thìa cà phê tiêu xay</li>
+    </ul>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <p>Măng tây mua về cắt bỏ phần gốc già, rửa qua rồi đem ngâm nước muối 3 phút.</p>
+    <p>Thái đoạn măng tây dài cỡ 10 cm hoặc để cọng dài theo sở thích.</p>
+    <p>Tỏi bóc vỏ, đem băm nhỏ hoặc đập dập.</p>
+
+    <h4>Bước 2: Trụng sơ qua măng tây</h4>
+    <p>Trụng sơ qua măng tây trong nước sôi 2-3 phút.</p>
+    <p>Khi nồi nước sôi trở lại thì vớt măng tây để vào bát nước lạnh ngâm chút đá chừng 3 phút.</p>
+    <p>Vớt măng tây ra để cho ráo nước.</p>
+
+    <h4>Bước 3: Hoàn thành và thưởng thức</h4>
+    <p>Phi thơm tỏi cùng một chút dầu ăn.</p>
+    <p>Cho măng tây vào xào tầm 1 phút để dầu ăn bám đều xung quanh.</p>
+    <p>Thêm khoảng 40 ml nước sạch/ nước luộc măng tây ban rồi đảo cho măng tây chín tới.</p>
+    <p>Nêm nếm gia vị cho vừa miệng, xào thêm 1-2 phút rồi tắt bếp.</p>
+    <p>Trút măng tây ra đĩa, rắc tiêu xay bên trên và thưởng thức.</p>
+
+    <h3>Cách làm chi tiết măng tây xào tỏi</h3>
+    <!-- Thêm các bước làm chi tiết ở đây -->
+
+    <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

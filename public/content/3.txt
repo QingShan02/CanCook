@@ -1,0 +1,100 @@
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+  
+  <h1>Bò lúc lắc</h1>
+    <p><strong>Khẩu phần:</strong> 2 người</p>
+    <img src="img/boluclac/boluclac.jpg" alt="Bò lúc lắc">
+    <h2>Nguyên liệu chính:</h2>
+    <ul>
+        <li>250g thịt bò (giá khoảng 50,000đ - 70,000đ)</li>
+    </ul>
+    <h2>Nguyên liệu phụ:</h2>
+    <ul>
+        <li>3 tép tỏi</li>
+        <li>1 củ hành tím</li>
+        <li>2 cây hành lá</li>
+        <li>100g ớt chuông</li>
+        <li>100g hành tây</li>
+        <li>1 thìa canh dầu hào</li>
+        <li>1 thìa canh nước tương</li>
+        <li>1 thìa cà phê đường</li>
+        <li>1 thìa cà phê tiêu</li>
+        <li>1/4 thìa cà phê hắc xì dầu (không bắt buộc)</li>
+        <li>2 thìa canh bơ lạt (không bắt buộc)</li>
+        <li>Dầu ăn</li>
+    </ul>
+    <h2>Hướng dẫn:</h2>
+    <ol>
+        <li><strong>Bước 1: Sơ chế nguyên liệu</strong>
+            <ul>
+                <li>Rửa sạch thịt bò, thấm khô, cắt khối vuông cỡ quân cờ.</li>
+                <li>Băm nhỏ tỏi và hành tím.</li>
+                <li>Ướp thịt bò với một nửa lượng hành tỏi, dầu hào, nước tương, đường, tiêu, hắc xì dầu (nếu có), và dầu ăn trong tối thiểu 30 phút.</li>
+                <li>Rửa sạch hành lá và cắt khúc khoảng 3-4 phân.</li>
+                <li>Rửa sạch ớt chuông, bỏ hạt. Bóc vỏ hành tây và rửa sạch. Cắt ớt chuông và hành tây thành khối vuông.</li>
+            </ul>
+        </li>
+        <li><strong>Bước 2: Xào bò lúc lắc</strong>
+            <ul>
+                <li>Bắc chảo lên bếp, đợi chảo thật nóng, cho một ít dầu ăn vào chảo, xào ớt chuông và hành tây với một nhúm muối nhỏ trên lửa lớn tới khi ớt và hành chín tái, trút ra đĩa.</li>
+                <li>Chảo nóng bốc khói, cho một ít dầu ăn vào chảo, phi thơm hành tỏi, nhanh tay trút thịt bò vào xào.</li>
+                <li>Thịt bò xém cạnh, lên màu đẹp, chín tới thì cho hành lá, hành tây+ớt chuông đã xào sơ, bơ lạt vào xóc đều.</li>
+            </ul>
+        </li>
+        <li><strong>Bước 3: Hoàn thành</strong>
+            <p>Bò lúc lắc có thể ăn kèm với khoai tây chiên, cơm và các loại rau salad (xà lách, cà chua, dưa chuột, cải xoong, rau mầm...).</p>
+        </li>
+    </ol>
+    <p><strong>Chi tiết cách làm bò lúc lắc:</strong> Bạn có thể tham khảo tại nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

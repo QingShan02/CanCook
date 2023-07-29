@@ -1,0 +1,105 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+     <h1>Tên món: Hàu nướng mỡ hành</h1>
+    <p>Khẩu phần: 4 phần</p>
+    <img src="img/haunuong/haunuong.jpg" alt="Hình ảnh hàu nướng mỡ hành">
+
+    <h2>Nguyên liệu chính:</h2>
+    <ul>
+        <li>2-3 kg hàu sữa: 30000đ - 50000đ/kg</li>
+    </ul>
+
+    <h2>Nguyên liệu phụ:</h2>
+    <ul>
+        <li>200 g lạc rang giã nhỏ</li>
+        <li>100 g hành lá</li>
+        <li>200 g hành tím</li>
+        <li>2 quả ớt</li>
+        <li>200 g mỡ lợn</li>
+        <li>50 g bơ lạt</li>
+        <li>1/2 thìa cà phê muối</li>
+        <li>1/2 thìa cà phê tiêu</li>
+        <li>1/2 thìa cà phê hạt nêm</li>
+        <li>2 thìa canh dầu ăn</li>
+        <li>Rau răm, tương ớt</li>
+    </ul>
+
+    <h2>Hướng dẫn:</h2>
+    <h3>Bước 1: Sơ chế hàu</h3>
+    <ol>
+        <li>Hàu mua về ngâm nước khoảng 2-3 giờ rồi đánh vỏ sạch sẽ.</li>
+        <li>Dùng dao nhọn tách vỏ hàu.</li>
+    </ol>
+
+    <h3>Bước 2: Làm mỡ hành</h3>
+    <ol>
+        <li>Hành tím rửa sạch, thái mỏng và phi vàng. Hành lá rửa sạch, thái nhỏ.</li>
+        <li>Mỡ lợn thái nhỏ, đảo trên chảo cho ra nước mỡ, đổ vào chén hành lá vừa thái làm mỡ hành. Phần tép mỡ để ráo dầu, dành rắc lên hàu.</li>
+    </ol>
+
+    <h3>Bước 3: Nướng hàu</h3>
+    <ol>
+        <li>Xếp hàu lên vỉ, rưới mỡ hành, hành phi, tép mỡ và lạc rang đã chuẩn bị và nướng.</li>
+    </ol>
+
+    <h3>Bước 4: Hoàn thành</h3>
+    <ol>
+        <li>Bày hàu ra đĩa và thưởng thức cùng tương ớt hoặc nước mắm chua ngọt.</li>
+    </ol>
+
+    <p>Cách làm hàu nướng mỡ hành chi tiết:</p>
+    <p>[Đoạn văn hướng dẫn cụ thể chi tiết cách làm hàu nướng mỡ hành]</p>
+
+    <h2>Nguồn: thatlangon.com</h2>

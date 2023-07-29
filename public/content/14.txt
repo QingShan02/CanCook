@@ -1,0 +1,93 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+    <h1>Mì xào bò</h1>
+  <h2>Khẩu phần: 2 người</h2>
+
+  <img src="img/mixaobo/mixaobo.jpg">
+
+  <h3>Nguyên liệu chính:</h3>
+  <ul>
+    <li>100 g thịt bò: 20000đ - 30000đ</li>
+    <li>3 gói mì tôm hảo hảo: 4000đ/gói</li>
+  </ul>
+
+  <h3>Nguyên liệu phụ:</h3>
+  <ul>
+    <li>100 g cà rốt</li>
+    <li>50 g hành tây</li>
+    <li>50 g cần tây</li>
+    <li>100 g cải ngọt</li>
+    <li>2 cây hành lá</li>
+    <li>5 tép tỏi</li>
+    <li>½ thìa cà phê tiêu</li>
+    <li>1 thìa cà phê bột năng/bột bắp</li>
+    <li>Hỗn hợp gia vị</li>
+    <li>2 thìa cà phê hạt nêm</li>
+    <li>1 thìa cà phê nước tương</li>
+    <li>1/2 thìa cà phê dầu hào</li>
+  </ul>
+
+  <h3>Hướng dẫn:</h3>
+  <ol>
+    <li>Bước 1: Sơ chế nguyên liệu</li>
+    <p>Thịt bò rửa sạch, thái thật mỏng. Rau củ bỏ vỏ, nhặt rửa sạch. Cà rốt thái sợi hoặc xắt lát mỏng. Hành tây cắt múi cau. Cải ngọt cắt khúc. Hành lá xắt nhỏ.</p>
+    <p>Trộn đều hạt nêm, nước tương, dầu hào thành hỗn hợp gia vị. Tỏi bóc vỏ, băm nhỏ.</p>
+    <li>Bước 2: Áp chảo mì</li>
+    <p>Đun một nồi nước sôi. Khi nước sôi mạnh, cho vắt mì vào chần khoảng 30 giây - 1 phút tới khi sợi mì vừa bung ra. Vớt ngay mì ra khỏi nồi, xóc cho ráo nước rồi để nguội, cắt ngắn nếu cần. Bắc chảo chống dính lửa lớn, làm nóng 1 thìa cà phê dầu ăn. Dầu nóng, cho mì vào áp chảo hai mặt tới khi mì xém thơm. Xóc mì với hành lá cho thơm rồi trút ra đĩa.</p>
+    <li>Bước 3: Xào thịt bò và rau củ</li>
+    <p>Ướp thịt bò với 1/3 hỗn hợp gia vị, ít tiêu, ½ lượng tỏi băm, 1 thìa cà phê dầu ăn và 1 thìa cà phê bột năng khoảng 10-15 phút. Phần hỗn hợp gia vị còn lại cho thêm 1 thìa canh nước, khuấy đều. Bắc chảo lửa lớn, làm nóng 1 ít dầu ăn. Khi chảo thật nóng, trút thịt bò vào xào nhanh tay tới khi bò chín tái thì xúc ra. Bắc chảo lửa lớn, phi thơm tỏi, trút toàn bộ rau củ, trừ cần tây, vào xào, nêm hỗn hợp gia vị đã chuẩn bị. Rau củ gần chín thì cho thịt bò và cần tây vào đảo, nếm lại lần nữa.</p>
+    <li>Bước 4: Hoàn thành</li>
+    <p>Xúc bò xào rau củ lên mì, rắc tiêu. Mì xào bò ăn nóng kèm nước tương cắt ớt cay, tương ớt hoặc sa tế, có thể dọn cùng các loại dưa muối chua.</p>
+  </ol>

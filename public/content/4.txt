@@ -1,0 +1,120 @@
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+  
+ <h1>Cá Kho Tộ</h1>
+    <p><strong>Khẩu phần:</strong> 4 người</p>
+    <img src="img/cakhoto/cakhoto.jpg" alt="Cá Kho Tộ">
+    <h2>Nguyên liệu:</h2>
+    <ul>
+        <li>900g cá ba sa (giá khoảng 40,000đ - 50,000đ/kg)</li>
+        <li>1 củ hành tây</li>
+    </ul>
+    <h2>Gia vị ướp cá:</h2>
+    <ul>
+        <li>1/2 muỗng canh hành tím băm</li>
+        <li>2 muỗng cafe hạt nêm</li>
+        <li>1/2 muỗng cafe tiêu xay</li>
+        <li>1/2 muỗng canh nước mắm</li>
+        <li>1/2 muỗng canh nước màu đường</li>
+    </ul>
+    <h2>Gia vị kho cá:</h2>
+    <ul>
+        <li>4 muỗng canh nước mắm</li>
+        <li>1/2 muỗng canh nước màu đường</li>
+        <li>1/2 muỗng canh tương ớt</li>
+        <li>1 muỗng canh đường</li>
+        <li>200ml nước dừa</li>
+        <li>200ml nước lọc</li>
+    </ul>
+    <h2>Hướng dẫn:</h2>
+    <ol>
+        <li><strong>Bước 1: Sơ chế nguyên liệu</strong>
+            <ul>
+                <li>Đánh vảy cá, bỏ phần lòng và mang. Rửa sạch bên trong bụng cá. Dùng nước chanh, dấm hoặc rượu rửa cá và rửa lại bằng nước sạch.</li>
+                <li>Cắt cá thành từng khúc dày khoảng 2,5 cm.</li>
+                <li>Băm nhỏ hành tím và tỏi.</li>
+                <li>Thái nhỏ hành lá.</li>
+                <li>Đập dập ớt và thái hành tây thành khoanh dày 1 cm.</li>
+            </ul>
+        </li>
+        <li><strong>Bước 2: Ướp cá</strong>
+            <ul>
+                <li>Trộn đều các gia vị ướp cá trong một âu/hộp, sau đó cho cá vào và đảo đều.</li>
+                <li>Đậy kín và ướp cá trong ngăn mát tủ lạnh từ 30-60 phút.</li>
+            </ul>
+        </li>
+        <li><strong>Bước 3: Chiên sơ cá</strong>
+            <ul>
+                <li>Làm nóng chảo với chút dầu ăn, sau đó chiên cá từng mặt trong khoảng 3 phút ở lửa vừa.</li>
+            </ul>
+        </li>
+        <li><strong>Bước 4: Chế sốt và kho cá</strong>
+            <ul>
+                <li>Đặt hành tây hoặc mía phía dưới đáy nồi đất.</li>
+                <li>Xếp miếng cá vào nồi đất.</li>
+                <li>Trong chảo đã chiên cá, phi hành và tỏi cho thơm, sau đó thêm gia vị kho cá vào đun sôi.</li>
+                <li>Đổ hỗn hợp sốt vào nồi cá và đun với lửa vừa, sau đó hạ lửa nhỏ và đậy nắp.</li>
+                <li>Sau 10 phút, mở nắp và lật cá. Thêm phần đầu hành lá vào nồi.</li>
+                <li>Tiếp tục đun kho tầm 30 phút và thêm hành lá thái nhỏ vào.</li>
+            </ul>
+        </li>
+        <li><strong>Bước 5: Hoàn thành</strong>
+            <ul>
+                <li>Nhấc nồi cá kho ra khỏi bếp.</li>
+                <li>Thưởng thức cá kho tộ ấm nóng với cơm và các món ăn kèm khác.</li>
+            </ul>
+        </li>
+    </ol>
+    <p><strong>Chi tiết cách làm cá kho tộ:</strong> Bạn có thể tham khảo tại nguồn: <a href="https://thalangon.com">thalangon.com</a></p>

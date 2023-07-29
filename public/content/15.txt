@@ -1,0 +1,97 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+      <h1>Tên món: Mực Xào Dứa</h1>
+    <p>Khẩu phần: 3 người</p>
+    <img src="img/mucxaodua/mucxaodua.jpg" alt="Mực Xào Dứa">
+
+    <h2>Nguyên Liệu</h2>
+    <ul>
+        <li>300 g mực ống: Mực ống loại 3 (16-20 con/kg ): 180.000 – 200.000 đồng/kg</li>
+        <li>100 g dứa</li>
+        <li>2 cây cần tây</li>
+        <li>1 củ hành tây nhỏ</li>
+        <li>8 tép tỏi</li>
+        <li>1½ thìa cà phê hạt nêm</li>
+        <li>½ thìa cà phê tiêu xay</li>
+        <li>1 thìa cà phê nước mắm</li>
+    </ul>
+
+    <h2>Hướng dẫn</h2>
+    <p><strong>Bước 1: Sơ chế mực</strong></p>
+    <ol>
+        <li>Mực tươi mua về rút đầu, tách bỏ nội tạng, xương sống và cả lớp da tím (nếu muốn).</li>
+        <li>Rửa lại mực với nước sạch nhiều lần, để cho ráo nước và thái mực theo hình tùy thích (bông hoa, vảy rồng, ống tròn,...)</li>
+        <li>Tỏi và gừng bỏ vỏ, rửa với nước và đập dập.</li>
+        <li>Đun sôi nồi nước với gừng rồi cho mực vào chần trong 30 giây rồi vớt ra để ráo nước.</li>
+    </ol>
+   <p><strong>Bước 2: Sơ chế các nguyên liệu khác</strong></p>
+    <ol>
+        <li>Dứa gọt bỏ vỏ, khoét mắt, rửa qua nước sạch rồi thái lát dày cỡ 1 cm.</li>
+        <li>Cần tây cắt gốc, rửa với nước sạch rồi thái đoạn 3 cm.</li>
+        <li>Hành tây bóc vỏ, cắt rễ, rửa qua và bổ múi cau.</li>
+    </ol>
+     <p><strong>Bước 3: Xào các nguyên liệu</strong></p>
+    <ol>
+        <li>Phi thơm ½ phần tỏi cùng chút dầu ăn, xào mực cùng gia vị rồi trút ra một chiếc đĩa sạch.</li>
+        <li>Vẫn sử dụng chiếc chảo nóng đó, phi thơm nốt chỗ tỏi còn lại.</li>
+        <li>Cho lần lượt hành tây, dứa và cần tây vào xào, nêm nếm gia vị cho vừa.</li>
+        <li>Sau khi rau củ chín, cho mực vào đảo cùng khoảng 1 phút trên lửa vừa rồi tắt bếp.</li>
+    </ol>
+   
+
+    <p><strong>Bước 4: Hoàn thành</strong></p>
+    <p>Múc mực xào dứa ra đĩa, rắc hạt tiêu lên trên và thưởng thức cùng cơm khi còn nóng.</p>
+    
+    <p><em>Nguồn: thatlangon.com</em></p>

@@ -1,0 +1,89 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+   <h1>Tên món: Cơm Chiên Trứng</h1>
+    <h2>Khẩu phần: 2 người</h2>
+    <img src="img/comchientrung/comchientrung.jpg" alt="Cơm Chiên Trứng">
+
+    <h3>Nguyên Liệu</h3>
+    <ul>
+        <li>2 chén cơm (để nguội)</li>
+        <li>2 quả trứng vịt (hoặc trứng gà tùy thích)</li>
+        <li>4 thìa cà phê nước mắm</li>
+        <li>1 thìa cà phê nước lọc</li>
+        <li>1-2 thìa cà phê dầu ăn</li>
+        <li>1 ít hạt nêm</li>
+        <li>1 ít hạt tiêu</li>
+    </ul>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
+    <ol>
+        <li>Cho cơm ra tô, đánh tơi cơm.</li>
+        <li>Cho nước lọc, hạt nêm và 2 thìa nước mắm vào chén, khuấy cho hạt nêm tan hết rồi rưới vào cơm, trộn đều.</li>
+        <li>Đập trứng vào chén, cho tiêu và 2 muỗng nước mắm còn lại vào, đảo đều.</li>
+        <li>Hành lá rửa sạch, thái nhỏ phần đầu hành riêng, phần lá riêng.</li>
+    </ol>
+
+    <h4>Bước 2: Chiên cơm</h4>
+    <ol>
+        <li>Làm nóng chảo và cho dầu ăn vào.</li>
+        <li>Dầu nóng, cho đầu hành vào phi thơm.</li>
+        <li>Khi hành bắt đầu dậy mùi, cho cơm vào chiên.</li>
+        <li>Chiên cơm đến khi hạt cơm săn lại, cho trứng vào.</li>
+        <li>Đảo đều tay để hạt cơm rời ra, chiên đến khi trứng vàng ươm thì cho hành lá vào đảo một chút để hành chín là xong.</li>
+    </ol>
+
+    <h3>Cách làm cơm chiên trứng chi tiết</h3>
+    <p>Để tìm hiểu chi tiết cách làm cơm chiên trứng, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-com-chien-trung-ngon-hap-dan.html" target="_blank">thatlangon.com</a></p>

@@ -1,0 +1,106 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+  
+    <h1>Tên món: Canh Rong Biển Thịt Bò</h1>
+    <h2>Khẩu phần: 3 người</h2>
+    <img src="img/canhrongbien/canhrongbien.jpg" alt="Canh Rong Biển">
+
+    <h3>Nguyên Liệu</h3>
+    <ul>
+        <li>100g rong biển khô</li>
+        <li>1 thìa cà phê muối hạt</li>
+        <li>100g thịt thăn bò</li>
+        <li>2 thìa canh nước tương</li>
+        <li>½ thìa cà phê hạt nêm</li>
+        <li>½ thìa cà phê hạt tiêu xay</li>
+        <li>1 thìa cà phê dầu mè</li>
+        <li>4 nhánh tỏi</li>
+        <li>1 củ hành tây nhỏ</li>
+        <li>5 con cá cơm khô</li>
+        <li>300-400ml nước sạch</li>
+    </ul>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <ol>
+        <li>Thịt bò rửa sạch, thấm khô nước, thái lát hoặc viên tùy theo sở thích.</li>
+        <li>Ướp thịt bò với hỗn hợp gia vị trong 15 phút cho ngấm.</li>
+        <li>Rong biển ngâm nước sạch 15-20 phút. Sau đó bóp với chút muối rồi rửa sạch lại.</li>
+        <li>Thái rong biển thành từng đoạn khoảng 3 cm.</li>
+        <li>Rửa qua cá cơm khô với nước sạch.</li>
+        <li>Hành tây bóc vỏ, bỏ rễ, rửa qua rồi bổ 3,4 phần.</li>
+        <li>Tỏi bóc vỏ, rửa sơ rồi đập dập.</li>
+    </ol>
+
+    <h4>Bước 2: Đun nước dùng</h4>
+    <ol>
+        <li>Chuẩn bị nồi nước sạch. Thêm tỏi, hành tây, cá cơm khô vào nồi.</li>
+        <li>Đun sôi nước dùng sau đó giảm lửa, đun liu diu 20 phút rồi tắt bếp.</li>
+    </ol>
+
+    <h4>Bước 3: Nấu canh rong biển</h4>
+    <ol>
+        <li>Phi thơm tỏi với dầu ăn, cho rong biển vào xào 2 phút.</li>
+        <li>Thêm thịt bò vào xào cùng rong biển đến khi thịt bò chín sơ thì tắt bếp.</li>
+        <li>Chắt lấy 300-400ml nước dùng để nấu canh. Phần bã đem bỏ đi.</li>
+        <li>Đổ nước dùng vào nồi thịt bò xào rong biển.</li>
+        <li>Đun sôi, nêm nếm gia vị cho vừa miệng. Sau đó đun liu riu thêm 10 phút rồi tắt bếp.</li>
+    </ol>
+
+    <h4>Bước 4: Hoàn thành</h4>
+    <p>Múc ra bát, rắc tiêu xay lên trên và thưởng thức.</p>
+
+    <h3>Cách nấu canh rong biển chi tiết</h3>
+    <p>Để tìm hiểu cách nấu canh rong biển chi tiết, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-nau-canh-rong-bien-thit-bo-thom-ngon-dinh-dam.html" target="_blank">thatlangon.com</a></p>
