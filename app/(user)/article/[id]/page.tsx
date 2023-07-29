@@ -1,7 +1,7 @@
 "use client"
 
 import "./index.css"
-import {Article} from "../../../common/model/Article"
+import {Article} from "../../../../common/model/Article";
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 

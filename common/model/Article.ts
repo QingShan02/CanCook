@@ -1,9 +1,14 @@
 export interface Article {
-    id: number,
+    id?: number,
     title: string,
-    image: string,
+    image?: string,
     content?: string,
-    createDate?: Date,
+    createDate?: string,
+    categoryid?:string,
+    directory?: Array<{
+        id: string;
+    }>,
+    staffId?: string,
     nameStaff?: string,
     sumLike?: number,
     sumComment?: number,
