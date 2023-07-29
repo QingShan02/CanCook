@@ -28,9 +28,8 @@ const User = () => {
                 <div className="row">
                     {
                         data.map((a, index) => (
-                            <div className="col">
                                 <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={1000}></Card>
-                            </div>
+                            
                         ))
                     }
                 </div></div>
