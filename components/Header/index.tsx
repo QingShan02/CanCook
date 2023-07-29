@@ -1,7 +1,9 @@
 'use client'
 import { signIn, signOut, useSession } from 'next-auth/react';
-const Header = ({ session }) => {
-    // const {data:session} = useSession()
+const Header = () => {
+    const { data: session } = useSession();
+    console.log(session);
+
     return (
         <>
             <div className="container mt-3">
@@ -24,14 +26,15 @@ const Header = ({ session }) => {
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
                                             <i className="bi bi-person-circle bg-danger"></i>
-                                            {/* <a className="nav-link" aria-current="page" href="#">| Đăng nhập</a> */}
                                             <div>{session ? (
                                                 <>
-                                                    <p>Hello, {session.user.name}!</p>
-                                                    <button onClick={() => signOut()}>Sign out</button>
+                                                    <span>{session.user.name}</span>
+                                                    <img className='' src={`${session.user.image}`} alt="" />
+                                                    <br />
+                                                    <button className='btn btn-outline-dark' onClick={() => signOut()}>Sign out</button>
                                                 </>
                                             ) : (
-                                                <button onClick={() => signIn('facebook')}>Sign in with Facebook</button>
+                                                <button className='btn btn-outline-dark' onClick={() => signIn('facebook')}>Sign in with Facebook</button>
                                             )}</div>
                                         </li>
                                         <li className="nav-item dropdown">
@@ -56,8 +59,8 @@ const Header = ({ session }) => {
                             </div>
                         </nav>
                     </div>
-                </div>
-            </div>
+                </div >
+            </div >
 
         </>
     );

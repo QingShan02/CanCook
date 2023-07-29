@@ -27,6 +27,7 @@ const handler = NextAuth({
 
                 // If no error and we have user data, return it
                 if (user) {
+                    console.log(user);
                     return user
                 }
                 // Return null if user data could not be retrieved
@@ -34,17 +35,17 @@ const handler = NextAuth({
             }
         }),
         FacebookProvider({
-            clientId: '1262205611098892',
-            clientSecret: '54554a6c6e6e226dc747e4271e1e46f2',
-            name: 'facebook',
+            clientId: '811313860713154',
+            clientSecret: '40171964867db85234427500ece561ae',
+            name: 'facebook'
         })
     ],
     session: {
         strategy: "jwt"
 
-    },
+    }, debug: true,
     pages: {
-        // signIn: "/loginAdmin"
+        signIn: "/loginAdmin"
 
     }
 

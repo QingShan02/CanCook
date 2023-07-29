@@ -21,7 +21,7 @@ const ListArticle = () => {
     }, []);
 
     return (
-        <div className="container mt-5">
+        <div className="container">
             <div className="row">
                 <div className="col-md-12">
                     <div className="d-flex justify-content-between align-items-center activity">
