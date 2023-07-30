@@ -17,7 +17,6 @@
       margin: 20px auto;
       max-width: 100%;
       border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
@@ -38,7 +37,6 @@
       background-color: #fff;
       padding: 15px;
       border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       margin-top: 20px;
     }
 
@@ -54,7 +52,8 @@
   </style>
    <h1>Tên món: Trứng ốp la</h1>
   <h2>Khẩu phần: 1 người</h2>
-  <img src="img/trungopla/trungopla.jpg" alt="Trứng ốp la">
+  <img src="../../../assert/imageFood/trungopla/trungopla.jpg">
+
 
   <h3>Nguyên Liệu</h3>
   <ul>
@@ -66,6 +65,12 @@
   <h3>Hướng dẫn</h3>
   <ol>
     <li>Bước 1: Làm nóng chảo</li>
+    <p>
+    Để có một phần trứng ốp la ngon lành thì đầu tiên bạn hãy làm nóng chảo với lửa vừa, nhớ đừng để nhiệt độ chảo nóng quá dễ cháy trứng nhé.<br>
+    Khi chảo vừa nóng bạn hãy cho khoảng 2 thìa canh dầu ăn hoặc 1 thìa bơ lạt vào chảo. Mình thì thích dùng bơ lạt hơn vì có vị thơm hơn nè.
+    </p>
+    <img src="../../../assert/imageFood/trungopla/trungopla1.jpg">
+
     <ul>
       <li>Đầu tiên, bạn làm nóng chảo với lửa vừa.</li>
       <li>Cho bơ lạt hoặc dầu ăn vào chảo, nghiêng chảo hoặc bạn có thể dùng cọ phết đều bề mặt chảo.</li>
@@ -75,10 +80,35 @@
       <li>Đập trứng vào chảo một cách từ từ sao cho lòng đỏ nằm chính giữa lòng trắng.</li>
       <li>Chiên trứng cho đến khi chín theo sở thích. Khoảng 1 phút cho trứng chín tái. Trứng chín lòng đào thì khoảng 2 phút. Trứng chín kỹ thì sau 2 phút bạn nên lật lại để vàng đều 2 mặt.</li>
     </ul>
+    
+    <img src="../../../assert/imageFood/trungopla/trungopla2.jpg">
+    
+    <p>Nếu bạn nào quen tay rồi thì cứ mạnh dạn đập trứng cách mặt chảo chừng 1,5 cm, tách vỏ trứng một cách từ từ là sẽ có siêu phẩm ngay.<br>
+    Nếu bạn muốn ăn trứng ốp la chín tới, lòng đỏ còn chảy ra khi ăn thì chỉ cần để trứng trong chảo nóng khoảng 1 phút, khi phần rìa lòng trắng bắt đầu co lại, lòng trắng chuyển hơi tái và phần lòng đỏ còn tươi là được.</p>
+    
+    <img src="../../../assert/imageFood/trungopla/trungopla3.jpg">
+
+    <p>Còn để làm được trứng ốp la lòng đào thì bạn nên chiên trên chảo tầm 2-3 phút, khi đó lòng trắng trứng đã chín đẹp, lòng đỏ bắt đầu chín và co lại.<br>
+      Bạn cũng có thể đậy nắp lại để phần mặt trên của trứng được chín bằng hơi, trứng sẽ mau chín hơn.</p>
+    
+    <img src="../../../assert/imageFood/trungopla/trungopla4.jpg">
+
+      <p>Và có những bạn lại thích ăn trứng ốp la chín kỹ cả hai mặt, thích phần lòng trắng được chiên hơi giòn chút thì bạn cần phải lật trứng để chiên mặt còn lại.<br>
+    Bạn chú ý nên để phần lòng trắng và lòng đỏ chín sau khoảng 2-3 phút hẵng lật nhé. Nếu lòng đỏ chưa đủ cứng lại bạn lật không khéo sẽ làm vỡ lòng đỏ đấy!</p>
+    <img src="../../../assert/imageFood/trungopla/trungopla5.jpg">
+
+    <p>Một điểm chú ý trong cách làm trứng ốp la thật ngon, trứng còn chín mềm, không bị khô là bạn cần điều chỉnh được mức lửa vừa đủ. Bạn tránh để lửa cao quá khiến trứng dễ cứng, khét. Bạn cũng không nên để lửa quá thấp làm trứng mất nhiều thời gian để chín và có thể sẽ bị khô.<br> 
+    Một cách kiểm tra độ chín của trứng đó là lắc nhẹ chảo, khi thấy lòng đỏ còn lúc lắc, lòng trắng di chuyển được và không còn dính sát vào chảo nữa là trứng bắt đầu chín rồi đó các bạn.
+  </p>
+
     <li>Bước 3: Ra đĩa và thêm gia vị</li>
     <ul>
-      <li>Nghiêng chảo để đổ trứng ra đĩa, rắc thêm tiêu và muối tuỳ vào khẩu vị của bạn.</li>
+      <li>Để lấy trứng ra đĩa dễ dàng hơn bạn có thể lắc nhẹ chảo hoặc dùng xẻng lật để tránh làm vỡ trứng.</li>
+      <li>Rắc thêm một ít tiêu, muối và trang trí với lá mùi (ngò rí) hoặc lá hương thảo để tăng mùi vị cho trứng. Bạn có thể trang trí thêm rau xà lách, dưa leo, cà chua vừa đẹp mắt lại vừa đủ dinh dưỡng cho bữa sáng.</li>
     </ul>
+    <img src="../../../assert/imageFood/trungopla/trungopla6.jpg">
+    <p>Món này phải dùng nóng mới ngon, nên khi vừa ra lò thì hãy thưởng thức ngay bạn nhé!</p>
+
   </ol>
 
-  <p>Nguồn: thatlangon.com</p>
+  <p>Nguồn:<a href="">thatlangon.com</a> </p>

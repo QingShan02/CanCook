@@ -38,7 +38,6 @@
       background-color: #fff;
       padding: 15px;
       border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       margin-top: 20px;
     }
 
@@ -54,7 +53,7 @@
   </style>
    <h1>Tên món: Cơm Chiên Trứng</h1>
     <h2>Khẩu phần: 2 người</h2>
-    <img src="img/comchientrung/comchientrung.jpg" alt="Cơm Chiên Trứng">
+        <img src="../../../assert/imageFood/comchientrung/comchientrung.jpg">
 
     <h3>Nguyên Liệu</h3>
     <ul>
@@ -86,4 +85,66 @@
     </ol>
 
     <h3>Cách làm cơm chiên trứng chi tiết</h3>
+    <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
+    <p>Những món ăn có thành phần nguyên liệu càng đơn giản, thì chất lượng của từng nguyên liệu lại càng quan trọng trong việc đem lại hương vị thơm ngon cho tổng thể món ăn.<br>
+Với cơm chiên, Thật Là Ngon gợi ý các bạn sử dụng cơm nấu bằng gạo dẻo vừa, để khi chiên lên, hạt cơm sẽ không bị quá khô hoặc quá nhão.<br>
+Nếu nhà bạn còn cơm nguội từ bữa tối hôm trước, đừng bỏ đi lãng phí mà hãy cho cơm vào ngăn mát tủ lạnh để tận dụng cho món ăn. Bằng cách này, hạt cơm sẽ tơi hơn và chắc hơn, chúng ta vừa có thể tiết kiệm, lại vừa có được một món ăn ngon.<br>
+Còn nếu không có, bạn để cơm ra ngoài cho nguội rồi hẵng dùng nhé.</p>
+
+        <img src="../../../assert/imageFood/comchientrung/comchientrung1.jpg">
+  <p>
+Cơm các bạn bỏ ra tô, dùng thìa xới đánh cho tơi. Bạn lấy chén/tô nhỏ, cho 1 thìa cà phê nước lọc, 2 thìa cà phê nước mắm và hạt nêm vào, khuấy cho tan hết hạt nêm.<br>
+Sau đó, bạn rưới từ từ hỗn hợp vào cơm, dùng thìa xới trộn đều hỗn hợp với cơm. Bước này sẽ giúp cơm được thấm gia vị và hạt cơm sẽ rời ra, lúc chiên không bị vón cục.<br>
+Để cơm qua một bên, cùng mình chuẩn bị trứng nào!<br>
+Trong công thức này, mình sử dụng trứng vịt thay cho trứng gà. Vì món này chỉ có cơm và trứng là thành phần chính, nên vị thơm và béo của trứng vịt sẽ giúp món ăn hấp dẫn hơn.<br>
+Tuy nhiên, nếu bạn không thích trứng vịt hoàn toàn có thể thay thế bằng trứng gà, thậm chí là trứng cút, nhưng trứng cút thì sẽ khá là hao trứng đấy.</p>
+        <img src="../../../assert/imageFood/comchientrung/comchientrung2.jpg">
+   
+   <p>Bạn đập hai quả trứng vào chén, cho 2 thìa cà phê nước mắm còn lại và tiêu vào, khuấy đều cho trứng tan. Bạn không cần đánh bông đâu nhé, chỉ cần lòng trắng và lòng đỏ tan ra, hòa cùng nước mắm là được.<br>
+    Hành lá bạn rửa sạch, thái nhỏ, phần đầu hành và phần lá để riêng. Vậy là xong phần nguyên liệu, chúng ta cùng bắt tay vào chiên cơm thôi!</p>
+
+
+     <h4>Bước 2: Chiên cơm</h4>
+    <p>Đầu tiên, bạn làm nóng chảo, rồi cho dầu ăn vào. Khi dầu sôi, bạn cho đầu hành vào phi thơm. Có thể bạn đã biết, có một cách vô cùng đơn giản để kiểm tra xem dầu đã sôi hay chưa.</p>
+
+    <p>
+    Đấy là khi bạn để tay lên phía trên chảo dầu và thấy âm ấm, bạn lấy một miếng hành bỏ vào chảo, nghe tiếng xèo xèo và có bọt sủi quanh viền cọng hành thì tức là dầu đã sôi.
+    </p>  
+<p>
+Sau khi đầu hành được phi thơm, bạn cho toàn bộ phần cơm vào chảo, dùng thìa/phới cơm đảo đều.
+</p>
+
+<p>
+Mình thấy có nhiều gia đình dùng thìa phới cơm bằng nhựa, khi chiên cơm cũng dùng thìa nhựa luôn. Thế nhưng, Thật là ngon khuyến khích các bạn sử dụng thìa gỗ thay cho thìa nhựa nhé.
+</p>
+<p>
+Vì khi chiên cơm, nhiệt độ rất cao, với nhiệt độ này, thìa xới cơm bằng nhựa sẽ chảy ra, thôi nhiễm vào đồ ăn, lâu dài sẽ gây hại cho sức khỏe.
+</p>
+
+<p>
+Bằng chứng là với thìa xới cơm bằng nhựa, dùng qua một thời gian các bạn sẽ thấy nó bị vẹt đi một góc có phải không? Nếu nhà bạn nào còn dùng thìa nhựa thì hãy cố gắng đổi sang thìa gỗ nhé.</p>
+
+        <img src="../../../assert/imageFood/comchientrung/comchientrung3.jpg">
+
+<p>
+Bạn đảo cơm từ 5-7 phút cho đến khi hạt cơm bắt đầu săn lại và tơi ra thì tắt bếp.
+</p>
+<p>
+Lúc này, bạn lấy trứng đã chuẩn bị sẵn rưới từ từ vào cơm, vừa rưới vừa dùng thìa trộn đều để toàn bộ các hạt cơm được bọc một lớp trứng. Làm như vậy, trứng sẽ không bị vón cục và được áo đều lên toàn bộ phần cơm.
+</p>
+<p>
+Bạn bật lại bếp, tiếp tục đảo đều cho đến khi mùi thơm béo ngậy của trứng vịt dậy lên cùng hương cay nồng của tiêu và trứng đã vàng ươm, bạn tắt bếp, cho phần lá hành vào đảo một chút để hành chín là xong.
+</p>
+<p>
+Thật là đơn giản phải không nào?
+</p>
+   <h4>Bước 3: Hoàn thành</h4>
+   <p>
+   Cơm chiên đã xong, bạn bày ra tô/đĩa, cho thêm vài lát cà chua, dưa leo, thêm chút ngò rí tùy thích, không có thì bỏ qua đều được. Nếu nhạt, các bạn có thể dùng thêm nước tương hoặc tương ớt cũng rất hợp.
+   </p>
+
+        <img src="../../../assert/imageFood/comchientrung/comchientrung4.jpg">
+  <p>Như vậy là chỉ với các bước đơn giản mà lại không tốn nhiều chi phí, chúng ta đã có một món ăn thơm ngon rồi. Nếu bạn thích, hoàn toàn có thể biến tấu thêm với nhiều nguyên liệu khác như đậu đũa, cà rốt, đậu hà lan, xúc xích, lạp xưởng,…</p>
+
+
     <p>Để tìm hiểu chi tiết cách làm cơm chiên trứng, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-com-chien-trung-ngon-hap-dan.html" target="_blank">thatlangon.com</a></p>

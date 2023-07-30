@@ -52,10 +52,10 @@
       margin-bottom: 5px;
     }
   </style>
- <h1>Nem rán</h1>
-
+    <h1>Nem rán</h1>
     <h2>Khẩu phần: 2 người</h2>
-    <img src="img/nemran/nemran.jpg">
+  <img src="../../../assert/imageFood/nemran/nemran.jpg">
+
 
     <h3>Nguyên liệu</h3>
     <ul>
@@ -108,6 +108,149 @@
     </ol>
 
     <h3>Cách làm nem rán chi tiết</h3>
-    <!-- Chi tiết hướng dẫn cách làm nem rán -->
+    <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
+    <p>
+Nguyên liệu của nem rán có cả phần thịt lẫn phần rau. Tùy theo sở thích của mỗi gia đình mà người nội trợ sẽ chọn mua nguyên liệu khác nhau. Có nhà thích ăn hải sản nên cho thêm cả thịt cua, thịt tôm, thịt bề bề,... Có nhà thích ăn nhiều rau nên trộn thêm cả giá đỗ, củ đậu, rau mùi,...
+    </p>
+<p>
+Công thức nem rán trên đây mình chỉ sử dụng thịt heo xay cùng một số loại rau củ cơ bản như cà rốt, hành tây, su hào, hành lá, nấm hương, mộc nhĩ. Bánh đa nem chỉ cần chọn mua loại có nhãn mác đầy đủ để đảm bảo chất lượng. Tất cả những nguyên liệu này đều dễ dàng tìm mua tại các khu chợ tập trung đông dân cư.
+</p>
+<p>
+Đối với thịt heo, bạn lưu ý cần mua phần có cả nạc lẫn mỡ. Đó là những phần thịt heo như thịt ba chỉ, thịt mông, thịt vai,... Như vậy thì khi rán nem, thịt heo sẽ nhanh chín và rất mềm ngọt.
+</p>
+<p>
+Thịt mua về bạn rửa nhiều lần với nước sạch rồi để cho ráo nước. Sau đó bạn sử dụng máy xay thịt hoặc máy xay đa năng để xay. Bạn không cần phải xay thịt nhuyễn như giò sống đâu nhé!
+</p>
+<p>
+Nếu bạn chọn mua thịt heo ở những cửa hàng chuyên bán thịt heo an toàn, sạch sẽ thì có thể nhờ người bán xay thịt hộ luôn cho tiện.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran1.jpg">
+  <p>
+Mộc nhĩ, nấm hương bạn cần đem ngâm vào nước ấm 15 phút cho nở mềm ra.
+  </p>
+<p>
+Sau đó bạn vắt cho khô nước, cắt chân rồi rửa lại với nước sạch. Bạn thái chỉ phần nấm hương và mộc nhĩ.
+</p>
+<p>
+Hành tây, su hào và cà rốt bạn bỏ vỏ rồi rửa sạch, để cho ráo nước.
+</p>
+<p>
+Su hào cùng cà rốt bạn sử dụng dụng cụ chuyên dụng để nạo thành sợi nhỏ. Hành tây bạn thái hạt lựu.
+</p>
+<p>
+Miến khô bạn để ra một chiếc rổ nhỏ rồi xả nhanh dưới vòi nước cho bớt đi bụi bẩn. Rồi bạn ngâm trong nước khoảng 20 phút cho sợi miến được mềm hơn. Bạn dùng kéo cắt đoạn miến dài khoảng 5 cm. Không nên cắt vụn miến ra nhé bạn!
+</p>
+<p>
+Hành lá bạn cắt gốc, rửa sạch và để cho ráo nước. Bạn cần thái nhỏ hành lá.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran2.jpg">
+  <p>
+Bạn chú ý tất cả các nguyên liệu cần để cho thật ráo nước sau khi rửa sạch. Sau đó bạn mới đem thái các nguyên liệu. Nếu chúng bị ướt thì nhân nem cũng sẽ không được khô, làm ẩm vỏ nem gây rách, hở nhân ra bên ngoài.
+  </p>
+<p>
+Sau khi đã chuẩn bị xong các nguyên liệu của nhân nem, bạn cho tất cả nguyên liệu vào một chiếc âu trộn/ nồi lớn. Bạn thêm bột canh cùng hạt tiêu vào và dùng tay đeo bao nilon trộn đều nguyên liệu lên.
+</p>
+<p>
+Bạn chú ý thao tác trộn cần có xu hướng làm nguyên liệu tơi đều. Tránh bóp mạnh tay làm rau củ bị nát, chảy nhiều nước.
+</p>
+<p>
+Trộn xong bạn để yên khoảng 5 phút cho nguyên liệu ngấm gia vị.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran3.jpg">
+    <h4>Bước 2: Cuốn nem</h4>
+    <p>
+Bạn đập trứng gà ra một chiếc bát nhỏ, đánh cho đều rồi đổ từ từ vào âu trộn nhân nem. Nhờ trứng gà mà nhân nem có màu vàng nhạt đẹp mắt.
+    </p>
+<p>
+Bạn chú ý vừa đổ trứng vừa trộn đều tay để xem lượng trứng đã cân đối với lượng nguyên liệu chưa? Nếu thấy đã đủ rồi thì bạn dừng cho trứng thêm vào. Tránh tình trạng cho nhiều trứng quá làm ướt nguyên liệu.
+</p>
+<p>
+Nhiều người có thói quen đập trứng trực tiếp vào nồi rồi trộn đều với nhân nem. Theo mình không nên làm thế bởi nếu lượng trứng quá nhiều sẽ khó lấy ra bớt và làm ướt nhân nem.
+</p>
+<p>
+Sau khi đổ trứng vào nhân nem thì cần cuốn nem ngay. Bởi vì nếu để lâu sau khi trộn với trứng thì nguyên liệu vẫn có khả năng bị ra nước.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran4.jpg">
+  <p>
+Nỗi băn khoăn lớn nhất của mọi người khi cuốn nem có lẽ là sợ bánh đa nem bị rách. Vậy thì trước khi gói từng chiếc nem, bạn hãy phết chút nước lên bánh đa để giúp bánh đa bớt giòn và tăng độ dai nhé!
+  </p>
+<p>
+Thứ nước "thần thánh" này bạn tạo nên bằng cách pha nước lọc với chút giấm hoặc đường hoặc bột năng 😉
+</p>
+<p>
+Trong đó, sử dụng bột năng là hiệu quả nhất và cách này được nhiều đầu bếp khuyến nghị đó bạn! Bánh đa được phết nước bột năng không chỉ mềm dễ cuốn mà sau khi rán sẽ giữ được độ giòn lâu hơn.
+</p>
+<p>
+Lượng bánh đa nem bạn nên mua thừa ra một chút để đề phòng khi cuốn nem bị rách sẽ có cái thay thế.
+</p>
+<p>
+Bạn trải bánh đa nem ra rồi xúc lượng nhân nem vừa đủ vào một phía của bánh đa. Bạn cuốn một vòng đầu tiên rồi gập mép hai đầu lại. Bạn thực hiện thao tác cuộn tròn sao cho bọc kín nhân nem và tạo thành ống hình trụ là được.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran5.jpg">
+  <p>
+Độ chặt của cuộn nem bạn cần điều chỉnh vừa đủ thôi nhé! Nếu chặt quá sẽ làm nhân nem bị bục. Nếu lỏng quá thì nhân nem hơi ọp ẹp. Khi rán lên có thể bị xẹp, chưa kể vỏ nem còn bị bung ra nữa.
+  </p>
+<p>
+Bạn đừng quá nóng vội, khi cuốn nem cũng cần kiên nhẫn một chút. Bạn cuốn nem lần lượt từng cái cho tới khi hết phần nhân nem.
+</p>
+<p>
+Phần nhân nem sau cùng có thể hơi bị chảy nước. Bạn hãy kê cao nồi lên một chút để phần nước chảy xuống. Khi đó bạn chỉ múc phần nhân nem khô ráo để cuốn thôi.
+</p>
+    <h4>Bước 3: Rán nem</h4>
+    <p>
+Để tiết kiệm thời gian thì bạn có thể vừa cuốn nem vừa rán nem cùng một lúc. Cuốn nem xong và đem rán ngay cũng giúp vỏ nem không bị ướt và mủn ra.
+    </p>
+<p>
+Bạn đun sôi một lượng dầu ăn lớn trong chảo. Lượng dầu ăn bạn có thể dùng nhiều để rán nem ngập trong dầu cho ngon. Hoặc nếu để tiết kiệm, mức dầu trong chảo vừa đủ chín một mặt nem sau đó bạn lật mặt kia rán tiếp.
+</p>
+<p>
+Bạn có thể cho thêm vài giọt nước cốt chanh vào trong chảo dầu ăn khi dầu đã sôi. Cách này giúp dầu ăn đỡ bắn lên khi rán và nem cũng sẽ tăng độ giòn.
+</p>
+<p>
+Bạn lần lượt gắp từng chiếc nem vào chảo dầu sôi. Từng chiếc nem cần được rán chín vàng cả hai mặt.
+</p>
+<p>
+Rán xong, bạn gắp nem ra chiếc phới lồng hoặc đĩa lót giấy thấm dầu để cho ráo dầu ăn.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran6.jpg">
+    <h4>Bước 4: Hoàn thành</h4>
+    <p>
+Sau khi chờ cho nem rán ráo dầu ăn. Bạn gắp nem sang chiếc đĩa đẹp hơn và trang trí một chút trước khi bày lên mâm cơm. Bạn có thể cắt từng cuộn nem thành 2-3 phần để gắp ăn cho vừa miệng hơn.
+    </p>
+<p>
+Thành phẩm nem rán chuẩn chỉnh cần thỏa mãn những đặc điểm sau:
+</p>
+<p>
+Vỏ nem chín vàng bọc kín phần nhân, không bị vỡ hở nhân, không bị cháy đen.
+</p>
+<p>
+Khi ăn cảm nhận rõ vỏ nem giòn rụm, nhân nem nóng hổi thơm ngon.
+</p>
+<p>
+Nhân nem có màu sắc đẹp mắt và hương vị hài hòa khi được kết hợp giữa thịt heo cùng nhiều nguyên liệu rau củ.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran7.jpg">
+  <p>
+Để giúp nem rán tăng thêm hương vị và ăn mãi không bị ngán, bạn hãy chuẩn bị thêm một số món sử dụng kèm với nem rán nhé!
+  </p>
+<p>
+Về phần nước chấm bạn có thể pha nước mắm đường giấm tỏi, có nhiều người còn thích chấm nem rán với mắm tôm cơ.
+</p>
+<p>
+Nem rán ăn cùng với dưa món quả là hợp. Hoặc đơn giản hơn bạn chỉ cần chuẩn bị rau sống gồm các loại phổ biến như rau mùi, xà lách, bạc hà, tía tô,...
+</p>
+<p>
+Bạn chuẩn bị thêm một ít bún sợi nữa thì đảm bảo cả nhà đã có được một bữa ăn no nê rồi.
+</p>
+  <img src="../../../assert/imageFood/nemran/nemran8.jpg">
+  <p>
+Nem rán sau khi đã rán chín nên được ăn hết ngay. Bởi vì sau này nếu rán lại, có khả năng lớp vỏ bên ngoài sẽ bị cháy.
+  </p>
+<p>
+Trường hợp lượng nem rán làm nhiều, khó có thể ăn hết trong một bữa hoặc muốn làm nem rán để ăn dần trong 2 tuần. Bạn hãy rán sơ qua nem, chờ cho nguội hẳn thì xếp thành từng lớp trong hộp kín.
+</p>
+<p>
+Bạn đem nem rán sơ bảo quản trong ngăn mát tủ lạnh. Sau đó khi nào ăn bạn chỉ cần mang ra rán chín vàng là được.
+</p>
 
-    <p>Nguồn: thatlangon.com</p>
+       <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

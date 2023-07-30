@@ -55,7 +55,8 @@
     <h1>Mì xào bò</h1>
   <h2>Khẩu phần: 2 người</h2>
 
-  <img src="img/mixaobo/mixaobo.jpg">
+  <img src="../../../assert/imageFood/mixaobo/mixaobo.jpg">
+
 
   <h3>Nguyên liệu chính:</h3>
   <ul>
@@ -91,3 +92,98 @@
     <li>Bước 4: Hoàn thành</li>
     <p>Xúc bò xào rau củ lên mì, rắc tiêu. Mì xào bò ăn nóng kèm nước tương cắt ớt cay, tương ớt hoặc sa tế, có thể dọn cùng các loại dưa muối chua.</p>
   </ol>
+  <h3>Chi tiết:</h3>
+  <h4>Bước 1: Sơ chế nguyên liệu</h4>
+  <p>
+  Bò để xào mì bạn có thể chọn phần mông, thăn, dẻ sườn, lõi rùa (bắp bò),... đều được. Chỉ cần xào đúng cách thịt bò sẽ mềm ngọt, không sợ dai đâu.
+  </p>
+<p>
+Ngoài thịt bò, bạn có thể dùng các loại đạm khác như tôm, mực, thịt lợn, đậu phụ,... cũng rất ngon nhé. Hoặc bạn có thể sử dụng ngay những sản phẩm đã chế biến sẵn như xúc xích, giò, chả lụa, chả mực,... đều được cả.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo1.jpg">
+<p>
+Bạn rửa sạch bò, thấm khô, thái ngang thớ thật mỏng. Dao phải thật bén bạn nha. Hoặc nếu có thời gian bạn cất bò vào tủ lạnh 30-60 phút cho thịt hơi cứng lại thì sẽ dễ thái hơn.
+</p>
+<p>
+Các loại rau củ bạn bóc vỏ, nhặt rửa sạch. Cà rốt bạn thái sợi hoặc cắt lát mỏng. Hành tây bạn cắt múi cau.
+</p>
+<p>
+Cải ngọt và cần tây cắt khúc. Hành lá bạn xắt nhỏ. Nếu không có cần tây bạn có thể bỏ qua, thay bằng hành lá nhé.
+</p>
+<p>
+Bạn có thể dùng các loại rau họ cải, ớt chuông, ngô bao tử, nấm, cà chua ,... Trong đó rất nên có mặt những loại rau xanh có độ giòn, vị ngọt để món ăn hài hòa, chống ngán.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo2.jpg">
+  <p>
+Khi kết hợp nhiều loại rau thì bạn chú ý chúng có thể có thời gian chín khác nhau để canh thời gian xào là được nhé.
+  </p>
+<p>
+Bạn trộn đều 2 thìa cà phê hạt nêm, 1 thìa cà phê nước tương, ½ thìa cà phê dầu hào thành hỗn hợp gia vị.
+</p>
+<p>
+Tỏi bạn bóc vỏ, băm nhỏ. Bạn dùng thêm hành khô băm nhỏ cũng rất ngon, nhưng món này không thể thiếu tỏi nha. Xào mì chay thì bạn thay hành tỏi bằng đầu trắng tỏi tây (hành boa-rô) băm nhỏ nhé.
+</p>
+  <h4>Bước 2: Áp chảo mì</h4>
+  <p>
+  Thật Là Ngon sử dụng mì tôm, bạn có thể dùng mì trứng, sợi mì Ý, mì tươi,... bất kì loại nào bạn thích. Mì tôm này là mì cân, mì Milliket, mì Hảo Hảo,... phổ biến ở Việt Nam, mì của nước ngoài có thể khác một chút nha.
+  </p>
+<p>
+Bạn cần lưu ý 2 điều là thời gian chần/luộc từng loại mì khác nhau, và vì sợi mì tôm mặn sẵn nên mình không nêm thêm bất cứ gia vị gì nữa.
+</p>
+<p>
+Bạn bắc một nồi nước sôi. Khi nước sôi mạnh, bạn thả vắt mì vào chần. Thời gian chần rất ngắn, chỉ từ 30 giây – 1 phút. Khi bạn dùng đũa xới nhẹ lên thấy sợi mì bắt đầu rời nhau ra là vớt ra ngay được rồi nhé.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo3.jpg">
+  <p>
+Bạn cho mì lên một cái rổ, xóc cho ráo nước và sợi mì tơi ra, không cần xả nước. Bạn có thể lấy kéo cắt cho sợi mì ngắn bớt nếu thích.
+  </p>
+<p>
+Bạn bắc chảo chống dính ở lửa lớn, làm nóng 1 thìa cà phê dầu ăn. Khi chảo nóng, bạn cho mì vào áp chảo tới khi sợi mì săn lại, xém thơm 2 mặt. Bạn đảo mì với hành lá xắt nhỏ rồi trút mì ra đĩa. Bước này rất nên làm để sợi mì dai ngon và thơm hơn.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo4.jpg">
+
+  <h4>Bước 3: Xào thịt bò và rau củ</h4>
+  <p>
+  Bạn ướp thịt bò với 1/3 hỗn hợp gia vị, ít tiêu, ½ lượng tỏi băm, 1 thìa cà phê dầu ăn và 1 thìa cà phê bột năng khoảng 10-15 phút.
+  </p>
+<p>
+Dầu ăn và bột năng giúp thịt bò có độ bóng mướt. Bột năng còn giúp món xào có độ sánh rất nhẹ, quyện ngon với sợi mì. Nếu thích bạn có thể dùng dầu vừng (dầu mè) cho thơm nha.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo5.jpg">
+  <p>
+  Phần hỗn hợp gia vị còn lại bạn cho thêm 1 thìa canh nước, khuấy đều.
+  </p>
+<p>
+Bạn bắc chảo lửa lớn, làm nóng 1 ít dầu ăn. Khi chảo thật nóng tới bốc khói, bạn trút thịt bò vào xào nhanh tay tới khi bò chín tái thì xúc ra.
+</p>
+<p>
+Nếu thịt ướp trong tủ lạnh thì bạn nên để thịt nguội về nhiệt độ phòng mới xào nha. Chảo phải đủ rộng, lửa thật lớn đủ để thịt chín chỉ trong vài chục giây thì đảm bảo miếng thịt mềm ngọt cho dù chỉ ướp muối hoặc chẳng ướp gì.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo6.jpg">
+  <p>
+Vẫn chảo đó, bạn để lửa lớn, phi thơm chỗ tỏi còn lại, trút toàn bộ rau củ, trừ cần tây, vào xào. Bạn nêm bằng hỗn hợp gia vị.
+  </p>
+<p>
+Khi rau củ gần chín bạn mới cho thịt bò và cần tây vào đảo, nếm lại lần nữa. Món này có thể nêm nhạt một chút rồi ăn kèm thêm nước tương, tương ớt, sa tế.
+</p>
+  <h4>Bước 4: Hoàn thành</h4>
+  <p>
+Bạn xúc bò xào rau củ lên mì, rắc tiêu là có đĩa mì xào hoản hảo ăn ấm bụng rồi.
+  </p>
+<p>
+Nhờ có một chút bột năng ướp thịt mà món xào bóng loáng. Thịt bò mềm mọng, rau củ chín tới, giòn ngọt và giữ nguyên màu sắc tươi tắn. Gia vị vừa ăn. Sợi mì xém thơm ngon, dai, không bở nát, không mặn.
+</p>
+<p>
+Bạn cũng có thể trộn mì với thịt và rau củ ngay trên chảo nếu thích nha, sợi mì sẽ thấm sốt và hơi ướt hơn. Bạn cũng có thể rắc thêm hành phi và ốp la một quả trứng lòng đào ăn cùng mì xào cũng rất hợp đấy.
+</p>
+  <img src="../../../assert/imageFood/mixaobo/mixaobo7.jpg">
+  <p>
+  Cách làm mì xào bò đơn giản và thơm ngon cực kì. Nếu bạn sơ chế trước nguyên liệu thì buổi sáng chỉ mất mươi mười lăm phút là cả nhà có bữa ăn ngon đủ chất.
+  </p>
+<p>
+Nếu bạn đi dự tiệc tại gia với người nước ngoài, làm mì xào mang theo sẽ rất ấn tượng đó. Bạn có thể bổ sung tôm 🦐, mực 🦑, nấm,... để món ăn phù hợp với bàn tiệc hơn, nhưng cách chế biến và nêm gia vị cơ bản vẫn vậy thôi.
+</p>
+<p>
+Bạn hãy thử công thức mì xào bò thơm ngon này và chia sẻ thành phẩm với chúng mình nhé!
+</p>
+    <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

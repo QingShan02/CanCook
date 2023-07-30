@@ -54,7 +54,8 @@
   </style>
   <h1>Tên món: Xôi chiên</h1>
 <p>Khẩu phần: 4 người</p>
-<img src="img/xoichien/xoichien.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien.jpg">
+
 
 <h3>Nguyên Liệu:</h3>
 <ul>
@@ -136,7 +137,8 @@
 <p>Cách làm xôi chiên này chỉ cần nấu xôi bằng nồi cơm điện, vì thế cũng không cần ngâm gạo. Bạn chỉ cần vo gạo thật sạch tới khi nước trong, để ráo là được rồi. Bạn thích đồ xôi như bình thường cũng được hết nha.</p>
 <p>Hành tỏi bạn bóc vỏ, băm nhỏ. Phần đầu hành trắng bạn cũng băm nhỏ. Cọng xanh của hành lá bạn xắt nhỏ.</p>
 <p>Mộc nhĩ bạn ngâm nở, rửa sạch rồi băm nhỏ. Phần cà rốt, củ đậu bạn rửa sạch, gọt vỏ rồi cắt hột lựu hoặc cũng băm nhỏ.</p>
-<img src="img/xoichien/xoichien1.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien1.jpg">
+
 
 <p>Nguyên liệu cho phần nhân xôi chiên rất linh hoạt, bạn thích ăn toàn thịt cũng được, mà làm nhân chay không thịt cũng được.</p>
 <p>Ngoài thịt lợn, bạn có thể dùng thịt gà, thịt bò, cá, tàu hũ ky (váng đậu, phù trúc)... hoặc kẹp thêm miếng trứng, miếng lạp xưởng, ít ruốc, pate,... đều ngon tuyệt vời.</p>
@@ -144,13 +146,15 @@
 <p>Bạn xóc gạo nếp với ½ thìa cà phê muối cho xôi có vị đậm đà. Sau đó, bạn đổ gạo vào nồi cơm điện, đổ nước vừa sâm sấp mặt gạo.</p>
 <p>Món xôi chiên khá dễ tính, xôi nát một chút không sao. Bạn chỉ không được đem chiên nếu hạt xôi chưa chín hẳn, ăn sượng lắm đó.</p>
 <p>Nếu thích xôi có vị béo thơm ngon thì bạn thay một phần nước bằng nước cốt dừa nhé.</p>
-<img src="img/xoichien/xoichien2.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien3.jpg">
+
 
 <p>Nếu dùng nồi cơm điện tử, bạn chọn chế độ nấu xôi rồi chờ xôi chín thôi. Còn nếu nấu nồi cơ, bạn bật nút nấu như bình thường.</p>
 <p>Sau khi nồi nhảy số, bạn để yên khoảng 10 phút hẵng kiểm tra. Bạn rưới thêm 1 thìa canh dầu ăn lên xôi, nhẹ nhàng xới đều. Hạt gạo trong, bấm thử trên tay không còn nhân trắng tức là xôi đã chín rồi.</p>
 <p>Hong một lúc cho xôi đỡ nóng nhưng chưa nguội hẳn rồi chúng mình nặn xôi luôn nha. Cách đơn giản nhất là bạn xoa dầu ăn lên tay rồi nặn xôi thành từng viên như miếng bánh dày.</p>
 <p>Hoặc bạn ép chặt xôi vào một cái khuôn tròn/lon nước, rồi dùng dao sắc thoa dầu ăn cắt xôi thành từng khoanh có độ dày như ý. Ép chặt tay thì khi chiên miếng xôi mới không bị vỡ bạn nhé.</p>
-<img src="img/xoichien/xoichien3.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien4.jpg">
+
 
 <p>Có 2 cách làm, hoặc là bạn cho nhân vào xôi luôn, hoặc là bạn rán xôi rồi mới kẹp nhân. Cách 2 kẹp được nhiều nhân hơn. Làm ở nhà ăn thì Thật Là Ngon khuyến khích cách thứ 2, ăn cho đã!</p>
 <p>Bạn cất các viên xôi vào tủ lạnh hoặc hong gió 10-15 phút cho mặt ngoài xôi ráo ráo một tẹo nữa dễ chiên hơn đó.</p>
@@ -159,29 +163,32 @@
 <p>Gia vị cũng rất linh hoạt, bạn thích nêm xì dầu, dầu hào, muối, mì chính cũng ngon, chú ý không để mặn là được. Nếu ăn ngọt thì bạn nên thêm một chút đường nữa nhé.</p>
 <p>Bạn làm nóng chảo với một ít dầu ăn rồi phi thơm hành. Khi hành thơm, bạn xào hỗn hợp tới khi chín mà chảo phải ráo nước nha. Nhân còn nước dễ làm xôi bị ướt, nhanh ỉu đó.</p>
 <p>Nhân chín, bạn cho hành lá xắt nhỏ và rắc tiêu là tắt bếp luôn.</p>
-<img src="img/xoichien/xoichien4.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien4.jpg">
+
 
 <p>Bước 4: Làm nước sốt</p>
 <p>Bạn làm nóng chảo với một ít dầu ăn, phi thơm hành tỏi. Nếu thích bạn có thể cho thêm ít gừng băm. Khi hành tỏi thơm, bạn cho toàn bộ nước tương, tương ớt, đường và nước vào chảo, đảo đều.</p>
 <p>Chúng mình đun tới khi hỗn hợp sệt lại, nổi những bong bóng to thì nếm lại, rắc tiêu và tắt bếp được rồi.</p>
-<img src="img/xoichien/xoichien5.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien5.jpg">
 
 <p>Phần nước sốt này có vị mặn mặn ngọt ngọt, nổi ngọt, hơi cay nhẹ. Bạn có thể tăng đường, tăng độ cay bằng ớt tươi, bột ớt, sa tế,... nha. Bạn cũng có thể thay tương ớt bằng tương cà nếu không thích ăn cay.</p>
 <p>Nước sốt không nhất định phải có, có thì càng ngon!</p>
 <p>Bước 5: Chiên xôi</p>
 <p>Chúng mình làm nóng chảo với một lượng dầu ăn đủ ngập khoảng ⅓ viên xôi. Ít dầu quá thì xôi không giòn được, mà món này cũng không nhất thiết phải chiên ngập dầu đâu.</p>
 <p>Khi dầu nóng, bạn cho lần lượt từng miếng xôi vào chảo, chiên ở lửa vừa. Khi 1 mặt vàng giòn rồi thì bạn lật sang chiên nốt mặt bên kia.</p>
-<img src="img/xoichien/xoichien6.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien6.jpg">
+
 
 <p>2 mặt đều vàng giòn, bạn tăng lửa lớn trong vài giây để xôi nhả dầu rồi gắp viên xôi xếp lên rổ mắt thưa cho ráo dầu.</p>
 <p>Trong nhà có nồi chiên không dầu thì bạn có thể cho viên xôi vào nướng 170-180 độ C trong 3-5 phút để ép nốt dầu thừa ra nha.</p>
 <p>Bước 6: Hoàn thành</p>
 <p>Xôi chiên còn nóng giòn rụm, bạn dùng dao rạch một đường ngang miếng xôi. Bạn xúc nhân cho vào giữa. Bạn có thể kẹp thêm ít ruốc nữa.</p>
-<img src="img/xoichien/xoichien7.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien7.jpg">
+
 <p>Xôi chiên ăn khi còn nóng hổi, rưới ít nước sốt hoặc ăn kèm tương ớt, tương cà, mayonnaise, sa tế cũng cực kì hấp dẫn. Bạn cũng có thể rắc thêm ít hành phi, trét chút mỡ hành cho thơm nữa nha.</p>
-<img src="img/xoichien/xoichien8.jpg" alt="Xôi chiên">
+    <img src="../../../assert/imageFood/xoichien/xoichien8.jpg">
 
 <p>Nhân xôi chiên có thể thay đổi tùy khẩu vị, bạn có thể thay thịt heo bằng thịt gà, cá hoặc chay với nấm, đậu hũ. Nếu không thích cà rốt và củ đậu, bạn có thể thêm nấm hương, nấm mèo hay bất kỳ loại rau củ nào khác để tăng thêm độ ngon và phong cách cho món ăn.</p>
 <p>Xôi chiên là món ăn vặt hấp dẫn và phổ biến, phù hợp cho các buổi sum họp gia đình, tiệc nhỏ hay thậm chí làm món khai vị trong các bữa tiệc lớn. Hãy thử làm món xôi chiên thơm ngon này và cả nhà sẽ thích mê!</p>
 <p>Chúc bạn thành công và món xôi chiên thật ngon miệng!</p>
-    <p>Nguồn: thatlangon.com</p>
+ <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

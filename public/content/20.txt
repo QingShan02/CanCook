@@ -54,11 +54,11 @@
   </style>
   <h1>Tên món: Thạch dừa</h1>
 <p>Khẩu phần: 3 người</p>
-<img src="img/xiumai/xiumai.jpg" alt="">
+    <img src="../../../assert/imageFood/thachdua/thachdua.jpg">
 <h3>Nguyên Liệu:</h3>
 <ul>
-  <li>1 gói bột rau câu dẻo (loại 10 g)</li>
-  <li>1 lít nước dừa tươi</li>
+  <li>1 gói bột rau câu dẻo (loại 10 g) 6.000đ - 8.000đ</li>
+  <li>1 lít nước dừa tươi: 20.000đ</li>
   <li>50 ml nước cốt dừa</li>
   <li>80 - 90 gr đường</li>
 </ul>
@@ -80,4 +80,74 @@
   <li>Đổ thạch theo lớp xen kẽ giữa phần thạch nước dừa trong và thạch cốt dừa.</li>
   <li>Để thạch nguội, cất vào tủ lạnh trong hai tiếng là ăn được.</li>
 </ol>
-    <p>Nguồn: thatlangon.com</p>
+
+<h3>Hướng dẫn chi tiết:</h3>
+<h4>Bước 1: Chuẩn bị hỗn hợp thạch nước dừa</h4>
+<ol>
+<li>Bạn cho nước dừa tươi vào nồi.</li>
+<p>Ngon nhất là bạn nên chọn nước dừa xiêm hoặc dừa dứa. Vì nước dừa xiêm hoặc dừa dứa rất thanh vào ngọt, dùng làm thạch sẽ rất ngon. Còn những dừa khác đôi khi có vị chua, làm thạch sẽ không ngon bằng.</p>
+<li>
+Bạn tiếp tục cho hết gói rau câu dẻo và lượng đường vào chung với nước dừa. Lưu ý là lượng đường trong công thức bạn có thể gia giảm cho phù hợp với khẩu vị của mình nhé.
+</li>
+<p>
+Thạch bạn không nên làm ngọt quá. Vì như vậy sẽ làm giảm sự thanh mát khi ăn của thạch.
+</p>
+<p>
+Ngoài ra các bạn lưu ý là sử dụng rau câu dẻo nhé. Vì rau câu dẻo mới cho ra được thạch dừa có vị mềm và dai dai đặc trưng.
+</p>
+    <img src="../../../assert/imageFood/thachdua/thachdua1.jpg">
+    <li>
+Bạn bắc nồi lên bếp và khuấy đều để đường tan hết.
+    </li>
+<li>
+Bạn nấu với lửa lớn cho đến khi hỗn hợp sôi thì hạ nhỏ lửa.
+</li>
+<li>
+Bạn tiếp tục đun thêm 5 phút nữa thì hỗn hợp rau câu sẽ trong. Điều đó có nghĩa là rau câu đã tan hết.
+</li>
+</ol>
+
+<h4>Bước 2: Làm phần thạch nước cốt dừa</h4>
+<ol>
+<li>
+Bạn chia hỗn hợp rau câu nấu được ở trên làm 2 phần bằng nhau.
+</li>
+<li>
+Một phần bạn giữ nguyên.
+</li>
+<li>
+Phần kia bạn cho phần nước cốt dừa đã chuẩn bị vào và khuấy đều.
+</li>
+<p>
+Bạn có thể sử dụng nước cốt dừa lon. Tuy nhiên sẽ không ngon bằng nước cốt dừa vắt trực tiếp vì không thơm và béo bằng.
+</p>
+<p>
+Bạn có thể mua dừa nạo ở chợ về tự vắt lấy nước cốt dừa. Hoặc bạn cũng có thể nhờ người bán vắt luôn tại chỗ.
+</p>
+    <img src="../../../assert/imageFood/thachdua/thachdua2.jpg">
+
+<li>Bạn đặt 2 phần nước rau câu trong nồi đựng nước nóng. Điều này giúp thạch không bị đông trong quá trình bạn đổ lớp thạch.</li>
+</ol>
+<h4>Bước 3: Hoàn thành</h4>
+<ol>
+<li>
+ Bạn có thể sử dụng một hộp lớn hình chữ nhật có nắp để hoàn thành bước đổ rau câu cuối cùng này rồi dùng dao cắt thạch dừa thành miếng khi ăn. Hoặc bạn có thể chuẩn bị những khuôn rau câu để tạo kiểu được đẹp hơn. Các loại khuôn bạn có thể dễ dàng mua được ở chợ hoặc siêu thị.
+</li>
+<li>
+Bạn cứ đổ xen kẽ 1 lớp rau câu nước dừa trong với 1 lớp rau câu nước cốt dừa với nhau. Bạn lưu ý khi đổ xong 1 lớp, bạn phải đợi rau câu hơi se mặt lại thì mới đổ lớp tiếp theo.
+</li>
+<p>
+Nếu bạn đổ sớm quá thì chúng sẽ hòa lẫn vào nhau, không tách biệt thành 2 lớp rõ ràng được. Còn nếu bạn đổ quá trễ thì 2 lớp rau câu sẽ không kết dính với nhau.
+</p>
+    <img src="../../../assert/imageFood/thachdua/thachdua3.jpg">
+    <p>
+Bạn có thể đổ mỗi lớp dày khoảng 0.5 cm. Với độ dày này sẽ tạo nên rau câu nhiều lớp rất đẹp mắt. Tuy nhiên, tùy vào sở thích và thời gian bạn có mà bạn có thể đổ dày hơn.
+    </p>
+<p>
+Nếu bạn không có thời gian để đổ nhiều lớp rau câu, bạn có thể đổ hết phần rau câu nước dừa trong, rồi mới tới phần rau câu nước cốt dừa. Ở lớp nước dừa trong bạn có thể cho thêm cơm dừa thái lát mỏng vào để rau câu được đẹp mắt và ngon hơn.
+</p>
+    <img src="../../../assert/imageFood/thachdua/thachdua4.jpg">
+<li>Sau khi thạch nguội, bạn đem cất vào tủ lạnh trong 2 tiếng là đã có thể đem ra thưởng thức được rồi.</li>
+
+</ol>
+     <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>
