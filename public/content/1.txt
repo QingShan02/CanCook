@@ -1,61 +1,60 @@
 
-    <style>
-        /* CSS cho tiêu đề */
-        h1 {
-            text-align: center;
-            color: #336699;
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
 
-        /* CSS cho hình ảnh */
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
-        }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
 
-        /* CSS cho nguyên liệu */
-        h2 {
-            color: #228B22;
-            font-size: 24px;
-            margin-bottom: 15px;
-        }
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+    }
 
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
 
-        /* CSS cho hướng dẫn */
-        h3 {
-            color: #800000;
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
+    p {
+      color: #555;
+    }
 
-        p {
-            text-align: justify;
-            line-height: 1.6;
-            margin-bottom: 10px;
-        }
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
 
-        strong {
-            font-weight: bold;
-        }
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
 
-        /* CSS cho bài blog */
-        body {
-            margin: 0 auto;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-        }
-    </style>
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
 
     <h1>Bánh Chuối Chiên - Thật là ngon!</h1>
-    <img src="/public/assert/ArticleImage/" alt="Bánh Chuối Chiên">
+    <img src="../../../assert/ArticleImage/1.png" alt="Bánh Chuối Chiên">
 
     <h2>Nguyên Liệu</h2>
     <ul>
@@ -95,6 +94,126 @@
         caramen...
     </p>
 
+    <h2>Chi tiết</h2>
+    <h3>Bước 1: Pha bột</h3>
+    <p>Nếu tìm cách làm bánh bao, bánh mì ngọt mềm, có thể chúng mình sẽ thấy rất nhiều công thức khác nhau nhưng thành phần và tỉ lệ phần trăm giữa các nguyên liệu không có sự chênh lệch quá lớn.</p
+    
+    <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien1.jpg" alt="">
+   
+    <p>Nếu tìm cách làm bánh bao, bánh mì ngọt mềm, có thể chúng mình sẽ thấy rất nhiều công thức khác nhau nhưng thành phần và tỉ lệ phần trăm giữa các nguyên liệu không có sự chênh lệch quá lớn.</p>
+
+    <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien2.jpg">
+
+    <p>Cách pha bột bánh chuối chiên lại khác hẳn, từ người này sang người khác, thành phần trong tô bột có thể hoàn toàn khác nhau.</p>
+
+    <ul>
+      <li>Sử dụng hoàn toàn bột mì hoặc bột mì là thành phần chính.</li>
+      <li>Sử dụng hoàn toàn bột gạo hoặc bột gạo là thành phần chính.</li>
+      <li>Có thể sử dụng phụ gia như bột nổi (baking powder) hoặc không.</li>
+      <li>Sử dụng men dư khi nuôi men tự nhiên.</li>
+    </ul>
+
+    <p>Đó là bột. Về phần chất lỏng cũng có sự khác biệt:</p>
+
+    <ul>
+      <li>Dùng hoàn toàn nước lạnh.</li>
+      <li>Dùng nước có gas.</li>
+      <li>Dùng nước cốt dừa.</li>
+      <li>Dùng thêm trứng.</li>
+    </ul>
+
+      <p>Cách làm nào cũng có thể cho ra lò những chiếc bánh chuối chiên vàng óng, thơm ngon cả!.<br>
+      Tuy nhiên, từ trong vô vàn các công thức, chúng mình có thể điểm thấy những đặc điểm nổi bật của vỏ bánh chuối chiên.</p>
+
+      <ol>
+        <li>Thứ nhất, gạo.</li>
+        <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien2.jpg">
+        <p>Gạo là chìa khóa cho vỏ bánh giòn rụm. Công thức chỉ sử dụng bột mì cũng sẽ cho vỏ bánh giòn, nhưng chỉ giòn một lớp mỏng áo ngoài, nguội là ỉu ngay, khi nhai sẽ không có tiếng “rốp rốp” vui tai của bánh chuối chiên.
+           Gạo có thể chiếm tỉ lệ từ 30% tới 100% lượng bột. Nó có thể ở dạng bột gạo, hạt gạo ngâm nở được xay nhuyễn hoặc cơm nguội xay nhuyễn.
+           Sử dụng bột gạo hoặc bột gạo lọc là tiện lợi nhất.
+        </p>
+        <li>Thứ hai, nước</li>
+        <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien3.jpg">
+        <p>Nước cốt dừa hay trứng giúp tăng hương vị cho món ăn, song chúng không quyết định kết cấu của vỏ bánh.<br>
+           Nước có gas (nước lọc sục gas) giúp tăng độ xốp. Với cách làm Thật là ngon giới thiệu chúng mình dùng nước thường hay nước có gas đều được hết.<br>
+           Để pha bột bánh chuối chiên, chúng mình chỉ cần nước lạnh, với một tỉ lệ thích hợp, là đủ!<br>
+           Vậy tỉ lệ nước bao nhiêu là thích hợp nhỉ?<br>
+           Tỉ lệ nước:bột sẽ rơi vào khoảng 1:1, có thể du di. Điều đó còn tùy thuộc vào bột cũ hay mới, tỉ lệ các loại bột, bạn thích bột lỏng hay sệt, bạn muốn nhúng vỏ bánh chuối mấy lần, vỏ dày bao nhiêu.<br>
+           Ngoài ra, bạn nên dùng nước lấy từ bình lọc nước thay vì nước trực tiếp từ vòi để có thành phẩm ngon và sạch sẽ nhé.<br>
+           Khi pha bột bánh chuối chiên, con số trên công thức không quan trọng bằng quan sát.</p>
+        <li>Thứ ba, gia vị</li>
+          <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien4.jpg">
+          <p>“Gia vị” chúng mình cần chỉ là đường và muối.<br>
+          Lượng đường không ảnh hưởng tới độ giòn. Nếu chuối ngọt nhiều, hoặc đơn giản là bạn muốn giảm khẩu phần đường thì hoàn toàn có thể dùng ít hơn công thức.<br>
+          Chúng mình có thể dùng đường thô, đường kính, đường ăn kiêng, đường phèn... miễn đảm bảo chúng phải tan hết khi pha bột.<br>
+          Nhưng đừng bỏ hẳn đường ra nhé! Bạn nên giảm lượng đường tới mức ít nhất trong công thức thôi.
+        </p>
+        <li>Thứ tư, tạo màu.</li>
+        <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien5.jpg">
+        <p>Thành phần đường, đặc biệt là đường nâu/vàng giúp bánh có màu vàng đẹp khi chiên.<br>
+        Chúng mình có thể cho thêm một ít bột nghệ vào bột bánh để tạo màu vàng xuộm tự nhiên. Một chút xíu nghệ sẽ không ảnh hưởng tới mùi vị, ăn nghệ lại rất tốt cho sức khỏe nữa. Với lượng bột trong công thức bánh chuôi trên này, bạn sử dụng 1-2 g bột nghệ hoặc 4-5 g tinh bột nghệ là được nhé.<br>
+        </p>
+      <li>Thứ năm, thời gian ủ.</li>
+      <p>Cho bột nghỉ, hay “ủ”, trước khi rán để bột có thời gian ngấm nước, nở ra, tạo độ xốp và tăng hương vị cho vỏ bánh. Bột nên được nghỉ ít nhất là 6 tiếng.Sau khi đã hiểu rõ “bí mật” của lớp vỏ bánh giòn rụm, giòn lâu, vàng nâu óng ánh rồi, các thao tác thực hiện rất đơn giản thôi.<br>
+      Đầu tiên, chúng mình trộn đều 160 g bột gạo, 25 g bột mì, 25 g bột nếp, 25 g bột năng, 30-65 g đường, ¼ thìa cà phê muối, ¼ thìa cà phê bột nghệ (nếu thích).<br>
+      Tiếp đó, bạn rót nước từ từ vào tô bột và khuấy đều tay. Vì công thức chỉ sử dụng một ít bột mì nên bạn có thể quấy đảo thoải mái không sợ bột bị chai đâu nha!</p>
+      <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien6.jpg">
+      <p>Bạn lọc lại hỗn hợp qua rây để bột sánh mịn hoàn toàn.<br>
+          Bột đạt là khi bạn nhấc thìa lên, bột chảy thành dòng không đứt quãng.</p>
+        <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien7.jpg">
+        <p>Bạn đậy âu bột lại rồi ủ 6-12 tiếng ở nhiệt độ phòng.<br>
+          Ủ bột đạt rồi, chúng mình có thể cho thêm một ít dừa tươi bào vụn (dùng dừa khô để ý thêm nước) hay 1 thìa hạt vừng (đen, trắng) nữa nhé!</p>
+
+      </ol>
+      <h3>Bước 2: Chiên bánh chuối</h3>
+      <p>
+      Bột ngon thì chuối cũng phải ngon!<br>
+      Ở Việt Nam chúng mình có tha hồ lựa chọn. Chuối tây (hay còn gọi là chuối sứ, chuối xiêm) chín mùi là thích hợp nhất. Dùng chuối chưa chín hẳn sẽ chát, chuối chín rục khi rán rất dễ bục vỏ bánh do chuối chảy quá nhiều mật.
+      </p>
+      <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien8.jpg">
+      <p>Với các bạn ở nước ngoài, không có chuối tây tươi thì dùng chuối đông lạnh, chuối tiêu, chuối mễ (chuối tá quạ)... đều được cả. Chỉ cần nhớ chọn chuối chín tới còn cứng cáp và lưu ý nhiều hơn một chút khi rán thôi!</p>
+
+      <ol>
+        <li>Đầu tiên, chúng mình đổ dầu ngập chảo, làm nóng dầu.</li>
+        <li>Trong lúc chờ dầu nóng, chúng mình ép chuối nè.</li>
+        <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien9.jpg">
+        <p>Bạn cắt đôi chuối rồi gói tùng phân chuối vào một lớp nilon dày đặn, đặt lên mặt phẳng. Sau đó bạn dùng một vật có mặt phẳng lớn khác như thớt, dao bản to,... ép nhẹ cho chuối dẹt xuống như khi làm kem chuối.<br>
+          Chúng mình nên ép chuối tới đâu, rán tới đó, tránh chuối để ngoài lâu quá bị thâm hoặc nhũn.<br>
+          Chuối đông lạnh thì chúng mình bóc ra từng quả để nguyên. Chuối tiêu thì chỉ cắt ngắn hoặc cắt lát dọc nếu quả to quá. Chuối tá quạ có thể ép nhẹ khi chưa bóc vỏ nhé! Chuối sứ rất dẻo nên mới có thể ép thoải mái.<br>
+          Dầu nóng đạt 180 độ, chúng mình thử bằng nhiệt kế, dùng đầu đũa gỗ nhúng vào thấy sủi bọt hoặc vẩy một ít bột vào thấy bột nổi lên ngay lập tức.</p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien10.jpg">
+        <p>Bạn quậy đều tô bột, nhúng chuối đẫm bột rồi nhẹ nhàng thả chuối vào chảo dầu.</p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien11.jpg">
+        <p>
+        Chúng mình không nên thả quá nhiều chuối cùng lúc sẽ làm dầu giảm nhiệt độ khiến vỏ bánh sũng dầu. Thêm nữa khi đó vỏ bánh dễ dính vào nhau tăng nguy cơ bánh bị bục, mật chuối chảy ra, dầu nổ ì xèo bẩn đầy bếp, đen dầu nữa!<br>
+        Chuối vừa vào chảo sẽ sôi mạnh, viền bột sủi bong bóng, nhưng không hề văng dầu nha!
+        </p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien12.jpg">
+           <p>
+           Với chuối đông lạnh, chúng mình sẽ rán từ khi dầu chỉ hơi nóng khoảng 150-160 độ thôi nha, dầu quá nóng sẽ bục vỏ.<br>
+          Vỏ bánh vừa se lại, chúng mình gắp ra nhúng vào thau bột rồi lại thả lại vào chảo dầu. Bạn làm 2-3 lớp bột là vừa xinh!
+           </p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien13.jpg">
+          <p>Nhỡ dầu có vảy đen rồi, chúng mình làm sạch dầu bằng cách đổ một thìa bột vào chảo, dùng đũa đẩy miếng bột đó “lau” hết đáy chảo là xong.</p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien14.jpg">
+          <p>Bạn rán tới khi bánh phồng căng, lên màu óng ánh. Dùng đũa gõ vào nghe tiếng cồm cộp, chưa ăn đã biết giòn rụm rồi nè!</p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien15.jpg">
+          <p>Vớt bánh để ra rổ cho ráo dầu. Nếu muốn giảm dầu mỡ, khi vỏ bánh đã dày như ý và vỏ đã tương đối giòn, chúng mình có thể cho bánh vào nồi chiên không khí đặt 180 độ trong 5’ hoặc tới khi lên màu đẹp nha.</p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien16.jpg">
+          <p>Chúng mình còn có thể làm nhiều một lần rồi để tủ lạnh hoặc cấp đông nữa đó! Khi nào thèm chỉ cần bỏ bánh thẳng từ tủ đông vào nồi chiên không dầu làm nóng hoặc rán lại, nhưng tuyêt đối không dùng lò vi sóng nha!<br>
+            Bánh chuối chiên thơm ngon cực phẩm đã hoàn thành!
+          </p>
+
+      </ol>
+   
+        <h3>Bước 3: Cách Làm Bánh Chuối Chiên - Hoàn thành</h3>
+        <p>
+        Nhanh gọn nhất, bánh vừa gắp ra nóng hổi, vừa thổi vừa cắn ngập răng lớp vỏ giòn rụm, bên trong chuối chín mềm tươm mật ngọt.<br>
+        Nếu muốn mới lạ hơn, bánh chuối chiên hoàn toàn có thể lên bàn tiệc khi phối hợp cùng mật, hoa quả, kem, kem tươi, sốt socola, sốt caramen,...<br>
+        </p>
+           <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien17.jpg">
+   
+   
     <p>
         Bánh chuối chiên là món ăn ngon dân dã, nguyên liệu dễ kiếm, thao tác thực hiện đơn giản, nhưng lại có thể
         thỏa mãn nhu cầu của mọi lứa tuổi, của người ăn chay lẫn người ăn mặn. Hãy thử làm món này ngay và cùng gia

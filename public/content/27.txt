@@ -1,0 +1,261 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+        margin-left: 30px;
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Canh Khổ Qua Nhồi Thịt</h1>
+<img src="../../../assert/ArticleImage/27.png" alt="Canh Khổ Qua Nhồi Thịt">
+
+<h2>Nguyên Liệu</h2>
+<ul>
+    <li>3 quả khổ qua 7000đ - 10000đ/kg</li>
+    <li>200 g thịt heo xay: 25000đ - 35000đ/200g</li>
+    <li>50 g mộc nhĩ</li>
+    <li>1 quả trứng gà</li>
+    <li>600 ml nước hầm xương heo</li>
+    <li>1 thìa cà phê bột canh/ hạt nêm</li>
+    <li>Gia vị trộn thịt</li>
+    <li>1 củ hành tím</li>
+    <li>2 tép tỏi</li>
+    <li>1 thìa cà phê đường</li>
+    <li>1 thìa cà phê tiêu xay</li>
+    <li>1 thìa cà phê hạt nêm</li>
+</ul>
+
+<h2>Hướng dẫn</h2>
+<h3>Bước 1: Sơ chế nguyên liệu</h3>
+<p>
+    Khổ qua mua về cắt 2 đầu rồi rửa 2,3 lần với nước sạch.
+</p>
+<p>
+    Cắt đôi nạo ruột hoặc khứa dọc thân khổ qua rồi nạo ruột.
+</p>
+<p>
+    Ngâm khổ qua trong nước muối loãng 15 phút cho bớt đắng.
+</p>
+<p>
+    Vớt khổ qua ra, để cho ráo nước.
+</p>
+<p>Mộc nhĩ ngâm trong nước 15 phút cho nở, rửa lại với nước sạch rồi cắt chân, thái nhỏ.</p>
+<p>Hành khô, tỏi bóc vỏ, rửa qua rồi băm nhỏ.</p>
+<p>
+    Hành lá và rau mùi nhặt sạch, rửa vài lần nước rồi thái nhỏ.
+</p>
+<p>
+    Chuẩn bị sẵn nước hầm từ xương heo nguyên chất.
+</p>
+<h3>Bước 2: Chuẩn bị nhân thịt</h3>
+<p>
+    Thịt xay, trứng, hành tỏi, gia vị trút vào một âu sạch.
+</p>
+<p>
+    Trộn cho thật đều rồi để yên 15 phút cho ngấm gia vị.
+</p>
+<p>
+    Từ từ sử dụng thìa canh để nhồi hỗn hợp thịt vào bên trong từng miếng khổ qua.
+</p>
+
+<h3>Bước 3: Nấu canh khổ qua nhồi thịt</h3>
+<p>
+    Đun sôi nước hầm xương rồi cho từng miếng khổ qua vào nồi.
+</p>
+<p>
+    Khi nước sôi trở lại thì hớt bọt ra, nêm nếm gia vị cho vừa miệng.
+</p>
+<p>
+    Để lửa đun liu diu 30 phút cho khổ qua chín mềm.
+</p>
+
+<h3>Bước 4: Hoàn thành</h3>
+<p>
+    Tắt bếp và thêm hành lá, rau mùi vào nồi canh khổ qua nhồi thịt.
+</p>
+<p>
+    Múc ra bát và thưởng thức sau đó.
+</p>
+
+
+<h2>Chi tiết</h2>
+<h4>Bước 1: Sơ chế nguyên liệu</h4>
+<p>
+    Bạn đã biết cách chọn mua khổ qua tươi chưa nhỉ? Nếu chưa biết thì mình muốn nhấn mạnh tới bạn phải thực sự cẩn
+    trọng khi chọn mua khổ qua tươi.
+</p>
+<p>
+    Bởi vì khổ qua rất dễ bị sâu bệnh gây hại nên nhiều nơi trồng sẽ phun thuốc trừ sâu với nồng độ cao. Bạn nên chọn
+    mua khổ qua ở những cửa hàng bán rau sạch, rau hữu cơ uy tín có nhãn mác nguồn gốc xuất xứ rõ ràng.
+</p>
+<p>
+    Hình dáng khổ qua không được bắt mắt cho lắm. Thế nhưng bạn cần phải căn cứ vào lớp vỏ sần sùi này để chọn mua khổ
+    qua đấy!
+</p>
+<p>
+    Trên thị trường hiện có bán rất nhiều loại khổ qua nhưng tùy vào khẩu vị bạn có thể chọn một mua một số loại phổ
+    biến sau:
+</p>
+<img src="../../../assert/imageFood/khoquanhoithit/khoquanhoithit1.jpg" alt="">
+<ol>
+    <p>
+        Nếu thích ăn vị đắng thì các giống khổ qua rừng (khổ qua sẻ), khổ qua gai xanh,… là "chân ái" của bạn. Các giống
+        này thường có màu sậm, cỡ quả nhỏ, gai dầy, nhọn, thịt mỏng, có vị đắng hoặc rất đắng.
+    </p>
+    <p>
+        Nếu ăn đắng ít hoặc không ăn được vị đắng thì bạn nên mua khổ qua lai hoặc khổ qua trắng. Các giống này thường
+        sẽ có kích cỡ lớn hơn loại trên một chút, gai nở to, thịt quả dầy mọng và vị gần như không đắng.
+    </p>
+</ol>
+<p>
+    Thịt heo bạn chọn mua phần thịt nạc ngon nhé! Bạn có thể chọn mua nạc vai hoặc phần ba chỉ nhiều nạc ít mỡ.
+</p>
+<p>
+    Khi mua bạn nhờ người bán thịt xay bằng máy chuyên dụng luôn. Hoặc để đảm bảo sạch sẽ, bạn mua về rửa qua với nước
+    sạch nhiều lần rồi thấm khô và đem xay trong máy xay đa năng.
+</p>
+<p>
+    Khổ qua sau khi mua về, bạn cắt bỏ hai đầu rồi rửa 2,3 lần với nước sạch. Có hai cách để bạn cắt khổ qua để lát sau
+    nhồi thịt bên trong.
+</p>
+<p>
+    Bạn cắt đôi quả khổ qua thành 2 phần bằng nhau hoặc thành từng khúc nhỏ chừng 2 đốt tay. Bạn sử dụng chiếc thìa nhỏ
+    để nạo phần ruột ra.
+</p>
+<p>
+    Với những quả khổ qua có kích thước nhỏ nhỏ, bạn có thể để nguyên trái. Bạn dùng con dao nhỏ để rạch một đường dọc
+    thân quả và lấy chiếc thìa nhỏ nhẹ nhàng nạo sạch ruột khổ qua ra.
+</p>
+<img src="../../../assert/imageFood/khoquanhoithit/khoquanhoithit2.jpg" alt="">
+<p>
+    Để khổ qua bớt đắng, bạn pha nước sạch với 1 thìa cà phê muối trắng rồi đem ngâm khổ qua đã nạo ruột trong 10-15
+    phút. Ngâm khổ qua xong, bạn rửa lại với nước sạch rồi để cho ráo nước nhé!
+</p>
+<p>
+    Mộc nhĩ bạn ngâm với nước sạch 15 phút cho nở. Lát sau bạn vớt ra, rửa lại cho sạch rồi cắt chân và băm nhỏ. Hành
+    khô và tỏi bạn bóc vỏ, rửa qua nước sạch rồi băm nhỏ. Hành lá và rau mùi bạn nhặt sạch, rửa nhiều lần với nước rồi
+    thái khúc hoặc thái nhỏ tùy thích nhé!
+</p>
+<p>
+    Khổ qua nhồi thịt nên được nấu trong nước hầm xương heo để có được vị ngọt beo béo và thêm phần bổ dưỡng. Bạn chuẩn
+    bị nước hầm xương heo như hướng dẫn trong bài viết Cách nấu hủ tiếu sườn heo nhé!
+</p>
+
+<h4>Bước 2: Chuẩn bị nhân thịt</h4>
+<p>
+    Bạn chuẩn bị một âu lớn rồi cho thịt xay, mộc nhĩ, hành tỏi băm, trứng cùng các loại gia vị trộn thịt vào âu. Bạn có
+    thể sử dụng găng tay nilon để trộn thịt cho đều. Trộn thịt xong, bạn ướp chừng 15 phút.
+</p>
+<p>
+    Bạn có thể dùng trứng hoặc không, nếu dùng trứng thì nên chọn trứng gà cho khỏi tanh nhé. Còn nếu bạn không dùng
+    trứng nhưng muốn tăng độ kết dính của nhân thì có thể cho thêm ½ thìa cà phê bột năng hoặc bột bắp nhé!
+</p>
+<p>
+    Trong thời gian chờ nhân thịt ngấm gia vị, bạn có thể chuẩn bị một nồi nước, cho thêm 1 thìa cà phê đường hoặc
+    baking soda và đun sôi. Khi nước sôi, bạn thả khổ qua vào chần nhanh chừng 1-2 phút rồi vớt ra thả vào âu nước đá
+    lạnh. Thao tác này sẽ giúp khổ qua sau khi hầm ít bị ngả màu và giữ được độ giòn. Bạn cân nhắc thực hiện thao tác
+    này hoặc chờ phần nhân thịt ngấm gia vị, nhồi ngay vào khổ qua sống cũng được.
+</p>
+<p>
+    Sau đó, bạn nhẹ nhàng sử dụng thìa canh để múc hỗn hợp thịt vào bên trong khổ qua. Bạn sử dụng ngón tay hoặc mặt sau
+    của thìa canh để nén thịt cho chặt.
+</p>
+<p>
+    Phần thịt xay nên được nhồi gọn phía bên trong khổ qua để trông thẩm mỹ, gọn gàng.
+</p>
+<p>
+    Bạn cần nèn chặt nhân thịt vào bên trong khổ qua cho thật đầy đặn. Bởi vì trong quá trình nấu với khoảng thời gian
+    dài sau này, phần nhân có thể bị co lại một chút xíu.
+</p>
+<p>
+    Để tiết kiệm thời gian thì trước khi sơ chế khổ qua, bạn có thể thực hiện việc trộn thịt và để cho ngấm gia vị.
+</p>
+<img src="../../../assert/imageFood/khoquanhoithit/khoquanhoithit3.jpg" alt="">
+<p>
+    Mình có mẹo nhỏ giúp bạn khắc phục tình trạng “vỏ một nơi, ruột một ngả” thường thấy khi nấu món canh này, đó là:
+    Khi ướp thịt, bạn nêm thêm ½ thìa canh nước mắm. Khi nhồi nhân xong, bạn chấm nước mắm, thoa quanh các mép hở của
+    khúc khổ qua. Nước mắm không những khiến nhân thịt không bị rơi ra lại còn giúp nước canh ngọt đậm đà hơn nữa đấy!
+<h3>Bước 3: Nấu canh khổ qua nhồi thịt</h3>
+<p>
+    Nước hầm xương bạn đem trút vào một chiếc nồi sạch rồi bắc lên bếp đun sôi.
+</p>
+<p>
+    Bạn dùng muôi hớt hết bọt đục cho nước canh khổ qua được trong và nêm nếm gia vị cho vừa với khẩu vị của gia đình
+    mình nhé!
+</p>
+<img src="../../../assert/imageFood/khoquanhoithit/khoquanhoithit4.jpg" alt="">
+<p>
+    Định lượng gia vị bên trên ở mức vừa đủ dùng. Canh khổ qua nhồi thịt nên sử dụng ít gia vị để có thể cảm nhận hương
+    vị ngọt thanh nguyên chất của khổ qua và ngọt béo của thịt heo.
+</p>
+<p>
+    Bạn cứ để lửa nhỏ đun liu riu trong 30 phút cho khổ qua nhồi thịt được chín mềm.
+</p>
+<p>
+    Trong quá trình đun, bạn chú ý tránh đảo/ khuấy miếng khổ qua nhồi thịt mà làm thịt bị bung ra bên ngoài nhé!
+</p>
+<p>
+    Nấu canh khổ qua bằng nước hầm xương là ngon nhất rồi, nhưng nếu bạn muốn món canh ngọt vị thanh đạm thì có thể dùng
+    nước dashi củ quả. Hoặc đơn giản là nấu nước sôi bình thường và nêm nếm nước canh đậm vị hơn một chút.
+</p>
+<h4>Bước 4: Cách Làm Canh Khổ Qua Nhồi Thịt – Hoàn thành</h4>
+<p>
+    Khi canh khổ qua chín, trước lúc tắt bếp bạn rắc hành lá và rau mùi lên trên rồi hẵng tắt bếp. Hơi nóng sẽ làm chín
+    và giảm mùi hăng của hành, đồng thời tinh dầu trong rau mùi cũng được giải phóng làm cho món canh thơm hơn.
+</p>
+<p>
+    Bạn múc canh ra một bát, rắc thêm chút tiêu xay là món canh khổ qua nhồi thịt đã sẵn sàng để cả nhà cùng thưởng
+    thức.
+</p>
+<img src="../../../assert/imageFood/khoquanhoithit/khoquanhoithit5.jpg" alt="">
+
+
+<p>Nguồn: <a href="https://www.thatlangon.com/cong-thuc/cach-lam-canh-kho-qua-nhoi-thit/"
+        target="_blank">thatlangon.com</a></p>

@@ -1,0 +1,183 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+   <h1>Sandwich</h1>
+
+    <h2>Khẩu phần: 4 người</h2>
+         <img src="../../../assert/imageFood/sachwich/sandwich.jpg">
+
+
+    <h3>Nguyên Liệu:</h3>
+    <ul>
+        <li>8 lát bánh mì sandwich: 15000đ - 20000đ</li>
+        <li>8 miếng thịt ba chỉ hun khói: 50000đ - 65000đ/200g</li>
+        <li>4 lá rau xà lách to</li>
+        <li>8 khoanh cà chua thái mỏng</li>
+        <li>4 thìa canh sữa chua không đường/ sữa chua Hi Lạp</li>
+        <li>4 thìa canh mayonnaise</li>
+        <li>4 thìa canh mù tạt vàng</li>
+    </ul>
+
+    <h3>Hướng dẫn:</h3>
+    <p>Bước 1: Chuẩn bị nguyên liệu</p>
+    <ul>
+        <li>Chọn mua vỏ bánh mì sandwich loại ngon.</li>
+        <li>Mua thịt ba chỉ hun khói và sữa chua còn hạn sử dụng, bao bì đóng kín.</li>
+        <li>Xà lách và cà chua mua về, bỏ gốc và rửa sạch.</li>
+        <li>Cà chua thái từng khoanh mỏng dày khoảng 0.5 cm.</li>
+        <li>Trộn sữa chua, mayonnaise, mù tạt vàng để làm sốt.</li>
+    </ul>
+
+    <p>Bước 2: Áp chảo nguyên liệu</p>
+    <ul>
+        <li>Áp chảo hai mặt của từng lát bánh mì vuông.</li>
+        <li>Làm nóng chút dầu ăn rồi áp chảo thịt ba chỉ hun khói cho dậy mùi thơm.</li>
+    </ul>
+
+    <p>Bước 3: Xếp các lớp nhân và thưởng thức</p>
+    <ul>
+        <li>Xếp lần lượt các lớp nhân: vỏ bánh, xà lách, cà chua, phô mai, thịt, xà lách, bánh mì.</li>
+        <li>Bọc bánh sandwich lại bằng nilon bọc thực phẩm.</li>
+        <li>Cắt bánh thành hình tam giác/ hình chữ nhật.</li>
+        <li>Thưởng thức cùng loại sốt tùy thích.</li>
+    </ul>
+
+    <h3>Cách làm chi tiết:</h3>
+    <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
+    <p>
+Nguyên liệu của bánh sandwich kẹp thịt ba chỉ hun khói không cầu kỳ đâu. Vậy nên, bạn dễ dàng tìm mua từng thành phần theo sở thích tại những cửa hàng thực phẩm gần nhà.
+    </p>
+<p>
+Bánh mì sandwich bạn hãy chọn mua bịch bánh mà vỏ bánh có màu nâu nhạt đẹp mắt. Phần bên trong thì trắng mịn, độ dai vừa phải, bùi bùi thơm ngon. Bạn chú ý xem kỹ thông tin hạn sử dụng nhé!
+</p>
+<p>
+Thịt ba chỉ hun khói là thành phần không thể thiếu của một số món ăn như pizza, mì ý sốt kem,… Đối với bánh sandwich, nhiều cửa hàng bánh cũng cho lớp nhân này vào và được nhiều khách hàng yêu thích.
+</p>
+<p>
+Thịt ba chỉ hun khói là loại thịt được chế biến sẵn, luôn cần được bảo quản mát và đóng gói kín. Khi chọn mua bạn hãy chú ý tới màu của miếng thịt có phần thịt hồng bám dính chặt vào lớp mỡ màu trắng, không bị chảy nước.
+</p>
+         <img src="../../../assert/imageFood/sachwich/sandwich1.jpg">
+<p>
+Xà lách chọn mua bạn hãy chú ý tới cây cầm chắc tay, màu xanh lá cây đẹp mắt và không dập úa. Xà lách có vị ngọt tự nhiên, tươi mát, nhiều vitamin nên thường được ăn trực tiếp hoặc kẹp vào nhân của các loại bánh như sandwich.
+</p>
+<p>
+Rất nhiều người, trong đó có mình nữa, khi ăn bún chả, nem nướng, bánh hamburger,… mà thiếu rau xà lách thì sẽ không ăn nhiều được và có cảm giác bị ngán.
+</p>
+<p>
+Xà lách mua về, sau khi ngắt bỏ phần cuống, bạn rửa sạch nhiều lần rồi để cho ráo nước. Đối với lá to, bạn hãy thái đôi.
+</p>
+<p>
+Đối với cà chua, bạn hãy chọn mua quả chín, màu đỏ đều, vỏ trơn bóng bảy, không bị dập nát. Sau khi rửa sạch và bỏ cuống, bạn hãy thái cà chua thành từng khoanh dày khoảng 0.5 mm nhé!
+</p>
+<p>
+Một phần bánh sandwich chỉ cho 2 lát cà chua thôi nhưng cũng sẽ giúp thêm sắc đỏ đẹp mắt và tăng vị chua ngọt cho món bánh.
+</p>
+<p>
+Trong công thức bánh sandwich BLT có lớp sốt là thành phần không thể thiếu. Bạn hãy trộn đều sữa chua không đường hoặc sữa chua Hy Lạp với mù tạt vàng, sốt mayonnaise trong một chiếc bát sâu lòng. Sở dĩ nên thêm lớp sốt này vào lớp nhân là bởi vì:
+</p>
+  <ul>
+  <li>
+Chúng có vị rất hợp khi ăn kèm với thịt ba chỉ hun khói.
+  </li>
+  <li>
+Lớp sốt không cay, không hắc mà có vị thơm, chua dịu nhẹ phù hợp với vị giác của nhiều người.
+  </li>
+  <li>
+Lớp sốt cũng có tác dụng liên kết, giúp phần nhân bám dính vào hai lát bánh mì sandwich.
+  </li>
+  </ul>
+         <img src="../../../assert/imageFood/sachwich/sandwich2.jpg">
+   <h4>Bước 2: Áp chảo nguyên liệu</h4>
+   <p>
+   Để giúp lát bánh sandwich trở nên cứng cáp và dậy mùi hơn, bạn có thể đem nướng qua/ áp chảo trước khi xếp nhân. Bạn làm nóng chút dầu ăn hoặc bơ nhạt rồi áp chảo nhé!
+   </p>
+<p>
+Thịt ba chỉ hun khói khi áp chảo sẽ tăng độ giòn hơn, cạnh cháy xém và thơm hơn. Bạn làm nóng chảo rồi cho một ít dầu vào và cho thịt ba chỉ hun khói vào áp chảo hai mặt.
+</p>
+         <img src="../../../assert/imageFood/sachwich/sandwich3.jpg">
+<h4>Bước 3: Xếp các lớp nhân và thưởng thức</h4>
+<p>
+Bạn đặt một lớp bánh sandwich bên dưới cùng và quét phần sốt đã trộn lên trên.
+</p>
+<p>
+Bạn xếp xà lách rồi đến lớp cà chua.
+</p>
+<p>
+Tiếp đến, bạn gắp thịt ba chỉ hun khói đã áp chảo xếp lên trên.
+</p>
+<p>
+Bạn có thể rắc chút muối và hạt tiêu xay để tăng thêm hương vị. Nếu không thích, bạn có thể bỏ qua việc thêm gia vị vì thịt ba chỉ hun khói đã có vị mặn sẵn rồi.
+</p>
+<p>
+Bạn lại quét lớp nước sốt lên một miếng bánh sandwich rồi đặt lên lớp thịt là xong.
+</p>
+<p>
+Bạn lần lượt làm cho đến khi hoàn thành bốn chiếc bánh sandwich nhé!
+</p>
+         <img src="../../../assert/imageFood/sachwich/sandwich4.jpg">
+<p>
+Để cho miếng sandwich trở nên chắc chắn, cầm không bị rơi nhân thì bạn hãy bọc chúng lại bằng lớp nilon bọc thực phẩm nhé! Lớp nilon trong suốt vẫn đủ để bạn nhìn thấy lớp nhân đẹp đẽ bên trong.
+</p>
+<p>
+Bốn chiếc bánh đã hoàn thành, đủ để cung cấp cho gia đình bạn một bữa ăn ngon lành và nhiều chất dinh dưỡng.
+</p>
+<p>
+Khi ăn bạn hãy cắt đôi bánh sandwich theo chiều ngang thành hai miếng hình chữ nhật hoặc cắt chéo thành hai miếng hình tam giác cho dễ cầm và dễ thưởng thức nhé!
+</p>
+<p>
+Bánh sandwich ăn luôn sẽ đảm bảo được vị tươi ngon. Nếu không dùng hết, bạn hãy bọc kín và bảo quản trong ngăn mát tủ lạnh và thưởng thức trong ngày.
+</p>
+         <img src="../../../assert/imageFood/sachwich/sandwich5.jpg">
+
+      <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>
