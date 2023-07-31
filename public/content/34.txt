@@ -69,7 +69,7 @@
     dinh dưỡng tốt cho người già. Ngoài vai trò bổ sung dinh dưỡng, những thực phẩm này còn giúp hạn chế tình trạng suy
     giảm nhận thức ở người già.
 </p>
-<img src="../../../assert/imageFood/35.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/raucaixanhladam.jpg" alt="">
 <p>
     Các loại rau màu xanh đậm là nguồn cung cấp dồi dào các chất dinh dưỡng như: folate, phylloquinone, nitrate,
     α-tocopherol, kaempferol và lutein. Các nghiên cứu chuyên sâu hơn chỉ ra rằng phylloquinone, lutein và folate có thể
@@ -82,7 +82,7 @@
     thiết cho vấn đề này. Quả việt quất có chứa các hợp chất polyphenolic, nổi bật nhất là anthocyanins, có tác dụng
     chống oxy hóa và chống viêm.
 </p>
-<img src="../../../assert/imageFood/dinhduong/traxanh.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/quatac.jpg" alt="">
 <p>
     Ngoài ra, quả việt quất cũng chứa nhiều vitamin C, vitamin K, chất xơ và khoáng chất. Đây sẽ là một thực phẩm tốt
     cho người già mà bạn nên bổ sung vào thực đơn ăn uống cho ông bà, cha mẹ.

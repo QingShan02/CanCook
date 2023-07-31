@@ -99,7 +99,7 @@
     thể khoảng 10gr chất xơ tốt cho hệ tiêu hóa, 15gr chất béo không bão hòa tốt cho tim mạch. Trong quả bơ còn có chất
     dinh dưỡng giúp phòng ngừa bệnh ung thư.
 </p>
-<img src="../../../assert/imageFood/dinhduong/quabo.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/bo.jpg" alt="">
 <h4>Phô mai</h4>
 <p>
     Phô mai chứa nhiều calo và chất béo. Mỗi 100gr phô mai có đến 353 calo nên nó được xem là thức ăn cho người gầy
