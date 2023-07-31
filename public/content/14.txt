@@ -55,7 +55,7 @@
    <h1>Sandwich</h1>
 
     <h2>Khẩu phần: 4 người</h2>
-         <img src="../../../assert/imageFood/sachwich/sandwich.jpg">
+         <img src="../../../assert/imageFood/sandwich/sandwich.jpg">
 
 
     <h3>Nguyên Liệu:</h3>
@@ -107,7 +107,7 @@ Thịt ba chỉ hun khói là thành phần không thể thiếu của một s�
 <p>
 Thịt ba chỉ hun khói là loại thịt được chế biến sẵn, luôn cần được bảo quản mát và đóng gói kín. Khi chọn mua bạn hãy chú ý tới màu của miếng thịt có phần thịt hồng bám dính chặt vào lớp mỡ màu trắng, không bị chảy nước.
 </p>
-         <img src="../../../assert/imageFood/sachwich/sandwich1.jpg">
+         <img src="../../../assert/imageFood/sandwich/sandwich1.jpg">
 <p>
 Xà lách chọn mua bạn hãy chú ý tới cây cầm chắc tay, màu xanh lá cây đẹp mắt và không dập úa. Xà lách có vị ngọt tự nhiên, tươi mát, nhiều vitamin nên thường được ăn trực tiếp hoặc kẹp vào nhân của các loại bánh như sandwich.
 </p>
@@ -137,7 +137,7 @@ Lớp sốt không cay, không hắc mà có vị thơm, chua dịu nhẹ phù h
 Lớp sốt cũng có tác dụng liên kết, giúp phần nhân bám dính vào hai lát bánh mì sandwich.
   </li>
   </ul>
-         <img src="../../../assert/imageFood/sachwich/sandwich2.jpg">
+         <img src="../../../assert/imageFood/sandwich/sandwich2.jpg">
    <h4>Bước 2: Áp chảo nguyên liệu</h4>
    <p>
    Để giúp lát bánh sandwich trở nên cứng cáp và dậy mùi hơn, bạn có thể đem nướng qua/ áp chảo trước khi xếp nhân. Bạn làm nóng chút dầu ăn hoặc bơ nhạt rồi áp chảo nhé!
@@ -145,7 +145,7 @@ Lớp sốt cũng có tác dụng liên kết, giúp phần nhân bám dính và
 <p>
 Thịt ba chỉ hun khói khi áp chảo sẽ tăng độ giòn hơn, cạnh cháy xém và thơm hơn. Bạn làm nóng chảo rồi cho một ít dầu vào và cho thịt ba chỉ hun khói vào áp chảo hai mặt.
 </p>
-         <img src="../../../assert/imageFood/sachwich/sandwich3.jpg">
+         <img src="../../../assert/imageFood/sandwich/sandwich3.jpg">
 <h4>Bước 3: Xếp các lớp nhân và thưởng thức</h4>
 <p>
 Bạn đặt một lớp bánh sandwich bên dưới cùng và quét phần sốt đã trộn lên trên.
@@ -165,7 +165,7 @@ Bạn lại quét lớp nước sốt lên một miếng bánh sandwich rồi đ
 <p>
 Bạn lần lượt làm cho đến khi hoàn thành bốn chiếc bánh sandwich nhé!
 </p>
-         <img src="../../../assert/imageFood/sachwich/sandwich4.jpg">
+         <img src="../../../assert/imageFood/sandwich/sandwich4.jpg">
 <p>
 Để cho miếng sandwich trở nên chắc chắn, cầm không bị rơi nhân thì bạn hãy bọc chúng lại bằng lớp nilon bọc thực phẩm nhé! Lớp nilon trong suốt vẫn đủ để bạn nhìn thấy lớp nhân đẹp đẽ bên trong.
 </p>
@@ -178,6 +178,6 @@ Khi ăn bạn hãy cắt đôi bánh sandwich theo chiều ngang thành hai mi�
 <p>
 Bánh sandwich ăn luôn sẽ đảm bảo được vị tươi ngon. Nếu không dùng hết, bạn hãy bọc kín và bảo quản trong ngăn mát tủ lạnh và thưởng thức trong ngày.
 </p>
-         <img src="../../../assert/imageFood/sachwich/sandwich5.jpg">
+         <img src="../../../assert/imageFood/sandwich/sandwich5.jpg">
 
       <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>
