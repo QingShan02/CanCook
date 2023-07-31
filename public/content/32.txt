@@ -147,7 +147,7 @@
     Ăn gì để giảm cân? Theo các chuyên gia dinh dưỡng, chất béo vừa tạo hương vị cho món ăn vừa tạo cảm giác no, giúp
     bạn cảm thấy hài lòng hơn với bữa ăn của mình. Điều quan trọng là bạn hãy bổ sung những loại chất béo lành mạnh.
 </p>
-<img src="../../../assert/imageFood/dinhduong/aliu.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/oliu.jpg" alt="">
 <p>
     Dầu ô-liu là một loại chất béo có lợi cho sức khỏe. Nghiên cứu đã chứng minh rằng dầu ô-liu nguyên chất có thể cải
     thiện sức khỏe tim mạch, giảm cholesterol, huyết áp, cân nặng và viêm. Tuy nhiên, khi đun nóng, dầu ô-liu sẽ mất hầu
@@ -167,7 +167,7 @@
     đốt cháy chất béo nhanh chóng. Loại thực phẩm giảm cân này có chứa protein, chất chống oxy hóa và các chất dinh
     dưỡng khác như sắt, kẽm, selen và vitamin E. Do đó, bạn có thể ăn hạt diêm mạch thay cơm.
 </p>
-<img src="../../../assert/imageFood/dinhduong/hatdienmach.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/hatdiemmach.jpg" alt="">
 <p>
     Ngoài ra, hạt diêm mạch còn chứa nhiều chất xơ hòa tan. Loại chất xơ này khi gặp nước sẽ nở ra và tạo thành một chất
     giống như gel. Khi bạn ăn quinoa, nước sẽ được rút vào ruột của bạn và cho phép chất xơ nở ra, giúp bạn cảm thấy no
