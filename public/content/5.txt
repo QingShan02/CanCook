@@ -1,0 +1,184 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+    <h1>Tên món: Đậu sốt cà chua</h1>
+    <h2>Khẩu phần: 2 người ăn</h2>
+  <img src="../../../assert/imageFood/dausotcachua/dausotcachua.jpg">
+
+
+    <h3>Nguyên liệu chính</h3>
+    <ul>
+        <li>4 bìa đậu phụ (400 g): 5000đ - 7000đ /bìa đậu phụ</li>
+        <li>2 quả cà chua : 2000đ - 3000đ</li>
+    </ul>
+
+    <h3>Nguyên liệu phụ</h3>
+    <ul>
+        <li>2 nhánh tỏi hoặc hành tím</li>
+        <li>1 thìa cà phê hạt nêm</li>
+        <li>1 thìa cà phê đường</li>
+        <li>½ thìa cà phê gia vị</li>
+        <li>2 thìa canh tương cà (không bắt buộc)</li>
+        <li>½ thìa cà phê ớt băm (không bắt buộc)</li>
+        <li>80 ml nước sạch</li>
+        <li>1 thìa canh bột năng (không bắt buộc)</li>
+        <li>2 cọng hành lá</li>
+        <li>½ mớ rau mùi</li>
+    </ul>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <ol>
+        <li>Rửa sạch đậu phụ và để cho ráo nước.</li>
+        <li>Cắt đậu phụ thành những khối vuông hoặc chữ nhật 1,5-2 cm.</li>
+        <li>Cà chua rửa sạch, bỏ cuống rồi thái múi cau.</li>
+        <li>Băm tỏi hoặc thái lát hành tím. Rau mùi và hành lá nhặt sạch và rửa bằng nước nhiều lần. Vẩy cho ráo nước rồi thái nhỏ.</li>
+    </ol>
+
+    <h4>Bước 2: Rán đậu phụ</h4>
+    <ol>
+        <li>Chuẩn bị chảo sạch và làm nóng dầu ăn.</li>
+        <li>Rán chín vàng các mặt của miếng đậu phụ.</li>
+    </ol>
+
+    <h4>Bước 3: Sốt đậu với cà chua</h4>
+    <ol>
+        <li>Phi thơm tỏi/ hành tím rồi cho cà chua vào xào cùng.</li>
+        <li>Thêm các loại gia vị vào đun cùng cà chua xào khoảng 5 phút.</li>
+        <li>Thêm đậu rồi đun thêm khoảng 5 phút cho ngấm. Nêm nếm gia vị cho vừa miệng.</li>
+        <li>Thêm hành lá đun khoảng 1-2 phút. Tắt bếp và thưởng thức.</li>
+    </ol>
+
+    <h3>Cách làm đậu sốt cà chua chi tiết</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+  <p>
+    Như mình đã giới thiệu bên trên, đậu phụ sốt cà chua chỉ có hai thành phần chính là đậu phụ và cà chua. Chọn mua những bìa đậu phụ tươi ngon và cà chua chín đỏ mọng là món ăn đã đảm bảo ngon 7/10 phần rồi.
+  </p>  
+<p>
+Đậu phụ được làm từ đậu nành xay nhuyễn. Qua công đoạn chế biến của những người thợ lành nghề, đậu phụ được đóng thành khối và ngâm nước để bảo quản. Khi chọn mua đậu phụ, bạn cần kiểm tra sơ bộ bằng các cách sau:
+</p>
+<p>
+Cầm miếng đậu phụ lên thấy mềm mại, có màu trắng kem.
+</p>
+<p>
+Có mùi thơm của đậu tương, không có mùi chua.
+</p>
+<p>
+Không chọn mua miếng đậu cứng quá, màu vàng bởi chúng có khả năng trộn cùng thạch cao, bị ô xi hóa có màu vàng và cứng hơn.
+</p>
+<p>
+Đối với cà chua, bạn chọn những quả to tròn đều nhau. Vỏ quả cà chua có màu cam hoặc đỏ, vỏ căng mọng không bị dập, không bị nát, chảy nước.
+</p>
+  <img src="../../../assert/imageFood/dausotcachua/dausotcachua1.jpg">
+<p>
+Đậu phụ mua về bạn rửa sạch và để cho ráo nước. Để đậu khô nhanh mà không phải chờ lâu, bạn có thể thấm các mặt của bìa đậu bằng giấy ăn nhé! Rồi bạn cắt đậu phụ thành những khối nhỏ hơn vừa ăn. Bạn cắt đậu khoảng 1,5-2 cm thì sẽ đẽ rán vàng đều các mặt và khi đảo cà chua cũng không sợ miếng đậu bị vỡ nát.
+</p>
+<p>
+Đối với cà chua, bạn rửa sạch, bỏ cuống rồi thái múi cau. Nếu muốn sốt cà chua khi đun nhanh mềm nhuyễn, chóng chín, bạn có thể thái nhỏ hơn dạng hạt lựu.
+</p>
+<p>
+Tùy từng gia đính thích thêm tỏi hoặc hành tím phi thơm vào món đậu sốt cà chua. Bạn chuẩn bị theo sở thích của gia đình nhé.
+</p>
+<p>
+Rau mùi và hành lá bạn sơ chế bằng cách ngắt phần ăn được, rửa sạch, vẩy cho ráo nước rồi thái nhỏ.
+</p>
+  <img src="../../../assert/imageFood/dausotcachua/dausotcachua2.jpg">
+<h4>Bước 2:Rán đậu phụ</h4>
+<p>
+Để rán đậu phụ ngon, vàng rụm, bạn hãy chờ dầu ăn nóng và đảm bảo đậu phụ thật khô nước nhé!
+</p>
+<p>
+Bạn kiểm tra dầu ăn nóng già bằng cách nhúng đầu đũa vào chảo. Nếu đầu đũa có bọt khí sủi lăn tăn thì dầu đã đủ điều kiện để rán đậu rồi.
+</p>
+<p>
+Bạn cho từng miếng đậu phụ đã thái nhỏ vào chảo dầu. Bạn cần chú ý xếp tạo khoảng cách giữa các miếng đậu bởi vì khi rán lên, đậu phụ sẽ hơi nở ra.
+</p>
+<p>
+Nếu bạn xếp gần thì các miếng đậu khi rán sẽ nở ra và dính vào nhau.
+</p>
+<p>
+Bạn rán đến khi các mặt của miếng đậu chín vàng là được.
+</p>
+<p>
+Một số gia đình thích ăn đậu lướt ván hoặc bỏ qua bước rán đậu mà đem sốt cà chua luôn. Bạn hãy tùy thuộc vào sở thích của gia đình để linh hoạt chế biến nhé!
+</p>
+  <img src="../../../assert/imageFood/dausotcachua/dausotcachua3.jpg">
+<h4>Bước 3:Sốt đậu phụ cà chua</h4>
+<p>
+Sau khi gắp hết đậu ra, bạn đổ bớt phần dầu ăn trong chảo đi rồi cho tỏi hoặc hành khô vào phi thơm lên. Bạn dùng hành tây thái hạt lựu cũng được luôn.
+</p>
+<p>
+Bạn tiếp tục cho cà chua vào xào cùng tỏi/ hành khô khoảng 2 phút. Tiếp theo, bạn cho hạt nêm, đường, gia vị, sốt ketchup, ớt bột cùng nước sạch vào đun cùng cà chua xào.
+</p>
+<p>
+Bạn đun khoảng 5 phút cho đến khi cà chua nhừ ra tạo thành nước sốt sệt, dậy mùi thơm.
+</p>
+<p>
+Đến lúc sốt đậu rồi, bạn cho phần đậu đã rán vào chỗ nước sốt cà chua. Bạn đảo nhẹ và nêm nếm gia vị cho vừa miệng rồi đậy vung lại.
+</p>
+  <img src="../../../assert/imageFood/dausotcachua/dausotcachua4.jpg">
+<p>
+Bạn đun thêm khoảng 5 phút cho đậu phụ ngấm sốt cà chua rồi thêm hành lá vào đun cùng. Trước khi cho hành lá, nếu nước sốt còn hơi loãng, bạn có thể pha 1 thìa canh bột năng hoặc bột bắp với 1-2 thìa nước rồi cho vào chảo để nước sốt cà chua được đặc hơn.
+</p>
+<p>
+Khi cho hành lá vào, bạn đun 1-2 phút để cho hành chín tới, bớt hăng và giữ nguyên màu xanh nhé! Nếu đun lâu quá, hành lá sẽ bị ngả màu vàng úa không đẹp mắt.
+</p>
+<h4>Bước 4:Hoàn thành</h4>
+<p>
+Vậy là món đậu phụ sốt cà chua đã hoàn thành rồi. Bạn múc ra một chiếc đĩa sâu lòng rồi trang trí thêm chút hành lá, rau mùi cho đẹp mắt và nhanh chóng thưởng thức cùng gia đình khi còn nóng hổi nhé!
+</p>
+  <img src="../../../assert/imageFood/dausotcachua/dausotcachua5.jpg">
+
+
+    <p>Để tìm hiểu chi tiết cách làm đậu sốt cà chua, bạn có thể truy cập nguồn: <a href="https://thatlangon.com/cach-lam-dau-sot-ca-chua-ngon-dam-da.html" target="_blank">thatlangon.com</a></p>

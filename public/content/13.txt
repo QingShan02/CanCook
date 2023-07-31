@@ -1,0 +1,221 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+    <h1>Salad Cá Ngừ</h1>
+
+    <h2>Khẩu phần: 3 người</h2>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu.jpg">
+
+
+    <h3>Nguyên Liệu:</h3>
+    <ul>
+        <li>1 hộp cá ngừ: 20,000đ - 30,000đ/hộp</li>
+        <li>200 g cà chua bi</li>
+        <li>1 cây xà lách</li>
+        <li>1 quả dưa chuột</li>
+        <li>1 củ hành tây</li>
+        <li>1 ít lá bạc hà</li>
+        <li>1-2 lát bánh mì sandwich</li>
+        <li>Gia vị trộn sốt salad:</li>
+        <li>3 thìa canh sốt mayonnaise</li>
+        <li>1 ít tiêu sọ</li>
+        <li>3 tép tỏi</li>
+        <li>1/2 quả chanh</li>
+        <li>1/2 thìa cà phê muối</li>
+    </ul>
+
+    <h3>Hướng dẫn:</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+  <ol>
+  <li>
+  Rau xà lách rửa sạch và ngâm trong nước muối khoảng 5 phút rồi vớt ra để ráo.
+  </li>
+  <li>
+Cà chua bi cũng phải rửa sạch, cắt đôi hoặc bốn miếng nhỏ.
+  </li>
+  <li>
+ Hành tây được lột vỏ và thái sợi rồi ngâm nước đá để khử mùi hăng.
+  </li>
+<li>
+Lá bạc hà bỏ đi cọng to.
+</li>
+<li>
+Bánh mì sandwich thái thành miếng hình vuông cỡ 1 cm.
+</li>
+
+  </ol>
+
+    <h4>Bước 2: Chuẩn bị sốt và topping</h4>
+    <ol>
+    <li>
+    Bánh mì sandwich đã thái bạn có thể cho vào áp chảo, chiên giòn, hoặc nướng cho khô giòn.
+    </li>
+    <li>
+Bạn cho tất cả các gia vị làm sốt salad vào bát con, trộn đều.
+    </li>
+    <li>
+Mở hộp cá ngừ, chắt bớt dầu trong hộp.
+    </li>
+    </ol>
+
+    <h4>Bước 3: Trộn salad cá ngừ</h4>
+<ol>
+<li>
+Cho các phần rau củ đã sơ chế vào âu/bát to, thêm cá ngừ, sốt đã pha, trộn đều rồi để nghỉ 5 phút.
+</li>
+<li>
+Rắc bánh mì sấy và bày đĩa, trang trí với lá bạc hà..
+</li>
+</ol>
+
+    <h3>Cách làm salad cá ngừ chi tiết:</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <p>
+    Món salad cá ngừ này có trở nên ngon hay không thì quyết định nằm ở việc bạn phải biết cách chọn những nguyên liệu chất lượng nhất.
+    </p>
+<p>
+Khi đi siêu thị hoặc chợ thì bạn nên chọn những loại rau xà lách tươi, lá xanh và không có dấu hiệu bị úng hay héo hoặc màu sắc bị biến đổi sang vàng.
+</p>
+<p>
+Thêm vào đó, bạn phải chọn dưa leo, cà chua bi, củ hành tây, và quả chanh không bị úng hoặc có bốc mùi chua, hăng khó chịu. Bạn cũng tránh chọn những trái bị dập nhé.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu1.jpg">
+      <p>
+Ngoài ra, khi mua hộp cá ngừ thì nên kiểm tra thời hạn sử dụng.
+      </p>
+<p>
+Một gợi ý nhỏ về bánh mì sandwich, bạn có thể tận dụng bánh còn dư từ 1-2 hôm trước. Bánh không còn mềm nữa nên làm thành sandwich hay ăn trực tiếp sẽ kém ngon nhưng lại rất hợp cho món salad này đấy.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu2.jpg">
+<p>
+Với món salad cá ngừ này thì công đoạn sơ chế hoàn toàn đơn giản và không mất quá nhiều thời gian. Việc đầu tiên bạn làm đó là phải làm sạch các nguyên liệu mà bạn đã mua.
+</p>      
+<p>
+Với rau xà lách bạn cần lặt lá và bỏ đi những phần bị dập nát, hoặc bị vàng. Sau đó, bạn cho rau vào thau rửa sạch sơ qua và đem ngâm với nước muối loãng khoảng 5 phút rồi sau đó hãy vớt rau ra để ráo nhé.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu3.jpg">
+      <p>
+Hãy nhớ là không nên để rau ngâm quá lâu sẽ khiến cho rau xà lách bị mềm và ăn sẽ không còn ngon nữa đâu đấy.
+      </p>
+<p>
+Tiếp đến là bạn cũng đừng quên là cũng phải rửa cà chua bi, hành tây, và dưa leo thật sạch đấy.
+</p>
+<p>
+Sau khi đã rửa sạch thì bạn hãy bắt đầu cắt cà chua bi thành 2 hoặc 4 miếng nhỏ. Bạn cũng có thể thay thế bằng cà chua to. thái múi cau hoặc khoanh tròn.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu4.jpg">
+      <p>
+Dưa leo thì bạn phải gọt bỏ và cắt 2 đầu của trái rồi chà sạch lên 2 đầu của trái để cho ra hết nhựa đắng và thái chúng thành khúc theo kích cỡ mà bạn muốn nha.
+      </p>
+<p>
+Còn hành tây sau khi rửa sạch bạn hãy thái lát mỏng và ngâm chúng trong tô nước đá lạnh để ngâm trong thời gian là 5-10 phút để khử đi mùi hăng. Đối với lá bạc hà thì bạn chỉ cần nhặt lấy lá và bỏ đi cọng to là được.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu5.jpg">
+<p>Cuối cùng là bánh mì sandwich bạn hãy thái thành những miếng hình vuông có kích cỡ vừa phải là được nhé.</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu6.jpg">
+
+
+
+    <h4>Bước 2: Chuẩn bị sốt và topping</h4>
+    <p>
+  Phần bánh mì đã thái vuông bạn có thể áp chảo, hoặc nướng giòn bằng lò nướng hoặc nồi chiên không dầu.
+    </p>
+<p>
+Nếu áp chảo thì bạn chịu khó phết một lớp bơ mỏng lên mặt của miếng bánh mì rồi hãy cho vào để áp chảo nhé. Bạn đợi đến khi thấy bánh mì bắt đầu hơi khô và các mặt của miếng bánh sachwich vàng đều rồi thì hãy tắt bếp đi.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu7.jpg">
+<p>
+Một cách nhanh gọn hơn là bạn cho bánh mì vào nồi chiên không dầu, nướng ở 180ºC 10-15 phút đến khi bánh vàng giòn. Nếu có lò nướng thì bạn cũng làm tương tự nhé.
+</p>
+<p>
+Tiếp đến, chúng mính sẽ trộn sốt cho salad cá ngừ. Ở đây mình sử dụng sốt mayonnaise sẵn cớ để dễ làm và dễ ăn với nhiều người.
+</p>
+<p>
+Bạn vắt lấy nước cốt nửa quả chanh rồi cho vào bát cùng với 3 thìa canh sốt mayonnaise. Bạn thêm tỏi băm, tiêu, và xíu muối rồi trộn đều. Lượng tỏi, tiêu bạn tuỳ í gia giảm theo sở thích nhé.
+</p>
+<p>
+Bạn băm thêm lá bạc hà hoặc lá mùi cho vào trộn cùng cũng rất ngon.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu8.jpg">
+<p>
+Pha sốt xong thì chúng mình cũng khui hộp cá ngừ luôn. Cá ngừ thường được bảo quản trong lớp dầu, nếu cho vào salad sẽ khá ngấy nên bạn chắt phần dầu này đi nhé. Nếu cẩn thận bạn đổ cả hộp ra một cái rây nhỏ và để một lúc,  phần dầu sẽ được loạ bỏ hết.
+</p>
+
+
+
+    <h4>Bước 3: Cách làm salad cá ngừ - Hoàn thành</h4>
+  <p>Bây giờ bạn cho các loại rau củ mà bạn đã sơ chế ở bước đầu như: rau xà lách, cà chua, dưa leo, hành tây vào tô/bát to. Bạn thêm phần cá ngừ đã chắt dầy và rưới phần sốt vừa hoà lên, đảo đều nhẹ nhàng, tránh để rau bị nát.</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu9.jpg">
+      <p>
+Sau khoảng 5 phút thì bạn rắc thêm bánh mì sấy, rồi bày ra đia và thưởng thức thôi.
+      </p>
+<p>
+Như mình đã đề cập từ ban đầu, tại sao mình lại nói rằng món salad cá ngừ này lại tốt cho sức khỏe cũng như làm đẹp dáng? Nếu bạn muốn biết thì hãy cùng mình tìm hiểu một chút nhé.
+</p>
+<p>
+Món salad cá ngừ vì có chứa nhiều rau củ trong món ăn nên sẽ cung cấp cho bạn đầy đủ các chất xơ cần thiết, bổ sung các vi chất vi khoáng cho cơ thể. Cá ngừ cũng giúp cung cấp protein và chất béo tốt ữa đó.
+</p>
+<p>
+Để món ăn thêm đầy đặn, bạn có thể sử dụng thêm các thành phần như quả bơ, trứng luộc, nui luộc.
+</p>
+      <img src="../../../assert/imageFood/saladcangu/saladcangu10.jpg">
+      <p>
+Vậy thì chỉ cần một đĩa salad cá ngừ thôi là đẫ no rồi. Rất thích hợp cho các bạn bận rộn hoặc đang ăn kiêng phải không nào!
+      </p>
+<p>
+Vậy đó là tất cả những gì mà mình đã chia sẻ với bạn về cách làm salad cá ngừ cũng như công dụng của món ăn đem lại.
+</p>
+
+
+ <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

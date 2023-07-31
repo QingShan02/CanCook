@@ -1,0 +1,181 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+    <h1>Sườn Xào Chua Ngọt</h1>
+
+    <h2>Khẩu phần: 4 người</h2>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot.jpg">
+
+    <h3>Nguyên liệu chính:</h3>
+    <ul>
+        <li>700g sườn non: 150000đ - 170000đ/kg</li>
+    </ul>
+
+    <h3>Nguyên liệu phụ:</h3>
+    <ul>
+        <li>1/2 thìa cơm muối</li>
+        <li>1 thìa cơm dầu ăn</li>
+        <li>2 quả cà chua</li>
+        <li>1 củ tỏi</li>
+        <li>3 củ hành tím</li>
+    </ul>
+
+    <h3>Gia vị ướp:</h3>
+    <ul>
+        <li>1 thìa cơm dầu hào</li>
+        <li>1 thìa cơm tương cà</li>
+        <li>1.5 thìa cơm nước mắm</li>
+        <li>1 thìa cơm giấm</li>
+        <li>2 thìa cơm đường</li>
+        <li>1/2 quả ớt băm nhuyễn</li>
+    </ul>
+
+    <h3>Hướng dẫn:</h3>
+    <p>Bước 1: Sơ chế sườn</p>
+    <ul>
+        <li>Rửa sạch sườn với nước lạnh rồi trần sơ với nước sôi có thêm 1 chút muối.</li>
+        <li>Rửa sạch sườn lại với nước lạnh và chặt miếng vừa ăn.</li>
+        <li>Rán sơ qua sườn cho đến khi các mặt vàng đều.</li>
+    </ul>
+
+    <p>Bước 2: Ướp sườn</p>
+    <ul>
+        <li>Cà chua lột vỏ, bỏ hạt và thái nhỏ.</li>
+        <li>Hành tỏi đập dập, băm nhuyễn, phi lên cho thơm thì cho cà chua vào xào cho đến khi chín mềm.</li>
+        <li>Cho sườn vào chảo cà chua và thêm các gia vị ướp, đảo đều và ướp khoảng 30 phút.</li>
+    </ul>
+
+    <p>Bước 3: Rim sườn và hoàn thành</p>
+    <ul>
+        <li>Rim sườn trên lửa vừa cho đến khi nước sốt sệt lại và miếng sườn có màu vàng cam óng ả.</li>
+    </ul>
+
+    <h3>Chi tiết công thức sườn xào chua ngọt:</h3>
+  <h4>Bước 1: Sơ chế sườn</h4>
+  <p>
+Để làm sườn xào chua ngọt, bạn nên chọn phần sườn non nhiều thịt, ít mỡ. Dừng sườn sụn non cũng ngon lắm.
+  </p>
+<p>
+Để bắt đầu chế biến, bạn cần rửa sạch sườn với nước lạnh để loại bỏ những phần sạn hoặc xương, thịt thừa bám vào. Sau đó, bạn để ra rổ cho ráo nước.
+</p>
+<p>
+Tiếp theo, bạn bắc một nồi nước lên bếp rồi cho muối vào và đun trên lửa to. Khi nước sôi thì bạn thả sườn vào luộc sơ qua khoảng 2 phút giúp sườn bớt hôi. Bạn lưu ý, không được luộc kĩ, sẽ làm sườn bị khô và mất đi vị ngọt thịt trong các bước chế biến tiếp theo.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot1.jpg">
+          <p>
+Tiếp đó, bạn rửa lại với nước lạnh và để ráo nước. Việc để ráo nước sẽ tránh bị bắn dầu mỡ khi rán sườn. Nếu miếng sườn còn to thì bạn chặt miếng vừa ăn, khoảng 4-5 cm.
+          </p>
+<p>
+Để miếng sườn thêm phần hấp dẫn và thịt sườn thơm hơn, bạn hãy rán qua cho đến khi các mặt sườn vàng đều nhé!
+</p>
+<p>
+Bạn bắc chảo lên bếp và bặt lửa vừa, chờ chảo nóng thì bạn cho 1 thìa canh dầu ăn vào. Khi dầu nóng thì bạn cho sườn vào áp chảo đều các mặt.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot2.jpg">
+          <p>
+Khi sườn đã được rán cháy cạnh hai mặt thì bạn vớt sườn ra một bát riêng. Với phần dầu còn dư, bạn gạn bỏ phần cặn, chỉ lấy phần dầu trong để làm nước sốt ướp sườn.
+          </p>
+<p>
+Bạn lưu ý, chỉ rán sơ qua miếng sườn, không nên rán kĩ và rán trên lửa quá to sẽ làm sườn nhanh bị cháy và khô, cứng.
+</p>
+<h4>Bước 2: Ướp sườn</h4>
+<p>
+Đầu tiên, bạn rửa sạch cà chua rồi lột vỏ và thái hạt lựu. Trong món sườn xào chua ngọt này cà chua chủ yếu làm sốt và tạo màu nên bạn nên lột vỏ để khi nấu sốt được nhuyễn và khi ăn không bị cợn vỏ cà nha.
+</p>
+<p>
+Để lột vỏ được nhanh thì bạn cắt hay đường chéo nhau ở đáy quả cà chua rồi cho vào nồi nước sôi chần qua trong 30-45 giây. Chỉ cần cỏ cà chua hơi nứt là bạn vớt ra ngay nhé.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot3.jpg">
+<p>
+Bạn bóc vỏ hành và tỏi, rồi đập dập và băm nhuyễn.
+</p>          
+<p>
+Bạn bắc chảo dầu sau khi rán sơ sườn lên bếp, để lửa vừa. Khi dầu nóng thì cho hành, tỏi vào và phi lên cho thơm. Sau đó, bạn hạ lửa rồi cho cà chua vào xào cho đến khi cà chín mềm thì tắt bếp. Trong lúc xào cà chua, bạn có thể dùng thìa dằm cà chua để cà nhanh mềm và nhuyễn nhé.
+</p>
+<p>
+Khi cà chua đã nhuyễn thì bạn tắt bếp và chuẩn bị gia vị nước sốt ướp sườn. Với công thức sườn xào chua ngọt này thì bạn dùng 1 thìa cơm dầu hào, 1 thìa cơm tương cà, 1½ thìa cơm nước mắm, 1 thìa cơm giấm, 2 thìa cơm đường và ½ quả ớt băm nhuyễn.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot4.jpg">
+<p>
+Nếu nhà có trể không ăn được cay thì bạn có thể bỏ qua ớt nha. Còn nếu mướn vị cay đặm hơn chút thì tăng thêm chút ớt cũng được ý 😊.
+</p>
+<p>
+Bạn cho sườn vào chảo cà chua rồi thêm phần nước sốt ướp vào và đảo đều rồi để nghỉ khoảng 30 phút.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot5.jpg">
+<h4>Bước 3: Rim sườn và hoàn thành</h4>
+<p>
+Sau 30 phút, sườn đã ngấm gia vị thì bạn bật bếp và rim sườn trên lửa nhỏ. Khi nước sốt sệt lại và bám vào miếng sườn thì món sườn xào chua ngọt đã hoàn thành. Miếng sườn vô cùng óng ả, thịt mềm, róc xương, có vị chua chua, cay cay, ngọt ngọt rất thơm.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot6.jpg">
+          <p>
+Bạn múc sườn ra đĩa, thêm chút rau mùi, hành lá để thưởng thức cùng với cơm và các món ăn khác nhé.
+          </p>
+<p>
+Trong quá trình rim sườn, bạn hãy nếm thử để gia giảm thêm gia vị cho vừa nhé.
+</p>
+<p>
+Thưởng thức
+Miếng sườn mềm mềm, óng óng vàng vàng nhưng không béo. Sự kết hợp hoàn hảo giữa các vị chua, cay, mặn, ngọt, thanh thanh sẽ làm món ăn bớt ngấy. Màu sắc bắt mắt lại thêm mùi hương thơm phức, chắc chắn đây sẽ là đĩa sườn làm ai cũng phải xao xuyến.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot7.jpg">
+<p>
+Ngoài ra, nước sốt chua chua ngọt ngọt cũng góp phần tạo nên bộ đôi hoàn hảo của món sườn xào chua ngọt. Nước sốt này mà trộn với cơm nóng thì ngon bá cháy. Ngoài ăn với cơm thì bạn còn có thể kết hợp với bún hoặc làm món nhậu.
+</p>
+<p>
+Bạn hãy thưởng thức món ăn này khi còn nóng nhé. Bạn có thể trang trí hay ăn kèm với rau sống, dưa chuột 🥒,… cũng rất tuyệt vời.
+</p>
+          <img src="../../../assert/imageFood/suonxaochuangot/suonxaochuangot8.jpg">
+
+    <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

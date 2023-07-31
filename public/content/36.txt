@@ -1,0 +1,116 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+        margin-left: 30px;
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>6 loại thực phẩm nên ăn vào buổi trưa</h1>
+
+<p>
+    <b>
+        Nếu bạn đang muốn cải thiện sức khỏe và làm mới những bữa ăn của mình thì bữa trưa ăn gì là điều bạn cần quan
+        tâm tìm hiểu.
+        Chúng ta thường nghe nói “Bữa sáng nên ăn như một vị hoàng đế, bữa trưa nên ăn như thường dân và bữa tối nên ăn
+        như một kẻ ăn mày”. Thế nhưng thực tế không phải ai cũng làm được điều đó. Trong bài viết này, CanCook mời bạn
+        tìm hiểu bữa trưa ăn gì cho ngon và lành mạnh.
+
+    </b>
+</p>
+<h4>Cơm gạo lứt</h4>
+<p>
+    Gạo trắng mà chúng ta thường ăn thực ra đã bỏ đi lớp cám và mầm của gạo. Trong khi lớp cám và mầm này rất giàu
+    vitamin B6 và vitamin E tốt cho sức khỏe. Trong khi đó, gạo lứt gần như giữ nguyên hàm lượng của những dưỡng chất
+    này nên mang lại nhiều lợi ích cho sức khỏe.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/comgaolut.jpg" alt="">
+
+<h4>Khoai tây</h4>
+<p>
+    Khoai tây là một lựa chọn tốt để làm lương thực chính. Khoai tây giàu tinh bột, chất xơ, kali, vitamin C, B6,
+    protein… Ăn khoai tây sẽ tạo cảm giác no lâu. Lượng calo của 1 củ khoai tây nặng 370gr chỉ tương đương nửa chiếc
+    bánh hamburger.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/khoaitay.jpg" alt="">
+<h4>Ức gà</h4>
+<p>
+    Ức gà không xương và không da chứa khoảng 30% lượng protein và giàu phốt pho, kali, selen. Nhờ hàm lượng dinh dưỡng
+    cao và thân thiện với người giảm cân nên ức gà rất được những người tập gym ưa chuộng.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/thitga.jpg" alt="">
+<h4>Trứng</h4>
+<p>
+    Trứng là một trong những thực phẩm rất tiện lợi cho bữa ăn trưa. Trứng chứa nhiều protein, chất béo, các chất dinh
+    dưỡng cần thiết cho người đang giảm cân.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/trung.jpg" alt="">
+<h4>Thịt heo</h4>
+<p>
+    Nếu chọn bữa ăn trưa đơn giản thì bạn nên chọn thịt heo nạc. Phần nạc thăn chứa ít chất béo hơn so với thịt ở bụng
+    và sườn.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/thitheo.jpg" alt="">
+
+<h4>Cá hồi</h4>
+<p>
+    Cá hồi rất tốt cho sức khỏe vì chứa protein, chất béo lành mạnh, iốt và các chất dinh dưỡng khác giúp quá trình trao
+    đổi chất hoạt động tối ưu. Cá hồi cũng giúp bạn nhanh no, chứa omega-3 giúp giảm viêm. Thực phẩm này đóng vai trò
+    quan trọng trong việc kiểm soát béo phì và các bệnh về chuyển hóa.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/cahoi.jpg" alt="">
+
+<p>Nguồn: <a href="https://ytvn.vn/" target="_blank">ytvn.vn</a></p>

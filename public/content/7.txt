@@ -1,0 +1,188 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+    <h1>Tên món: Rau muống xào</h1>
+  <h2>Khẩu phần: 2 người</h2>
+  <img src="../../../assert/imageFood/raumuongxao/raumuongxao.jpg">
+
+
+  <h3>Nguyên liệu chính</h3>
+  <ul>
+    <li>1 bó rau muống to: 10.000đ - 15.000đ</li>
+  </ul>
+
+  <h3>Nguyên liệu phụ</h3>
+  <ul>
+    <li>1 củ tỏi to</li>
+    <li>2 thìa canh dầu ăn</li>
+    <li>Gia vị xào rau</li>
+    <li>1 thìa cà phê gia vị</li>
+    <li>1 thìa canh nước mắm</li>
+    <li>1 thìa canh dầu hào</li>
+    <li>½ thìa cà phê đường (không bắt buộc)</li>
+  </ul>
+
+  <h3>Hướng dẫn</h3>
+  <ol>
+    <li>Bước 1: Sơ chế nguyên liệu</li>
+    <ul>
+      <li>Nhặt rau muống loại bỏ phần thân giá, lá dập úa. Giữ lại phần xanh non.</li>
+      <li>Tỏi bóc vỏ và đập dập.</li>
+    </ul>
+    <li>Bước 2: Luộc sơ rau muống</li>
+    <ul>
+      <li>Đun sôi nước, bỏ thêm một chút muối rồi chần sơ rau muống khoảng 1 phút.</li>
+      <li>Ngâm ngay rau muống vào âu nước đá khoảng 10 phút cho rau săn lại.</li>
+    </ul>
+    <li>Bước 3: Xào rau muống và hoàn thành</li>
+    <ul>
+      <li>Phi thơm tỏi cùng dầu ăn.</li>
+      <li>Xào sơ rau muống rồi thêm hỗn hợp gia vị đã hòa trước vào, nêm nếm lại cho vừa miệng.</li>
+      <li>Xào thêm khoảng 2 phút cho rau chín hẳn rồi gắp ra đĩa và thưởng thức.</li>
+    </ul>
+  </ol>
+  <h3>Hướng dẫn chi tiết</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+<p>
+    Không phải ngẫu nhiên mà từ bao đời nay, người Việt thường kết hợp rau muống và tỏi với nhau. Hai loại thực vật có nguồn gốc tự nhiên này khi chế biến cùng nhau không chỉ tăng hương vị mà còn giàu dinh dưỡng, tốt cho sức khỏe.
+</p>
+<p>
+Rau muống là loại rau xanh đặc thù ở những nước có khí hậu nhiệt đới. Thành phần của rau muống chứa nhiều chất xơ, vitamin A, vitamin B và chứa hàm lượng các kim loại nhẹ như canxi, photpho, sắt,...
+</p>
+<p>
+Sử dụng rau muống trong bữa ăn hàng ngày giúp thanh nhiệt, giải độc, duy trì vóc dáng, ngăn ngừa tiểu đường, tốt cho máu,… Rau muống rất lành tính, thích hợp sử dụng cho mọi lứa tuổi và có thể đem chế biến thành nhiều món ăn khác nhau từ xào, luộc đến nấu, lẩu,…
+</p>
+<p>
+Trong khi đó, tỏi được ví như chất kháng sinh tự nhiên. Sử dụng tỏi thường xuyên giúp tăng miễn dịch của cơ thể, ngăn ngừa bệnh cảm cúm, sát khuẩn đường ruột, trị đầy hơi, khó tiêu,…
+</p>
+<p>
+Tỏi có tính hăng, cay nóng nên không phải ai cũng có thể ăn trực tiếp. Khi được chế biến bằng cách xào, nướng, nấu… thì hương vị của tỏi trở nên dịu đi, thơm hơn nên tất cả mọi người đều có thể ăn được.
+</p>
+  <img src="../../../assert/imageFood/raumuongxao/raumuongxao1.jpg">
+  <p>
+Để rau xào được ngon, bạn nên chọn mua rau muống có thân màu xanh lá cây nhạt. Ống thân và lá rau hơi to để khi xào sẽ được giòn mà không bị nát.
+  </p>
+<p>
+Bạn nhặt phần thân già bám rễ non đi, giữ lại phần xanh tươi. Đồng thời, bạn loại bỏ những lá héo, già và bị bám đất bẩn quá. Nếu rau quá dài thì bạn ngắt thành từng khúc khoảng 10 cm để vừa ăn.
+</p>
+<p>
+Sau khi nhặt, bạn rửa rau muống qua hai lần nước sạch. Ở nước thứ ba, bạn hòa tan thêm 1 thìa muối hạt rồi ngâm rau khoảng 5 phút để khử khuẩn. Rửa rau xong rồi thì bạn vớt rau ra rổ để cho ráo nước nhé.
+</p>
+<p>
+Tỏi thì bạn nên chọn mua tỏi hương. Loại tỏi này nhánh tuy nhỏ mà rất thơm.
+</p>
+<p>
+Bạn bóc sạch lớp vỏ bên ngoài rồi đập dập. Tỏi bạn chỉ nên đập dập sơ qua thôi mà không nên băm nhỏ hay giã nát. Vì tỏi làm nát quá khi phi và xào lên dễ bị cháy, chuyển vị đắng.
+</p>
+    <h4>Bước 2: Luộc sơ rau muống</h4>
+    <p>
+Bạn đặt một nồi to chứa khoảng 1 lít nước lên bếp và cho vào thêm một thìa muối hạt.
+    </p>
+<p>
+Bí quyết được nhiều đầu bếp chỉ dẫn đó là khi thêm muối vào nồi nước sẽ giúp tăng nhiệt độ của nước sôi lên, giúp rau luộc xanh hơn đó bạn. Bạn nhớ để áp dụng đối với những loại rau xanh khác nữa nhé.
+</p>
+<p>
+Khi nước đã sôi thì bạn cho rau muống vào chần sơ qua 1 phút. Bạn nhớ không đậy vung nồi đâu nhé! Luộc rau muống mà đậy nắp thì rau sẽ bị đen đó.
+</p>
+<p>
+Sau đó, bạn gắp rau muống vào một âu nước đá lạnh ngâm 10 phút rồi vớt ra để cho ráo nước, khi xào sẽ đỡ bị bắn dầu nóng.
+</p>
+<p>
+Bạn đừng nghĩ bước này mất thời gian nhé. Bước chần rau giúp rau muống chín sơ để khi rau xào nhanh chín và rau giữ nguyên màu xanh lá. Còn ngâm trong nước đá giúp rau được giòn, săn lại.
+</p>
+<p>
+Phần nước luộc rau bạn đừng vội đổ đi mà hãy chờ nguội hẳn. Nước rau được vắt thêm chút chanh tươi vào thì ngon tuyệt. Uống để giải khát hoặc để làm nước canh ăn với cơm đều hợp đó bạn.
+</p>
+  <img src="../../../assert/imageFood/raumuongxao/raumuongxao2.jpg">
+    <h4>Bước 3: Xào rau muống</h4>
+    <p>
+    Bạn chuẩn bị một chiếc chảo sâu lòng sạch. Bạn cần phi thơm phần tỏi đã đập dập cùng một ít dầu ăn.
+    </p>
+<p>
+Khi tỏi hơi ngả vàng và dậy mùi thì bạn cho phần rau đã chần sơ vào để xào trong mức nhiệt vừa.
+</p>
+<p>
+Bạn hòa các phần gia vị xào rau trong một bát con rồi đổ vào chảo và đảo đều tay khi rau muống đã chín tới.
+</p>
+<p>
+Bạn cẩn thận đừng làm cháy những tép tỏi bám trên thành chảo nhé. Tùy theo khẩu vị cá nhân, bạn nêm nếm thêm gia vị cho vừa miệng nhé.
+</p>
+<p>
+Bạn đảo thêm độ 2 phút rồi tắt bếp và gắp ra đĩa.
+</p>
+  <img src="../../../assert/imageFood/raumuongxao/raumuongxao3.jpg">
+    <h4>Bước 4: Hoàn thành </h4>
+    <p>
+Rau muống xào tỏi đạt yêu cầu cần thỏa mãn một số điều kiện. Bạn kiểm tra xem mình đã làm thành công chưa nhé!
+    </p>
+<p>
+	Thân rau vẫn giữ được độ giòn. Phần lá rau không bị nát.
+</p>
+<p>
+	Tỏi không bị cháy mà chỉ xém cạnh một chút. Khi ăn thì tỏi thơm, không còn vị hăng cay.
+</p>
+<p>
+	Rau muống vẫn giữ được màu xanh tươi, bóng ánh dầu mỡ nên trông càng đẹp mắt. Rau ngấm gia vị vừa đủ, không bị mặn.
+</p>
+<p>
+	Mùi rau xào thơm phức, làm tăng cảm giác thèm ăn.
+</p>
+<p>
+Nếu bạn thích ăn cay thì có thể thêm ớt tươi thái lát vào xào cùng.
+</p>
+<p>
+Rau muống xào thành phẩm có thể được thêm lạc rang, tóp mỡ, tép khô,... để trang trí và ăn kèm theo sở thích. Một số người còn chấm thêm với nước mắm hoặc xì dầu để tăng vị đậm đà.
+</p>
+  <img src="../../../assert/imageFood/raumuongxao/raumuongxao4.jpg">
+
+  <p>Nguồn: <a href="https://thalangon.com">thalangon.com</a></p>

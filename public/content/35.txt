@@ -1,0 +1,125 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+        margin-left: 30px;
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Các loại thực phẩm tốt cho người già</h1>
+
+<p>
+    <b>
+        Theo Health Shots, bắt đầu một ngày mới với thực phẩm giàu chất chống oxy hóa là cách đơn giản để tăng cường hệ
+        miễn dịch, giữ cơ thể khỏe mạnh.
+    </b>
+</p>
+<h4>Trái cây họ cam quýt</h4>
+<p>
+    Thêm các loại trái cây họ cam quýt như cam, chanh và bưởi vào bữa sáng không chỉ bổ sung chất dinh dưỡng cần thiết
+    cho cơ thể mà còn giúp tăng cường miễn dịch và chống lại bệnh ung thư.
+</p>
+<img src="../../../assert/imageFood/dinhduong/camquyt.jpg" alt="">
+<p>
+    Trái cây họ cam quýt rất giàu vitamin C và khoáng chất giúp tăng cường hệ thống miễn dịch. Thêm vào đó, trái cây họ
+    cam quýt còn có tác dụng chống viêm và chống oxy hóa, mang lại cho bạn làn da trắng sáng, khỏe mạnh. Ngoài ra, trái
+    cây họ cam quýt còn là nguồn cung cấp chất xơ dồi dào, ít calo và giảm nguy cơ sỏi thận.
+</p>
+
+<h4>Đu đủ</h4>
+<p>
+    Đu đủ rất dễ tìm ở nước ta. Đây là loại trái cây giàu vitamin A, B, C và K, giúp tăng cường hệ thống miễn dịch của
+    cơ thể. Bên cạnh đó, trái cây nhiệt đới này còn giàu chất chống oxy hóa và chất dinh dưỡng giữ cho trái tim khỏe
+    mạnh và chống lại bệnh ung thư.
+</p>
+<img src="../../../assert/imageFood/dinhduong/dudu.jpg" alt="">
+<p>
+    Ngoài ra, ăn đu đủ còn giúp duy trì lượng đường trong máu và kiểm soát lượng cholesterol. Đồng thời, đu đủ còn chứa
+    các khoáng chất như kali, canxi, đồng và magiê, có thể làm giảm căng thẳng oxy hóa và tăng cường khả năng miễn dịch.
+</p>
+<h4>Trà xanh</h4>
+<p>
+    Bắt đầu ngày mới với một tách trà xanh không chỉ cung cấp năng lượng mà còn giữ cho cơ thể khỏe mạnh. Bên cạnh đó,
+    uống trà xanh mỗi sáng còn giúp miễn dịch. Điều này là do đặc tính chống oxy hóa của chất EGCG trong trà xanh.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/traxanh.jpg" alt="">
+<p>
+    Hợp chất này giúp kiểm soát lượng đường trong máu cũng giúp cải thiện sự trao đổi chất. Ngoài ra, uống trà xanh vào
+    buổi sáng còn tăng cường quá trình giải độc trong cơ thể giúp giảm cân.
+
+</p>
+<h4>Sữa chua</h4>
+<p>
+    Không chỉ giàu protein, sữa chua còn tốt cho hệ thống miễn dịch của bạn vì sữa chua là nguồn cung cấp vitamin D cho
+    cơ thể.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/suachua1.jpg" alt="">
+<p>
+    Ăn sữa chua vào bữa sáng sẽ làm giảm nguy cơ mắc bệnh tim và kiểm soát cân nặng hiệu quả. Thêm vào đó, men vi sinh
+    trong sữa chua còn có khả năng chống lại bệnh cảm lạnh thông thường.
+
+</p>
+<h4>Quả hạch</h4>
+<p>
+    Hạnh nhân, quả mơ, quả lạc, quả chà là, hạt vừng và hạt hướng dương rất giàu kẽm, magie và omega-3 giúp tăng cường
+    miễn dịch.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/quahach.jpg" alt="">
+<p>
+    Bên cạnh đó, quả hạch còn là thực phẩm giàu vitamin A, D, E và K hòa tan trong chất béo giúp ngăn ngừa và chống lại
+    cảm lạnh. Do đó, ăn quả hạch vào buổi sáng là cách đơn giản để giữ hệ thống miễn dịch khỏe mạnh.
+
+</p>
+
+<p>Nguồn: <a href="https://ytvn.vn/5-thuc-pham-nen-an-vao-bua-sang-de-tang-cuong-mien-dich/" target="_blank">ytvn.vn</a>
+</p>
