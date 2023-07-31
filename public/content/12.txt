@@ -55,7 +55,7 @@
     <h1>Salad Cá Hồi</h1>
 
     <h2>Khẩu phần: 2 người</h2>
-    <img src="img/salad/salad.jpg">
+    <img src="../../../assert/imageFood/saladcahoi/saladcahoi.jpg">
 
     <h3>Nguyên liệu chính:</h3>
     <ul>
