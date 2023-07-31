@@ -29,11 +29,11 @@ const TextEditor = ({ Submit }) => {
     useEffect(() => {
         const now = new Date().getFullYear() + "-" + (new Date().getMonth() + 1) + "-" + new Date().getDate();
         try {
-            axios.get("http://localhost:3000/api/homepage").then(s => {
+            axios.get("/api/homepage").then(s => {
                 setData(s.data);
             });
             if (session) {
-                axios.get("http://localhost:3000/api/staff?email=" + session?.user?.email).then((s) => {
+                axios.get("/api/staff?email=" + session?.user?.email).then((s) => {
                     setValue("staffId", s.data.id)
                 })
             }

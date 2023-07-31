@@ -54,7 +54,7 @@
 </style>
 
 <h1>Bò Lúc Lắc</h1>
-<img src="../../../assert/ArticleImage/28.png" alt="Bò Lúc Lắc">
+<img src="../../../assert/imageFood/boluclac/boluclac.jpg" alt="Bò Lúc Lắc">
 
 <h2>Nguyên Liệu</h2>
 <ul>

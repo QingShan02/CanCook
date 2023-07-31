@@ -9,7 +9,7 @@ const Article = ({params}) => {
     const [data,setData] = useState<Article>();
     useEffect(() => {
         const init = async()=>{
-            const data=await axios.get(`http://localhost:3000/api/article/${params.id}`);
+            const data=await axios.get(`/api/article/${params.id}`);
             setData(data.data);
         }
         init();

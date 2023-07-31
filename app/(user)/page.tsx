@@ -15,7 +15,7 @@ const User = () => {
     }, []);
     const getArticleList = async () => {
         try {
-            const res = await axios.get("http://localhost:3000/api/article");
+            const res = await axios.get("/api/article");
             if (res.data) {
                 setData(res.data);
             }
