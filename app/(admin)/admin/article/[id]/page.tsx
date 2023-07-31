@@ -12,7 +12,7 @@ const Detail = ({ params }) => {
     const [value, setValue] = useState("");
     const [status, setStatus] = useState(false);
     const data = useMemo(() => {
-        return  axios.get(`http://localhost:3000/api/article/${params.id}`).then(s => {
+        return  axios.get(`/api/article/${params.id}`).then(s => {
             console.log(s.data);
             return s.data;
             });
