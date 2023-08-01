@@ -1,8 +1,10 @@
+'use client'
 import "../globals.css";
-import React from 'react';
+import React, { useEffect } from 'react';
 import dynamic from "next/dynamic";
-const Header = dynamic(()=>import("../../components/Header"),{ssr:false})
-const Footer = dynamic(()=>import("@/components/Footer"),{ssr:false})
+
+const Header = dynamic(() => import("../../components/Header"), { ssr: false })
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
 export const metadata = {
   title: 'CanCook',
@@ -11,20 +13,24 @@ export const metadata = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}:
+  {
+    children: React.ReactNode
+  }) {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap");
+  }, []);
   return (
     <html lang="en">
       <head>
-        {/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" /> */}
+
       </head>
       <body>
         <div className="container-fluid">
           <div>
-            <Header/>
+            <Header />
             {children}
-            <Footer/>
+            <Footer />
           </div>
         </div>
       </body>

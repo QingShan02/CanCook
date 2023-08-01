@@ -2,22 +2,21 @@
 import Card from "@/components/Card";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import "../../page";
 import dynamic from "next/dynamic";
-import "./Paginate.css"
 const ReactPaginate = dynamic(()=>import('react-paginate'),{ssr:false})
 
-const User = () => {
+const Category = ({ params }) => {
     const [data, setData] = useState([]);
-
+    
     useEffect(() => {
         getArticleList();
-
     }, []);
     const getArticleList = async () => {
         try {
-            const res = await axios.get("/api/article");
+            const res = await axios.get(`/api/category/${params.id}`);
             if (res.data) {
-                setData(res.data);
+                setData(res.data.listposts);
             }
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -31,7 +30,7 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <div className="col-md-3 col-sm-3 col-xs-6">
+                            <div className="col-md-3 col-lg-3 col-xs-6">
                                 <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={1000}></Card>
                             </div>
                         </>
@@ -80,4 +79,4 @@ const User = () => {
         </>
     );
 }
-export default User;
+export default Category;
