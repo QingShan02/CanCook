@@ -1,4 +1,3 @@
-
 'use client'
 import { signIn, signOut, useSession } from 'next-auth/react';
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,16 +28,14 @@ const Header = () => {
                                         <ul className="navbar-nav">
                                             <div>{session ? (
                                                 <>
-                                                    <span>{session.user.name}</span>
-                                                    <img className='' src={`${session.user.image}`} alt="" />
-                                                    <br />
-                                                    <button className='btn btn-outline-dark' onClick={() => signOut()}>Sign out</button>
+                                                    <span className='me-2'>{session.user.name}</span>
+                                                    <img style={{ borderRadius: "50%", width: "10%" }} className='me-5' src={`${session.user.image}`} alt="" />
+
+                                                    <button className='btn btn-outline-dark' onClick={() => signOut()}>Đăng xuất</button>
                                                 </>
                                             ) : (
-                                                <button className='btn btn-outline-dark' onClick={() => signIn('facebook')}>Sign in with Facebook</button>
+                                                <button className='btn btn-outline-dark' onClick={() => signIn('facebook')}>Đăng nhập với Facebook</button>
                                             )}</div>
-                                            <li className="m-auto"><a className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle"></i> Đăng nhập</a>
-                                            </li>
                                             <li className="nav-item dropdown">
 
                                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -128,7 +125,7 @@ const Header = () => {
                         </div>
                     </div>
                 </div >
-            </div >
+            </nav >
 
         </>
     );

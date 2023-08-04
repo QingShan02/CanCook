@@ -1,20 +1,25 @@
 "use client"
-
 import "./index.css"
-import {Article} from "../../../../common/model/Article";
+import { Article } from "../../../../common/model/Article";
 import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
-
-const Article = ({params}) => {
-    const [data,setData] = useState<Article>();
+import { FacebookShareButton, FacebookIcon } from 'react-share';
+import { useSession } from 'next-auth/react';
+const Article = ({ params }) => {
+    const [data, setData] = useState<Article>();
     useEffect(() => {
-        const init = async()=>{
-            const data=await axios.get(`http://localhost:3000/api/article/${params.id}`);
-            setData(data.data);
+        const init = async () => {
+            const s = await axios.get(`http://localhost:3000/api/article/${params.id}`);
+            setData(s.data);
         }
         init();
     }, []);
     console.log(data);
+
+
+    const { data: session } = useSession();
+
+    const url = `https://www.youtube.com/watch?v=9WzIACv_mxs`;
 
     return (
         <>
@@ -44,7 +49,14 @@ const Article = ({params}) => {
                             <button type="button" className="btn btn-danger px-5 py-2">Lưu</button>
                             <button type="button" className="btn btn-light px-5 py-2">Đánh giá</button>
                             <button type="button" className="btn btn-light px-5 py-2">In</button>
-                            <button type="button" className="btn btn-light px-5 py-2">Chia sẻ</button>
+
+                            <div>
+                                {session && (
+                                    <FacebookShareButton url={url} quote={data?.title}>
+                                        <button type="button" className="btn btn-light px-5 py-2">Chia sẻ</button>
+                                    </FacebookShareButton>
+                                )}
+                            </div>
                         </div>
 
                         <section className="mt-5">
@@ -89,7 +101,7 @@ const Article = ({params}) => {
                             <button className="btn btn-outline-danger rounded-0 col-5 py-2" type="button">In</button>
                         </div>
 
-                        <hr className="my-5"/>
+                        <hr className="my-5" />
 
                         <h3>Bình luận (4)</h3>
                     </div>

@@ -37,6 +37,7 @@ const handler = NextAuth({
             clientId: '811313860713154',
             clientSecret: '40171964867db85234427500ece561ae',
             name: 'facebook'
+
         })
     ],
     session: {
