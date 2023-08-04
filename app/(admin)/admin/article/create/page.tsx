@@ -1,11 +1,21 @@
 "use client"
-import { useEffect, useState } from "react";
-import TextEditor from "../../../../../components/TextEditor";
-import { useSession } from "next-auth/react";
+import dynamic from "next/dynamic";
+import { Article } from "@/common/model/Article";
+import { SubmitHandler } from "react-hook-form";
+import axios from "axios";
+const TextEditor = dynamic(() => import("../../../../../components/TextEditor"), {
+  ssr: false,
 
+});
 const Create = () => {
-  return <>
-    <TextEditor/>
-  </>;
+  const Submit: SubmitHandler<Article> = async (data) => {
+    await axios.post("http://localhost:3000/api/article", data ).then().catch(er => console.log(er));
+  }
+  return (
+    <div>
+      <TextEditor Submit={Submit} />
+    </div>
+  )
 };
+
 export default Create;

@@ -1,10 +1,10 @@
 'use client'
 import "../globals.css";
-import Header from "../../components/Header";
-import Navbar from "../../components/Navbar";
 import React, { ReactNode } from 'react';
-import Footer from "@/components/Footer";
 import { SessionProvider } from "next-auth/react";
+import dynamic from "next/dynamic";
+const Header = dynamic(() => import("../../components/Header"), { ssr: false })
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
 export const metadata = {
   title: 'CanCook',
@@ -29,13 +29,12 @@ export default function RootLayout({
           <div>
             <SessionProvider session={session}>
               <Header />
-              <Navbar />
               {children}
               <Footer />
             </SessionProvider>
-          </div>
-        </div>
-      </body>
-    </html>
+          </div >
+        </div >
+      </body >
+    </html >
   )
 }
