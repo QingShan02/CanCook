@@ -29,11 +29,11 @@ export default function RootLayout({
       <body>
         <div className="container-fluid">
           <div>
-  <SessionProvider session={session}>
-    <Header />
-    {children}
-    <Footer />
-  </SessionProvider>
+            <SessionProvider session={session}>
+              <Header />
+              {children}
+              <Footer />
+            </SessionProvider>
           </div >
         </div >
       </body >

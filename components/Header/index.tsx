@@ -9,124 +9,79 @@ const Header = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container text-center">
-                    <div className="row">
+                <div className="container text-center d-block">
+                    <div className="row ">
                         <div className="col-lg-3 my-auto">
                             <button className="navbar-toggler my-2 float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon" />
                             </button>
-                            <a className="navbar-brand float-end ms-5" href="#">
+                            <a className="navbar-brand float-end ms-5" href="/">
                                 <img src="../../../images/logo.png" alt="Bootstrap" width={100} />
                             </a>
                         </div>
-                        <div className="col-lg-9">
+                        <div className="col-lg-8 mt-4">
+                            <div className="collapse navbar-collapse row" id="navbarNavAltMarkup">
+                                <div className=" justify-content-center col-12 ">
+                                    <ul className="navbar-nav mt-3">
+                                        <li className="nav-item">
+                                            <a className="nav-link active text-inline" aria-current="page" href="/">Trang chủ</a>
+                                        </li>
+                                        <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Loại
+                                            </a>
+                                            <ul className="dropdown-menu">
+                                                <li><a className="dropdown-item" href="/category/L01">Dinh Dưỡng</a></li>
+                                                <li><a className="dropdown-item" href="/category/L02">Thông Tin</a></li>
+                                            </ul>
+                                        </li>
+                                        <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Danh Mục
+                                            </a>
+                                            <ul className="dropdown-menu">
+                                                <li><a className="dropdown-item" href="/directory/CM01">Giảm Cân</a></li>
+                                                <li><a className="dropdown-item" href="/directory/CM02">Tăng Cân</a></li>
+                                                <li><a className="dropdown-item" href="/directory/CM03">Sức Khỏe</a></li>
+                                                <li><a className="dropdown-item" href="/directory/CM04">Tiết Kiệm</a></li>
+                                                <li><a className="dropdown-item" href="/directory/CM05">Tập Gym</a></li>
+                                            </ul>
+                                        </li>
 
-                            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div className="row">
-
-                                    <div className="col-12 d-flex justify-content-end">
-                                        <ul className="navbar-nav">
-                                            <div>{session ? (
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="/about">Về chúng tôi</a>
+                                        </li>
+                                        <li className="m-auto">
+                                            {session ? (
                                                 <>
-                                                    <span className='me-2'>{session.user.name}</span>
-                                                    <img style={{ borderRadius: "50%", width: "10%" }} className='me-5' src={`${session.user.image}`} alt="" />
-
-                                                    <button className='btn btn-outline-dark' onClick={() => signOut()}>Đăng xuất</button>
+                                                    <span className='me-2 d-inline'>{session.user.name}</span>
+                                                    {/* <img style={{ borderRadius: "50%", width: "4%" }} className='me-5 d-inline' src={`${session.user.image}`} alt="" /> */}
+                                                    <a onClick={() => signOut()} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
+                                                        Đăng xuất</a>
                                                 </>
                                             ) : (
-                                                <button className='btn btn-outline-dark' onClick={() => signIn('facebook')}>Đăng nhập với Facebook</button>
-                                            )}</div>
-                                            <li className="nav-item dropdown">
-
-                                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    | Tạp chí
-                                                </a>
-                                                <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Sáng</a></li>
-                                                    <li><a className="dropdown-item" href="#">Trưa</a></li>
-                                                    <li><a className="dropdown-item" href="#">Chiều</a></li>
-                                                    <li><a className="dropdown-item" href="#">Tối</a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">| Bản tin</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">| Giải thưởng</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="col-12 d-flex justify-content-center">
-                                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                            <li className="nav-item">
-                                                <a className="nav-link active" aria-current="page" href="#">Trang chủ</a>
-                                            </li>
-                                            <li className="nav-item dropdown">
-                                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Bữa ăn
-                                                </a>
-                                                <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Sáng</a></li>
-                                                    <li><a className="dropdown-item" href="#">Trưa</a></li>
-                                                    <li><a className="dropdown-item" href="#">Chiều</a></li>
-                                                    <li><a className="dropdown-item" href="#">Tối</a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="nav-item dropdown">
-                                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Nguyên liệu
-                                                </a>
-                                                <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Thịt gà</a></li>
-                                                    <li><a className="dropdown-item" href="#">Thịt bò</a></li>
-                                                    <li><a className="dropdown-item" href="#">Thịt lợn</a></li>
-                                                    <li><hr className="dropdown-divider" /></li>
-                                                    <li><a className="dropdown-item" href="#">Rau chân vịt</a></li>
-                                                    <li><a className="dropdown-item" href="#">Salad</a></li>
-                                                    <li><a className="dropdown-item" href="#">Rau cải thìa</a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="nav-item dropdown">
-                                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Món ăn
-                                                </a>
-                                                <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                    <li><hr className="dropdown-divider" /></li>
-                                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="nav-item dropdown">
-                                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Dành cho
-                                                </a>
-                                                <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Người gầy</a></li>
-                                                    <li><a className="dropdown-item" href="#">Người béo</a></li>
-                                                    <li><hr className="dropdown-divider" /></li>
-                                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Tin tức</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Về chúng tôi</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Liên hệ</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                                <a onClick={() => signIn('facebook')} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
+                                                    Đăng nhập</a>
+                                            )}
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-1 my-auto">
+                            <a className="navbar-brand float-end ms-5" href="/">
+                                {session ? (
+                                    <>
+                                        <img style={{ borderRadius: "50%", width: "100%" }} className='me-5 d-inline' src={`${session.user.image}`} alt="" />
+                                    </>
+                                ) : (
+                                    <img style={{ borderRadius: "50%", width: "4%" }} className='me-5 d-inline' alt="" />
+                                )}
+                            </a>
+                        </div>
                     </div>
-                </div >
-            </nav >
-
+                </div>
+            </nav>
         </>
     );
 }
