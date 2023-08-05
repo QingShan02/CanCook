@@ -1,6 +1,8 @@
 import NextAuth from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import { staffService } from "../../service/staff";
+import FacebookProvider from "next-auth/providers/facebook";
+import { log } from "console";
 const handler = NextAuth({
     providers: [
         CredentialsProvider({
@@ -21,7 +23,7 @@ const handler = NextAuth({
                 // e.g. return { id: 1, name: 'J Smith', email: 'jsmith@example.com' }
                 // You can also use the `req` object to obtain additional parameters
                 // (i.e., the request IP address)
-                const user = await staffService.login({email:credentials.username,password:credentials.password})
+                const user = await staffService.login({ email: credentials.username, password: credentials.password })
 
                 // If no error and we have user data, return it
                 if (user) {
@@ -30,13 +32,23 @@ const handler = NextAuth({
                 // Return null if user data could not be retrieved
                 return null
             }
+        }),
+        FacebookProvider({
+            clientId: '811313860713154',
+            clientSecret: '40171964867db85234427500ece561ae',
+            name: 'facebook'
+
         })
     ],
-    session:{
-        strategy:"jwt"
-    },
-    pages:{
-        signIn:"/loginAdmin"
+    session: {
+        strategy: "jwt"
+
+    }, debug: true,
+    pages: {
+        signIn: "/loginAdmin"
+
     }
+
+
 });
 export { handler as GET, handler as POST }
