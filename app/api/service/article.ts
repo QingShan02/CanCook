@@ -62,5 +62,10 @@ export const articleService = {
 
     lastInsertId: async () => {
         return (await db.query(query.lastInsertId)).rows[0];
+    },
+    findContent: async (content: string) => {
+        const data = (await db.query(query.findContent, [content]));
+        return data.rows[0];
     }
+
 }

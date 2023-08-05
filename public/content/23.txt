@@ -1,0 +1,189 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+   <h1>Tên món: Kho quẹt</h1>
+    <p>Khẩu phần: 4 người</p>
+       <img src="../../../assert/imageFood/khoquet/khoquet.jpg">
+
+
+    <h2>Nguyên Liệu:</h2>
+    <ul>
+        <li>200 g thịt ba chỉ: 35000đ - 45000đ/200g</li>
+        <li>50 -100 g tôm nõn khô: 65000đ/100g</li>
+        <li>2 củ hành tím</li>
+        <li>1 củ tỏi</li>
+        <li>1 nắm hành tươi</li>
+        <li>10 muỗng canh nước mắm</li>
+        <li>1 muỗng canh nhỏ dầu ăn</li>
+        <li>5 muỗng canh đường</li>
+        <li>7 muỗng canh nước lọc</li>
+        <li>3 quả ớt</li>
+        <li>Hạt tiêu</li>
+    </ul>
+
+    <h2>Hướng dẫn:</h2>
+    <h3>Bước 1: Sơ chế nguyên liệu</h3>
+    <ol>
+        <li>Thịt ba chỉ rửa sạch rồi để ráo nước, lọc bì, thái miếng hạt lựu.</li>
+        <li>Ngâm tôm nõn khô với nước nóng trong vòng 30 phút để tôm mềm, đem rửa sạch, để ráo nước.</li>
+        <li>Hành tỏi bóc vỏ, rửa sạch rồi băm nhỏ. Ớt có thể thái nhỏ 1 quả và để nguyên những trái còn lại.</li>
+        <li>Nhặt hành tươi, bỏ rễ, rửa sạch, cắt thành đoạn dài từ 4-5 cm, rồi chẻ làm đôi hoặc làm tư.</li>
+    </ol>
+
+    <h3>Bước 2: Pha nước kho quẹt</h3>
+    <ol>
+        <li>Cho 5 muỗng canh đường pha với 7 muỗng canh nước lọc rồi khuấy đều để hòa tan đường. Sau đó, đổ tiếp 10 muỗng canh nước mắm vào hỗn hợp nước vừa pha.</li>
+    </ol>
+
+    <h3>Bước 3: Nấu kho quẹt</h3>
+    <ol>
+        <li>Cho chảo hoặc nồi đất lên bếp, cho thịt ba chỉ vào đảo đều trong 1 phút, sau đó cho 1 muỗng canh nhỏ dầu ăn vào đảo đều.</li>
+        <li>Đợi thịt mỡ tóp ở mức vừa phải, thịt bắt đầu teo lại thì vớt thịt ra bát.</li>
+        <li>Phi thơm hành tỏi rồi cho tôm nõn vào đảo trong 1 phút với lửa vừa, rồi đổ hỗn hợp nước kho quẹt vào. Thêm thịt, ớt, hạt tiêu vào chảo, khuấy đều trong khoảng 5 phút cho đến khi hỗn hợp hơi keo lại.</li>
+        <li>Nêm nếm lại gia vị và đun hỗn hợp trong lửa vừa khoảng 10-15 phút cho đến khi hỗn hợp sánh lại.</li>
+        <li>Khi kho quẹt đã keo lại thì tắt bếp và thêm hành tươi vào đảo đều.</li>
+    </ol>
+
+    <h3>Bước 4: Hoàn thành</h3>
+    <p>Cuối cùng, múc kho quẹt ra bát và thưởng thức nó cùng với rau củ luộc.</p>
+
+    <h2>Hướng dẫn:</h2>
+    <h3>Bước 1: Sơ chế nguyên liệu</h3>
+<p>
+Đầu tiên, bạn rửa sạch thịt ba chỉ, để ráo nước rồi lọc bì, thái miếng hạt lựu. Riêng bì, bạn có thể giữ lại để luộc cùng với rau củ sẽ giúp rau củ được ngọt hơn.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet1.jpg">
+<p>
+Tiếp theo, bạn ngâm tôm nõn khô với nước nóng trong vòng 30 phút. Khi thấy tôm mềm thì đem rửa sạch, để ráo nước.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet2.jpg">
+    <p>
+Sau đó, hành tỏi bạn bóc vỏ, rửa sạch rồi băm nhỏ. Với ớt, bạn có thể thái nhỏ 1 quả và để nguyên những trái còn lại cho món ăn thêm hấp dẫn.
+    </p>
+    <img src="../../../assert/imageFood/khoquet/khoquet3.jpg">
+    <p>
+Với hành tươi, bạn nhặt bỏ rễ, phần lá bị hỏng, rửa sạch, cắt thành đoạn dài từ 4-5 cm, rồi chẻ làm đôi hoặc làm tư.
+    </p>
+<p>
+Món này thực sự là dành cho những tín đồ “nghiện hành” đó nha. Càng nhiều hành lại càng ngon.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet4.jpg">
+    <h3>Bước 2: Pha nước kho quẹt</h3>
+    <p>
+Sau khi đã sơ chế hết các nguyên liệu, bước tiếp theo chúng ta sẽ tiến hành chuẩn bị nấu nước kho quẹt.
+    </p>
+<p>
+Bạn cho 5 muỗng canh đường pha với 7 muỗng canh nước lọc rồi khuấy đều để hòa tan đường. Sau đó, bạn đổ tiếp 10 muỗng canh nước mắm vào hỗn hợp nước vừa pha.
+</p>
+
+    <img src="../../../assert/imageFood/khoquet/khoquet5.jpg">
+    <p>
+Một lưu ý nhỏ là khi nấu nước kho quẹt, bạn có thể sử dụng đường thốt nốt thay cho đường trắng thì màu sẽ lên đẹp hơn đấy!
+    </p>
+    <h3>Bước 3: Nấu kho quẹt</h3>
+<p>
+Tiếp đến, bạn cho chảo hoặc nồi đất (nếu có) lên bếp, cho thịt ba chỉ vào đảo đều trong 1 phút, cho tiếp 1 muỗng canh nhỏ dầu ăn vào đảo đều.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet6.jpg">
+    <p>
+Ở bước này, bạn có thể không cho thêm dầu ăn nhưng mình khuyên bạn là nên thêm vào thì tóp mỡ ở thịt sẽ săn đều hơn, hương vị cũng ngon hơn nữa.
+    </p>
+<p>
+Bạn tiếp tục đảo đến khi phần thịt mỡ đã bị tóp ở mức vừa phải, thịt bắt đầu teo lại thì bạn vớt thịt ra bát.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet7.jpg">
+    <p>
+Sau đó, bạn cho hành tỏi đã băm nhỏ vào nồi mỡ đang sôi phi thơm vàng lên.
+    </p>
+    <img src="../../../assert/imageFood/khoquet/khoquet8.jpg">
+<p>
+Tiếp tục, bạn cho tôm nõn vào đảo trong 1 phút với lửa vừa, rồi đổ hỗn hợp nước kho quẹt chuẩn bị ở trên vào. Cho tiếp thịt, ớt, hạt tiêu vào chảo, khuấy đều trong khoảng 5 phút đến khi thấy hỗn hợp hơi keo lại.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet9.jpg">
+    <p>
+Sau khi thấy hỗn hợp keo lại, bạn hãy nêm nếm lại gia vị xem đã vừa miệng chưa. Nếu thấy nhạt có thể nêm thêm nước mắm, còn bị mặn thì có thể pha thêm nước lọc hoặc cho thêm đường vào.
+    </p>
+<p>
+Nếu bạn muốn phần nước kho quẹt nhiều hơn chút thì có thể pha thêm 1 thìa bột năng với nước rồi cho vào đun cùng.
+</p>
+<p>
+Nhưng nhớ là chỉ nêm thêm bất cứ loại gia vị nào một chút thôi nhé, kẻo lại thành quá tay 😅. Bột năng cho thêm cũng vậy, chỉ cho từ nửa đến 1 thìa bột năng, nếu không món kho quẹt của bạn sẽ trở nên đặc quánh mà không còn tí nước nào cả.
+</p>
+<p>
+Chút nữa thì quên! Còn một mẹo nhỏ nữa dành riêng cho bạn.
+</p>
+<p>
+Đó là, thay vì sử dụng bột năng, bạn cho vào một chút nước cơm khi đun kho quẹt gần cạn. Cách này giúp món kho quẹt được sánh hơn, ngon chuẩn đúng vị miền Tây Nam Bộ đó nha!
+</p>
+<p>
+Bạn tiếp tục đun hỗn hợp trong lửa vừa khoảng 10-15 phút cho đến khi hỗn hợp sánh lại.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet10.jpg">
+    <p>
+Bạn tiếp tục đun đến khi kho quẹt keo lại thì tắt bếp thêm hành tươi vào đảo đều.
+    </p>
+<p>
+Kho quẹt khi nguội sẽ keo nhiều hơn khi nóng nên bạn cần căn đúng thời gian 10-15 phút là tắt bếp, tránh đun lâu hơn có thể làm kho quẹt bị khô, mất ngon. Nếu bạn đun kho quẹt bằng nồi đất thì có thể đun với lửa to trong 5-7 phút vì nồi đất giữ nhiệt tốt hơn nhiều so với các loại nồi thường sử dụng.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet11.jpg">
+    <h3>Bước 4: Hoàn thành</h3>
+    <p>
+Cuối cùng, bạn chỉ cần múc kho quẹt ra bát và thưởng thức nó cùng với rau củ luộc thôi nào!
+    </p>
+<p>
+Món kho quẹt khi hoàn thành có màu nâu óng, sền sệt với mùi thơm cực kì hấp dẫn. Kết hợp với đủ vị cay, mặn, ngọt làm nên một món ăn “đắt khách”.
+</p>
+    <img src="../../../assert/imageFood/khoquet/khoquet11.jpg">
+
+<p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

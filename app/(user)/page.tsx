@@ -15,7 +15,7 @@ const User = () => {
     }, []);
     const getArticleList = async () => {
         try {
-            const res = await axios.get("http://localhost:3000/api/article");
+            const res = await axios.get("/api/article");
             if (res.data) {
                 setData(res.data);
             }
@@ -31,7 +31,7 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <div className="col-3">
+                            <div className="col-md-3 col-sm-3 col-xs-6">
                                 <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={1000}></Card>
                             </div>
                         </>

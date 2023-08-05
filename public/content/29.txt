@@ -1,0 +1,112 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+        margin-left: 30px;
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Chả Tôm Viên Chiên Xù</h1>
+<img src="../../../assert/ArticleImage/29.png" alt="Chả Tôm Viên Chiên Xù">
+
+<h2>Nguyên Liệu</h2>
+<ul>
+    <li>300g tôm sú : 40000đ - 50000đ</li>
+    <li>200g thịt xay : 25000đ - 35000đ/200g</li>
+    <li>2 quả trứng gà</li>
+    <li>100 g bột chiên xù</li>
+    <li>50 g bột chiên giòn</li>
+    <li>3 thìa canh dầu ăn</li>
+    <li>1 thìa cà phê hạt nêm</li>
+    <li>1 thìa cà phê đường (không bắt buộc)</li>
+    <li>1 thìa cà phê hạt tiêu xay</li>
+</ul>
+
+<h2>Hướng dẫn</h2>
+<h3>Bước 1: Sơ chế nguyên liệu</h3>
+<p>
+    Tôm tươi sơ chế, bóc hết vỏ lấy thịt, giữ lại đuôi tôm.
+</p>
+<img src="../../../assert/imageFood/chatom/chatom1.jpg" alt="">
+<p>
+    Băm nhỏ tôm rồi trộn đều với giò sống cùng hỗn hợp gia vị trong 15 phút.
+</p>
+<p>
+    Bạn đánh tan trứng gà trong 1 bát để sẵn để tí chúng mình nhúng chả tôm để chiên luôn.
+</p>
+<h3>Bước 2: Lăn bột chả tôm</h3>
+<p>
+    Bạn nặn hỗn hợp thịt nguyên liệu thành từng viên tròn nhỏ hoặc hình dáng tùy theo sở thích. Gắn đuôi tôm vào viên
+    chả.
+</p>
+<img src="../../../assert/imageFood/chatom/chatom2.jpg" alt="">
+<p>
+    Lăn từng viên thịt vào bột chiên giòn.
+</p>
+<p>
+    Tiếp tục nhúng từng viên thịt vào trứng gà rồi lăn qua lớp bột chiên xù sao cho bọc kín, bao lấy hết viên thịt.
+</p>
+<h3>Bước 3: Chiên xù chả tôm và hoàn thành</h3>
+<p>
+    Đun nóng một lượng lớn dầu ăn đảm bảo chiên ngập chả tôm viên.
+</p>
+<p>
+    Thả từng viên thịt tôm đã tẩm bột vào chiên giòn.
+</p>
+<img src="../../../assert/imageFood/chatom/chatom3.jpg" alt="">
+<p>
+    Gắp ra giấy thấm dầu/ khay hứng để cho ráo mỡ.
+</p>
+<p>
+    Bạn xếp tôm ra đĩa và thưởng thức cùng tương cà chua, tương ớt,...
+</p>
+
+
+<p>Nguồn: <a href="https://www.thatlangon.com/cong-thuc/mon-ngon-tu-tom/" target="_blank">thatlangon.com</a></p>

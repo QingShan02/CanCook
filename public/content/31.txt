@@ -1,0 +1,116 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+        margin-left: 30px;
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Những loại thực phẩm dành cho người gầy muốn tăng cân nhanh</h1>
+
+<p>
+    <b>
+        Thực phẩm tăng cân sẽ giúp vóc dáng của bạn trông đầy đặn hơn. Đây cũng được xem là những loại thức ăn cho người
+        gầy tăng cân nhanh chóng và an toàn.
+    </b>
+</p>
+<h4>Gạo</h4>
+<p>
+    Gạo là thực phẩm chứa ít chất béo, cung cấp lượng carbs tuyệt vời; có khoảng 4,5g protein và 206 calo trong một
+    chén gạo. Đây là lý do khiến gạo trở thành món ăn giúp cơ thể bạn đầy đặn hơn.
+</p>
+<img src="../../../assert/imageFood/dinhduong/gao.jpg" alt="">
+<h4>Thịt ức gà</h4>
+<p>
+    Thịt gà là thức ăn cho người gầy tăng cân nhanh chóng. Trong 100gr thịt gà chứa 165 calo. Loại thực phẩm này cũng có
+    nhiều chất đạm và tryptophan – một loại acid amin giúp tăng cường lượng serotonin trong não, khiến bạn có tinh thần
+    sảng khoái hơn và giảm thiểu căng thẳng trong cuộc sống.
+</p>
+<img src="../../../assert/imageFood/dinhduong/thitga.jpg" alt="">
+<h4>Mật ong</h4>
+<p>
+    Một muỗng mật ong chứa 64 calo. Từ xa xưa, mật ong đã được biết đến là một trong những thực phẩm có nhiều lợi ích về
+    sức khỏe. Mật ong được sử dụng như một loại thuốc bổ với nhiều vận động viên trong hàng ngàn năm lịch sử.
+</p>
+<img src="../../../assert/imageFood/dinhduong/matong.jpg" alt="">
+<h4>Thịt bò nạc</h4>
+<p>
+    Thịt bò nạc còn có một lượng chất creatine tự nhiên, chất đóng vai trò dẫn nước vào tế bào cơ, giúp tăng cường sự
+    tổng hợp protein cho tế bào. Bạn sẽ bắt gặp nhiều vận động viên thể hình và cử tạ uống các loại protein bổ sung kết
+    hợp với creatine để tăng hiệu quả mong muốn. Vì thế thịt bò có thể giúp bạn tăng cân một cách nhanh chóng.
+</p>
+<img src="../../../assert/imageFood/dinhduong/thitbo.jpg" alt="">
+<h4>Sữa</h4>
+<p>
+    Bên cạnh hàm lượng calo dồi dào, sữa còn chứa nhiều dưỡng chất khác như protein, chất béo, canxi, nhiều loại vitamin
+    và khoáng chất có lợi khác. Vì thế, ngoài khả năng giúp bạn tăng cân, sữa còn mang lại nhiều lợi ích sức khỏe khác.
+</p>
+<img src="../../../assert/imageFood/dinhduong/sua.jpg" alt="">
+<h4>Quả bơ</h4>
+<p>
+    Mỗi quả bơ chứa một lượng lớn chất béo tốt cho cơ thể. Hơn nữa, khi ăn một quả bơ mỗi ngày, bạn đã nạp thêm vào cơ
+    thể khoảng 10gr chất xơ tốt cho hệ tiêu hóa, 15gr chất béo không bão hòa tốt cho tim mạch. Trong quả bơ còn có chất
+    dinh dưỡng giúp phòng ngừa bệnh ung thư.
+</p>
+<img src="../../../assert/imageFood/dinhduong/bo.jpg" alt="">
+<h4>Phô mai</h4>
+<p>
+    Phô mai chứa nhiều calo và chất béo. Mỗi 100gr phô mai có đến 353 calo nên nó được xem là thức ăn cho người gầy
+    nhanh chóng tăng cân.
+</p>
+<img src="../../../assert/imageFood/dinhduong/phomai.jpg" alt="">
+<h4>Thịt heo nạc</h4>
+<p>
+    Thịt heo nạc là thực phẩm tăng cân chứa nhiều protein và calo. Trong 100gr thịt heo nạc có đến 548 calo. Vì thế, đây
+    là thức ăn đáp ứng tốt nhu cầu bổ sung thêm calo cho cơ thể để tăng cân.
+</p>
+<img src="../../../assert/imageFood/dinhduong/thitheo.jpg" alt="">
+<p>Nguồn: <a href="https://ytvn.vn/nhung-loai-thuc-pham-danh-cho-nguoi-gay-muon-tang-can-nhanh/"
+        target="_blank">ytvn.vn</a></p>

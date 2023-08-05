@@ -1,0 +1,92 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+      margin-left: 30px;
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+    <h1>Salad Cá Hồi</h1>
+
+    <h2>Khẩu phần: 2 người</h2>
+    <img src="../../../assert/imageFood/saladcahoi/saladcahoi.jpg">
+
+    <h3>Nguyên liệu chính:</h3>
+    <ul>
+        <li>200 g cá hồi phi lê: 100,000đ - 110,000đ/200g</li>
+    </ul>
+
+    <h3>Nguyên liệu phụ:</h3>
+    <ul>
+        <li>2 cây xà lách</li>
+        <li>2 quả cà chua to (200 g cà chua bi)</li>
+        <li>3 quả trứng gà</li>
+        <li>1 quả chanh tươi</li>
+        <li>2 thìa canh dầu ô liu</li>
+    </ul>
+
+    <h3>Hướng dẫn</h3>
+    <h4>Bước 1: Sơ chế nguyên liệu</h4>
+    <ol>
+        <li>Sơ chế cá hồi bằng cách rửa sạch kèm chút rượu gừng.</li>
+        <li>Thái cá hồi thành từng miếng cỡ 3x4 cm hoặc để nguyên theo sở thích, khi trộn sẽ dùng dĩa/thìa làm thịt cá tơi ra.</li>
+        <li>Làm nóng chút dầu ăn hoặc bơ để áp chảo cá hồi chín đều các mặt.</li>
+        <li>Trứng gà luộc chín hẳn hoặc chín lòng đào rồi cắt đôi.</li>
+        <li>Rau xà lách và cà chua rửa sạch rồi cắt nhỏ vừa ăn.</li>
+    </ol>
+
+    <h4>Bước 2: Trộn salad</h4>
+    <ol>
+        <li>Xếp các nguyên liệu đã được sơ chế vào âu trộn lớn.</li>
+        <li>Vắt chanh lấy nước cốt rồi cho cùng dầu ô liu vào trộn đều salad.</li>
+        <li>Thêm chút muối tinh, tiêu xay nếu thích ăn đậm một chút.</li>
+        <li>Gắp salad ra đĩa và thưởng thức.</li>
+    </ol>
+
+    <p>Nguồn: thatlangon.com</p>

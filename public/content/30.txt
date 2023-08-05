@@ -1,0 +1,190 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #555;
+  }
+
+  ol,
+  ul {
+    color: #555;
+    margin-left: 30px;
+  }
+
+  .recipe-instructions {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  .recipe-instructions h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .recipe-instructions p {
+    color: #555;
+    margin-bottom: 5px;
+  }
+</style>
+
+<h1>Bánh Flan</h1>
+<img src="../../../assert/ArticleImage/30.png" alt="Bánh Flan">
+
+<h2>Nguyên Liệu</h2>
+<ul>
+  <li>4 quả trứng gà: 35000đ - 40000đ/vỉ</li>
+  <li>6 lòng đỏ trứng gà</li>
+  <li>1 thìa canh nước cốt chanh</li>
+  <li>30 ml nước sôi</li>
+  <li>200 g đường</li>
+  <li>600 ml sữa tươi không đường</li>
+</ul>
+
+<h2>Hướng dẫn</h2>
+<h3>Bước 1: Tạo lớp Caramen</h3>
+<p>
+  Đầu tiên bạn cho 120 g đường và 40 ml nước vào nồi sau đó bắc lên bếp và bật lửa. Bạn để lửa nhỏ cho đến khi lớp
+  caramen chuyển màu hơi vàng thì bạn cho 1 muỗng nước cốt chanh vào và đợi nó chuyển màu cánh gián thì tắt bếp.
+</p>
+<p>
+  Thêm 30 ml nước sôi, lắc nhẹ cho phần caramen đều màu rồi nhanh tay dải một lớp mỏng caramen vào khay đựng bánh flan
+  rồi để vào ngăn mát tủ lạnh khoảng 15 phút.
+</p>
+<h3>Bước 2: Làm phần bánh Flan</h3>
+<p>
+  Bạn tách trứng lấy 10 lòng đỏ và 4 lòng trắng. Tiếp theo, bạn cho 50 g đường vào và khuấy bằng tay nhẹ nhàng để tránh
+  nổi bọt.
+</p>
+<p>
+  Tiếp theo, bạn cho sữa không đường vào nồi và bắc lên bếp đun đến khi sữa nóng khoảng 70 °C thì bắc xuống. Sau đó, bạn
+  đổ từ từ sữa vào hỗn hợp trứng và khuấy nhẹ nhàng.
+</p>
+<p>
+  Khi hỗn hợp trứng sữa đã hòa tan vào nhau, bạn cho hỗn hợp lọc qua một chiếc ray lỗ nhỏ để loại bớt những phần lợn cợn
+  còn trong đó.
+</p>
+<p>
+  Khi làm xong nhân bánh bạn bắt đầu đổ nhân vào khay đã chứa caramen. Lưu ý là bạn đổ nhẹ tay để tránh làm vỡ lớp
+  caramen bên dưới.
+</p>
+<h3>Bước 3: Hấp bánh</h3>
+<p>
+  Khi đã hoàn thành bạn cho toàn bộ khay bánh vào nồi hấp và hấp khoảng 20 phút là bánh chín. Bạn có thể dùng tăm để
+  kiểm tra xem bánh đã chín hay chưa.
+</p>
+<p>
+  Nếu bánh đã chín thì bạn lấy bánh ra, để nguội rồi cho vào tủ lạnh.
+</p>
+
+<h3>Bước 4: Hoàn thành</h3>
+<p>
+  Khi ăn, bạn lật ngược chiếc khuôn lại và đổ bánh nhẹ nhàng để được một chiếc bánh hoàn hảo và không bị vỡ.
+</p>
+
+
+<h2>Chi tiết</h2>
+<h3>Bước 1: Tạo lớp caramen</h3>
+<p>
+  Đầu tiên bạn cần cho 120 g đường và 40 ml nước vào nồi sau đó bắc nồi lên bếp và bật lửa. Lưu ý, các bạn phải để lửa
+  nhỏ vì nếu để lửa lớn thì caramen rất dễ bị cháy. Trong quá trình làm caramen thì bạn không được khuấy mà chỉ đợi đến
+  bao giờ lớp caramen chuyển sang màu cánh gián là được. </p>
+<p>
+  Sau khi đợi được lớp caramen chuyển sang màu hơi vàng thì bạn đổ một muỗng nước cốt chanh vào và đợi nó chuyển sang
+  màu cánh gián thì tắt bếp. Nước cốt chanh giúp lớp caramen không bị đông cứng mà tạo độ mềm dẻo.
+</p>
+<p>Sau khi tắt bếp, bạn đổ dần dần 30 ml nước sôi vào lớp caramen và lắc nhẹ nồi để lớp caramen tan đều ra là hoàn
+  thành.
+</p>
+<img src="../../../assert/imageFood/banhflan/banhflan1.jpg" alt="">
+<p>
+  Bạn nhanh tay đổ ra khay đựng bánh flan. Mỗi khay chỉ đổ một lớp không quá dày để làm mặt bánh. Nếu đổ quá nhiều bánh
+  sẽ bị chuyển vị đắng và không còn ngon nữa. Khi đổ xong caramen vào khuôn bánh thì bạn cho tất cả khay bánh vào ngăn
+  mát tủ lạnh để khoảng 15 phút cho lớp caramen đông lại thì bạn lấy ra.
+</p>
+<h3>Bước 2: Làm phần bánh flan</h3>
+<p>
+  Đầu tiên bạn đập 4 quả trứng cho vào một tô lớn. Tiếp theo bạn đập 6 quả còn lại nhưng chỉ lấy lòng đỏ còn
+  lòng trắng thì bỏ đi không dùng. Bạn không nên cho quá nhiều lòng trắng vì khi đánh trứng sẽ tạo nhiều bọt khí làm
+  bánh bị bông và rỗ.
+</p>
+<p>
+  Sau khi đập trứng xong bạn cho 50 g đường vào và đánh đều lên. Lưu ý, khi đánh trứng thì bạn đánh nhẹ nhàng để tránh
+  tạo nhiều bọt khí. Đánh đến khi đường tan hoàn toàn vào trứng. Bạn nên đánh bằng tay thay vì đánh bằng máy đánh trứng
+  vì máy thì quá mạnh, trứng dễ bị nổi nhiều bọt khí.
+</p>
+<p>
+  Sau khi đánh trứng xong, bạn cho 600 ml sữa không đường vào nồi và bắc bếp đun ấm sữa. Không đun sôi mà chỉ đun sữa
+  nóng khoảng 70 oC là được rồi.
+</p>
+<p>
+  Sau đó bạn đổ sữa vào trứng. Bạn phải đổ nhẹ nhàng và từ từ vào trứng sau đó khuấy nhẹ nhàng cho chúng hòa vào nhau.
+  Tất cả động tác phải nhẹ nhàng thì mới có được món bánh hoàn hảo nhất.
+</p>
+<p>
+  Khi hoàn thành, bạn lược hỗn hợp trứng sữa qua một cái rây lỗ nhỏ để loại bỏ những phần lợn cợn còn trong hỗn hợp.
+  Việc này sẽ giúp bạn có một chiếc bánh flan mềm mịn.
+</p>
+<p>
+  Bước tiếp theo bạn lấy hỗn hợp đổ vào khay bánh. Như bước bên trên thì bạn phải đặt khay bánh có chứa caramen vào tủ
+  mát khoảng 15 phút. Sau khi lấy ra, bạn chế hỗn hợp trứng sữa vào khay.
+</p>
+<img src="../../../assert/imageFood/banhflan/banhflan2.jpg">
+<p>Lưu ý, bạn phải đổ nhẹ nhàng vào khay để tránh làm vỡ lớp caramen đã được làm cứng. Động tác này cần sự khéo léo và
+  cẩn thận. Thời gian cần để lớp caramen đặc lại khá quan trọng, bạn cần phải chú ý. Khi bạn đổ bánh thì nên cho vào một
+  vật đựng có mỏ như ca, cốc lớn để đổ lớp bánh dễ dàng hơn.
+<h3>Bước 3: Hấp bánh</h3>
+<p>
+  Lưu ý, bạn phải đổ nhẹ nhàng vào khay để tránh làm vỡ lớp caramen đã được làm cứng. Động tác này cần sự khéo léo và
+  cẩn thận. Thời gian cần để lớp caramen đặc lại khá quan trọng, bạn cần phải chú ý. Khi bạn đổ bánh thì nên cho vào một
+  vật đựng có mỏ như ca, cốc lớn để đổ lớp bánh dễ dàng hơn.
+</p>
+<p>
+  Để thử bánh flan đã chín hay chưa bạn dùng một que tăm nhỏ xuyên nhẹ vào lớp bánh flan. Nếu có lớp flan dính vào que
+  thử thì bánh chưa chín và cần hấp thêm. Ngược lại, nếu lớp bột không còn dính tức là bánh đã chín.
+</p>
+<p>
+  Nếu bánh đã chín thì bạn lấy bánh ra để nguội, rồi cho vào tủ lạnh giữ mát.
+</p>
+<h3>Bước 4: Hoàn thành</h3>
+<p>
+  Khi ăn, bạn lật ngược chiếc khuôn lại và đổ bánh nhẹ nhàng để được một chiếc bánh hoàn hảo và không bị vỡ.
+</p>
+
+<img src="../../../assert/imageFood/banhflan/banhflan3.jpg">
+<p>
+  Chiếc bánh flan hoàn thành là chiếc bánh có màu vàng cánh gián của lớp caramen mỏng nhẹ không bị hoàn vào lớp bánh bên
+  dưới. Lớp bánh bên dưới có màu vàng nhẹ, mịn láng, dẻo mà không bị rỗ. Vị bánh có vị đắng nhẹ của lớp caramen, thơm
+  ngậy của trứng sữa và vị ngọt dịu.
+</p>
+<p>
+  Khi áp dụng cách làm bánh flan thì các bạn thường quan tâm đến hạn sử dụng của nó. Tham khảo trên những hộp bánh flan
+  được bày bán sẵn cho thấy bánh flan có hạn sử dụng khoảng 1 tháng. Để đảm bảo cho sức khỏe, bạn làm bánh flan tại nhà,
+  bảo quản ngăn mát tủ lạnh và nên dùng trong khoảng 5-6 ngày là an toàn nhất.
+</p>
+<p>Nguồn: <a href="https://www.thatlangon.com/cong-thuc/cach-lam-banh-flan/" target="_blank">thatlangon.com</a></p>

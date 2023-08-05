@@ -8,15 +8,14 @@ export const directoryService = {
     findById: async (id) => {
         const data = (await db.query(query.findById, [id]));
         const result = data.rows;
-
         const formattedResult = result.reduce((acc, curr) => {
-            const { directoryid, name, id, title, content, createdate, staffid } = curr;
-            if(!acc.directoryid) acc.directoryid = directoryid;
+            const { directoryid, name, id, title, thumbnail, content, createdate, staffid } = curr;
+            if (!acc.directoryid) acc.directoryid = directoryid;
             if (!acc.name) acc.name = name;
-            if (!acc.listposts) acc.listposts = [];
-            acc.listposts.push({ id, title, content, createdate, staffid });
+            if (!acc.listArticle) acc.listArticle = [];
+            acc.listArticle.push({ id, title, thumbnail, content, createdate, staffid });
             return acc;
-          }, {});
+        }, {});
 
         return formattedResult;
     }
