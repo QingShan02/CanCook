@@ -5,6 +5,7 @@ import { SessionProvider } from "next-auth/react";
 import dynamic from "next/dynamic";
 import { useEffect } from 'react';
 import Head from "next/head";
+import { Metadata } from "next";
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
@@ -12,9 +13,15 @@ interface IProps {
   children: ReactNode,
   session: any
 }
+export const metadata = {
+  title: "Can Cook",
+  other:{
+    name:"google-site-verification",
+    content:"qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk"
+  }
+}
 
 export default function RootLayout({
-
   children,
   session
 }: IProps) {
@@ -23,10 +30,10 @@ export default function RootLayout({
   }, [])
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
         <title>Can Cook</title>
-      </Head>
+      </head>
       <body>
         <div className="container-fluid">
           <div>
