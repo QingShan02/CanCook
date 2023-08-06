@@ -3,7 +3,7 @@ import Sidebar from "../../../components/Sidebar";
 import { SessionProvider } from "next-auth/react";
 import "../../globals.css";
 import React, { ReactNode } from "react"
-
+<meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
 
 interface IProps {
   children: ReactNode,

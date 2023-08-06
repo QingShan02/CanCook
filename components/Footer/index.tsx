@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
 const Footer = () => {
     return (
         <div className="container my-5">
