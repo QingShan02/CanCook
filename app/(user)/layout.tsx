@@ -13,13 +13,13 @@ interface IProps {
   children: ReactNode,
   session: any
 }
-export const metadata = {
-  title: "Can Cook",
-  other:{
-    name:"google-site-verification",
-    content:"qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk"
-  }
-}
+// export const metadata = {
+//   title: "Can Cook",
+//   other:{
+//     name:"google-site-verification",
+//     content:"qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk"
+//   }
+// }
 
 export default function RootLayout({
   children,
