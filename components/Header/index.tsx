@@ -1,7 +1,7 @@
 'use client'
 import { signIn, signOut, useSession } from 'next-auth/react';
 import "bootstrap/dist/css/bootstrap.min.css";
-<meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
+
 const Header = () => {
     const { data: session } = useSession();
     console.log(session);

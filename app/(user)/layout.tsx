@@ -4,7 +4,7 @@ import React, { ReactNode } from 'react';
 import { SessionProvider } from "next-auth/react";
 import dynamic from "next/dynamic";
 import { useEffect } from 'react';
-<meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
+
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-
+      <meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
       </head>
       <body>
         <div className="container-fluid">
