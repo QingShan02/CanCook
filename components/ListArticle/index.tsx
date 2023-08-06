@@ -1,7 +1,6 @@
 import axios from "axios";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-<meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
 const ListArticle = () => {
 
     const [data, setData] = useState([]);
