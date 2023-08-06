@@ -60,7 +60,10 @@ const Header = () => {
                                                         Đăng xuất</a>
                                                 </>
                                             ) : (
-                                                <a onClick={() => signIn('facebook')} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
+                                                <a onClick={(e) => {
+                                                    e.preventDefault()
+                                                    signIn('facebook')
+                                                }} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
                                                     Đăng nhập</a>
                                             )}
                                         </li>
