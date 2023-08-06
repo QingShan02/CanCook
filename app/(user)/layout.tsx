@@ -4,6 +4,7 @@ import React, { ReactNode } from 'react';
 import { SessionProvider } from "next-auth/react";
 import dynamic from "next/dynamic";
 import { useEffect } from 'react';
+import Head from "next/head";
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
@@ -22,9 +23,10 @@ export default function RootLayout({
   }, [])
   return (
     <html lang="en">
-      <head>
+      <Head>
         <meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
-      </head>
+        <title>Can Cook</title>
+      </Head>
       <body>
         <div className="container-fluid">
           <div>
