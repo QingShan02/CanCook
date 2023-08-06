@@ -63,6 +63,7 @@ const Header = () => {
                                                 <a onClick={(e) => {
                                                     e.preventDefault()
                                                     signIn('facebook')
+                                                    { callbackUrl: "https://ptbt-web.vercel.app/" }
                                                 }} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
                                                     Đăng nhập</a>
                                             )}
