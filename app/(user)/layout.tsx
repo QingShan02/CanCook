@@ -14,9 +14,13 @@ interface IProps {
 }
 
 export default function RootLayout({
+  
   children,
   session
 }: IProps) {
+  useEffect(()=>{
+    import ("bootstrap/dist/js/bootstrap");
+  },[])
   return (
     <html lang="en">
       <head>

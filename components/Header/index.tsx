@@ -44,7 +44,6 @@ const Header = () => {
                                                 <li><a className="dropdown-item" href="/directory/CM02">Tăng Cân</a></li>
                                                 <li><a className="dropdown-item" href="/directory/CM03">Sức Khỏe</a></li>
                                                 <li><a className="dropdown-item" href="/directory/CM04">Tiết Kiệm</a></li>
-                                                <li><a className="dropdown-item" href="/directory/CM05">Tập Gym</a></li>
                                             </ul>
                                         </li>
 

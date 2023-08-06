@@ -122,7 +122,7 @@
 <h3>Bước 3: Cách làm gà rán - Hoàn thành</h3>
 <p>Tèng teng, cùng nhau thưởng thức thành quả nào!</p>
 <p>
-<img src="img/garan/garan10.jpg">
+<img src="../../../assert/imageFood/garan/garan10.jpg">
 </p>
 <p>Món gà rán với lớp vỏ ngoài vàng ruộm, giòn tan bọc bên trong là thịt gà mềm ngọt, thoảng mùi sữa thơm thơm chấm cùng tương ớt, tương cà hoặc mayonnaise nữa thì ngon vỡ tim.</p>
 <p>Ngoài gà rán, nếu có thời gian, bạn có thể làm một ít khoai tây chiên và salad rau trộn để ăn kèm cho đỡ ngán nha.</p>
