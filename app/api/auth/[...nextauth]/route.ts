@@ -46,7 +46,6 @@ const handler = NextAuth({
     }, debug: true,
     pages: {
         signIn: "/loginAdmin"
-
     }
 
 

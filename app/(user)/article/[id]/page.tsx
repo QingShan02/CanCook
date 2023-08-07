@@ -21,7 +21,7 @@ const Article = ({ params }) => {
 
     const { data: session } = useSession();
 
-    const url = `https://ptbt-web.vercel.app` + fullPath;
+    const url = `https://cancook.vercel.app` + fullPath;
     console.log(url);
 
 
