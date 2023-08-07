@@ -34,7 +34,7 @@ const TextEditor = ({ Submit }) => {
             });
             if (session) {
                 axios.get("/api/staff?email=" + session?.user?.email).then((s) => {
-                    setValue("staffId", s.data.id)
+                    setValue("staffId", s.data.id || 'NV01')
                 })
             }
             register("content", { required: { value: true, message: "Bạn không được bỏ trống" } });
