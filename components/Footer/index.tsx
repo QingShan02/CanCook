@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <div className="container my-5">
-            <div id="fb-root"></div>
-<script async defer crossOrigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0&appId=1114480602426398&autoLogAppEvents=1" nonce="Ldlu2aSe"></script>
+    <div className="row" >
+    <div id="fb-root"></div>
+    <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="rMUTa9i3"></script>
             {/* Footer */}
-            <footer className="text-center text-lg-start text-white" style={{ backgroundColor: '#929fba' }}>
+            <footer className="text-center text-lg-start text-white" style={{ backgroundColor: '#765827' }}>
                 {/* Grid container */}
                 <div className="container p-4 pb-0">
                     {/* Section: Links */}
@@ -12,49 +12,49 @@ const Footer = () => {
                         {/*Grid row*/}
                         <div className="row">
                             {/* Grid column */}
-                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                                <h6 className="text-uppercase mb-4 font-weight-bold">
+                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" >
+                                <h3 className="text-uppercase mb-4 font-weight-bold">
                                     CanCook
-                                </h6>
-                                <p>
-                                    Hãy gia nhập cùng chúng tôi và khám phá ngay hôm nay
+                                </h3>
+                                <p className="text-white">
+                                    Hãy gia nhập cùng chúng tôi và khám phá các bữa ăn dinh dưỡng dành cho bản thân mình nhé !
                                 </p>
+                                  <p className="text-white">
+                                    Powered by Team Nhà Báo
+                                 </p>
                             </div>
                             {/* Grid column */}
                             <hr className="w-100 clearfix d-md-none" />
-                            {/* Grid column */}
-                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                <h6 className="text-uppercase mb-4 font-weight-bold">Chuyên mục</h6>
-                                <p>
-                                    <a className="text-white text-decoration-none">Thức ăn</a>
-                                </p>
-                                <p>
-                                    <a className="text-white text-decoration-none">Dinh dưỡng</a>
-                                </p>
-                                <p>
-                                    <a className="text-white text-decoration-none">Giảm cân</a>
-                                </p>
-                                <p>
-                                    <a className="text-white text-decoration-none">Món lười</a>
-                                </p>
-                            </div>
-                            {/* Grid column */}
-                            <hr className="w-100 clearfix d-md-none" />
-                            {/* Grid column */}
-                            <hr className="w-100 clearfix d-md-none" />
-                            {/* Grid column */}
-                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                                <h6 className="text-uppercase mb-4 font-weight-bold">Liên hệ</h6>
-                                <p><i className="fas fa-home mr-3" />Quang Trung, Gò Vấp, HCM</p>
-                                <p><i className="fas fa-envelope mr-3" /> cancook@gmail.com</p>
-                                <p><i className="fas fa-phone mr-3" /> + 01 234 567 88</p>
-                                <p><i className="fas fa-print mr-3" /> + 01 234 567 89</p>
-                            </div>
-                            {/* Grid column */}
                             {/* Grid column */}
                             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                                <h6 className="text-uppercase mb-4 font-weight-bold">Theo dõi chúng tôi</h6>
-                                <div className="fb-page" data-href="https://www.facebook.com/profile.php?id=100095091395635" data-tabs="events" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=100095091395635" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100095091395635">CanCook</a></blockquote></div>
+                                <h3 className="text-uppercase mb-4 font-weight-bold"> Phổ biến</h3>
+                                <p className="text-white">
+                                    <a href="/category/L01" className="text-decoration-none text-white">Dinh dưỡng</a>
+                                </p>
+                                <p className="text-white">
+                                    <a href="/directory/CM03" className="text-decoration-none text-white">Sức khỏe</a>
+                                </p>
+                                <p className="text-white">
+                                    <a href="/category/CM04" className="text-decoration-none text-white">Tiết kiệm</a>
+                                </p>
+                            </div>
+                            {/* Grid column */}
+                            <hr className="w-100 clearfix d-md-none" />
+                            {/* Grid column */}
+                            <hr className="w-100 clearfix d-md-none" />
+                            {/* Grid column */}
+                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h3 className="text-uppercase mb-4 font-weight-bold">Liên hệ</h3>
+                                <p className=" text-white"><i className="bi bi-geo-alt-fill"></i>  Quang Trung, Gò Vấp, HCM</p>
+                                <p className=" text-white"><i className="bi bi-envelope-fill"></i>  cancook@gmail.com</p>
+                                <p className=" text-white"><i className="bi bi-telephone-fill"></i> + 01 234 567 88</p>
+                            </div>
+                            {/* Grid column */}
+                            {/* Grid column */}
+                            <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 mb-3">
+                                <h3 className="text-uppercase mb-4 font-weight-bold">Fanpage</h3>
+                                <div className="fb-page" data-href="https://www.facebook.com/cancooknhabao/" data-tabs="timeline" data-width={318} data-height={110} data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cancooknhabao/" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cancooknhabao/">CanCook</a></blockquote></div>
+
                             </div>
                         </div>
                         {/*Grid row*/}
@@ -63,9 +63,8 @@ const Footer = () => {
                 </div>
                 {/* Grid container */}
                 {/* Copyright */}
-                <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    © 2023 Copyright: 
-                    <a className="text-white text-decoration-none" href="https://mdbootstrap.com/"> zuhot.github.com</a>
+                <div className="text-center p-3 row" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+                    <p className="my-auto text-white">© 2023 Copyright: <a className="text-white text-decoration-none" href="https://mdbootstrap.com/"> zuhot.github.com</a></p>
                 </div>
                 {/* Copyright */}
             </footer>

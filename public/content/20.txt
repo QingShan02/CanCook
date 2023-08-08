@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+      
     }
 
     .recipe-instructions {
@@ -55,7 +55,7 @@
   <h1>Tên món: Thạch dừa</h1>
 <p>Khẩu phần: 3 người</p>
     <img src="../../../assert/imageFood/thachdua/thachdua.jpg">
-<h3>Nguyên Liệu:</h3>
+<h3 id="nl">Nguyên Liệu:</h3>
 <ul>
   <li>1 gói bột rau câu dẻo (loại 10 g) 6.000đ - 8.000đ</li>
   <li>1 lít nước dừa tươi: 20.000đ</li>
@@ -81,7 +81,7 @@
   <li>Để thạch nguội, cất vào tủ lạnh trong hai tiếng là ăn được.</li>
 </ol>
 
-<h3>Hướng dẫn chi tiết:</h3>
+<h3 id="hdct">Hướng dẫn chi tiết:</h3>
 <h4>Bước 1: Chuẩn bị hỗn hợp thạch nước dừa</h4>
 <ol>
 <li>Bạn cho nước dừa tươi vào nồi.</li>
@@ -128,7 +128,7 @@ Bạn có thể mua dừa nạo ở chợ về tự vắt lấy nước cốt d�
 
 <li>Bạn đặt 2 phần nước rau câu trong nồi đựng nước nóng. Điều này giúp thạch không bị đông trong quá trình bạn đổ lớp thạch.</li>
 </ol>
-<h4>Bước 3: Hoàn thành</h4>
+<h4 id="ht">Bước 3: Hoàn thành</h4>
 <ol>
 <li>
  Bạn có thể sử dụng một hộp lớn hình chữ nhật có nắp để hoàn thành bước đổ rau câu cuối cùng này rồi dùng dao cắt thạch dừa thành miếng khi ăn. Hoặc bạn có thể chuẩn bị những khuôn rau câu để tạo kiểu được đẹp hơn. Các loại khuôn bạn có thể dễ dàng mua được ở chợ hoặc siêu thị.

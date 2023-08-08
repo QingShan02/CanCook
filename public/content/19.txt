@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+     
     }
 
     .recipe-instructions {
@@ -57,7 +57,7 @@
     <img src="../../../assert/imageFood/xiumai/xiumai.jpg">
 
 
-  <h3>Nguyên Liệu:</h3>
+  <h3 id="nl">Nguyên Liệu:</h3>
 <ul>
   <li>Viên thịt xíu mại:</li>
   <li>400 g thịt heo xay 65.000đ - 75.000đ/500g</li>
@@ -111,7 +111,7 @@
   <li>Trút toàn bộ thịt viên đã hấp chín vào sốt cà chua và đun nhỏ lửa thêm khoảng 5 phút. Nêm lại nếu cần thiết.</li>
   <li>Xíu mại ăn cùng bánh mì, mì, cơm hoặc bún.</li>
 </ol>
-<h3>Hướng dẫn chi tiết:</h3>
+<h3 id="hdct">Hướng dẫn chi tiết:</h3>
 <h4>Bước 1: Sơ chế nguyên liệu</h4>
 <p>
 Củ đậu bạn gọt vỏ, rửa sạch, xắt sợi nhỏ hoặc hạt lựu. Bước này bạn bào củ đậu thì nhanh hơn.
@@ -217,7 +217,7 @@ Sốt xíu mại kiểu miền Nam chua nhiều, ngọt nhiều. Nếu bạn c�
 <p>
 Sốt đun liu riu 15-20 phút nhỏ lửa cho các gia vị được hòa quyện.
 </p>
-<h4>
+<h4 id="ht">
 Bước 4: Cách Làm Xíu Mại - Hoàn thành
 </h4>
 <p>

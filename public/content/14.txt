@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+     
     }
 
     .recipe-instructions {
@@ -58,7 +58,7 @@
          <img src="../../../assert/imageFood/sandwich/sandwich.jpg">
 
 
-    <h3>Nguyên Liệu:</h3>
+    <h3 id="nl">Nguyên Liệu:</h3>
     <ul>
         <li>8 lát bánh mì sandwich: 15000đ - 20000đ</li>
         <li>8 miếng thịt ba chỉ hun khói: 50000đ - 65000đ/200g</li>
@@ -93,7 +93,7 @@
         <li>Thưởng thức cùng loại sốt tùy thích.</li>
     </ul>
 
-    <h3>Cách làm chi tiết:</h3>
+    <h3 id="hdct">Cách làm chi tiết:</h3>
     <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
     <p>
 Nguyên liệu của bánh sandwich kẹp thịt ba chỉ hun khói không cầu kỳ đâu. Vậy nên, bạn dễ dàng tìm mua từng thành phần theo sở thích tại những cửa hàng thực phẩm gần nhà.
@@ -146,7 +146,7 @@ Lớp sốt cũng có tác dụng liên kết, giúp phần nhân bám dính và
 Thịt ba chỉ hun khói khi áp chảo sẽ tăng độ giòn hơn, cạnh cháy xém và thơm hơn. Bạn làm nóng chảo rồi cho một ít dầu vào và cho thịt ba chỉ hun khói vào áp chảo hai mặt.
 </p>
          <img src="../../../assert/imageFood/sandwich/sandwich3.jpg">
-<h4>Bước 3: Xếp các lớp nhân và thưởng thức</h4>
+<h4 id="ht">Bước 3: Xếp các lớp nhân và thưởng thức</h4>
 <p>
 Bạn đặt một lớp bánh sandwich bên dưới cùng và quét phần sốt đã trộn lên trên.
 </p>

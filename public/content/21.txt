@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+     
     }
 
     .recipe-instructions {
@@ -56,7 +56,7 @@
 <p>Khẩu phần: 4 người</p>
     <img src="../../../assert/imageFood/tokbokki/tokbokki.jpg" >
 
- <h3>Nguyên Liệu:</h3>
+ <h3 id="nl">Nguyên Liệu:</h3>
 <ul>
   <li>400 g bánh gạo dạng ống</li>
   <li>4 tấm bánh chả cá vuông</li>
@@ -91,7 +91,7 @@
   <li>Đun tokbokki ở mức lửa vừa khoảng 10 phút cho ngấm.</li>
   <li>Múc từng phần tokbokki ra đĩa, rắc vừng rang lên trên và thưởng thức.</li>
 </ol>
-<h3>Hướng dẫn chi tiết:</h3>
+<h3 id="hdct">Hướng dẫn chi tiết:</h3>
 <h4>Bước 1: Sơ chế nguyên liệu</h4>
 <p>
 Nguyên liệu của tokbokki nếu bạn mua tất cả ở một siêu thị Hàn Quốc thì thành phẩm sẽ thật chuẩn chỉnh không chê vào đâu được.
@@ -185,7 +185,7 @@ Nếu có nhu cầu thêm bột ngọt (mì chính) thì bạn hãy cho vào lú
 Khi nước sốt sôi trở lại bạn hãy cho bánh chả cá vào. Loại bánh chả cá này thấm hút rất nhiều nước sốt. Nếu thấy nước sốt bị đặc quá bạn có thể thêm nước sạch vào đun cùng.
 </p>
     <img src="../../../assert/imageFood/tokbokki/tokbokki7.jpg" >
-<h4>Bước 3: Hoàn thành và thưởng thức tokbokki</h4>
+<h4 id="ht">Bước 3: Hoàn thành và thưởng thức tokbokki</h4>
 <p>
 Bạn cứ đun thêm tokbokki với mức lửa vừa khoảng 10 phút cho nước sốt ngấm đều vào các nguyên liệu.
 </p>

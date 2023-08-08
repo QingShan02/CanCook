@@ -31,9 +31,8 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
     }
-
+    
     .recipe-instructions {
       background-color: #fff;
       padding: 15px;
@@ -56,7 +55,7 @@
     <h1>Bánh Chuối Chiên - Thật là ngon!</h1>
     <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien.jpg" alt="Bánh Chuối Chiên">
 
-    <h2>Nguyên Liệu</h2>
+    <h2 id="nl">Nguyên Liệu</h2>
     <ul>
         <li>8 quả chuối xiêm/sứ chín: 20.000đ - 25.000đ/nải</li>
         <li>170 g bột gạo</li>
@@ -70,7 +69,7 @@
         <li>Dầu ăn</li>
     </ul>
 
-    <h2>Hướng dẫn</h2>
+    <h2 id="hd">Hướng dẫn</h2>
     <h3>Bước 1: Pha bột</h3>
     <p>
         Trộn đều bột gạo, bột mì, bột nếp, bột năng, đường và muối. Từ từ cho nước vào tô bột, vừa cho vừa quấy
@@ -94,16 +93,16 @@
         caramen...
     </p>
 
-    <h2>Chi tiết</h2>
+    <h2 id="hdct">Chi tiết</h2>
     <h3>Bước 1: Pha bột</h3>
     <p>Nếu tìm cách làm bánh bao, bánh mì ngọt mềm, có thể chúng mình sẽ thấy rất nhiều công thức khác nhau nhưng thành phần và tỉ lệ phần trăm giữa các nguyên liệu không có sự chênh lệch quá lớn.</p
-    
-    <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien1.jpg" alt="">
    
+      <img class="img" src="../../../assert/imageFood/banhchuoichien/banhchuoichien1.jpg" alt="" >
+    
     <p>Nếu tìm cách làm bánh bao, bánh mì ngọt mềm, có thể chúng mình sẽ thấy rất nhiều công thức khác nhau nhưng thành phần và tỉ lệ phần trăm giữa các nguyên liệu không có sự chênh lệch quá lớn.</p>
-
-    <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien2.jpg">
-
+    
+          <img  src="../../../assert/imageFood/banhchuoichien/banhchuoichien2.jpg">
+  
     <p>Cách pha bột bánh chuối chiên lại khác hẳn, từ người này sang người khác, thành phần trong tô bột có thể hoàn toàn khác nhau.</p>
 
     <ul>
@@ -127,7 +126,7 @@
 
       <ol>
         <li>Thứ nhất, gạo.</li>
-        <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien2.jpg">
+        <img.mobi src="../../../assert/imageFood/banhchuoichien/banhchuoichien2.jpg">
         <p>Gạo là chìa khóa cho vỏ bánh giòn rụm. Công thức chỉ sử dụng bột mì cũng sẽ cho vỏ bánh giòn, nhưng chỉ giòn một lớp mỏng áo ngoài, nguội là ỉu ngay, khi nhai sẽ không có tiếng “rốp rốp” vui tai của bánh chuối chiên.
            Gạo có thể chiếm tỉ lệ từ 30% tới 100% lượng bột. Nó có thể ở dạng bột gạo, hạt gạo ngâm nở được xay nhuyễn hoặc cơm nguội xay nhuyễn.
            Sử dụng bột gạo hoặc bột gạo lọc là tiện lợi nhất.
@@ -211,7 +210,10 @@
         Nhanh gọn nhất, bánh vừa gắp ra nóng hổi, vừa thổi vừa cắn ngập răng lớp vỏ giòn rụm, bên trong chuối chín mềm tươm mật ngọt.<br>
         Nếu muốn mới lạ hơn, bánh chuối chiên hoàn toàn có thể lên bàn tiệc khi phối hợp cùng mật, hoa quả, kem, kem tươi, sốt socola, sốt caramen,...<br>
         </p>
+         <div class="img-responsive">
            <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien17.jpg">
+         </div>
+           
    
    
     <p>

@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+    
     }
 
     .recipe-instructions {
@@ -57,7 +57,7 @@
       <img src="../../../assert/imageFood/haunuong/haunuong.jpg">
 
 
-    <h2>Nguyên liệu chính:</h2>
+    <h2 id="nl">Nguyên liệu chính:</h2>
     <ul>
         <li>2-3 kg hàu sữa: 30.000đ - 50.000đ/kg</li>
     </ul>
@@ -100,7 +100,7 @@
         <li>Bày hàu ra đĩa và thưởng thức cùng tương ớt hoặc nước mắm chua ngọt.</li>
     </ol>
 
-    <h3>Cách làm hàu nướng mỡ hành chi tiết:</h3>
+    <h3 id="hdct">Cách làm hàu nướng mỡ hành chi tiết:</h3>
     <h4>Bước 1: Sơ chế hàu</h4>
 
     <p>Tùy sở thích từng nhà mà bạn có thể chọn mua hàu sữa hoặc hàu lớn, nhưng hàu sữa thường sẽ mềm và ngọt hơn.</p>
@@ -149,7 +149,7 @@ Tuy dùng các loại lò trên sẽ tiết kiệm thời gian hơn nhưng hàu 
 <p>
 Khi nướng than hoa, thời gian dao động tùy vào kích cỡ của hàu, bạn để ý khi nào mỡ sôi lèo xèo, thịt hàu săn lại bốc mùi thơm ngào ngạt là có thể nhấc ra bày đĩa nhé.
 </p>
-    <h4>Bước 4: Hoàn thành</h4>
+    <h4 id="ht">Bước 4: Hoàn thành</h4>
     <p>
 Hàu nướng mỡ hành chúng mình có thể ăn trực tiếp kèm rau răm để cảm nhận hết vị thanh ngọt tươi ngon của hàu hoặc chấm cùng mắm chua ngọt hay tương ớt chưng đều được cả nhé.
     </p>

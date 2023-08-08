@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+    
     }
 
     .recipe-instructions {
@@ -55,6 +55,23 @@
 <h1>Tên món: Gà Rán</h1>
 <p>Khẩu phần: 4 người</p>
     <img src="../../../assert/imageFood/garan/garan.jpg">
+<h2 id="nl">Nguyên Liệu:</h2>
+<ul>
+<li>0,8-1 kg thịt gà công nghiệp (đùi, cánh hoặc lườn gà)</li> 
+<li>thìa canh muối hạt</li>
+<li>2-3 thìa canh rượu trắng</li>
+<li>1 nhánh gừng nhỏ</li>
+<li>500 ml sữa tươi không đường</li>
+<li>1 thìa canh nước chanh hoặc dấm</li>
+<li>1 thìa canh muối</li>
+<li>1 thìa canh bột ngọt</li>
+<li>1 thìa cà phê tiêu</li>
+<li>1 thìa cà phê ớt bột</li>
+<li>100 g bột chiên xù</li>
+<li>200 g bột chiên giòn</li>
+<li>2 quả trứng gà  </li>
+</ul>
+<h2 id="hdct">Hướng dẫn chi tiết</h2>
 <h3>Bước 1: Chuẩn bị</h3>
 <ol>
   <li>Đùi gà rửa sạch, để ráo rồi dùng nĩa/ mũi dao nhọn chọc nhẹ vào thịt đùi.</li>
@@ -72,7 +89,7 @@
 <ol>
   <li>Đùi gà rán ăn kèm sốt mayonnaise, tương ớt.</li>
 </ol>
-<p><strong>Cách làm gà rán chi tiết:</strong></p>
+<p id="hdct"><strong>Cách làm gà rán chi tiết:</strong></p>
 <p>Với món gà rán kiểu KFC, thịt gà công nghiệp là lựa chọn tối ưu hơn cả. Bạn có thể dùng bất cứ bộ phận nào của gà đều được cả. Bạn có thể chỉ chọn một loại bộ phận hoặc nhiều phần khác nhau. Nhà nào có trẻ con hoặc người lớn tuổi sẽ hay chọn đùi và ức gà vì ít xương lại có nhiều nạc.</p>
 <p>Nếu là người thích gặm xương thì đùi và cánh gà là phần rất thích hợp cho bạn. Và trong công thức cách làm gà rán này chúng mình tập trung vào loại đùi và cánh gà nhé.</p>
 <p>Bạn có thể chặt thành miếng nhỏ vừa ăn hoặc để nguyên miếng to đều được nha. Tuy nhiên, bạn nên để miếng to chút vì cầm miếng gà rán lên và cắn ăn là một thú vui khi ăn món ăn này. Miếng to cũng giúp thịt gà không bị quá khô khi chiên.</p>
@@ -119,7 +136,7 @@
 <p>
     <img src="../../../assert/imageFood/garan/garan9.jpg">
 </p>
-<h3>Bước 3: Cách làm gà rán - Hoàn thành</h3>
+<h3 id="ht">Bước 3: Cách làm gà rán - Hoàn thành</h3>
 <p>Tèng teng, cùng nhau thưởng thức thành quả nào!</p>
 <p>
 <img src="../../../assert/imageFood/garan/garan10.jpg">

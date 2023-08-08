@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+    
     }
 
     .recipe-instructions {
@@ -57,7 +57,7 @@
   <img src="../../../assert/imageFood/dausotcachua/dausotcachua.jpg">
 
 
-    <h3>Nguyên liệu chính</h3>
+    <h3 id="nl">Nguyên liệu chính</h3>
     <ul>
         <li>4 bìa đậu phụ (400 g): 5000đ - 7000đ /bìa đậu phụ</li>
         <li>2 quả cà chua : 2000đ - 3000đ</li>
@@ -100,7 +100,7 @@
         <li>Thêm hành lá đun khoảng 1-2 phút. Tắt bếp và thưởng thức.</li>
     </ol>
 
-    <h3>Cách làm đậu sốt cà chua chi tiết</h3>
+    <h3 id="hdct">Cách làm đậu sốt cà chua chi tiết</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
   <p>
     Như mình đã giới thiệu bên trên, đậu phụ sốt cà chua chỉ có hai thành phần chính là đậu phụ và cà chua. Chọn mua những bìa đậu phụ tươi ngon và cà chua chín đỏ mọng là món ăn đã đảm bảo ngon 7/10 phần rồi.
@@ -174,7 +174,7 @@ Bạn đun thêm khoảng 5 phút cho đậu phụ ngấm sốt cà chua rồi t
 <p>
 Khi cho hành lá vào, bạn đun 1-2 phút để cho hành chín tới, bớt hăng và giữ nguyên màu xanh nhé! Nếu đun lâu quá, hành lá sẽ bị ngả màu vàng úa không đẹp mắt.
 </p>
-<h4>Bước 4:Hoàn thành</h4>
+<h4 id="ht">Bước 4:Hoàn thành</h4>
 <p>
 Vậy là món đậu phụ sốt cà chua đã hoàn thành rồi. Bạn múc ra một chiếc đĩa sâu lòng rồi trang trí thêm chút hành lá, rau mùi cho đẹp mắt và nhanh chóng thưởng thức cùng gia đình khi còn nóng hổi nhé!
 </p>

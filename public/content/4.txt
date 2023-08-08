@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+   
     }
 
     .recipe-instructions {
@@ -56,7 +56,7 @@
  <h1>Cá Kho Tộ</h1>
     <p><strong>Khẩu phần:</strong> 4 người</p>
      <img src="../../../assert/imageFood/cakhoto/cakhoto.jpg">
-    <h2>Nguyên liệu:</h2>
+    <h2 id="nl">Nguyên liệu:</h2>
     <ul>
         <li>900g cá ba sa (giá khoảng 40,000đ - 50,000đ/kg)</li>
         <li>1 củ hành tây</li>
@@ -118,7 +118,7 @@
         </li>
     </ol>
 
-     <h2>Hướng dẫn chi tiết:</h2>
+     <h2 id="hdct">Hướng dẫn chi tiết:</h2>
       <h4>Bước 1: Sơ chế nguyên liệu</h4>
       <p>
       Mình rất thích cá ba sa (cá bông lau) vì cá không có vảy, lượng mỡ vừa phải, ít xương hom nên các bé ăn cũng an toàn hơn. Nên công thức kho cá này mình sẽ dùng cá ba sa luôn nha. Các bạn có thể áp dụng công thức này với nhiều loại cá khác như: cá quả, cá trắm, cá chép,…
@@ -233,7 +233,7 @@ Sau đó, các bạn cho phần đầu hành lá cắt khúc và ớt đập d�
 <p>
 Bạn tiếp tục để lửa nhỏ riu riu kho tầm 30 phút nữa, đến khi nước cạn bớt và bắt đầu sánh lại thì các bạn tắt bếp, cho phần hành lá thái nhỏ vào để cá kho có màu đẹp và thơm hơn.
 </p>
-       <h4>Bước 5: Hoàn thành</h4>
+       <h4 id="ht">Bước 5: Hoàn thành</h4>
        <p>
 Vậy là chúng ta đã cùng nhau thực hiện xong món cá kho tộ siêu ngon ngay tại nhà.
        </p>

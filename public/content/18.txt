@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+    
     }
 
     .recipe-instructions {
@@ -57,7 +57,7 @@
     <img src="../../../assert/imageFood/xoichien/xoichien.jpg">
 
 
-<h3>Nguyên Liệu:</h3>
+<h3 id="nl">Nguyên Liệu:</h3>
 <ul>
   <li>300 g gạo nếp: 16,000đ - 25,000đ/kg</li>
   <li>200 g thịt xay: 25,000đ - 35,000đ/200g</li>
@@ -131,7 +131,7 @@
   <li>Xôi chiên ăn nóng, rưới nước sốt hoặc ăn cùng tương ớt, tương cà, mayonnaise.</li>
 </ol>
 
-<p>Chi tiết cách làm xôi chiên:</p>
+<p id="hdct">Chi tiết cách làm xôi chiên:</p>
 <p>Bước 1: Sơ chế nguyên liệu</p>
 <p>Bạn có thể dùng bất kỳ loại gạo nếp nào bạn thích: nếp cái hoa vàng, nếp ngỗng, nếp Thái, nếp Nhật,...</p>
 <p>Cách làm xôi chiên này chỉ cần nấu xôi bằng nồi cơm điện, vì thế cũng không cần ngâm gạo. Bạn chỉ cần vo gạo thật sạch tới khi nước trong, để ráo là được rồi. Bạn thích đồ xôi như bình thường cũng được hết nha.</p>
@@ -181,7 +181,7 @@
 
 <p>2 mặt đều vàng giòn, bạn tăng lửa lớn trong vài giây để xôi nhả dầu rồi gắp viên xôi xếp lên rổ mắt thưa cho ráo dầu.</p>
 <p>Trong nhà có nồi chiên không dầu thì bạn có thể cho viên xôi vào nướng 170-180 độ C trong 3-5 phút để ép nốt dầu thừa ra nha.</p>
-<p>Bước 6: Hoàn thành</p>
+<p id="ht">Bước 6: Hoàn thành</p>
 <p>Xôi chiên còn nóng giòn rụm, bạn dùng dao rạch một đường ngang miếng xôi. Bạn xúc nhân cho vào giữa. Bạn có thể kẹp thêm ít ruốc nữa.</p>
     <img src="../../../assert/imageFood/xoichien/xoichien7.jpg">
 

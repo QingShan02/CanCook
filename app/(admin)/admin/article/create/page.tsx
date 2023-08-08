@@ -9,7 +9,8 @@ const TextEditor = dynamic(() => import("../../../../../components/TextEditor"),
 });
 const Create = () => {
   const Submit: SubmitHandler<Article> = async (data) => {
-    await axios.post("/api/article", data ).then().catch(er => console.log(er));
+    console.log(data)
+    await axios.post("/api/article", data).then().catch(er => console.log(er));
     window.location.href = "/admin/article";
   }
   return (

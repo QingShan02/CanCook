@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+     
     }
 
     .recipe-instructions {
@@ -58,7 +58,7 @@
         <img src="../../../assert/imageFood/canhrongbien/canhrongbien.jpg" alt="">
    
 
-    <h3>Nguyên Liệu</h3>
+    <h3 id="nl">Nguyên Liệu</h3>
     <ul>
         <li>100g rong biển khô</li>
         <li>1 thìa cà phê muối hạt</li>
@@ -103,7 +103,7 @@
     <h4>Bước 4: Hoàn thành</h4>
     <p>Múc ra bát, rắc tiêu xay lên trên và thưởng thức.</p>
 
-    <h3>Cách nấu canh rong biển chi tiết</h3>
+    <h3 id="hdct">Cách nấu canh rong biển chi tiết</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
     <p>
 Lượng thịt thăn bò sử dụng trong món canh rong biển không nhiều nhưng bạn cũng cần chọn mua được loại thịt tươi ngon nhất. Bạn hãy chọn miếng dày dặn, có màu hồng đỏ, ấn vào có độ đàn hồi tốt và cảm giác hơi dính một chút.
@@ -221,7 +221,7 @@ Khi nước sôi trở lại, bạn nêm nếm gia vị cho vừa miệng và đ
 <p>
 Một bí mật nho nhỏ là nếu muốn canh rong biển ngọt đượm vị hơn thì bạn nên nêm bằng xì dầu nhé!
 </p>
-<h4>Bước 4: Cách Nấu Canh Rong Biển – Hoàn thành</h4>
+<h4 id="ht">Bước 4: Cách Nấu Canh Rong Biển – Hoàn thành</h4>
 <p>
 Sau khoảng thời gian chờ đợi, canh rong biển thịt bò đã chính thức hoàn thành.
 </p>

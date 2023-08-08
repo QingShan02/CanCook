@@ -17,4 +17,8 @@ export async function GET(request,context) {
         },
       });
 }
-
+export async function DELETE(request,context){
+  const id = context.params.id;
+  await articleService.deleteById(id);
+  return NextResponse.json({});
+}

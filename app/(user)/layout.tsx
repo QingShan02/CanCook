@@ -25,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
+        <link rel="shortcut icon" href="../../public/assert/img/logo2.png" type="image/x-icon" />
         <title>Can Cook</title>
       </head>
       <body>

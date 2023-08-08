@@ -31,7 +31,7 @@
 
     ol, ul {
       color: #555;
-      margin-left: 30px;
+ 
     }
 
     .recipe-instructions {
@@ -57,7 +57,7 @@
        <img src="../../../assert/imageFood/khoquet/khoquet.jpg">
 
 
-    <h2>Nguyên Liệu:</h2>
+    <h2 id="nl">Nguyên Liệu:</h2>
     <ul>
         <li>200 g thịt ba chỉ: 35000đ - 45000đ/200g</li>
         <li>50 -100 g tôm nõn khô: 65000đ/100g</li>
@@ -98,7 +98,7 @@
     <h3>Bước 4: Hoàn thành</h3>
     <p>Cuối cùng, múc kho quẹt ra bát và thưởng thức nó cùng với rau củ luộc.</p>
 
-    <h2>Hướng dẫn:</h2>
+    <h2 id="hdct">Hướng dẫn chi tiết:</h2>
     <h3>Bước 1: Sơ chế nguyên liệu</h3>
 <p>
 Đầu tiên, bạn rửa sạch thịt ba chỉ, để ráo nước rồi lọc bì, thái miếng hạt lựu. Riêng bì, bạn có thể giữ lại để luộc cùng với rau củ sẽ giúp rau củ được ngọt hơn.
@@ -177,7 +177,7 @@ Bạn tiếp tục đun đến khi kho quẹt keo lại thì tắt bếp thêm h
 Kho quẹt khi nguội sẽ keo nhiều hơn khi nóng nên bạn cần căn đúng thời gian 10-15 phút là tắt bếp, tránh đun lâu hơn có thể làm kho quẹt bị khô, mất ngon. Nếu bạn đun kho quẹt bằng nồi đất thì có thể đun với lửa to trong 5-7 phút vì nồi đất giữ nhiệt tốt hơn nhiều so với các loại nồi thường sử dụng.
 </p>
     <img src="../../../assert/imageFood/khoquet/khoquet11.jpg">
-    <h3>Bước 4: Hoàn thành</h3>
+    <h3 id="ht">Bước 4: Hoàn thành</h3>
     <p>
 Cuối cùng, bạn chỉ cần múc kho quẹt ra bát và thưởng thức nó cùng với rau củ luộc thôi nào!
     </p>
