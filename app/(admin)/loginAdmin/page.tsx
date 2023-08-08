@@ -11,12 +11,13 @@ const LoginAdmin = () => {
         }
     });
     const onSubmit = async (data) => {
+
         const result = await signIn("credentials", {
             username: data.email,
             password: data.password,
             redirect: true,
-            callbackUrl: "/admin",
-            
+            callbackUrl: "https://cancook.vercel.app/admin",
+
         });
     }
     return (

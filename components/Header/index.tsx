@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+            <nav className="navbar navbar-expand-lg container" style={{ backgroundColor: '#C8AE7D' }}>
                 <div className="container text-center d-block">
                     <div className="row ">
                         <div className="col-lg-3 my-auto">
