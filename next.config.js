@@ -5,4 +5,4 @@ const nextConfig = {
     },
     // Các tùy chọn khác của next.config.js...
 };
-module.exports = nextConfig
+export default nextConfig
