@@ -47,6 +47,14 @@ const TextEditor = ({ Submit }) => {
 
     const onEditorStateChange = (editorState) => {
         const name = editorState.target?.files[0].name;
+        // var c = document.createElement('canvas');
+        // c.height = name.naturalHeight;
+        // c.width = name.naturalWidth;
+        // var ctx = c.getContext('2d');
+        
+        // ctx.drawImage(name, 0, 0, c.width, c.height);
+        // var base64String = c.toDataURL();
+        // console.log(base64String)
         if (name) {
             setValue("image", name)
         }
@@ -71,7 +79,8 @@ const TextEditor = ({ Submit }) => {
                     { list: "bullet" },
                     { indent: "-1" },
                     { indent: "+1" }
-                ]
+                ],
+                ["link","image"]
             ]
         };
     }, []);
@@ -79,7 +88,7 @@ const TextEditor = ({ Submit }) => {
         <form className="w-75 mx-auto" onSubmit={handleSubmit(Submit)}>
 
             <div className="form-outline">
-                <h3>Title</h3>
+                <h3>Tiêu đề bài viết</h3>
                 <Input className='form-control' type='text' name='title' register={register("title", {
                     required: {
                         value: true,
@@ -89,16 +98,16 @@ const TextEditor = ({ Submit }) => {
                 <div className='text-danger mt-1'>{errors.title?.message}</div>
             </div>
             <div className="form-outline">
-                <h3>Thumbnail</h3>
+                <h3>Hình ảnh</h3>
                 <Input className='form-control' type='file' name='thum' onChange={onEditorStateChange} />
                 <div className='text-danger mt-1'>{errors.image?.message}</div>
             </div>
             <div className="form-outline">
                 <h3>Content</h3>
-                <ReactQuill theme='snow' modules={modules} onChange={onEditorStateChange} />
+                <ReactQuill style={{height:"300px"}}  theme='snow' modules={modules} onChange={onEditorStateChange} />
                 <div className='text-danger mt-1'>{errors.content?.message}</div>
             </div>
-            <div className="form-outline">
+            <div className="form-outline mt-5">
                 <h3>Category</h3>
                 {data.category.map((value, index) => (
                     <>
@@ -134,7 +143,7 @@ const TextEditor = ({ Submit }) => {
                 ))}
                 <div className='text-danger mt-1'>{errors.directory?.message}</div>
             </div>
-            <button className="btn btn-success">Create Article</button>
+            <button className="btn btn-success">Đăng bài</button>
         </form>
     );
 }
