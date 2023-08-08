@@ -18,6 +18,7 @@ const Article = ({ params }) => {
         init();
     }, []);
 
+    
     const fullPath = window.location.pathname;
 
     const { data: session } = useSession();
