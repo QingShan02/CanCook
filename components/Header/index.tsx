@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg container" style={{ backgroundColor: '#C8AE7D' }}>
+            <nav className="navbar navbar-expand-lg container mb-3" style={{ backgroundColor: '#C8AE7D' }}>
                 <div className="container text-center d-block">
                     <div className="row ">
                         <div className="col-lg-3 m-auto">
@@ -16,7 +16,7 @@ const Header = () => {
                                 <span className="navbar-toggler-icon" />
                             </button>
                             <a className="navbar-brand float-sm-start me-5" href="/">
-                                <img src="../../../images/logo.png" className='me-2' alt="Bootstrap" width={100} />
+                                <img src="../../../images/logo.png" alt="Bootstrap" width={100} />
                             </a>
                         </div>
                         <div className="col-lg-8 mt-4">
