@@ -11,7 +11,7 @@ const LoginAdmin = () => {
         }
     });
     const onSubmit = async (data) => {
-        data.preventDefault()
+
         const result = await signIn("credentials", {
             username: data.email,
             password: data.password,
