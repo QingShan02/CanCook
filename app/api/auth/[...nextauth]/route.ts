@@ -35,7 +35,10 @@ const handler = NextAuth({
     }, debug: true,
     pages: {
         signIn: "/loginAdmin"
-    }
+    },
+    callbacks: {
+    },
+    secret: process.env.NEXTAUTH_SECRET,
 
 
 });
