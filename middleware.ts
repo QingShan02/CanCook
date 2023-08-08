@@ -7,4 +7,4 @@ export default withAuth(
         secret: 'seocranet',
     }
 );
-export const config = { matcher: ["/admin", "/admin/article", "/article/create"] }
+export const config = { matcher: ["/admin", "/admin/article"] }
