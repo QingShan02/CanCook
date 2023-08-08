@@ -6,8 +6,7 @@ export default withAuth(
         // Xử lý middleware tại đây
     },
     {
-        secret: 'seocranet', // Thay bằng giá trị khóa bí mật thực sự
-        // Các tùy chọn khác...
+        secret: 'seocranet',
     }
 );
 export const config = { matcher: ["/admin"] }
