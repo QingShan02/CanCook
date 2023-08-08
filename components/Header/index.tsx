@@ -11,12 +11,12 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container text-center d-block">
                     <div className="row ">
-                        <div className="col-lg-3 my-auto">
+                        <div className="col-lg-3 m-auto">
                             <button className="navbar-toggler my-2 float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon" />
                             </button>
-                            <a className="navbar-brand float-end ms-5" href="/">
-                                <img src="../../../images/logo.png" alt="Bootstrap" width={100} />
+                            <a className="navbar-brand float-sm-start me-5" href="/">
+                                <img src="../../../images/logo.png" className='me-2' alt="Bootstrap" width={100} />
                             </a>
                         </div>
                         <div className="col-lg-8 mt-4">
@@ -27,7 +27,7 @@ const Header = () => {
                                             <a className="nav-link active text-inline" aria-current="page" href="/">Trang chủ</a>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Loại
                                             </a>
                                             <ul className="dropdown-menu">
@@ -36,7 +36,7 @@ const Header = () => {
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <a className="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Danh Mục
                                             </a>
                                             <ul className="dropdown-menu">
@@ -50,7 +50,7 @@ const Header = () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="/about">Về chúng tôi</a>
                                         </li>
-                                        <li className="m-auto">
+                                        <li className="m-auto float-lg-end">
                                             {session ? (
                                                 <>
                                                     <span className='me-2 d-inline'>{session.user.name}</span>

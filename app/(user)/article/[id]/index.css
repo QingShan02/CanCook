@@ -1,3 +1,35 @@
 .post-source {
     font-size: smaller;
 }
+
+.goto-wrapper{
+    margin-bottom: 20px;
+    background: #f5f5f5;
+    padding: 10px 20px;
+  }
+  .goto-wrapper p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size:30px;
+  
+  }
+  .goto-wrapper a {
+  box-shadow: none !important;
+  text-decoration: none;
+  color: #288cc4;
+  }
+  .goto-wrapper ul {
+  padding-left: 0px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  }
+  .goto-wrapper ul li {
+  list-style: none !important;
+  line-height: 25px;
+  margin-top: 7px;
+  }

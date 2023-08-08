@@ -56,7 +56,7 @@
   <img src="../../../assert/imageFood/raumuongxao/raumuongxao.jpg">
 
 
-  <h3>Nguyên liệu chính</h3>
+  <h3 id="nl">Nguyên liệu chính</h3>
   <ul>
     <li>1 bó rau muống to: 10.000đ - 15.000đ</li>
   </ul>
@@ -91,7 +91,7 @@
       <li>Xào thêm khoảng 2 phút cho rau chín hẳn rồi gắp ra đĩa và thưởng thức.</li>
     </ul>
   </ol>
-  <h3>Hướng dẫn chi tiết</h3>
+  <h3 id="hdct">Hướng dẫn chi tiết</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
 <p>
     Không phải ngẫu nhiên mà từ bao đời nay, người Việt thường kết hợp rau muống và tỏi với nhau. Hai loại thực vật có nguồn gốc tự nhiên này khi chế biến cùng nhau không chỉ tăng hương vị mà còn giàu dinh dưỡng, tốt cho sức khỏe.
@@ -161,7 +161,7 @@ Bạn cẩn thận đừng làm cháy những tép tỏi bám trên thành chả
 Bạn đảo thêm độ 2 phút rồi tắt bếp và gắp ra đĩa.
 </p>
   <img src="../../../assert/imageFood/raumuongxao/raumuongxao3.jpg">
-    <h4>Bước 4: Hoàn thành </h4>
+    <h4 id="ht">Bước 4: Hoàn thành </h4>
     <p>
 Rau muống xào tỏi đạt yêu cầu cần thỏa mãn một số điều kiện. Bạn kiểm tra xem mình đã làm thành công chưa nhé!
     </p>

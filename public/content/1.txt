@@ -51,12 +51,32 @@
       color: #555;
       margin-bottom: 5px;
     }
+    
+    
   </style>
 
     <h1>Bánh Chuối Chiên - Thật là ngon!</h1>
     <img src="../../../assert/imageFood/banhchuoichien/banhchuoichien.jpg" alt="Bánh Chuối Chiên">
 
-    <h2>Nguyên Liệu</h2>
+    <div class="goto-wrapper">
+    <p>Mục Lục</p>
+    <ul >
+    <li>
+    <a href="#nl" >I. Nguyên Liệu</a>
+    </li>
+    <li >
+    <a href="#hd">II. Hướng Dẫn</a>
+    </li>
+    <li><a href="#hdct">III. Hướng Dẫn Chi Tiết </a></li>
+    <ul>
+      <li><a href="#1">Bước 1: Pha Bột</a></li>
+      <li><a href="#2">Bước 2: Chiên Bánh Chuối</a></li>
+      <li><a href="#3">Bước 3: Hoàn Thành</a></li>
+    </ul>     
+    </ul>
+    </div>
+
+    <h2 id="nl">Nguyên Liệu</h2>
     <ul>
         <li>8 quả chuối xiêm/sứ chín: 20.000đ - 25.000đ/nải</li>
         <li>170 g bột gạo</li>
@@ -70,7 +90,7 @@
         <li>Dầu ăn</li>
     </ul>
 
-    <h2>Hướng dẫn</h2>
+    <h2 id="hd">Hướng dẫn</h2>
     <h3>Bước 1: Pha bột</h3>
     <p>
         Trộn đều bột gạo, bột mì, bột nếp, bột năng, đường và muối. Từ từ cho nước vào tô bột, vừa cho vừa quấy
@@ -94,7 +114,7 @@
         caramen...
     </p>
 
-    <h2>Chi tiết</h2>
+    <h2 id="hdct">Chi tiết</h2>
     <h3>Bước 1: Pha bột</h3>
     <p>Nếu tìm cách làm bánh bao, bánh mì ngọt mềm, có thể chúng mình sẽ thấy rất nhiều công thức khác nhau nhưng thành phần và tỉ lệ phần trăm giữa các nguyên liệu không có sự chênh lệch quá lớn.</p
     
@@ -206,7 +226,7 @@
 
       </ol>
    
-        <h3>Bước 3: Cách Làm Bánh Chuối Chiên - Hoàn thành</h3>
+        <h3 id="ht">Bước 3: Cách Làm Bánh Chuối Chiên - Hoàn thành</h3>
         <p>
         Nhanh gọn nhất, bánh vừa gắp ra nóng hổi, vừa thổi vừa cắn ngập răng lớp vỏ giòn rụm, bên trong chuối chín mềm tươm mật ngọt.<br>
         Nếu muốn mới lạ hơn, bánh chuối chiên hoàn toàn có thể lên bàn tiệc khi phối hợp cùng mật, hoa quả, kem, kem tươi, sốt socola, sốt caramen,...<br>

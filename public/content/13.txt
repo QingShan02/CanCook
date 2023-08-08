@@ -58,7 +58,7 @@
       <img src="../../../assert/imageFood/saladcangu/saladcangu.jpg">
 
 
-    <h3>Nguyên Liệu:</h3>
+    <h3 id="nl">Nguyên Liệu:</h3>
     <ul>
         <li>1 hộp cá ngừ: 20,000đ - 30,000đ/hộp</li>
         <li>200 g cà chua bi</li>
@@ -119,7 +119,7 @@ Rắc bánh mì sấy và bày đĩa, trang trí với lá bạc hà..
 </li>
 </ol>
 
-    <h3>Cách làm salad cá ngừ chi tiết:</h3>
+    <h3 id="hdct">Cách làm salad cá ngừ chi tiết:</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
     <p>
     Món salad cá ngừ này có trở nên ngon hay không thì quyết định nằm ở việc bạn phải biết cách chọn những nguyên liệu chất lượng nhất.
@@ -194,7 +194,7 @@ Pha sốt xong thì chúng mình cũng khui hộp cá ngừ luôn. Cá ngừ th�
 
 
 
-    <h4>Bước 3: Cách làm salad cá ngừ - Hoàn thành</h4>
+    <h4 id="ht">Bước 3: Cách làm salad cá ngừ - Hoàn thành</h4>
   <p>Bây giờ bạn cho các loại rau củ mà bạn đã sơ chế ở bước đầu như: rau xà lách, cà chua, dưa leo, hành tây vào tô/bát to. Bạn thêm phần cá ngừ đã chắt dầy và rưới phần sốt vừa hoà lên, đảo đều nhẹ nhàng, tránh để rau bị nát.</p>
       <img src="../../../assert/imageFood/saladcangu/saladcangu9.jpg">
       <p>

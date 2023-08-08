@@ -58,7 +58,7 @@
   <img src="../../../assert/imageFood/mangtayxaotoi/mangtayxaotoi.jpg">
 
 
-    <h3>Nguyên Liệu Chính:</h3>
+    <h3 id="nl">Nguyên Liệu Chính:</h3>
     <ul>
         <li>200 g măng tây: 10,000đ - 20,000đ</li>
     </ul>
@@ -90,7 +90,7 @@
     <p>Nêm nếm gia vị cho vừa miệng, xào thêm 1-2 phút rồi tắt bếp.</p>
     <p>Trút măng tây ra đĩa, rắc tiêu xay bên trên và thưởng thức.</p>
 
-    <h3>Cách làm chi tiết măng tây xào tỏi</h3>
+    <h3 id="hdct">Cách làm chi tiết măng tây xào tỏi</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
 <p>
     Tại Việt Nam, măng tây chưa phải là một loại rau được trồng đại trà. Bởi măng tây khó trồng, đòi hỏi được chăm bón và bảo vệ khỏi sâu bệnh cẩn thận. Những vùng trồng măng tây lớn thường trồng măng tây trong nhà kính.
@@ -164,7 +164,7 @@ Bạn ngâm măng tây trong nước đá chừng 3 phút rồi vớt ra rổ đ
 Bạn nhớ ngâm măng tây vào nước đá ngay để giúp măng tây nguội nhanh thì mới giữ đươc độ giòn và bền màu xanh khi xào.
 </p>
   <img src="../../../assert/imageFood/mangtayxaotoi/mangtayxaotoi3.jpg">
-    <h4>Bước 3:Hoàn thành</h4>
+    <h4 id="ht">Bước 3:Hoàn thành</h4>
     <p>
 Bạn làm nóng chảo với chút dầu ăn ở mức lửa trung bình lớn rồi cho tỏi đã sơ chế vào phi vàng thơm. Mình thấy nhiều người cố tình để cho tỏi chuyển màu cam sẫm rồi mới cho rau vào, bạn có thể làm vậy nhưng canh chừng không tỏi cháy quá khi ăn sẽ thấy vị đắng không ngon nữa.
     </p>

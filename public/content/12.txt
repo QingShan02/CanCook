@@ -57,7 +57,7 @@
     <h2>Khẩu phần: 2 người</h2>
     <img src="../../../assert/imageFood/saladcahoi/saladcahoi.jpg">
 
-    <h3>Nguyên liệu chính:</h3>
+    <h3 id="nl">Nguyên liệu chính:</h3>
     <ul>
         <li>200 g cá hồi phi lê: 100,000đ - 110,000đ/200g</li>
     </ul>
@@ -71,7 +71,7 @@
         <li>2 thìa canh dầu ô liu</li>
     </ul>
 
-    <h3>Hướng dẫn</h3>
+    <h3 id="hdct">Hướng dẫn</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
     <ol>
         <li>Sơ chế cá hồi bằng cách rửa sạch kèm chút rượu gừng.</li>
@@ -81,7 +81,7 @@
         <li>Rau xà lách và cà chua rửa sạch rồi cắt nhỏ vừa ăn.</li>
     </ol>
 
-    <h4>Bước 2: Trộn salad</h4>
+    <h4 id="ht">Bước 2: Trộn salad</h4>
     <ol>
         <li>Xếp các nguyên liệu đã được sơ chế vào âu trộn lớn.</li>
         <li>Vắt chanh lấy nước cốt rồi cho cùng dầu ô liu vào trộn đều salad.</li>

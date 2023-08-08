@@ -55,7 +55,7 @@
     <h2>Khẩu phần: 2 người</h2>
         <img src="../../../assert/imageFood/comchientrung/comchientrung.jpg">
 
-    <h3>Nguyên Liệu</h3>
+    <h3 id="nl">Nguyên Liệu</h3>
     <ul>
         <li>2 chén cơm (để nguội)</li>
         <li>2 quả trứng vịt (hoặc trứng gà tùy thích)</li>
@@ -84,7 +84,7 @@
         <li>Đảo đều tay để hạt cơm rời ra, chiên đến khi trứng vàng ươm thì cho hành lá vào đảo một chút để hành chín là xong.</li>
     </ol>
 
-    <h3>Cách làm cơm chiên trứng chi tiết</h3>
+    <h3 id="hdct">Cách làm cơm chiên trứng chi tiết</h3>
     <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
     <p>Những món ăn có thành phần nguyên liệu càng đơn giản, thì chất lượng của từng nguyên liệu lại càng quan trọng trong việc đem lại hương vị thơm ngon cho tổng thể món ăn.<br>
 Với cơm chiên, Thật Là Ngon gợi ý các bạn sử dụng cơm nấu bằng gạo dẻo vừa, để khi chiên lên, hạt cơm sẽ không bị quá khô hoặc quá nhão.<br>
@@ -138,7 +138,7 @@ Bạn bật lại bếp, tiếp tục đảo đều cho đến khi mùi thơm b�
 <p>
 Thật là đơn giản phải không nào?
 </p>
-   <h4>Bước 3: Hoàn thành</h4>
+   <h4 id="ht">Bước 3: Hoàn thành</h4>
    <p>
    Cơm chiên đã xong, bạn bày ra tô/đĩa, cho thêm vài lát cà chua, dưa leo, thêm chút ngò rí tùy thích, không có thì bỏ qua đều được. Nếu nhạt, các bạn có thể dùng thêm nước tương hoặc tương ớt cũng rất hợp.
    </p>

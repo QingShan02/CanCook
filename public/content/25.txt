@@ -57,7 +57,7 @@
         <img src="../../../assert/imageFood/gachienmam/gachienmam.jpg" alt="">
 
 
-    <h3>Nguyên liệu chính</h3>
+    <h3 id="nl">Nguyên liệu chính</h3>
     <ul>
         <li>500 g thịt gà: 45000đ - 55000đ/500g</li>
     </ul>
@@ -109,7 +109,7 @@
         <li>Cho gà vào đảo xóc với sốt mắm cho thấm đều và bày ra thưởng thức.</li>
     </ol>
 
-    <h3>Cách làm gà chiên mắm chi tiết</h3>
+    <h3 id="hdct">Cách làm gà chiên mắm chi tiết</h3>
     <h4>Bước 1: Sơ chế nguyên liệu</h4>
     <p>
 Với món gà chiên mắm, bạn có thể chọn bất cứ bộ phận nào phù hợp với sở thích của gia đình mình. Thường thì nếu làm món nhắm với bia thì cánh gà, đùi gà sẽ thích hợp nhất. Còn để ăn kèm cơm, đặc biệt nếu nhà có trẻ nhỏ hoặc người già thì bạn nên ưu tiên những phần nhiều nạc như ức hoặc lườn gà.
@@ -184,7 +184,7 @@ Tiếp đấy bạn thêm mắm, đường, tương ớt và nước vào đun �
 <p>
 Cuối cùng, nếu thích bạn có thể cho thêm 1-2 thìa canh mật ong vào khuấy đều với sốt mắm. Mật ong sẽ khiến món gà chiên mắm của bạn keo bóng và có mùi thơm dịu hấp dẫn hơn. Nhưng bạn chú ý chỉ cho mật ong vào sốt khi đã tắt bếp được một lúc thôi nhé. Nếu cho mật vào lúc sốt mắm đang sôi, nhiệt cao sẽ khiến mật ong bị biến chất, không tốt cho sức khỏe chúng mình.
 </p>
-<h4>
+<h4 id="ht">
 Bước 4: Cách Làm Gà Chiên Mắm - Hoàn thành
 </h4>
 <p>

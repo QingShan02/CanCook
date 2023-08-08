@@ -56,7 +56,7 @@
 <h1>Canh Khổ Qua Nhồi Thịt</h1>
 <img src="../../../assert/ArticleImage/27.png" alt="Canh Khổ Qua Nhồi Thịt">
 
-<h2>Nguyên Liệu</h2>
+<h2 id="nl">Nguyên Liệu</h2>
 <ul>
     <li>3 quả khổ qua 7000đ - 10000đ/kg</li>
     <li>200 g thịt heo xay: 25000đ - 35000đ/200g</li>
@@ -125,7 +125,7 @@
 </p>
 
 
-<h2>Chi tiết</h2>
+<h2 id="hdct">Chi tiết</h2>
 <h4>Bước 1: Sơ chế nguyên liệu</h4>
 <p>
     Bạn đã biết cách chọn mua khổ qua tươi chưa nhỉ? Nếu chưa biết thì mình muốn nhấn mạnh tới bạn phải thực sự cẩn
@@ -245,7 +245,7 @@
     Nấu canh khổ qua bằng nước hầm xương là ngon nhất rồi, nhưng nếu bạn muốn món canh ngọt vị thanh đạm thì có thể dùng
     nước dashi củ quả. Hoặc đơn giản là nấu nước sôi bình thường và nêm nếm nước canh đậm vị hơn một chút.
 </p>
-<h4>Bước 4: Cách Làm Canh Khổ Qua Nhồi Thịt – Hoàn thành</h4>
+<h4 id="ht">Bước 4: Cách Làm Canh Khổ Qua Nhồi Thịt – Hoàn thành</h4>
 <p>
     Khi canh khổ qua chín, trước lúc tắt bếp bạn rắc hành lá và rau mùi lên trên rồi hẵng tắt bếp. Hơi nóng sẽ làm chín
     và giảm mùi hăng của hành, đồng thời tinh dầu trong rau mùi cũng được giải phóng làm cho món canh thơm hơn.
