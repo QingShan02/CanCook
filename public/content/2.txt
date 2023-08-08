@@ -49,22 +49,24 @@
       color: #555;
       margin-bottom: 5px;
     }
+
   </style>
    <h1>Tên món: Trứng ốp la</h1>
   <h2>Khẩu phần: 1 người</h2>
   <img src="../../../assert/imageFood/trungopla/trungopla.jpg">
 
+  
 
-  <h3>Nguyên Liệu</h3>
+  <h3 id="nl">Nguyên Liệu</h3>
   <ul>
     <li>1 quả trứng gà</li>
     <li>2 thìa dầu ăn hoặc 1 thìa canh bơ, sử dụng bơ lạt sẽ thơm hơn dầu ăn</li>
     <li>Muối và tiêu tuỳ thuộc vào khẩu vị</li>
   </ul>
 
-  <h3>Hướng dẫn</h3>
+  <h3 id="hdct">Hướng dẫn</h3>
   <ol>
-    <li>Bước 1: Làm nóng chảo</li>
+    <li id=1>Bước 1: Làm nóng chảo</li>
     <p>
     Để có một phần trứng ốp la ngon lành thì đầu tiên bạn hãy làm nóng chảo với lửa vừa, nhớ đừng để nhiệt độ chảo nóng quá dễ cháy trứng nhé.<br>
     Khi chảo vừa nóng bạn hãy cho khoảng 2 thìa canh dầu ăn hoặc 1 thìa bơ lạt vào chảo. Mình thì thích dùng bơ lạt hơn vì có vị thơm hơn nè.
@@ -75,7 +77,7 @@
       <li>Đầu tiên, bạn làm nóng chảo với lửa vừa.</li>
       <li>Cho bơ lạt hoặc dầu ăn vào chảo, nghiêng chảo hoặc bạn có thể dùng cọ phết đều bề mặt chảo.</li>
     </ul>
-    <li>Bước 2: Chiên trứng</li>
+    <li id=2>Bước 2: Chiên trứng</li>
     <ul>
       <li>Đập trứng vào chảo một cách từ từ sao cho lòng đỏ nằm chính giữa lòng trắng.</li>
       <li>Chiên trứng cho đến khi chín theo sở thích. Khoảng 1 phút cho trứng chín tái. Trứng chín lòng đào thì khoảng 2 phút. Trứng chín kỹ thì sau 2 phút bạn nên lật lại để vàng đều 2 mặt.</li>
@@ -101,7 +103,7 @@
     Một cách kiểm tra độ chín của trứng đó là lắc nhẹ chảo, khi thấy lòng đỏ còn lúc lắc, lòng trắng di chuyển được và không còn dính sát vào chảo nữa là trứng bắt đầu chín rồi đó các bạn.
   </p>
 
-    <li>Bước 3: Ra đĩa và thêm gia vị</li>
+    <li id="ht">Bước 3: Ra đĩa và thêm gia vị</li>
     <ul>
       <li>Để lấy trứng ra đĩa dễ dàng hơn bạn có thể lắc nhẹ chảo hoặc dùng xẻng lật để tránh làm vỡ trứng.</li>
       <li>Rắc thêm một ít tiêu, muối và trang trí với lá mùi (ngò rí) hoặc lá hương thảo để tăng mùi vị cho trứng. Bạn có thể trang trí thêm rau xà lách, dưa leo, cà chua vừa đẹp mắt lại vừa đủ dinh dưỡng cho bữa sáng.</li>

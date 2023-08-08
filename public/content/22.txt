@@ -56,7 +56,7 @@
 <p>Khẩu phần: 3 người</p>
     <img src="../../../assert/imageFood/suicao/suicao.jpg">
 
-<h3>Nguyên Liệu:</h3>
+<h3 id="nl">Nguyên Liệu:</h3>
 <ul>
   <li>Phần vỏ sủi cảo:</li>
   <li>200 g bột mỳ</li>
@@ -102,7 +102,7 @@
 </ol>
 <h4>Bước 6: Hoàn thành</h4>
 Cuối cùng, bạn xếp sủi cảo ra đĩa và mời mọi người cùng thưởng thức. Bạn có thể chấm sủi cảo trực tiếp với nước tương hoặc pha thêm chút giấm, cắt hành, ớt rắc lên trên để làm nước chấm.
-<h3>Hướng dẫn chi tiết:</h3>
+<h3 id="hdct">Hướng dẫn chi tiết:</h3>
 <h4>Bước 1: Nhào bột</h4>
 <p>
 Bạn cho bột mì vào bát tô. Sau đó, bạn hòa tan 1 chút muối trong 130 ml nước ấm khoảng 60 °C.
@@ -194,7 +194,7 @@ Gói bánh xong bạn xếp sủi cảo vào trong vỉ đặt bên trên nồi 
 Nếu không có xửng hấp bạn cũng có thể đem sủi cảo đi luộc. Bạn đun sôi nước rồi thả sủi cảo vào, khuấy đều để sủi cảo không dính vào nhau. Khi nước sôi trở lại bạn cho một nửa cốc nước lã vào, đậy vung và đun đến sôi. Bạn lặp lại bước này một lần nữa và sủi cảo nổi lên trên mặt nước là được.
 </p>
     <img src="../../../assert/imageFood/suicao/suicao8.jpg">
-<h4>Bước 6: Hoàn thành</h4>
+<h4 id="ht">Bước 6: Hoàn thành</h4>
 <p>
 Cuối cùng, bạn xếp sủi cảo ra đĩa và mời mọi người cùng ngồi vào bàn thưởng thức nhé! Bạn có thể chấm sủi cảo trực tiếp với nước tương hoặc pha thêm chút giấm, cắt hành, ớt rắc lên trên để làm nước chấm.
 </p>

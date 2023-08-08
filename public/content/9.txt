@@ -58,7 +58,7 @@
   <img src="../../../assert/imageFood/mixaobo/mixaobo.jpg">
 
 
-  <h3>Nguyên liệu chính:</h3>
+  <h3 id="nl">Nguyên liệu chính:</h3>
   <ul>
     <li>100 g thịt bò: 20000đ - 30000đ</li>
     <li>3 gói mì tôm hảo hảo: 4000đ/gói</li>
@@ -92,7 +92,7 @@
     <li>Bước 4: Hoàn thành</li>
     <p>Xúc bò xào rau củ lên mì, rắc tiêu. Mì xào bò ăn nóng kèm nước tương cắt ớt cay, tương ớt hoặc sa tế, có thể dọn cùng các loại dưa muối chua.</p>
   </ol>
-  <h3>Chi tiết:</h3>
+  <h3 id="hdct">Chi tiết:</h3>
   <h4>Bước 1: Sơ chế nguyên liệu</h4>
   <p>
   Bò để xào mì bạn có thể chọn phần mông, thăn, dẻ sườn, lõi rùa (bắp bò),... đều được. Chỉ cần xào đúng cách thịt bò sẽ mềm ngọt, không sợ dai đâu.
@@ -166,7 +166,7 @@ Vẫn chảo đó, bạn để lửa lớn, phi thơm chỗ tỏi còn lại, tr
 <p>
 Khi rau củ gần chín bạn mới cho thịt bò và cần tây vào đảo, nếm lại lần nữa. Món này có thể nêm nhạt một chút rồi ăn kèm thêm nước tương, tương ớt, sa tế.
 </p>
-  <h4>Bước 4: Hoàn thành</h4>
+  <h4 id="ht">Bước 4: Hoàn thành</h4>
   <p>
 Bạn xúc bò xào rau củ lên mì, rắc tiêu là có đĩa mì xào hoản hảo ăn ấm bụng rồi.
   </p>

@@ -57,7 +57,7 @@
   <img src="../../../assert/imageFood/nemran/nemran.jpg">
 
 
-    <h3>Nguyên liệu</h3>
+    <h3 id="nl">Nguyên liệu</h3>
     <ul>
         <li>300 g thịt heo xay: 40,000đ - 50,000đ/300g</li>
         <li>1 củ hành tây nhỏ</li>
@@ -107,7 +107,7 @@
         <li>Thưởng thức khi còn nóng cùng nước chấm, rau sống, bún,...</li>
     </ol>
 
-    <h3>Cách làm nem rán chi tiết</h3>
+    <h3 id="hdct">Cách làm nem rán chi tiết</h3>
     <h4>Bước 1: Chuẩn bị nguyên liệu</h4>
     <p>
 Nguyên liệu của nem rán có cả phần thịt lẫn phần rau. Tùy theo sở thích của mỗi gia đình mà người nội trợ sẽ chọn mua nguyên liệu khác nhau. Có nhà thích ăn hải sản nên cho thêm cả thịt cua, thịt tôm, thịt bề bề,... Có nhà thích ăn nhiều rau nên trộn thêm cả giá đỗ, củ đậu, rau mùi,...
@@ -213,7 +213,7 @@ Bạn lần lượt gắp từng chiếc nem vào chảo dầu sôi. Từng chi�
 Rán xong, bạn gắp nem ra chiếc phới lồng hoặc đĩa lót giấy thấm dầu để cho ráo dầu ăn.
 </p>
   <img src="../../../assert/imageFood/nemran/nemran6.jpg">
-    <h4>Bước 4: Hoàn thành</h4>
+    <h4 id="ht">Bước 4: Hoàn thành</h4>
     <p>
 Sau khi chờ cho nem rán ráo dầu ăn. Bạn gắp nem sang chiếc đĩa đẹp hơn và trang trí một chút trước khi bày lên mâm cơm. Bạn có thể cắt từng cuộn nem thành 2-3 phần để gắp ăn cho vừa miệng hơn.
     </p>

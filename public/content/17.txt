@@ -57,7 +57,7 @@
     <img src="../../../assert/imageFood/trungngamtuong/trungngamtuong.jpg">
 
 
-    <h2>Nguyên Liệu</h2>
+    <h2 id="nl">Nguyên Liệu</h2>
     <ul>
         <li>6 quả trứng gà (35.000đ - 40.000đ/vỉ)</li>
         <li>180 ml nước tương</li>
@@ -96,7 +96,7 @@
     <p>Để trứng ngâm tương trong ngăn mát tủ lạnh 6-8 tiếng cho ngấm gia vị.</p>
     <p>Lấy ra thưởng thức cùng cơm hoặc mì theo sở thích.</p>
 
-    <h2>Cách làm trứng ngâm tương chi tiết</h2>
+    <h2 id="hdct">Cách làm trứng ngâm tương chi tiết</h2>
     <h3>Bước 1: Chuẩn bị nguyên liệu</h3>
     <p>
 Yếu tố quyết định độ thành công của món trứng ngâm tương đó là chọn mua trứng tươi mới.
@@ -173,7 +173,7 @@ Sau đó, bạn cho hành tây, ớt đỏ, hành ba rô vào và khuấy đều
 Bạn thấy quá dễ dàng đúng không nào! Phần nước tương ngâm trứng đã làm xong rồi đó. Cùng chuyển qua bước cuối cùng nhé!
 </p>
     <img src="../../../assert/imageFood/trungngamtuong/trungngamtuong4.jpg">
-    <h3>Bước 4:Hoàn thành</h3>
+    <h3 id="ht">Bước 4:Hoàn thành</h3>
     <p>
 Bạn đổ phần nước tương đã chế biến vào chiếc hộp/ âu đựng trứng luộc và thêm phần mè trắng rang vào. Bạn chú ý đồ đựng cần vừa với lượng trứng ngâm tương, không nên rộng quá để còn đảm bảo nước tương ngập hết chỗ trứng gà luộc.
     </p>

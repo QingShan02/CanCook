@@ -18,6 +18,7 @@ const Article = ({ params }) => {
         init();
     }, []);
 
+    
     const fullPath = window.location.pathname;
 
     const { data: session } = useSession();
@@ -32,6 +33,20 @@ const Article = ({ params }) => {
                 !data ? <div className="container d-flex align-items-center" style={{height:"50vh"}}><PacmanLoader color="#765827" className="d-block mx-auto" /></div>:<div className="container">
                 <div className="col-md-8 col-lg-12">
                     <h1 className="fw-bold mt-5">{data?.title}</h1>
+                    {params.id < 31 && (
+                        <div className="goto-wrapper">
+                            <p>Mục Lục</p>
+                            <ul>
+                                <li>
+                                    <a href="#nl">I. Nguyên Liệu</a>
+                                </li>
+                                <li><a href="#hdct">II. Hướng Dẫn Chi Tiết </a></li>
+                                <li><a href="#ht">III: Hoàn Thành</a></li>
+                            </ul>
+                        </div>
+                    )
+                    }
+
                     <div><section className="row " id="content" dangerouslySetInnerHTML={{ __html: data }} /></div>
                     <p className="post-source">
                         <span className="fw-lighter">Người đăng Bàng Thanh Sơn </span> <br></br>
