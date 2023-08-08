@@ -27,3 +27,4 @@ export async function POST(req: NextRequest) {
     await fs.promises.writeFile(newpath, body.content.toString());
     return NextResponse.json({});
 }
+

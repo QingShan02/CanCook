@@ -1,6 +1,6 @@
 
 export const query = {
-    findAll: "select * from article ",
+    findAll: "select id ,title, content, thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, staffId from article ",
     findById: "select * from article where id = $1",
     findByTitle: "select * from article where title = $1",
     findBycreateDate: "select * from creaarticle Date where createDate = $1",
@@ -17,6 +17,7 @@ export const query = {
     insert:"SELECT insert_article($1,$2,$3,$4,$5,$6,$7);",
     lastInsertId:"SELECT last_insert_id();",
     findContent:"select * from article where content = $1",
-    findByPage:"select * from article offset $1 limit 8",
-    getSum: "select count(id) from article"
+    findByPage:"select a.id ,a.title, a.content, a.thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, s.name as staffName from article a join staff s on s.id = a.staffId  offset $1 limit 8",
+    getSum: "select count(id) from article",
+    deleteById:"delete from article where id = $1"
 }

@@ -103,12 +103,12 @@ const TextEditor = ({ Submit }) => {
                 <div className='text-danger mt-1'>{errors.image?.message}</div>
             </div>
             <div className="form-outline">
-                <h3>Content</h3>
+                <h3>Nội dung</h3>
                 <ReactQuill style={{height:"300px"}}  theme='snow' modules={modules} onChange={onEditorStateChange} />
                 <div className='text-danger mt-1'>{errors.content?.message}</div>
             </div>
             <div className="form-outline mt-5">
-                <h3>Category</h3>
+                <h3>Loại</h3>
                 {data.category.map((value, index) => (
                     <>
                         <div key={index} className="form-check form-check-inline">
@@ -126,7 +126,7 @@ const TextEditor = ({ Submit }) => {
                 <div className='text-danger mt-1'>{errors.categoryid?.message}</div>
             </div>
             <div className="form-outline">
-                <h3>Directory</h3>
+                <h3>Chuyên mục</h3>
                 {data.directory.map((value, index) => (
                     <>
                         <div className="form-check form-check-inline">
