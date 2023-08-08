@@ -47,7 +47,7 @@ const User = () => {
     const pageCount = itemsPerPage;
 
     const handlePageClick = (event) => {
-        const newOffset = event.selected-1;
+        const newOffset = event.selected;        
         setItemOffset(newOffset);
     };
     return (

@@ -28,10 +28,9 @@
         color: #555;
     }
 
-    ol,
-    ul {
+    ol, ul {
         color: #555;
-        margin-left: 30px;
+     
     }
 
     .recipe-instructions {

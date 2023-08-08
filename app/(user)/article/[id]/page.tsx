@@ -47,7 +47,7 @@ const Article = ({ params }) => {
                     )
                     }
 
-                    <div><section className="row" dangerouslySetInnerHTML={{ __html: data }} /></div>
+                    <div><section className="row " id="content" dangerouslySetInnerHTML={{ __html: data }} /></div>
                     <p className="post-source">
                         <span className="fw-lighter">Người đăng Bàng Thanh Sơn </span> <br></br>
                         <span className="fw-lighter">Cập nhật vào ngày 29/07/2023</span>
