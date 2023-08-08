@@ -4,18 +4,20 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import dynamic from "next/dynamic";
 import "./Paginate.css"
-const ReactPaginate = dynamic(()=>import('react-paginate'),{ssr:false})
+import { PacmanLoader } from "react-spinners";
+const ReactPaginate = dynamic(() => import('react-paginate'), { ssr: false })
 
 const User = () => {
-    const [data, setData] = useState([]);
+    const [data, setData] = useState(null);
+    const [itemOffset, setItemOffset] = useState(0);
 
     useEffect(() => {
         getArticleList();
 
-    }, []);
+    }, [itemOffset]);
     const getArticleList = async () => {
         try {
-            const res = await axios.get("/api/article");
+            const res = await axios.get("/api/article?p="+itemOffset);
             if (res.data) {
                 setData(res.data);
             }
@@ -24,7 +26,7 @@ const User = () => {
         }
     }
 
-    function Items({ currentItems }) {
+    const Items = ({ currentItems }) => {
         return (
             <>
                 {currentItems &&
@@ -32,7 +34,7 @@ const User = () => {
                     (
                         <>
                             <div className="col-md-3 col-sm-3 col-xs-6">
-                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={1000}></Card>
+                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0}></Card>
                             </div>
                         </>
                     )
@@ -41,39 +43,37 @@ const User = () => {
             </>
         );
     }
-    function PaginatedItems({ itemsPerPage }) {
-        const [itemOffset, setItemOffset] = useState(0);
-        const endOffset = itemOffset + itemsPerPage;
-        const currentItems = data.slice(itemOffset, endOffset);
-        const pageCount = Math.ceil(data.length / itemsPerPage);
+    const itemsPerPage = data?.pageCount;
+    const pageCount = itemsPerPage;
 
-        const handlePageClick = (event) => {
-            const newOffset = (event.selected * itemsPerPage) % data.length;
-            setItemOffset(newOffset);
-        };
-        return (
-            <>
-                <Items key={pageCount} currentItems={currentItems} />
-
-                <ReactPaginate key="1" containerClassName='react-pagination-js-border-bottom'
-                    pageClassName='page'
-                    activeClassName="is-active"
-                    nextClassName={pageCount === 1 ? 'page disabled' : 'page'}
-                    nextLabel="⟩"
-                    onPageChange={handlePageClick}
-                    pageCount={pageCount}
-                    previousClassName={pageCount === itemOffset ? 'page disabled' : 'page'}
-                    previousLabel="⟨"
-                />
-            </>
-        );
-    }
-
+    const handlePageClick = (event) => {
+        const newOffset = event.selected-1;
+        setItemOffset(newOffset);
+    };
     return (
         <>
             <div className="container text-center">
                 <div className="row">
-                    <PaginatedItems itemsPerPage={8} />
+                    {
+                        !data ? <div className="container d-flex align-items-center" style={{height:"50vh"}}><PacmanLoader color="#765827" className="d-block mx-auto" /></div>:
+                        <>
+                            <Items key={"page"} currentItems={data.article} />
+
+                            <ReactPaginate key="1" containerClassName='react-pagination-js-border-bottom'
+                                pageClassName='page'
+                                activeClassName="is-active"
+                                nextClassName={pageCount === 1 ? 'page disabled' : 'page'}
+                                nextLabel="⟩"
+                                pageRangeDisplayed={3}
+                                breakLabel="..."
+                                onPageChange={handlePageClick}
+                                pageCount={pageCount}
+                                previousClassName={pageCount === itemOffset ? 'page disabled' : 'page'}
+                                previousLabel="⟨"
+                                renderOnZeroPageCount={null}
+                            />
+                        </>
+                    }
                 </div>
             </div>
 

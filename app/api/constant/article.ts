@@ -16,5 +16,7 @@ export const query = {
     update:"UPDATE article SET title = $1, content = $2, createdate = $3 WHERE id = $4",
     insert:"SELECT insert_article($1,$2,$3,$4,$5,$6,$7);",
     lastInsertId:"SELECT last_insert_id();",
-    findContent:"select * from article where content = $1"
+    findContent:"select * from article where content = $1",
+    findByPage:"select * from article offset $1 limit 8",
+    getSum: "select count(id) from article"
 }
