@@ -8,7 +8,7 @@ export async function GET(req: NextRequest) {
     if (p == null || p == undefined) {
         data = await articleService.findAll();
     }else{
-        let article = await articleService.findByPage(p*6);
+        let article = await articleService.findByPage(p*8);
         let sum = await articleService.getSum();
         data = {
             article:article,
