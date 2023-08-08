@@ -15,8 +15,8 @@ const LoginAdmin = () => {
             username: data.email,
             password: data.password,
             redirect: true,
-            callbackUrl: "/admin",
-            
+            callbackUrl: "https://cancook.vercel.app/admin",
+
         });
     }
     return (
