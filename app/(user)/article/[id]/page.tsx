@@ -32,7 +32,7 @@ const Article = ({ params }) => {
                 !data ? <div className="container d-flex align-items-center" style={{height:"50vh"}}><PacmanLoader color="#765827" className="d-block mx-auto" /></div>:<div className="container">
                 <div className="col-md-8 col-lg-12">
                     <h1 className="fw-bold mt-5">{data?.title}</h1>
-                    <div><section className="row" dangerouslySetInnerHTML={{ __html: data }} /></div>
+                    <div><section className="row " id="content" dangerouslySetInnerHTML={{ __html: data }} /></div>
                     <p className="post-source">
                         <span className="fw-lighter">Người đăng Bàng Thanh Sơn </span> <br></br>
                         <span className="fw-lighter">Cập nhật vào ngày 29/07/2023</span>

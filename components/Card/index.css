@@ -13,7 +13,7 @@
 }
 
 .product-grid .product-image img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
     transition: all 0.5s ease 0s;
 }
@@ -111,4 +111,6 @@
     .product-grid {
         margin-bottom: 30px;
     }
+     
 }
+

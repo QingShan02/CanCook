@@ -1,5 +1,9 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
 
+.col-lg-12 img{
+    width: 40%;
+}
+
 @media only screen and (max-width: 600px) {
     
     .row>* {
@@ -12,9 +16,12 @@
     .navbar-toggler{
         margin-top: 15px;
     }
-
+    #content > img {
+        width: 400vw !important;
+      }
+    
 }
+  p {
+        text-align: justify;
+     }
 
-.col-lg-12 img{
-    width: 40%;
-}
