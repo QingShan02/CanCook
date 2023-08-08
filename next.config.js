@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
+const nextConfig = {
+    env: {
+        NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
+    },
+    // Các tùy chọn khác của next.config.js...
+};
 module.exports = nextConfig
