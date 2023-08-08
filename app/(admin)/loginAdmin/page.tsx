@@ -1,5 +1,5 @@
 "use client"
-import axios from "axios";
+
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -16,7 +16,7 @@ const LoginAdmin = () => {
             password: data.password,
             redirect: true,
             callbackUrl: "/admin",
-            
+
         });
     }
     return (
