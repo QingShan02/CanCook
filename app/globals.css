@@ -1,11 +1,26 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
 
-.col-lg-12 img{
+.col-lg-12 img {
     width: 40%;
 }
 
+.col-lg-3>.float-lg-start>img {
+    margin: 0 !important;
+}
+
+body {
+    padding: 0px !important;
+    line-height: 1.6 !important;
+    font-family: Arial, sans-serif !important;
+}
+
+p {
+    text-align: justify;
+}
+
+
 @media only screen and (max-width: 600px) {
-    
+
     .row>* {
         width: 100%;
         max-width: 100%;
@@ -13,15 +28,29 @@
         padding-left: calc(var(--bs-gutter-x) * .5);
         margin-top: var(--bs-gutter-y);
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         margin-top: 15px;
     }
-    #content > img {
+
+    #content>img {
         width: 400vw !important;
-      }
-    
+    }
+
+    #content>h1 {
+        font-size: larger !important;
+        font-weight: bold !important;
+    }
+
+    .col-lg-1>.float-sm-end {}
+
+    .col-sm-3>.float-sm-start>img {
+        margin: 0 !important;
+        display: inline !important;
+    }
+
+
+
+
 }
-  p {
-        text-align: justify;
-     }
 

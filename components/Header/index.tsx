@@ -1,7 +1,6 @@
 'use client'
 import { signIn, signOut, useSession } from 'next-auth/react';
 import "bootstrap/dist/css/bootstrap.min.css";
-
 const Header = () => {
     const { data: session } = useSession();
     console.log(session);
@@ -11,12 +10,12 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg container mb-3" style={{ backgroundColor: '#C8AE7D' }}>
                 <div className="container text-center d-block">
                     <div className="row ">
-                        <div className="col-lg-3 m-auto">
+                        <div className="col-lg-3 col-sm-3 m-auto">
                             <button className="navbar-toggler my-2 float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon" />
                             </button>
-                            <a className="navbar-brand float-sm-start me-5" href="/">
-                                <img src="../../../images/logo.png" alt="Bootstrap" width={100} />
+                            <a className="navbar-brand float-sm-start float-lg-start me-5" href="/">
+                                <img src="../../../images/logo.png" className='' alt="Bootstrap" width={100} />
                             </a>
                         </div>
                         <div className="col-lg-8 mt-4">
@@ -72,7 +71,7 @@ const Header = () => {
                             </div>
                         </div>
                         <div className="col-lg-1 my-auto">
-                            <a className="navbar-brand float-end ms-5" href="/">
+                            <a className="navbar-brand float-lg-end float-sm-end ms-5" href="/">
                                 {session ? (
                                     <>
                                         <img style={{ borderRadius: "50%", width: "100%" }} className='me-5 d-inline' src={`${session.user.image}`} alt="" />
