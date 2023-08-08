@@ -7,6 +7,12 @@ export const articleService = {
     findAll: async () => {
         return (await db.query(query.findAll)).rows;
     },
+    findByPage:async(p)=>{
+        return (await db.query(query.findByPage,[p])).rows;
+    },
+    getSum:async () =>{
+        return (await db.query(query.getSum)).rows;
+    },
     findCountLikeAll: async () => {
         return (await db.query(query.countLikeAll)).rows;
     },

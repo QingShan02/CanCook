@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import { FacebookShareButton, FacebookIcon } from 'react-share';
 import { useSession } from 'next-auth/react';
+import { PacmanLoader } from "react-spinners";
 
 const Article = ({ params }) => {
     const [data, setData] = useState<Article>();
@@ -17,7 +18,7 @@ const Article = ({ params }) => {
         init();
     }, []);
 
-    const fullPath = location.pathname;
+    const fullPath = window.location.pathname;
 
     const { data: session } = useSession();
 
@@ -27,7 +28,8 @@ const Article = ({ params }) => {
 
     return (
         <>
-            <div className="container">
+            {
+                !data ? <div className="container d-flex align-items-center" style={{height:"50vh"}}><PacmanLoader color="#765827" className="d-block mx-auto" /></div>:<div className="container">
                 <div className="col-md-8 col-lg-12">
                     <h1 className="fw-bold mt-5">{data?.title}</h1>
                     {params.id < 31 && (
@@ -62,6 +64,7 @@ const Article = ({ params }) => {
                     <hr className="my-5" />
                 </div>
             </div>
+            }
 
 
 
