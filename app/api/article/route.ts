@@ -22,7 +22,6 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     await articleService.insert(body);
     const id = await articleService.lastInsertId();
-    console.log(id);
     const newpath = path.join(process.cwd() + "\\public\\content\\" + id.last_insert_id + ".txt");
     await fs.promises.writeFile(newpath, body.content.toString());
     return NextResponse.json({});

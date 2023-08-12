@@ -7,12 +7,7 @@ const Footer = () => {
     const { counter, setCounter } = useContext(ViewContext);
 
     useEffect(() => {
-        // $(window).on('locationChange', ()=> {
-        //     console.log(1);
-        //     setCounter((e) => e + 1);
-        // })
         window.addEventListener('hashchange', function () {
-            console.log(1);
             setCounter((e) => e + 1);
         });
     }, [counter, setCounter])

@@ -13,9 +13,7 @@ const Article = ({ params }) => {
     useEffect(() => {
         const init = async () => {
             await axios.put(`/api/article/${params.id}`);
-            const data = await axios.get(`/api/article/${params.id}`);
-            console.log(data);
-            
+            const data = await axios.get(`/api/article/${params.id}`);            
             setData(data.data);
         }
         init();
