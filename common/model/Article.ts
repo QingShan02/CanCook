@@ -12,5 +12,6 @@ export interface Article {
     nameStaff?: string,
     sumLike?: number,
     sumComment?: number,
-    comment?: string
+    comment?: string,
+    view:number
 }

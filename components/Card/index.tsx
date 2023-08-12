@@ -60,7 +60,7 @@ const Card = ({ ...props }: Article) => {
                             </Link>
                         </h3>
                         <div className="comment">
-                            {props.sumComment}<i className="bi bi-chat-square-fill ms-2" />
+                            {props.view} views
                         </div>
                     </div>
                 </div>
