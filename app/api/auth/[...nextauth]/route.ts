@@ -16,6 +16,8 @@ const handler = NextAuth({
 
                 // If no error and we have user data, return it
                 if (user) {
+                    console.log("aa");
+
                     return user
                 }
                 // Return null if user data could not be retrieved
@@ -35,7 +37,10 @@ const handler = NextAuth({
     }, debug: true,
     pages: {
         signIn: "/loginAdmin"
-    }
+    },
+    callbacks: {
+    },
+    secret: process.env.NEXTAUTH_SECRET,
 
 
 });

@@ -1,5 +1,4 @@
 "use client"
-import axios from "axios";
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -15,7 +14,7 @@ const LoginAdmin = () => {
             username: data.email,
             password: data.password,
             redirect: true,
-            callbackUrl: "https://cancook.vercel.app/admin",
+            callbackUrl: "/admin",
 
         });
     }
