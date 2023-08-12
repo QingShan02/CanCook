@@ -1,8 +1,21 @@
+import ViewContext from "@/common/context";
+import { useContext, useEffect } from "react";
+import $ from "jquery";
+
+
 const Footer = () => {
+    const { counter, setCounter } = useContext(ViewContext);
+
+    useEffect(() => {
+        window.addEventListener('hashchange', function () {
+            setCounter((e) => e + 1);
+        });
+    }, [counter, setCounter])
+
     return (
-    <div className="row" >
-    <div id="fb-root"></div>
-    <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="rMUTa9i3"></script>
+        <div className="row" >
+            <div id="fb-root" data-width="380"></div>
+            <script async defer crossOrigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="rMUTa9i3"></script>
             {/* Footer */}
             <footer className="text-center text-lg-start text-white" style={{ backgroundColor: '#765827' }}>
                 {/* Grid container */}
@@ -19,9 +32,12 @@ const Footer = () => {
                                 <p className="text-white">
                                     Hãy gia nhập cùng chúng tôi và khám phá các bữa ăn dinh dưỡng dành cho bản thân mình nhé !
                                 </p>
-                                  <p className="text-white">
+                                <p className="text-white">
+                                    lượt truy cập: {counter}
+                                </p>
+                                <p className="text-white">
                                     Powered by Team Nhà Báo
-                                 </p>
+                                </p>
                             </div>
                             {/* Grid column */}
                             <hr className="w-100 clearfix d-md-none" />

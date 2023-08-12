@@ -34,7 +34,7 @@ const User = () => {
                     (
                         <>
                             <div className="col-md-3 col-sm-3 col-xs-6">
-                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0}></Card>
+                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></Card>
                             </div>
                         </>
                     )

@@ -13,7 +13,6 @@ const Detail = ({ params }) => {
     const [status, setStatus] = useState(false);
     const data = useMemo(() => {
         return  axios.get(`/api/article/${params.id}`).then(s => {
-            console.log(s.data);
             return s.data;
             });
     }, []);
