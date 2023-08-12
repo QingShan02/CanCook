@@ -68,7 +68,7 @@
 <p>
     Cách này có thể nói là rất nhanh, rất dễ làm nhưng chỉ sử dụng cho gia đình nào có điều kiện sử dụng lò vi sóng.
 </p>
-<img src="../../../assert/img/boctoi.jpg" alt="">
+<img src="../../../assert/imageFood/meovat/boctoi.jpg" alt="">
 <p>
     Các bạn chỉ cần tách từng tép tỏi ra rồi bỏ vào lo vi sóng, bật lò khoảng 20 giây, hơi nước bốc ra từ lò cộng với độ
     nóng sẽ khiến lớp vỏ khô ở ngoài tỏi bung ra. Bạn chỉ cần lấy tay nhẹ nhàng tách nốt những lớp vỏ đã bung ra gần hết
@@ -76,7 +76,7 @@
 </p>
 
 <h2>Lắc mạnh</h2>
-<img src="../../../assert/img/boctoi1.jpg" alt="">
+<img src="../../../assert/imageFood/meovat/boctoi1.jpg" alt="">
 <p>
     Với cách bóc tỏi này bạn cần chuẩn bị một chiếc hộp nhựa nhỏ có nắp đậy.Sau khi tách từng tép tỏi ra, các bạn cho
     tỏi vào hộp, đậy nắp hộp lại và dùng sức lắc thật mạnh trong khoảng 50 giây, vỏ tỏi sẽ tách ra khoảng 85%. Việc bạn
@@ -84,7 +84,7 @@
 </p>
 
 <h2>Đập tỏi trước sau đó mới bóc vỏ</h2>
-<img src="../../../assert/img/boctoi2.jpg" alt="">
+<img src="../../../assert/imageFood/meovat/boctoi2.jpg" alt="">
 <p>
     Thông thường khi dùng tỏi cho vào các món ăn chúng ta sẽ phải băm nhỏ hoặc đập dập, nên cách này không cần chuẩn bị
     nguyên liệu gì cả, sẵn dao sẵn thớt đó, ta chỉ cần tách từng tép tỏi ra, và dùng dao dập mạnh tỏi, vỏ tỏi sẽ bung ra
