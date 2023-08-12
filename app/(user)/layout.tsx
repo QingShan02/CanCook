@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import Head from "next/head";
 import { Metadata } from "next";
 import { ViewProvider } from "@/common/context";
+import Image from "next/image";
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
@@ -26,12 +27,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="qIuNUBGmQ2EpiBUHYcmBJZdQjd4643hwJD2sSd98isk" />
-        <link rel="shortcut icon" href="../../public/assert/img/logo2.png" type="image/x-icon" />
-        <title>Can Cook</title>
+        <link rel="icon" href="/_next/image?url=%2Fassert%2Fimg%2Flogo2.png&w=256&q=75" type="image/x-icon" sizes="any"/>
+        <title>CanCook</title>
       </head>
       <body>
         <div className="container-fluid">
-          <div>
             <ViewProvider>
               <SessionProvider session={session}>
                 <Header />
@@ -39,7 +39,6 @@ export default function RootLayout({
                 <Footer />
               </SessionProvider>
             </ViewProvider>
-          </div >
         </div >
       </body >
     </html >
