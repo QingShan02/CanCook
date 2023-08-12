@@ -12,19 +12,21 @@ const Article = ({ params }) => {
     const [data, setData] = useState<Article>();
     useEffect(() => {
         const init = async () => {
+            await axios.put(`/api/article/${params.id}`);
             const data = await axios.get(`/api/article/${params.id}`);
+            console.log(data);
+            
             setData(data.data);
         }
         init();
     }, []);
 
     
-    const fullPath = window.location.pathname;
+    const fullPath = location.pathname;
 
     const { data: session } = useSession();
 
     const url = `https://cancook.vercel.app` + fullPath;
-    console.log(url);
 
 
     return (
@@ -47,8 +49,9 @@ const Article = ({ params }) => {
                     )
                     }
 
-                    <div><section className="row " id="content" dangerouslySetInnerHTML={{ __html: data }} /></div>
+                    <div><section className="row " id="content" dangerouslySetInnerHTML={{ __html: data?.content }} /></div>
                     <p className="post-source">
+                        <span className="fw-lighter">Lượt xem: {data.view}</span><br /><br />
                         <span className="fw-lighter">Người đăng Bàng Thanh Sơn </span> <br></br>
                         <span className="fw-lighter">Cập nhật vào ngày 29/07/2023</span>
                     </p>

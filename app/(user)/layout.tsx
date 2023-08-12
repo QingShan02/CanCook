@@ -6,6 +6,7 @@ import dynamic from "next/dynamic";
 import { useEffect } from 'react';
 import Head from "next/head";
 import { Metadata } from "next";
+import { ViewProvider } from "@/common/context";
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
@@ -31,11 +32,13 @@ export default function RootLayout({
       <body>
         <div className="container-fluid">
           <div>
-            <SessionProvider session={session}>
-              <Header />
-              {children}
-              <Footer />
-            </SessionProvider>
+            <ViewProvider>
+              <SessionProvider session={session}>
+                <Header />
+                {children}
+                <Footer />
+              </SessionProvider>
+            </ViewProvider>
           </div >
         </div >
       </body >
