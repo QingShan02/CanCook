@@ -45,7 +45,9 @@ const Header = () => {
                                                 <li><a className="dropdown-item" href="/directory/CM04">Tiết Kiệm</a></li>
                                             </ul>
                                         </li>
-
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="/category/L04">Mẹo Vặt</a>
+                                        </li>
                                         <li className="nav-item">
                                             <a className="nav-link" href="/about">Về chúng tôi</a>
                                         </li>
