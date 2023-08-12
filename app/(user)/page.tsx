@@ -5,7 +5,12 @@ import axios from "axios";
 import dynamic from "next/dynamic";
 import "./Paginate.css"
 import { PacmanLoader } from "react-spinners";
-const ReactPaginate = dynamic(() => import('react-paginate'), { ssr: false })
+const ReactPaginate = dynamic(() => import('react-paginate'), { ssr: true })
+import { Carousel, } from "react-bootstrap";
+import CarouselItem from "@/components/Carousel/CaroselItem"
+const CarouselMutil = dynamic(() => import("@/components/Carousel"), { ssr: true });
+import Tab from "@/components/Tab";
+
 
 const User = () => {
     const [data, setData] = useState(null);
@@ -17,8 +22,10 @@ const User = () => {
     }, [itemOffset]);
     const getArticleList = async () => {
         try {
-            const res = await axios.get("/api/article?p="+itemOffset);
-            if (res.data) {
+            if (!data) {
+                const res = await axios.get("/api/article?p=" + itemOffset);
+
+                console.log(res.data);
                 setData(res.data);
             }
         } catch (error) {
@@ -33,9 +40,7 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <div className="col-md-3 col-sm-3 col-xs-6">
-                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></Card>
-                            </div>
+                            <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></Card>
                         </>
                     )
                     )
@@ -47,35 +52,37 @@ const User = () => {
     const pageCount = itemsPerPage;
 
     const handlePageClick = (event) => {
-        const newOffset = event.selected;        
+        const newOffset = event.selected;
         setItemOffset(newOffset);
     };
     return (
-        <>
-            <div className="container text-center">
-                <div className="row">
-                    {
-                        !data ? <div className="container d-flex align-items-center" style={{height:"50vh"}}><PacmanLoader color="#765827" className="d-block mx-auto" /></div>:
-                        <>
+        <>{
+            !data ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}><PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
+                <div className="container" >
+                    <div className="w-100 d-flex justify-content-around">
+                        <div style={{ width: "45%" }} >
+                            {data && <CarouselMutil>
+                                {
+                                    data?.article.map((a, index) =>
+                                    (
+                                        <>
+                                            <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></CarouselItem>
+                                        </>
+                                    )
+                                    )
+                                }
+                            </CarouselMutil>}
+                        </div>
+                        <div className="mb-3" style={{ width: "15%" }}>
                             <Items key={"page"} currentItems={data.article} />
-
-                            <ReactPaginate key="1" containerClassName='react-pagination-js-border-bottom'
-                                pageClassName='page'
-                                activeClassName="is-active"
-                                nextClassName={pageCount === 1 ? 'page disabled' : 'page'}
-                                nextLabel="⟩"
-                                pageRangeDisplayed={3}
-                                breakLabel="..."
-                                onPageChange={handlePageClick}
-                                pageCount={pageCount}
-                                previousClassName={pageCount === itemOffset ? 'page disabled' : 'page'}
-                                previousLabel="⟨"
-                                renderOnZeroPageCount={null}
-                            />
-                        </>
-                    }
+                        </div>
+                        <div className="mb-3" style={{ width: "15%" }}>
+                            <Tab />
+                        </div>
+                    </div>
                 </div>
-            </div>
+        }
+
 
         </>
     );
