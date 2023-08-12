@@ -4,10 +4,7 @@ import React, { ReactNode } from 'react';
 import { SessionProvider } from "next-auth/react";
 import dynamic from "next/dynamic";
 import { useEffect } from 'react';
-import Head from "next/head";
-import { Metadata } from "next";
 import { ViewProvider } from "@/common/context";
-import Image from "next/image";
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
