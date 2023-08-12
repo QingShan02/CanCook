@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Link from 'next/link';
 const Header = () => {
     const { data: session } = useSession();
-    console.log(session);
 
     return (
         <>
