@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Card = ({ ...props }: Article) => {
     return (
         <>
-            <div className="col">
+            <div className="mb-3 border" style={{backgroundColor:"white"}}>
                 <div className="product-grid">
                     <div className="product-image">
                         <Link
@@ -56,7 +56,7 @@ const Card = ({ ...props }: Article) => {
                                 }}
                                 className='text-decoration-none'
                             >
-                                <span className='fs-4 fw-bold'>{props.title}</span>
+                                <span className='fw-bold'>{props.title}</span>
                             </Link>
                         </h3>
                         <div className="comment">
