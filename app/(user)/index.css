@@ -1,0 +1,8 @@
+.imgHotTopic {
+    transition: transform 0.3s ease-in-out;
+}
+
+.imgHotTopic:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+}

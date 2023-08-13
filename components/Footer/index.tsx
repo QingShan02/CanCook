@@ -80,7 +80,7 @@ const Footer = () => {
                 {/* Grid container */}
                 {/* Copyright */}
                 <div className="text-center p-3 row" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    <p className="my-auto text-white">© 2023 Copyright: <a className="text-white text-decoration-none" href="https://mdbootstrap.com/"> zuhot.github.com</a></p>
+                    <p className="my-auto text-white">© 2023 Copyright: <a className="text-white text-decoration-none" href="https://zuhot.id.vn"> zuhot.id.vn</a></p>
                 </div>
                 {/* Copyright */}
             </footer>

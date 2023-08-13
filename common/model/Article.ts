@@ -4,7 +4,7 @@ export interface Article {
     image?: string,
     content?: string,
     createDate?: string,
-    categoryid?:string,
+    categoryid?: string,
     directory?: Array<{
         id: string;
     }>,
@@ -12,6 +12,6 @@ export interface Article {
     nameStaff?: string,
     sumLike?: number,
     sumComment?: number,
-    comment?: string,
-    view:number
+    comment?: number,
+    view: number,
 }
