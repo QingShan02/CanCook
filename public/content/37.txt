@@ -1,58 +1,55 @@
 <style>
     body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
     }
 
     h1 {
-        color: #333;
-        text-align: center;
+      color: #333;
+      text-align: center;
     }
 
     img {
-        display: block;
-        margin: 20px auto;
-        max-width: 100%;
-        border-radius: 5px;
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
     }
 
     h2 {
-        color: #333;
-        margin-bottom: 10px;
+      color: #333;
+      margin-bottom: 10px;
     }
 
     p {
-        color: #555;
+      color: #555;
     }
 
-    ol,
-    ul {
-        color: #555;
-       
+    ol, ul {
+      color: #555;
     }
-
+    
     .recipe-instructions {
-        background-color: #fff;
-        padding: 15px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        margin-top: 20px;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
     }
 
     .recipe-instructions h3 {
-        color: #333;
-        margin-bottom: 10px;
+      color: #333;
+      margin-bottom: 10px;
     }
 
     .recipe-instructions p {
-        color: #555;
-        margin-bottom: 5px;
+      color: #555;
+      margin-bottom: 5px;
     }
-</style>
-
+  </style>
 <h1>Nên Ăn Sữa Chua Khi Nào?</h1>
 
 <p>
@@ -68,7 +65,7 @@
     dưỡng, đồng thời lại không có lợi cho tiêu hóa.
 
 </p>
-<h3>Nên ăn sữa chua khi nào</h3>
+<h3>Nên ăn sữa chua khi nào?</h3>
 <h4>Thời điểm vàng nên ăn sữa chua - Sau bữa ăn khoảng 1 tiếng</h4>
 <p>
     Đây chính là 1 trong 4 thời điểm vàng bạn nên ăn sữa chua. Theo khuyến cáo từ các chuyên gia dinh dưỡng, đây là thời
@@ -78,7 +75,7 @@
     Đây chính là 1 trong 4 thời điểm vàng bạn nên ăn sữa chua. Theo khuyến cáo từ các chuyên gia dinh dưỡng, đây là thời
     điểm tốt nhất để cơ thể hấp thụ được các dưỡng chất quý giá có trong sữa chua.
 </p>
-<img src="../../../assert/imageFood/dinhduong/suachua1.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/suachua1.jpg" alt="" class="img-thumbnail">
 <p>
     Chính vì vậy, nếu bạn băn khoăn nên ăn sữa chua khi nào, thì thời điểm sau bữa trưa, bữa tối khoảng 1 tiếng đồng hồ
     là thời điểm lý tưởng nhất. Hãy ghi nhớ khung giờ vàng này và bổ sung sữa chua cho cơ thể nhé.
@@ -93,7 +90,7 @@
     Hoặc đơn giản, nếu bạn đang mong muốn có một bữa sáng nhẹ nhàng, không đầy bụng mà vẫn đủ năng lượng làm việc, học
     hành đến trưa thì cũng nên ăn sữa chua vào thời điểm này.
 </p>
-<img src="../../../assert/imageFood/dinhduong/suachua2.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/suachua2.jpg" alt="" class="img-thumbnail">
 <p>
     Sữa chua có hàm lượng calo thấp. Bạn có thể kết hợp thêm các loại ngũ cốc, hạt hoặc trái cây để tạo nên một món điểm
     tâm vừa ngon miệng vừa tốt cho sức khỏe. Ăn sữa chua vào buổi sáng giúp thúc đẩy quá trình trao đổi chất. Nhờ đó, cơ
@@ -109,7 +106,7 @@
     dinh dưỡng sẽ rất có lợi cho sức khỏe. Nó vừa giúp bạn ru ngủ chiếc bụng đói lại cũng có thể giúp giữ dáng và da
     hiệu quả.
 </p>
-<img src="../../../assert/imageFood/dinhduong/suachua3.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/suachua3.jpg" alt="" class="img-thumbnail">
 <p>
     Nếu bữa xế của bạn thường xuyên là thức ăn nhanh, trà sữa… Sau khi đọc bài viết này, hãy thay thế bằng một hũ sữa
     chua nhẹ nhàng. Đảm bảo bạn sẽ thấy những thay đổi tích cực của cơ thể cũng như tinh thần.
@@ -127,7 +124,7 @@
     buổi tập mướt mồ hôi. Bạn cũng có thể mix cùng vài vị trái cây yêu thích để mang đến nguồn dinh dưỡng hoàn hảo hơn
     cho cơ thể.
 </p>
-<img src="../../../assert/imageFood/dinhduong/suachua4.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/suachua4.jpg" alt="" class="img-thumbnail">
 <p>
     Đó là 4 thời điểm vàng mà chúng ta nên ăn sữa chua. Ăn đúng thời điểm sẽ giúp bạn nhận được trọn vẹn nguồn dưỡng
     chất từ thực phẩm thần thánh này. Vậy, sữa chua có tác dụng gì và có phải tốt với tất cả hay không? Những điều bạn
@@ -161,7 +158,7 @@
     Trong khi đó, lượng canxi có trong sữa chua sẽ giúp xương khớp chắc khỏe. Nó giúp tăng cường sự phát triển chiều cao
     ở trẻ. Đồng thời, hạn chế tình trạng loãng xương ở phụ nữ mãn kinh, tiền mãn kinh.
 </p>
-<img src="../../../assert/imageFood/dinhduong/suachua5.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/suachua5.jpg" alt="" class="img-thumbnail">
 <p>
     Có thể bạn chưa biết, 70% hệ miễn dịch liên quan đến hệ tiêu hóa. Do đó, sức khỏe từ hệ tiêu hóa ảnh hưởng rất lớn
     đến sức khỏe tổng thể của cơ thể con người. Đặc biệt trong bối cảnh dịch bệnh như hiện nay, việc tăng cường sức khỏe
@@ -214,7 +211,7 @@
 <p>Để sữa chua được giữ lâu hơn và có hương vị tốt hơn, một số nhà sản xuất thêm rất nhiều phụ gia vào trong đó. Nếu
     muốn chọn sữa chua tốt cho sức khỏe, bạn nên chọn các loại sữa chua thuần. Những loại sữa chua vị trái cây, như sữa
     chua mít, thường sẽ được cho thêm lượng đường và hương liệu rất nhiều.</p>
-<img src="../../../assert/imageFood/dinhduong/suachua6.jpg" alt="">
+<img src="../../../assert/imageFood/dinhduong/suachua6.jpg" alt="" class="img-thumbnail">
 <p>
     Hoặc các loại sữa chua giá rẻ cũng chứa nhiều chất tạo màu, chất làm đặc, chất ổn định. Đây là những chất không tốt
     cho sức khỏe nên hãy cân nhắc.

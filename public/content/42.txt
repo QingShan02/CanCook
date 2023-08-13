@@ -1,0 +1,106 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Mẹo làm sạch đồ dùng nhà bếp bị gỉ sét cực nhanh gọn</h1>
+<p>Sau một thời gian sử dụng, đồ nhà bếp được làm từ chất liệu sắt, thép hay inox sẽ bị gỉ sét. Nếu không biết cách làm sạch gỉ sét thì đồ nhà bếp có thể sẽ không sử dụng được nữa và bạn buộc phải mua đồ mới. Vì vậy, hôm nay chúng tôi sẽ mách các bạn cách làm sạch đồ dùng nhà bếp bị gỉ sét bằng những cách vô cùng đơn giản, các bạn có thể tham khảo</p>
+
+
+<h2>1. Cách làm sạch dao kéo bị gỉ sét</h2>
+
+<p>
+    Dao kéo bị gỉ sét sẽ ảnh hưởng tới việc cắt, thái thức ăn. Chúng làm cho việc cắt thái thức ăn khó khăn hơn, đồng thời làm cho thức ăn bị dính gỉ sắt rất nguy hiểm. Vì vậy, để làm sạch gỉ sét cho dao kéo, bạn có thể sử dụng một trong các mẹo sau:
+</p>
+     <img src="../../../assert/imageFood/meovat/giset1.jpg">
+<p>
+  Bạn một một ít dầu ăn lên bề mặt dao kéo ở những chỗ bị gỉ sét trong khoảng 15 phút, sau đó bạn dùng khăn giấy lau sạch dao kéo là các vết gỉ sét sẽ biến mất
+    Bạn cũng có thể cắt đôi một củ hành rồi chà chúng lên bề mặt những chỗ bị gỉ sét trên dao kéo và để nguyên khoảng 15 phút rồi rửa sạch lại bằng nước sạch.
+    Dùng nước chanh bôi lên bề mặt dao kéo rồi lau sạch lại sau khoảng 10 – 15 phút cũng có khả năng làm sạch gỉ sắt
+</p>
+
+<h2>2. Làm sạch đồ dùng nhà bếp bị gỉ sét là các loại nồi, chảo</h2>
+
+<p>
+   Khi bạn nhận thấy nồi chảo của gia đinh mình có dấu hiệu bị gỉ thì bạn có thể áp dụng cách làm sạch gỉ sét như với dao kéo, hoặc bạn có thể làm như sau:
+</p>
+     <img src="../../../assert/imageFood/meovat/giset2.jpg">
+<p>
+  Bạn dùng muối biển cho vào trong nồi, chảo, sau đó chà xát muối biển xung quanh lòng nồi chảo cũng có tác dụng làm sạch gỉ sét hiệu quả
+</p>
+
+<h2>3. Mẹo làm sạch máy xay sinh tố khi bị gỉ sét</h2>
+
+<p>
+   Máy xay sinh tố là đồ dùng nhà bếp thường xuyên tiếp xúc với rất nhiều loại thức ăn, thực phẩm khác nhau nên nếu bạn không được vệ sinh sạch sẽ thì nó rất dễ bị hoen gỉ ở phần lưỡi xay.
+</p>
+     <img src="../../../assert/imageFood/meovat/giset3.jpg">
+<p>
+     Để làm sạch những chỗ bị gỉ ở máy xay sinh tố, bạn hãy nhỏ vào trong nó một chút nước rửa bát cùng với nước sôi, sau đó bạn đậy kín nắp lại rồi xóc đều mạnh tay, sau đó bạn để ngâm như thế trong khoảng 10 – 15 phút thì mang ra rửa sạch lại bằng nước lạnh bình thường nhé.
+</p>
+
+<h2>4. Tẩy rửa bồn rửa bát kịp thời khi bị gỉ sét</h2>
+
+<p>
+  Bồn rửa bát là nơi dùng để chùi rửa tất cả các loại vật dụng nhà bếp khác, và nó cũng là nơi phải tiếp xúc nhiều với các loại thực phẩm bỏ đi nên dễ tích tụ bẩn dẫn đến hoen gỉ nếu không được làm sạch thường xuyên.
+</p>
+     <img src="../../../assert/imageFood/meovat/giset4.jpg">
+<p>
+     Khi đó, bạn chỉ cần dùng miếng rửa bát nhúng vào hỗn hợp đặc pha từ nước chanh và muối để chà rửa nhẹ bề mặt bên trong bồn, sau đó rửa lại bằng nước là bồn rửa sẽ trở lại sáng bóng ngay thôi.
+</p>
+
+
+
+<p>Nguồn: <a href=https://lanvaobep.com/meo-lam-sach-dung-nha-bep-bi-gi-set-cuc-nhanh-gon/"
+        target="_blank">lanvaobep.com</a>
+</p>

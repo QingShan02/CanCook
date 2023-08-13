@@ -32,6 +32,7 @@ const Header = () => {
                                             <ul className="dropdown-menu">
                                                 <li><a className="dropdown-item" href="/category/L01">Dinh Dưỡng</a></li>
                                                 <li><a className="dropdown-item" href="/category/L02">Thông Tin</a></li>
+                                                <li><a className="dropdown-item" href="/category/L04">Mẹo Vặt</a></li>
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
@@ -45,7 +46,6 @@ const Header = () => {
                                                 <li><a className="dropdown-item" href="/directory/CM04">Tiết Kiệm</a></li>
                                             </ul>
                                         </li>
-
                                         <li className="nav-item">
                                             <a className="nav-link" href="/about">Về chúng tôi</a>
                                         </li>
