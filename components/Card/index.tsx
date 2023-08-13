@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Card = ({ ...props }: Article) => {
     return (
         <>
-            <div className="mb-3 border" style={{backgroundColor:"white"}}>
+            <div className="mb-3 border" style={{ backgroundColor: "white" }}>
                 <div className="product-grid">
                     <div className="product-image">
                         <Link
@@ -60,7 +60,8 @@ const Card = ({ ...props }: Article) => {
                             </Link>
                         </h3>
                         <div className="comment">
-                            {props.view} views
+                            <span>{props.view} views</span>
+                            <span >  {props.sumComment} comment</span>
                         </div>
                     </div>
                 </div>
