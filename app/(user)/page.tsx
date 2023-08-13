@@ -4,15 +4,15 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import dynamic from "next/dynamic";
 import "./Paginate.css"
+import "./index.css"
 import { PacmanLoader } from "react-spinners";
 const ReactPaginate = dynamic(() => import('react-paginate'), { ssr: true })
-import { Carousel, } from "react-bootstrap";
 import CarouselItem from "@/components/Carousel/CaroselItem"
 const CarouselMutil = dynamic(() => import("@/components/Carousel"), { ssr: true });
 import Tab from "@/components/Tab";
 import { onValue, ref } from "firebase/database";
 import { database } from "@/util/Firebase/firebase";
-
+import Link from "next/link";
 
 const User = () => {
     const [data, setData] = useState(null);
@@ -29,6 +29,26 @@ const User = () => {
         getArticleList();
 
     }, [itemOffset]);
+
+    const hotTopics = [
+        {
+            name: "Cơm tấm",
+            image: "https://cdn.tgdd.vn/Files/2021/08/09/1373996/tu-lam-com-tam-suon-trung-don-gian-thom-ngon-nhu-ngoai-hang-202201071248422991.jpg"
+        },
+        {
+            name: "Bún chả",
+            image: "https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-202112211431417496.jpg"
+        },
+        {
+            name: "Cơm gà",
+            image: "https://cdn.tgdd.vn/2021/05/content/comga3-800x450.jpg"
+        },
+        {
+            name: "Chuối chiên",
+            image: "https://bloganchoi.com/wp-content/uploads/2022/09/banh-chuoi-chien-gion-rum-thom-ngon-1.jpg"
+        }
+    ]
+
     const getArticleList = async () => {
         try {
             if (!data) {
@@ -65,35 +85,63 @@ const User = () => {
         setItemOffset(newOffset);
     };
     return (
-        <>{
-            !data ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}><PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
-                <div className="container" >
-                    <div className="w-100 d-flex justify-content-around">
-                        <div style={{ width: "45%" }} >
-                            {data && <CarouselMutil>
-                                {
-                                    data?.article.map((a, index) =>
-                                    (
-                                        <>
-                                            <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></CarouselItem>
-                                        </>
-                                    )
-                                    )
-                                }
-                            </CarouselMutil>}
-                        </div>
-                        <div className="mb-3" style={{ width: "15%" }}>
-                            <Items key={"page"} currentItems={data.article} />
-                        </div>
-                        <div className="mb-3" style={{ width: "15%" }}>
-                            <Tab />
+        <div className="container">
+            {
+                !data ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}><PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
+                    <div className="container" >
+                        <div className="w-100 d-flex justify-content-around">
+                            <div style={{ width: "45%" }} >
+                                {data && <CarouselMutil>
+                                    {
+                                        data?.article.map((a, index) =>
+                                        (
+                                            <>
+                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></CarouselItem>
+                                            </>
+                                        )
+                                        )
+                                    }
+                                </CarouselMutil>}
+                            </div>
+                            <div className="mb-3" style={{ width: "15%" }}>
+                                <Items key={"page"} currentItems={data.article} />
+                            </div>
+                            <div className="mb-3" style={{ width: "15%" }}>
+                                <Tab />
+                            </div>
                         </div>
                     </div>
-                </div>
-        }
-
-
-        </>
+            }
+            <div className="mb-5" style={{ textAlign: 'center' }}>
+                <h3 className="text-start">Hot topic</h3>
+                <section>
+                    <div style={{ display: "flex" }}>
+                        {hotTopics.map((ht, index) => (
+                            <div
+                                key={index}
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    alignItems: "center",
+                                    margin: "0 16px",
+                                    textDecoration: "none"
+                                }}
+                            >
+                                <Link
+                                    href=""
+                                >
+                                    <img
+                                        src={`${ht.image}`}
+                                        style={{ width: "262px", height: "150px" }}
+                                        className="imgHotTopic"
+                                    /></Link>
+                                <p className="mt-3 fs-5">{ht.name}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            </div>
+        </div>
     );
 }
 export default User;
