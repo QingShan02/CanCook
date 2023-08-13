@@ -10,12 +10,21 @@ const ReactPaginate = dynamic(() => import('react-paginate'), { ssr: true })
 import CarouselItem from "@/components/Carousel/CaroselItem"
 const CarouselMutil = dynamic(() => import("@/components/Carousel"), { ssr: true });
 import Tab from "@/components/Tab";
+import { onValue, ref } from "firebase/database";
+import { database } from "@/util/Firebase/firebase";
 import Link from "next/link";
 
 const User = () => {
     const [data, setData] = useState(null);
     const [itemOffset, setItemOffset] = useState(0);
-
+    const [comment, setComment] = useState([]);
+    useEffect(() => {
+        const commentsRef = ref(database, `comments`);
+        onValue(commentsRef, (snapshot) => {
+            const commentsData = snapshot.val() || [];
+            setComment(commentsData);
+        });
+    }, []);
     useEffect(() => {
         getArticleList();
 
@@ -60,7 +69,7 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></Card>
+                            <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={Object.keys(comment[a.id]).length} view={a.view}></Card >
                         </>
                     )
                     )
@@ -136,3 +145,7 @@ const User = () => {
     );
 }
 export default User;
+function setComments(arg0: unknown[]) {
+    throw new Error("Function not implemented.");
+}
+
