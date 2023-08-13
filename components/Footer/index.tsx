@@ -5,12 +5,9 @@ import $ from "jquery";
 
 const Footer = () => {
     const { counter, setCounter } = useContext(ViewContext);
-
-    useEffect(() => {
-        window.addEventListener('hashchange', function () {
-            setCounter((e) => e + 1);
-        });
-    }, [counter, setCounter])
+    $("a").on("click", function () {
+        setCounter(counter + 1);
+    })
 
     return (
         <div className="row" >
@@ -33,7 +30,7 @@ const Footer = () => {
                                     Hãy gia nhập cùng chúng tôi và khám phá các bữa ăn dinh dưỡng dành cho bản thân mình nhé !
                                 </p>
                                 <p className="text-white">
-                                    lượt truy cập: {counter}
+                                    Lượt truy cập: {counter}
                                 </p>
                                 <p className="text-white">
                                     Powered by Team Nhà Báo
