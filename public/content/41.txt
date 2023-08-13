@@ -1,0 +1,93 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Những mẹo nhỏ với chanh và ớt</h1>
+
+<p>
+    <b>
+        Chanh và ớt là hai loại quả gia vị được sử dụng rất nhiều trong các món ăn. Vậy bạn đã biết cách sử dụng chúng
+        sao cho hiệu quả nhất chưa? Nếu chưa, hãy khám phá nhanh một số mẹo nhỏ với chanh và ớt dưới đây.
+    </b>
+</p>
+
+<h2>Mẹo nhỏ với ớt</h2>
+<img src="../../../assert/imageFood/meovat/ot.jpg" alt="">
+<p>
+    Ớt thường có rất nhiều hạt, tuy nhiên hạt ớt lại không được mọi người yêu thích bởi lo lắng ăn hạt ớt sẽ làm hại dạ
+    dày.Vậy làm thế nào để loại bỏ hạt ớt một cách dễ dàng.
+</p>
+<p>
+    Để loại bỏ hạt ớt, trước khi ăn, bạn nên lăn đồng thời ấn nhẹ quả ớt để hạt ớt long ra khỏi vỏ, sau đó cắt bỏ phần
+    đuôi rồi dùng tay hơi bóp nhẹ để hạt ớt rơi ra ngoài.
+</p>
+<p>
+    Trong các loại ớt, ớt chuông là loại ớt ngọt, không cay. Đây là loại ớt được coi như một loại rau dùng để chế biến
+    các món ăn hàng ngày. Để chọn được ớt chuông ngon, bạn nên chọn những quả có da bóng,dày,trơn và vẫn còn cuống.Nên
+    chọn quả cầm chắc và có màu sáng. Tuyệt đối tránh chọn những quả ớt chuông bị mềm, nhũn, không chắc, yếu, bị vết
+    thâm, vết rạn.
+</p>
+<p>
+    Để bảo quản ớt chuông, bạn nên cho ớt vào một túi nhựa rồi để ở ngăn mát tủ lạnh. Không nên để ớt chuông ở nơi kín
+    hơi và ẩm ướt, ớt sẽ bị ủng.
+</p>
+<h2>Mẹo nhỏ với chanh</h2>
+<img src="../../../assert/imageFood/meovat/chanh.jpg" alt="">
+<p>
+    Chanh là loại quả thường được dùng để vắt lấy nước cốt. Vì vậy, để vắt chanh dễ dàng, nhiều nước, bạn nên chọn những
+    quả chanh mọng, vỏ mỏng. Trước khi vắt nên lăn qua lăn lại chanh nhiều lần cho chanh mềm, dễ vắt và nhiều nước.
+</p>
+
+<p>Nguồn: <a href="https://lanvaobep.com/nhung-meo-nho-voi-chanh-va-ot/" target="_blank">lanvaobep.com</a>
+</p>

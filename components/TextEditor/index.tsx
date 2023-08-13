@@ -54,7 +54,6 @@ const TextEditor = ({ Submit }) => {
         
         // ctx.drawImage(name, 0, 0, c.width, c.height);
         // var base64String = c.toDataURL();
-        // console.log(base64String)
         if (name) {
             setValue("image", name)
         }
