@@ -20,5 +20,6 @@ export const query = {
     findByPage:"select a.id ,a.title, a.content, a.thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, s.name as staffName, a.view from article a join staff s on s.id = a.staffId order by a.id ASC  offset $1 limit 2",
     getSum: "select count(id) from article",
     deleteById:"delete from article where id = $1",
-    updateView:"update article set view = view+1 where id =$1"
+    updateView:"update article set view = view+1 where id =$1",
+    sumView: "select sum(view) as sumView from article"
 }

@@ -1,11 +1,11 @@
 'use client'
 import "../globals.css";
-import React, { ReactNode } from 'react';
+import React, { ReactNode, useState } from 'react';
 import { SessionProvider } from "next-auth/react";
 import dynamic from "next/dynamic";
 import { useEffect } from 'react';
-import { ViewProvider } from "@/common/context";
 import Script from "next/script";
+import axios from "axios";
 const Header = dynamic(() => import("../../components/Header"), { ssr: false })
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false })
 
@@ -18,8 +18,14 @@ export default function RootLayout({
   children,
   session
 }: IProps) {
+  const [view,setView] = useState(0);
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
+    const init = async () =>{
+      const {data:result} = await axios.get("/api/article/sumView");
+      setView(result);
+    }
+    init();
   }, [])
   return (
     <html lang="en">
@@ -38,13 +44,11 @@ export default function RootLayout({
       </head>
       <body>
         <div className="container-fluid">
-          <ViewProvider>
             <SessionProvider session={session}>
               <Header />
               {children}
-              <Footer />
+              <Footer view={view}/>
             </SessionProvider>
-          </ViewProvider>
         </div >
       </body >
     </html >

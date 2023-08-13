@@ -11,7 +11,8 @@ export const articleService = {
         return (await db.query(query.deleteById,[id])).rows;
     },
     findByPage:async(p)=>{
-        return (await db.query(query.findByPage,[p])).rows;
+        let data = (await db.query(query.findByPage,[p])).rows;
+        return data;
     },
     getSum:async () =>{
         return (await db.query(query.getSum)).rows;
@@ -79,5 +80,8 @@ export const articleService = {
     },
     updateView: async (id) =>{
         return (await db.query(query.updateView,[id])).rows;
+    },
+    sumView:async () =>{
+        return (await db.query(query.sumView)).rows[0];
     }
 }

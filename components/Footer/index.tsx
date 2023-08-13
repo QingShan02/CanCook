@@ -1,13 +1,4 @@
-import ViewContext from "@/common/context";
-import { useContext, useEffect } from "react";
-import $ from "jquery";
-
-
-const Footer = () => {
-    const { counter, setCounter } = useContext(ViewContext);
-    $("a").on("click", function () {
-        setCounter(counter + 1);
-    })
+const Footer = ({view}:any) => {
 
     return (
         <div className="row" >
@@ -30,7 +21,7 @@ const Footer = () => {
                                     Hãy gia nhập cùng chúng tôi và khám phá các bữa ăn dinh dưỡng dành cho bản thân mình nhé !
                                 </p>
                                 <p className="text-white">
-                                    Lượt truy cập: {counter}
+                                    Lượt truy cập: {view}
                                 </p>
                                 <p className="text-white">
                                     Powered by Team Nhà Báo

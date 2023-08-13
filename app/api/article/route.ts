@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
         let sum = await articleService.getSum();
         data = {
             article:article,
-            pageCount:Math.ceil(sum[0].count*1/8)
+            pageCount:Math.ceil(sum[0].count*1/8),
         }
     }
     return NextResponse.json(data);
