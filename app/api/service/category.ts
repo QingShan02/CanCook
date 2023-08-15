@@ -9,11 +9,11 @@ export const categoryService = {
         const data = (await db.query(query.findById, [id]));
         const result = data.rows;
         const formattedResult = result.reduce((acc, curr) => {
-            const { categoryid, name, id, title, thumbnail, image, createdate, staffid } = curr;
+            const { categoryid, name, id, title, thumbnail, image, createdate, staffid, view } = curr;
             if (!acc.categoryid) acc.categoryid = categoryid;
             if (!acc.name) acc.name = name;
             if (!acc.listposts) acc.listposts = [];
-            acc.listposts.push({ id, title, thumbnail, image, createdate, staffid });
+            acc.listposts.push({ id, title, thumbnail, image, createdate, staffid, view });
             return acc;
         }, {});
         return formattedResult;

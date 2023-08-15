@@ -61,7 +61,7 @@ const Card = ({ ...props }: Article) => {
                         </h3>
                         <div className="comment">
                             <span>{props.view} views</span>
-                            <span >  {props.sumComment} comment</span>
+                            {props.sumComment && <span> {props.sumComment} comment</span>}
                         </div>
                     </div>
                 </div>

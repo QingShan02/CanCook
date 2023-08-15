@@ -27,7 +27,6 @@ const User = () => {
     }, []);
     useEffect(() => {
         getArticleList();
-
     }, [itemOffset]);
 
     const hotTopics = [
@@ -50,12 +49,12 @@ const User = () => {
     ]
 
     const getArticleList = async () => {
+
         try {
             if (!data) {
                 const res = await axios.get("/api/article?p=" + itemOffset);
-
-                console.log(res.data);
                 setData(res.data);
+
             }
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -84,6 +83,8 @@ const User = () => {
         const newOffset = event.selected;
         setItemOffset(newOffset);
     };
+
+    
     return (
         <div className="container">
             {
@@ -98,7 +99,9 @@ const User = () => {
                                         data?.article.map((a, index) =>
                                         (
                                             <>
-                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></CarouselItem>
+                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} 
+                                                // sumComment={0} 
+                                                view={a.view}></CarouselItem>
                                             </>
                                         )
                                         )
@@ -113,7 +116,7 @@ const User = () => {
                         </div>
                         <div className="col-md-6 col-lg-3">
                             <div className="mb-3">
-                                <Tab />
+                                <Tab comment={comment}/>
                             </div>
                         </div>
                     </div>
@@ -123,7 +126,7 @@ const User = () => {
                 <h3 className="text-start">Hot topic</h3>
                 <section className="row">
                     {hotTopics.map((ht, index) => (
-                        
+
                         <div className=" col-12 col-sm-12 col-md-6 col-lg-3" key={index}
                             style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "", textDecoration: "none" }} >
                             <Link href="">
@@ -134,7 +137,7 @@ const User = () => {
                 </section>
 
             </div>
-            
+
         </div>
     );
 }
