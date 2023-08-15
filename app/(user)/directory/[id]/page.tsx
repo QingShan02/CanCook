@@ -31,7 +31,7 @@ const Directory = ({ params }) => {
                     (
                         <>
                             <div className="col-md-3 col-lg-3 col-xs-6">
-                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={1000} view={a.view}></Card>
+                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={7} view={a.view}></Card>
                             </div>
                         </>
                     )
