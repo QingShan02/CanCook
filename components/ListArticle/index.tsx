@@ -36,7 +36,7 @@ const ListArticle = () => {
                 return (
                     <div>
                         <p>{record.title}</p>
-                        <p>{record.staffname}</p>
+                        <p style={{fontSize: "12px", fontWeight: "lighter"}}>Nhân viên: {record.staffname}</p>
                     </div>
                 );
             },
@@ -76,7 +76,7 @@ const ListArticle = () => {
             columns={columns}
             dataSource={data}
             pagination={{
-                pageSize: 10,
+                pageSize: 5,
                 total: data?.length || 0,
                 current: pageCurrent + 1,
                 onChange: page => setPageCurrent(page - 1),

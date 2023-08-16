@@ -6,7 +6,7 @@ export async function GET(req: NextRequest) {
     const p: any = req.nextUrl.searchParams.get("p");
     let data = null;
     if (p === null || p === undefined) {
-        data = await articleService.findAll();
+        data = await articleService.findStaffName();
     } else {
         let article = await articleService.findByPage(p * 8);
         let sum = await articleService.getSum();
