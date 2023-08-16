@@ -1,0 +1,164 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+    
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+     <h1>Tên món: Hàu nướng mỡ hành</h1>
+    <p>Khẩu phần: 4 phần</p>
+      <img src="../../../assert/imageFood/haunuong/haunuong.jpg">
+
+
+    <h2 id="nl">Nguyên liệu chính:</h2>
+    <ul>
+        <li>2-3 kg hàu sữa: 30.000đ - 50.000đ/kg</li>
+    </ul>
+
+    <h2>Nguyên liệu phụ:</h2>
+    <ul>
+        <li>200 g lạc rang giã nhỏ</li>
+        <li>100 g hành lá</li>
+        <li>200 g hành tím</li>
+        <li>2 quả ớt</li>
+        <li>200 g mỡ lợn</li>
+        <li>50 g bơ lạt</li>
+        <li>1/2 thìa cà phê muối</li>
+        <li>1/2 thìa cà phê tiêu</li>
+        <li>1/2 thìa cà phê hạt nêm</li>
+        <li>2 thìa canh dầu ăn</li>
+        <li>Rau răm, tương ớt</li>
+    </ul>
+
+    <h2>Hướng dẫn:</h2>
+    <h3>Bước 1: Sơ chế hàu</h3>
+    <ol>
+        <li>Hàu mua về ngâm nước khoảng 2-3 giờ rồi đánh vỏ sạch sẽ.</li>
+        <li>Dùng dao nhọn tách vỏ hàu.</li>
+    </ol>
+
+    <h3>Bước 2: Làm mỡ hành</h3>
+    <ol>
+        <li>Hành tím rửa sạch, thái mỏng và phi vàng. Hành lá rửa sạch, thái nhỏ.</li>
+        <li>Mỡ lợn thái nhỏ, đảo trên chảo cho ra nước mỡ, đổ vào chén hành lá vừa thái làm mỡ hành. Phần tép mỡ để ráo dầu, dành rắc lên hàu.</li>
+    </ol>
+
+    <h3>Bước 3: Nướng hàu</h3>
+    <ol>
+        <li>Xếp hàu lên vỉ, rưới mỡ hành, hành phi, tép mỡ và lạc rang đã chuẩn bị và nướng.</li>
+    </ol>
+
+    <h3>Bước 4: Hoàn thành</h3>
+    <ol>
+        <li>Bày hàu ra đĩa và thưởng thức cùng tương ớt hoặc nước mắm chua ngọt.</li>
+    </ol>
+
+    <h3 id="hdct">Cách làm hàu nướng mỡ hành chi tiết:</h3>
+    <h4>Bước 1: Sơ chế hàu</h4>
+
+    <p>Tùy sở thích từng nhà mà bạn có thể chọn mua hàu sữa hoặc hàu lớn, nhưng hàu sữa thường sẽ mềm và ngọt hơn.</p>
+
+      <img src="../../../assert/imageFood/haunuong/haunuong1.jpg">
+<p>
+Khi mua hàu bạn để ý chọn những con mình tròn, khép miệng hoặc nếu hàu há vỏ thì khi chạm vào hàu phải khép miệng ngay. Đấy là những con hàu tươi, còn nếu con nào há miệng nhưng không có phản ứng khi mình sờ vào thì là hàu chết rồi, không nên chọn nhé.
+</p>
+<p>
+Hàu mua về bạn ngâm nước khoảng 2 tiếng để bùn đất trên vỏ hàu bở ra, sau đấy dùng bàn chải cọ rửa sạch sẽ. Vì vỏ hàu khá cứng nên trước khi nạy vỏ, bạn có thể cho hàu vào lò vi sóng quay ấm khoảng 1 phút cho hàu há miệng. Nếu nhà không có lò vi sóng thì bạn chuẩn bị 1 nồi nước thật sôi, cho hàu vào hấp hơi nước khoảng 3-5 phút.
+</p>
+<p>
+Vỏ hàu khá cứng và bén vì vậy khi tách vỏ hàu nếu có thể bạn nên đeo găng và dùng dao nạy hàu để thao tác dễ dàng hơn. Trường hợp không có dụng cụ chuyên dụng, chúng mình có thể thay bằng khăn và dao cứng có mũi nhọn cũng được.
+</p>
+      <img src="../../../assert/imageFood/haunuong/haunuong2.jpg">
+      <p>
+Khi tách hàu, bạn lật ngửa phần vỏ bẹp lên trên, đưa mũi dao vào khớp vỏ (phần đầu nhọn) để khảy. Phần nước chảy ra từ hàu bạn nhớ chắt lại để rưới hàu lúc nướng hoặc tận dụng nấu cháo, nấu canh cho ngọt nhé.
+      </p>
+    <h4>Bước 2: Cách Làm Hàu Nướng Mỡ Hành - Làm mỡ hành</h4>
+<p>
+Hành khô bạn rửa sạch, thái mỏng và phi dầu cho vàng rồi vớt ra để ráo. Phần hành lá bạn rửa sạch, thái nhỏ, nêm thêm muối, tiêu và hạt nêm – mỗi loại ½ thìa cà phê.
+</p>
+<p>
+Phần mỡ lợn bạn thái nhỏ, cho vào phần dầu đã phi hành ở trên, bạn rán đến khi ra nước mỡ và thu được tóp mỡ. Nước mỡ bạn đổ vào bát hành lá, trộn đều cho tan gia vị. Còn tóp mỡ thì bạn để ráo dầu, lúc sau mình rắc lên hàu.
+</p>
+      <img src="../../../assert/imageFood/haunuong/haunuong3.jpg">
+<p>Lạc hay đậu phộng rang bạn có thể mua loại rang sẵn hoặc mua loại hạt sống để tự rang nhé. Sau khi rang chín vàng đều, bạn giã dập cho lạc hơi nát một chút để rắc hàu.</p>
+      <img src="../../../assert/imageFood/haunuong/haunuong4.jpg">
+    <h4>Bước 3: Nướng hàu</h4>
+    <p>
+Sau khi chuẩn bị xong xuôi, bạn xếp hàu đã nạy vỏ lên vỉ nướng. Mỗi con hàu bạn rưới lên 1 thìa cà phê mỡ hành và tóp mỡ, hành phi và lạc mỗi thứ ½ thìa cà phê, nhớ thêm 1 xíu bơ lạt nữa nhé. Bơ sẽ làm món ăn thơm ngất ngây. Nếu sơ béo quá thì bạn bỏ qua cũng được nha.
+    </p>
+<p>
+Nếu nhà có rượu vang trắng thì bạn cho thêm 1 thìa cà phê nha. Rượu vang sẽ giúp hàu dậy mùi hơn, đồng thời át vị ngấy mỡ khi ăn nữa đấy.
+</p>
+      <img src="../../../assert/imageFood/haunuong/haunuong5.jpg">
+      <p>
+Với lò nướng hoặc nồi chiên không dầu, bạn chỉnh nhiệt ở mức 200˚C và nướng khoảng 7-10 phút. Bạn nên làm nóng lò khoảng 15-20 phút trước khi cho hàu vào nướng.
+      </p>
+<p>
+Nếu dùng lò vi sóng thì tùy vào công suất của lò, bạn nên chỉnh thời gian 2-3 phút thôi. Sau đó, bạn quay thêm 30 giây đến 1 phút nữa để hàu vừa đủ chín thôi nhé.
+</p>
+<p>
+Tuy dùng các loại lò trên sẽ tiết kiệm thời gian hơn nhưng hàu nướng mỡ hành sẽ ngon và thơm hơn rất nhiều nếu bạn nướng bằng than hoa.
+</p>
+<p>
+Khi nướng than hoa, thời gian dao động tùy vào kích cỡ của hàu, bạn để ý khi nào mỡ sôi lèo xèo, thịt hàu săn lại bốc mùi thơm ngào ngạt là có thể nhấc ra bày đĩa nhé.
+</p>
+    <h4 id="ht">Bước 4: Hoàn thành</h4>
+    <p>
+Hàu nướng mỡ hành chúng mình có thể ăn trực tiếp kèm rau răm để cảm nhận hết vị thanh ngọt tươi ngon của hàu hoặc chấm cùng mắm chua ngọt hay tương ớt chưng đều được cả nhé.
+    </p>
+<p>
+Hàu bạn chỉ nên nướng vừa chín tới thôi. Nếu để chín quá thì hàu sẽ bị khô, ăn không còn ngon nữa đâu.
+</p>
+<p>
+Nào, cùng nhau thưởng thức thôi. Món hàu nướng mỡ hành béo ngậy đảm bảo có thể chinh phục cả những thực thần khó tính nhất đấy!
+</p>
+      <img src="../../../assert/imageFood/haunuong/haunuong6.jpg">
+
+      <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

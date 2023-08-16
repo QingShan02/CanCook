@@ -1,0 +1,190 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+       
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>10 siêu thực phẩm giảm cân nhanh và hiệu quả</h1>
+
+<p>
+    <b>
+        Việc thực hiện quyết tâm giảm cân với chế độ ăn uống nghiêm ngặt khiến bạn cảm thấy chán nản? Bạn đang tìm kiếm
+        các loại thực phẩm, đồ ăn giảm cân hiệu quả? Hãy hãy cùng tìm hiểu danh sách 10 loại “siêu thực phẩm” giảm cân
+        hiệu quả và an toàn.
+    </b>
+</p>
+<h4>Hạt chia</h4>
+<p>
+    Hạt chia là một trong những thực phẩm giảm cân “thần thánh”. Hạt chia giàu axit béo omega-3, chất chống oxy hóa,
+    protein và chất xơ. Khi tiếp xúc với nước, hạt chia sẽ nở ra và gia tăng kích thước khi vào dạ dày, giúp hạn chế cơn
+    đói trong thời gian dài. Hơn nữa, hạt chia còn tạo thành một lớp chất nhầy ở dạ dày, giúp giảm hấp thụ chất béo.
+</p>
+<img src="../../../assert/imageFood/dinhduong/hatchia.jpg" alt="">
+<p>
+    Hạt chia có thể được sử dụng trong nhiều món ăn như nước uống, sinh tố, sữa chua… để giúp bạn giảm cân một cách
+    hiệu quả và an toàn. Một số món ăn giảm cân với hạt chia bạn có thể thử là:
+</p>
+<li>
+    Salad hạt chia, rau xanh, ức gà áp chảo, dầu ô-liu, giấm táo.
+</li>
+<li>
+    Sinh tố hạt chia, chuối, bơ, sữa hạnh nhân, và mật ong.
+</li>
+<li>
+    Cháo yến mạch hạt chia ăn kèm quả mọng và hạt điều.
+</li>
+<li>
+    Sữa chua hạt chia, mật ong và trái cây tươi.
+</li>
+<h4>Hãy thêm táo vào chế độ ăn giảm cân</h4>
+<p>
+    Nếu đang đi tìm đáp án cho thắc mắc ăn gì để giảm cân, bạn đừng bỏ qua táo đỏ. Táo là loại trái cây giàu chất xơ,
+    vitamin và chất chống oxy hóa. Việc ăn táo có thể giúp giảm cảm giác đói, giúp quá trình tiêu hóa diễn ra chậm hơn
+    và khiến bạn no lâu.
+</p>
+<img src="../../../assert/imageFood/dinhduong/tao.jpg" alt="">
+<p>
+    Để giảm cân nhanh và hiệu quả, bạn có thể ăn táo như bữa ăn nhẹ trong ngày để bổ sung năng lượng một cách lành mạnh.
+    Ngoài ra, ăn 1 quả táo khoảng 30 phút trước khi ăn bữa chính sẽ giúp bạn giảm cảm giác đói và ăn ít hơn.
+</p>
+<h4>Quả chuối</h4>
+<p>
+    Ăn gì để giảm cân hay giảm cân nên ăn gì? Chuối là một loại trái cây đặc biệt trong danh sách các thực phẩm giảm cân
+    nhanh và hiệu quả nhờ tác dụng giúp bạn no lâu hơn. Chuối có chứa nhiều kali, canxi, magiê, vitamin và chất xơ hòa
+    tan. Thói quen ăn một quả chuối mỗi ngày thực sự có thể giúp bạn giảm cân hiệu quả.
+</p>
+<img src="../../../assert/imageFood/dinhduong/chuoi.jpg" alt="">
+<li>Bánh chuối nướng không đường</li>
+<li>Sinh tố chuối không đường</li>
+<li>Chuối tươi ăn kèm với các loại hạt, chẳng hạn như hạt hạnh nhân, hạt dẻ, hoặc hạt chia.
+</li>
+<h4>Trái bơ</h4>
+<p>
+    Khi giảm cân nên ăn những gì? Có thể bạn nghĩ quả bơ nhiều chất béo nên không có lợi cho người muốn giảm cân. Tuy
+    nhiên trên thực tế, bơ là một trong các loại thực phẩm giảm cân rất hiệu quả. Nếu được, bạn hãy ăn bơ mỗi ngày để có
+    hiệu quả nhé!
+</p>
+<img src="../../../assert/imageFood/dinhduong/bo.jpg" alt="">
+<p>Những món ăn giảm cân với quả bơ:
+</p>
+<li>Bơ cắt lát ăn kèm ức gà áp chảo.</li>
+<li>Bơ trộn trứng ăn kèm với bánh mì nguyên cám và rau xanh.</li>
+<li>Bơ và salad cá ngừ (cá ngừ, xà lách, hành tây, cà chua và ớt chuông).</li>
+
+<h4>Quả cà chua</h4>
+<p>
+    Nếu muốn giảm cân hiệu quả, bạn hãy thêm cà chua vào thực đơn của mình. Cà chua giúp làm giảm lượng lipid trong máu.
+    Chúng có hàm lượng calo thấp, nhưng lại giúp bạn no lâu hơn nhờ giàu chất xơ. Vì vậy, bạn có thể ăn cà chua như món
+    ăn vặt lành mạnh để giảm cơn thèm ăn.
+</p>
+<img src="../../../assert/imageFood/dinhduong/cachua.jpg" alt="">
+<p>
+    Bạn có thể dùng nước ép cà chua hoặc ăn sống như một loại trái cây, thêm cà chua vào món salad.
+</p>
+<h4>Những loại quả mọng
+</h4>
+<p>
+    Ăn gì để giảm cân cho nữ? Gợi ý là bạn nên nghĩ đến các loại quả mọng. Theo các chuyên gia sức khỏe, dâu tây, quả
+    mâm xôi, việt quất là những thực phẩm giúp giảm cân nhanh và an toàn.
+</p>
+<img src="../../../assert/imageFood/dinhduong/quamong.jpg" alt="">
+<p>
+    Các loại quả mọng như việt quất, dâu tây, mâm xôi và anh đào đều là các nguồn dinh dưỡng giàu chất xơ và flavonoid
+    anthocyanin, có tác dụng chống oxy hóa và hạn chế nguy cơ mắc bệnh tim mạch, thừa cân, béo phì. Ngoài ra, axit
+    ursolic có trong nhiều loại quả mọng có tác dụng thúc đẩy quá trình trao đổi chất và giúp giảm mỡ trong cơ thể.
+</p>
+<h4>Dầu ô-liu</h4>
+<p>
+    Ăn gì để giảm cân? Theo các chuyên gia dinh dưỡng, chất béo vừa tạo hương vị cho món ăn vừa tạo cảm giác no, giúp
+    bạn cảm thấy hài lòng hơn với bữa ăn của mình. Điều quan trọng là bạn hãy bổ sung những loại chất béo lành mạnh.
+</p>
+<img src="../../../assert/imageFood/dinhduong/oliu.jpg" alt="">
+<p>
+    Dầu ô-liu là một loại chất béo có lợi cho sức khỏe. Nghiên cứu đã chứng minh rằng dầu ô-liu nguyên chất có thể cải
+    thiện sức khỏe tim mạch, giảm cholesterol, huyết áp, cân nặng và viêm. Tuy nhiên, khi đun nóng, dầu ô-liu sẽ mất hầu
+    hết các lợi ích cho sức khỏe. Vậy nên bạn không nên dùng dầu ô-liu để chiên rán đồ ăn, thay vào đó hãy thêm dầu
+    ô-liu vào món salad giảm cân.
+</p>
+<h4>Khoai lang</h4>
+<p>
+    Một trong những thực phẩm giảm cân quen thuộc chính là khoai lang. Nếu muốn giảm cân mà không cần phải nhịn ăn, bạn
+    hãy lựa chọn khoai lang. Đây là một loại củ chứa hàm lượng calo nhưng lại giúp bạn no rất lâu. Ngoài ra, khoai lang
+    còn chứa rất nhiều thành phần dinh dưỡng tốt cho sức khỏe như chất xơ, vitamin C, B1, beta-carotene và kali.
+</p>
+<img src="../../../assert/imageFood/dinhduong/khoailang.jpg" alt="">
+<h4>Hạt diêm mạch (Quinoa)</h4>
+<p>
+    Diêm mạch hay quinoa là một loại thực phẩm giàu chất xơ, ít calo, giúp kiểm soát sự thèm ăn và đẩy nhanh quá trình
+    đốt cháy chất béo nhanh chóng. Loại thực phẩm giảm cân này có chứa protein, chất chống oxy hóa và các chất dinh
+    dưỡng khác như sắt, kẽm, selen và vitamin E. Do đó, bạn có thể ăn hạt diêm mạch thay cơm.
+</p>
+<img src="../../../assert/imageFood/dinhduong/hatdiemmach.jpg" alt="">
+<p>
+    Ngoài ra, hạt diêm mạch còn chứa nhiều chất xơ hòa tan. Loại chất xơ này khi gặp nước sẽ nở ra và tạo thành một chất
+    giống như gel. Khi bạn ăn quinoa, nước sẽ được rút vào ruột của bạn và cho phép chất xơ nở ra, giúp bạn cảm thấy no
+    hơn. Quá trình này cũng được cho là giúp loại bỏ cholesterol ra khỏi cơ thể, mang lại lợi ích sức khỏe tim mạch cho
+    bạn.
+</p>
+<h4>Quả óc chó và hạnh nhân</h4>
+<p>
+    Nên ăn gì để giảm cân? Óc chó và hạnh nhân đều nằm trong danh sách các thực phẩm giảm cân do chứa nhiều chất béo
+    lành mạnh và xơ tan. Cả óc chó lẫn hạnh nhân đều có hàm lượng omega-3 và protein cao. Bên cạnh đó, hạnh nhân giúp
+    bạn kiểm soát lượng đường và kích hoạt quá trình trao đổi chất của cơ thể.
+</p>
+<img src="../../../assert/imageFood/dinhduong/hanhnhan.jpg" alt="">
+<p>
+    Bạn có thể thêm những hạt này vào bữa ăn hoặc dùng bất cứ khi nào bạn cảm thấy đói trong ngày. Bạn cũng có thể dùng
+    hạnh nhân là một món ăn nhẹ hoặc thêm vào món sữa chua trái cây lành mạnh của bạn. Tuy nhiên, cũng đừng sử dụng
+    lượng quá nhiều bạn nhé!
+</p>
+<p>Nguồn: <a href="https://hellobacsi.com/an-uong-lanh-manh/che-do-an-kieng-va-quan-ly-can-nang/thuc-pham-giam-can/"
+        target="_blank">HelloBacsi.com</a></p>

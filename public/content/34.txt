@@ -1,0 +1,157 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+       
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>Các loại thực phẩm tốt cho người già</h1>
+
+<p>
+    <b>
+        Ăn uống đúng cách có thể giúp giữ cho cơ thể và tâm trí người cao tuổi khỏe mạnh và kéo dài chất lượng cuộc
+        sống. Nhưng một số người cao tuổi không nhận đủ chất dinh dưỡng trong các bữa ăn hàng ngày. Vậy người già nên ăn
+        gì thì tốt cho sức khoẻ? Để tối ưu nguồn dinh dưỡng nạp vào cho cơ thể, bạn hãy lựa chọn những loại thực phẩm
+        tốt cho người già.
+    </b>
+</p>
+<h4>Rau cải màu xanh lá đậm</h4>
+<p>
+    Các nghiên cứu đã phát hiện bổ sung rau cải màu xanh đậm như: rau bina, cải xoăn, cải thìa, bồ ngót… là thực phẩm
+    dinh dưỡng tốt cho người già. Ngoài vai trò bổ sung dinh dưỡng, những thực phẩm này còn giúp hạn chế tình trạng suy
+    giảm nhận thức ở người già.
+</p>
+<img src="../../../assert/imageFood/dinhduong/raucaixanhladam.jpg" alt="">
+<p>
+    Các loại rau màu xanh đậm là nguồn cung cấp dồi dào các chất dinh dưỡng như: folate, phylloquinone, nitrate,
+    α-tocopherol, kaempferol và lutein. Các nghiên cứu chuyên sâu hơn chỉ ra rằng phylloquinone, lutein và folate có thể
+    là nguồn gốc của giúp chống lại chứng suy giảm nhận thức.
+</p>
+
+<h4>Quả việt quất</h4>
+<p>
+    Tỷ lệ sa sút trí tuệ ở người lớn tuổi đang gia tăng. Ăn uống lành mạnh là một trong những phương pháp phòng ngừa cần
+    thiết cho vấn đề này. Quả việt quất có chứa các hợp chất polyphenolic, nổi bật nhất là anthocyanins, có tác dụng
+    chống oxy hóa và chống viêm.
+</p>
+<img src="../../../assert/imageFood/dinhduong/quatac.jpg" alt="">
+<p>
+    Ngoài ra, quả việt quất cũng chứa nhiều vitamin C, vitamin K, chất xơ và khoáng chất. Đây sẽ là một thực phẩm tốt
+    cho người già mà bạn nên bổ sung vào thực đơn ăn uống cho ông bà, cha mẹ.
+</p>
+<h4>Cá hồi</h4>
+<p>
+    Người già nên ăn gì cho bổ? Cá hồi cung cấp protein và là nguồn chất béo chất lượng. Trong khi đó, người cao tuổi
+    cần protein lành mạnh để giải quyết tình trạng mất cơ bắp.
+</p>
+<img src="../../../assert/imageFood/dinhduong/cahoi.jpg" alt="">
+<p>
+    Người già nên ăn gì cho bổ? Cá hồi cung cấp protein và là nguồn chất béo chất lượng. Trong khi đó, người cao tuổi
+    cần protein lành mạnh để giải quyết tình trạng mất cơ bắp.
+</p>
+<p>
+    Người già nên ăn gì cho bổ? Cá hồi cung cấp protein và là nguồn chất béo chất lượng. Trong khi đó, người cao tuổi
+    cần protein lành mạnh để giải quyết tình trạng mất cơ bắp.
+</p>
+<h4>Các loại đậu là nguồn thực phẩm tốt cho sức khoẻ người già</h4>
+<p>
+    Một trong những thực phẩm tốt cho người già chính là các loại hạt, đậu.
+</p>
+<img src="../../../assert/imageFood/dinhduong/cacloaihat.jpg" alt="">
+<p>
+    Các chất dinh dưỡng quan trọng đối với người lớn tuổi như chất xơ và kali có nhiều trong đậu. Ngoài ra, thêm đậu vào
+    chế độ ăn uống giúp người già giảm nguy cơ mắc các bệnh mãn tính như tim mạch, ung thư và tiểu đường.
+</p>
+<h4>Bông cải xanh</h4>
+<p>
+    Bông cải xanh là một thực phẩm tốt cho người già vì giàu vitamin, khoáng chất, chất xơ và chất chống oxy hóa.
+</p>
+<img src="../../../assert/imageFood/dinhduong/bongcaixanh.jpg" alt="">
+<p>
+    Bông cải xanh là một thực phẩm tốt cho người già vì giàu vitamin, khoáng chất, chất xơ và chất chống oxy hóa.
+</p>
+<h4>Quả lựu</h4>
+<p>
+    Vitamin từ trái cây dễ hấp thụ, rất phù hợp với người già. Quả lựu là một trong những trái cây giàu chất chống oxy
+    hóa mà bạn nên bổ sung vào chế độ dinh dưỡng của người cao tuổi.
+</p>
+<img src="../../../assert/imageFood/dinhduong/qualuu.jpg" alt="">
+<p>
+    Giống như quả việt quất, quả lựu giàu các hợp chất polyphenolic giúp bảo vệ cơ thể khỏi các gốc tự do gây hại. Ngoài
+    ra, lựu có chứa các hợp chất gọi là ellagitannin. Những chất này hoạt động chống oxy hóa và giảm viêm trong cơ thể.
+</p>
+<h4>Sữa, sữa chua, phô mai</h4>
+<p>
+    Canxi giúp cơ thể chúng ta xây dựng và duy trì xương khỏe mạnh. Nó cũng đã được biết là làm giảm huyết áp. Mặt khác,
+    nhu cầu canxi của cơ thể người cao tuổi luôn ở mức cao. Nếu không nạp đủ canxi, cơ thể sẽ bắt đầu tái hấp thu canxi
+    từ xương. Điều này có thể dẫn đến loãng xương.
+</p>
+<img src="../../../assert/imageFood/dinhduong/phomai.jpg" alt="">
+<p>
+    Thực phẩm giàu canxi chủ yếu là các sản phẩm từ sữa như sữa, sữa chua và pho mát. Ngoài ra, các loại rau lá xanh và
+    ngũ cốc cũng giúp bổ sung canxi.
+</p>
+<h4>Cà chua</h4>
+<p>
+    Cà chua là thực phẩm tốt cho người già. Chúng chứa có một lượng vitamin và khoáng chất dồi dào. Nhờ đó, cà chua giúp
+    hỗ trợ hệ thống miễn dịch, cải thiện sức khỏe của mắt. Loại quả quen thuộc này còn giúp giảm tỷ lệ đột quỵ và bệnh
+    tim.
+</p>
+<img src="../../../assert/imageFood/dinhduong/cachua.jpg" alt="">
+<p>
+    Cà chua là thực phẩm tốt cho người già. Chúng chứa có một lượng vitamin và khoáng chất dồi dào. Nhờ đó, cà chua giúp
+    hỗ trợ hệ thống miễn dịch, cải thiện sức khỏe của mắt. Loại quả quen thuộc này còn giúp giảm tỷ lệ đột quỵ và bệnh
+    tim.
+</p>
+
+<p>Nguồn: <a
+        href="https://hellobacsi.com/lao-hoa-lanh-manh/dinh-duong-cho-nguoi-cao-tuoi/9-thuc-pham-tot-cho-nguoi-gia-giup-song-khoe-song-lau/"
+        target="_blank">HelloBacsi.com</a></p>

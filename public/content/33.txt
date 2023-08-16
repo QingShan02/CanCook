@@ -1,0 +1,130 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: #555;
+    }
+
+    ol,
+    ul {
+        color: #555;
+     
+    }
+
+    .recipe-instructions {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+        color: #555;
+        margin-bottom: 5px;
+    }
+</style>
+
+<h1>9 loại thực phẩm tốt cho tiêu hóa và giấc ngủ vào buổi tối</h1>
+
+<p>
+    <b>
+        Một bữa ăn tối nhẹ giúp chúng ta nhanh chóng chìm vào giấc ngủ và đảm bảo cho cơ thể được nghỉ ngơi thực sự. Nó
+        cũng ngăn ngừa sự phát triển của chứng trào ngược dạ dày.
+        Ngoài ra, cơ thể dễ dàng tích trữ các thành phần đã ăn vào buổi tối hơn vì khi ngủ cơ thể chỉ tiêu hao ít năng
+        lượng. Để tránh tăng cân, cần phải lựa chọn cẩn thận các thành phần thực phẩm cho bữa tối.
+    </b>
+</p>
+<h4>Chuối</h4>
+<p>
+    Trái cây luôn có trong thành phần của bất kỳ bữa ăn cân bằng nào. Một trong số đó là chuối. Chuối chứa tryptophanes
+    giúp cơ thể tự điều chỉnh để đi vào giấc ngủ. Ngoài ra, chuối còn có magiê và vitamin B6. Các thành phần này kết hợp
+    với nhau trong chuối giúp hỗ trợ giảm căng thẳng, giảm nguy cơ mất ngủ.
+</p>
+<img src="../../../assert/imageFood/dinhduong/chuoi.jpg" alt="">
+<h4>Hạt bí</h4>
+<p>
+    Hạt bí cũng giàu tryptophan thúc đẩy giấc ngủ chất lượng. Có thể làm món salad rau sống kèm hạt bí hoặc ăn dưới dạng
+    hạt được chế biến theo các vị đa dạng.
+</p>
+<img src="../../../assert/imageFood/dinhduong/hatbi.jpg" alt="">
+<h4>Thực phẩm giàu tinh bột</h4>
+<p>
+    Thực phẩm giàu tinh bột, chẳng hạn như mì ống, gạo chứa đường chậm, giúp làm no bụng đến bữa sáng. Các loại tinh bột
+    này cũng giúp sản xuất serotonin, chất cần thiết để tạo ra melatonin, hormon báo hiệu cơ thể đã đến lúc nghỉ ngơi.
+</p>
+<img src="../../../assert/imageFood/dinhduong/giautinhbot.jpg" alt="">
+<h4>Các loại đậu</h4>
+<p>
+    Các loại đậu giàu chất xơ, protein và khoáng chất. Đậu, đậu lăng và các loại đậu khác có chỉ số đường huyết rất
+    thấp. Do đó, chúng đáp ứng nhu cầu năng lượng của cơ thể để có một giấc ngủ trọn vẹn, đồng thời thúc đẩy sản xuất
+    tryptophan.
+
+</p>
+<img src="../../../assert/imageFood/dinhduong/cacloaihat.jpg" alt="">
+<h4>Quả hạch</h4>
+<p>
+    Giống như các loại đậu, các loại hạt này chứa tryptophan góp phần giúp cơ thể nghỉ ngơi. Những thực phẩm này cũng là
+    một phần của chế độ ăn uống cân bằng, cung cấp protein, vitamin, khoáng chất và chất béo tốt.
+</p>
+<img src="../../../assert/imageFood/dinhduong/quahach.jpg" alt="">
+<h4>Rau các loại</h4>
+<p>
+    Là nguồn cung cấp khoáng chất, vitamin và chất xơ, nhưng ít calo, rau rất cần thiết để duy trì một chế độ ăn uống
+    cân bằng. Trong canh, súp, salad, các món xào hoặc bỏ lò, có hàng ngàn cách để chế biến rau, để thưởng thức quanh
+    năm.
+</p>
+<img src="../../../assert/imageFood/dinhduong/raucacloai.jpg" alt="">
+<h4>Trà thảo mộc</h4>
+<p>
+    Một số loại thảo mộc như cây nữ lang hoặc cỏ roi ngựa, được biết đến với đặc tính thư giãn giúp bạn dễ đi vào giấc
+    ngủ hơn. Ngoài ra, thiết lập một thói quen, chẳng hạn như uống trà thảo mộc vào buổi tối, giúp não bộ nhận ra rằng
+    đã đến lúc phải nghỉ ngơi.
+</p>
+<img src="../../../assert/imageFood/dinhduong/trathaomoc.jpg" alt="">
+<h4>Cá</h4>
+<p>
+    Theo một nghiên cứu của tạp chí khoa học Anh Scientific Reports, ăn cá ít nhất một buổi tối trong tuần giúp cải
+    thiện chất lượng giấc ngủ. Đó cũng là một thực phẩm ngon và lành mạnh, nếu được nấu với ít chất béo.
+</p>
+<img src="../../../assert/imageFood/dinhduong/ca.jpg" alt="">
+<h4>Các sản phẩm từ sữa</h4>
+<p>
+    Là nguồn cung cấp canxi và chất dinh dưỡng, các sản phẩm từ sữa cũng rất giàu tryptophan, những acid amin này cần
+    thiết cho việc sản xuất serotonin, giúp cơ thể đi vào giấc ngủ. Các lợi khuẩn có trong sữa chua cũng thúc đẩy quá
+    trình tiêu hóa tốt. Tuy nhiên, tốt hơn là nên ưu tiên tiêu thụ các sản phẩm nhẹ, chẳng hạn như pho mát tươi và sữa
+    chua không đường.
+</p>
+<img src="../../../assert/imageFood/dinhduong/cacsanphamtusua.jpg" alt="">
+
+<p>Nguồn: <a
+        href="https://suckhoedoisong.vn/9-loai-thuc-pham-tot-cho-tieu-hoa-va-giac-ngu-vao-buoi-toi-16922031917300965.htm"
+        target="_blank">HelloBacsi.com</a></p>

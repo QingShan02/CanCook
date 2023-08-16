@@ -1,0 +1,235 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+     
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+<h1>Tên món: Xíu mại</h1>
+<p>Khẩu phần: 5 người</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai.jpg">
+
+
+  <h3 id="nl">Nguyên Liệu:</h3>
+<ul>
+  <li>Viên thịt xíu mại:</li>
+  <li>400 g thịt heo xay 65.000đ - 75.000đ/500g</li>
+  <li>100 g giò sống 10.000đ - 15.000đ/100g</li>
+  <li>1 quả trứng</li>
+  <li>250 g củ đậu (củ sắn)</li>
+  <li>2 thìa canh bột chiên xù</li>
+  <li>1 thìa canh bột năng</li>
+  <li>1 thìa canh thân mùi (ngò) băm</li>
+  <li>1 thìa canh tỏi phi</li>
+  <li>1 thìa canh dầu vừng (dầu mè)</li>
+  <li>1/2 thìa cà phê muối</li>
+  <li>1/2 thìa canh hạt nêm</li>
+  <li>1 thìa canh nước tương</li>
+  <li>1/2 thìa canh đường</li>
+  <li>1/2 thìa cà phê tiêu</li>
+  <li>Sốt cà chua:</li>
+  <li>300 g cà chua</li>
+  <li>1 thìa cà phê cà chua cô đặc (không bắt buộc)</li>
+  <li>1 củ hành khô</li>
+  <li>2 tép tỏi</li>
+  <li>1 thìa canh đường</li>
+  <li>1/2 thìa cà phê muối</li>
+  <li>1/2 thìa canh hạt nêm</li>
+  <li>Lá mùi (ngò) để trang trí</li>
+</ul>
+<h3>Hướng dẫn:</h3>
+<h4>Bước 1: Sơ chế nguyên liệu</h4>
+<ol>
+  <li>Củ đậu gọt vỏ, rửa sạch, xắt sợi hoặc băm nhỏ.</li>
+  <li>Hấp hoặc chần sơ củ đậu cho chín trong, sau đó vắt ráo nước.</li>
+  <li>Cà chua rửa sạch, bỏ hạt, xay nhuyễn.</li>
+  <li>Hành khô, tỏi bóc vỏ, băm nhuyễn.</li>
+  <li>Rau mùi rửa sạch, để ráo. Thân mùi băm nhỏ, lá giữ lại để trang trí.</li>
+</ol>
+<h4>Bước 2: Làm viên thịt xíu mại</h4>
+<ol>
+  <li>Trộn đều thịt xay, giò sống, trứng, củ đậu, bột chiên xù, bột năng, thân mùi (ngò) băm, tỏi phi, dầu vừng (dầu mè), muối, hạt nêm, nước tương, đường, và tiêu trong một tô.</li>
+  <li>Ướp hỗn hợp trên trong khoảng 15-30 phút trong tủ lạnh.</li>
+  <li>Viên thịt thành từng viên nhỏ khoảng 40-50 g.</li>
+  <li>Đun nước sôi trong một nồi và xếp viên thịt lên đĩa sâu lòng có thoa một lớp dầu mỏng. Hấp viên thịt trong khoảng 15-20 phút tùy kích thước viên thịt.</li>
+</ol>
+<h4>Bước 3: Nấu sốt cà chua</h4>
+<ol>
+  <li>Phi thơm hành tỏi, sau đó cho cà chua cô đặc vào xào.</li>
+  <li>Thêm cà chua xay nhuyễn vào chảo và nêm đường, muối, hạt nêm.</li>
+  <li>Khi sốt cà chua sôi, hạ nhỏ lửa, đậy nắp và đun liu riu cho sốt sánh lại.</li>
+</ol>
+<h4>Bước 4: Hoàn thành</h4>
+<ol>
+  <li>Trút toàn bộ thịt viên đã hấp chín vào sốt cà chua và đun nhỏ lửa thêm khoảng 5 phút. Nêm lại nếu cần thiết.</li>
+  <li>Xíu mại ăn cùng bánh mì, mì, cơm hoặc bún.</li>
+</ol>
+<h3 id="hdct">Hướng dẫn chi tiết:</h3>
+<h4>Bước 1: Sơ chế nguyên liệu</h4>
+<p>
+Củ đậu bạn gọt vỏ, rửa sạch, xắt sợi nhỏ hoặc hạt lựu. Bước này bạn bào củ đậu thì nhanh hơn.
+</p>
+<p>
+Sau đó, bạn hấp hoặc chần sơ củ đậu tới khi thấy chín trong thì bỏ ra để nguội, vắt ráo rồi băm nhỏ. Nếu bạn bào sợi ngắn rồi thì không cần băm nữa.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai1.jpg">
+    <p>
+Củ đậu là nguyên liệu quan trọng tạo nên độ xốp cho viên xíu mại. Bạn nên chọn củ già thì ngọt và ít nước hơn.
+    </p>
+<p>
+Chúng mình cần vị ngọt tự nhiên từ củ đậu, sau khi làm chín vắt ráo, nó không ảnh hưởng tới độ kết dính của nhân thịt mà lại giúp nhân thịt mềm xốp.
+</p>
+<p>
+Trong công thức xíu mại này, lượng củ đậu lên tới 50% tổng lượng thịt, bạn có thể giảm xuống nếu thích viên xíu mại “chắc” thịt hơn.
+</p>
+<p>
+Ngoài củ đậu, bạn có thể dùng su hào, củ cải, bắp cải, củ năng,... nữa nhé. Bạn nhớ là tất cả rau củ đều phải thật ráo nước trước khi trộn nhân nha.
+</p>
+<p>
+Phần cà chua bạn rửa sạch, bỏ hạt, xay nhuyễn. Bạn có thể bóc vỏ nếu thích sốt thật là mướt mượt. Ngược lại, nếu muốn sốt còn miếng miếng thì bạn khứa chữ thập lên vỏ cà, chần sơ cà để bóc vỏ. Sau đó bạn bỏ hạt cà, rồi băm nhỏ.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai2.jpg">
+    <p>
+Hành khô và tỏi bạn bóc vỏ, băm nhuyễn.
+    </p>
+<p>
+Rau mùi bạn rửa sạch, băm nhỏ phần thân. Lá để riêng để trang trí.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai3.jpg">
+<h4>Bước 2:Làm viên thịt xíu mại</h4>
+<p>
+Khi mua thịt để xay, bạn nên chọn phần thịt vai (thịt nạc dăm) có dắt mỡ. Tỉ lệ thịt và mỡ có thể rơi vào khoảng 1:5 để viên thịt mềm mại, không bị khô.
+</p>
+<p>
+Với giò sống, nếu loại bạn dùng có sẵn gia vị, khi nêm nếm bạn điều chỉnh lại một chút nha. Chúng mình cũng có thể dùng cá thác lác nạo, giò sống làm từ tôm, cá,... Tác dụng của nó là tạo độ dai nhẹ khi cắn vào viên xíu mại.
+</p>
+<p>
+Bạn có thể trộn thêm một ít lạp xưởng thái hạt lựu cho món ăn thêm phần đặc biệt.
+</p>
+<p>
+Bạn trộn đều thịt xay, giò sống, trứng, củ đậu, 2 thìa canh bột chiên xù, 1 thìa canh bột năng, 1 thìa canh thân mùi (ngò) băm, 1 thìa canh tỏi phi, 1 thìa canh dầu vừng (dầu mè), ½ thìa cà phê muối, ½ thìa canh hạt nêm, 1 thìa canh nước tương, ½ thìa canh đường, ½ thìa cà phê tiêu.
+</p>
+<p>
+Sau đó, bạn ướp hỗn hợp trong khoảng 15-30 phút trong tủ lạnh.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai4.jpg">
+    <p>
+Nếu không có máy trộn, bạn không nên dùng thìa hay đũa đảo mà nên dùng tay nhồi như nhồi bột, nhấc thịt lên quật xuống vài lần để hỗn hợp kết dính tốt, có độ dai chắc. Thao tác quật và nhồi tay tương tự như việc dùng máy quết thịt đó.
+    </p>
+<p>
+Nhân trộn xong phải dẻo dính thành một khối, hoàn toàn không ra nước.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai5.jpg">
+    <p>
+Bột chiên xù cũng có tác dụng làm xốp, bạn có thể dùng vụn bánh mì hoặc bánh mì sandwich, ruột bánh mì xé nhỏ.
+    </p>
+<p>
+Bột năng tạo độ kết dính, có thể thay thế bằng bột ngô hoặc bột khoai tây.
+</p>
+<p>
+Gia vị của xíu mại rất linh hoạt. Ở đây, Thật Là Ngon lấy mùi thơm chủ yếu từ tỏi phi, thân mùi, dầu vừng, nước tương. Dầu vừng rất nên có. Còn đâu, bạn có thể điều chỉnh thành hành phi, nước mắm, dầu hào tùy sở thích nha.
+</p>
+<p>
+Hành và tỏi trước khi ướp nên được phi thơm thì sẽ tạo ra mùi hương đặc trưng, hấp dẫn.
+</p>
+<p>
+½ thìa canh đường cho 500g thịt là lượng không nhiều với một món ăn miền Nam, nhưng bạn có thể điều chỉnh theo ý thích nha.
+</p>
+<p>
+Sau khi trộn nhân xong, bạn có thể làm chín trước một miếng nhỏ nếm thử để điều chỉnh cả phần gia vị trong sốt cà chua cho vừa miệng nhé.
+</p>
+<p>
+Bạn viên thịt thành từng viên nhỏ cỡ 40-50 g, hoặc to nhỏ tùy bạn. Trong lúc viên, bạn đun một nồi nước sôi để hấp.
+</p>
+<p>
+Xíu mại nhân trứng muối hoặc trứng cút luộc cũng rất hấp dẫn đấy, bạn hãy thử xem nhé. Chúng mình cần lưu ý chút xíu là lòng đỏ trứng muối mặn sẵn rồi, cần chỉnh gia vị một tẹo.
+</p>
+<p>
+Bạn xếp thịt lên một cái đĩa sâu lòng có phết một lớp dầu mỏng. Thịt xếp chồng lên nhau cũng không sao.
+</p>
+<p>
+Khi nước sôi mạnh, bạn hấp thịt trong khoảng 15-20 phút tùy kích thước viên thịt.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai6.jpg">
+<h4>
+Bước 3: Nấu sốt cà chua
+</h4>
+<p>
+Bạn phi thơm hành tỏi rồi cho cà chua cô đặc (cà bát) vào xào. Nếu không có, bạn có thể thay bằng 1 muỗng canh tương cà ketchup hoặc bỏ qua.
+</p>
+<p>
+Dù chỉ dùng một lượng rất nhỏ, cà chua cô đặc giúp các món sốt từ cà chua lên màu đẹp, dậy mùi thơm tự nhiên. Bạn mua về dùng để nấu bò sốt vang hay làm mì Ý rất ngon đấy.
+</p>
+<p>
+Bạn trút cà chua xay nhuyễn vào xào, nêm 1 thìa canh đường, ½ thìa cà phê muối, ½ thìa canh hạt nêm. Cả xíu mại và sốt đều nên nêm hơi lạt một chút, khi ăn có thể chan kèm nước tương.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai7.jpg">
+    <p>
+Sốt xíu mại kiểu miền Nam chua nhiều, ngọt nhiều. Nếu bạn cảm thấy sốt chỉ toàn cà chua không vị hơi gắt, thì bạn có thể châm thêm nước hoặc nước dùng.
+    </p>
+<p>
+Sốt đun liu riu 15-20 phút nhỏ lửa cho các gia vị được hòa quyện.
+</p>
+<h4 id="ht">
+Bước 4: Cách Làm Xíu Mại - Hoàn thành
+</h4>
+<p>
+Thịt hấp chín, bạn gắp thịt cho vào chảo sốt, trút toàn bộ nước thịt trong đĩa vào chảo. Chúng mình om ở lửa nhỏ thêm khoảng 5 phút để thịt ngấm sốt.
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai8.jpg">
+ <p>
+Nếu thích sốt sánh, bạn hòa 1 thìa bột ngô/bột năng với 2 thìa nước rồi xuống bột từ từ cho tới khi đạt độ sánh như ý.
+ </p>   
+<p>
+Viên xíu mại ăn khi nóng hổi, chấm bánh mì hoặc kẹp bánh mì. Khi kẹp bánh mì, bạn dằm nhỏ viên thịt, rưới chút nước sốt, rắc ít tiêu, xịt tí tẹo nước tương, vài cọng mùi, vài lát ớt cay (nếu thích).
+</p>
+    <img src="../../../assert/imageFood/xiumai/xiumai9.jpg">
+<p>Viên thịt kết dính tốt, xốp mềm, cắn vào cảm nhận được độ dai chắc không bời rời, hòa quyện với sốt cà chua chua chua, ngọt ngọt, đậm đà.</p>
+ <p>Nguồn: <a href="https://thatlangon.com">thatlangon.com</a></p>

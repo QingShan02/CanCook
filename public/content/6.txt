@@ -1,0 +1,240 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    ol, ul {
+      color: #555;
+    
+    }
+
+    .recipe-instructions {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .recipe-instructions h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .recipe-instructions p {
+      color: #555;
+      margin-bottom: 5px;
+    }
+  </style>
+      <h1>Tên món: Mực Xào Dứa</h1>
+    <p>Khẩu phần: 3 người</p>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua.jpg">
+    
+
+    <h2 id="nl">Nguyên Liệu</h2>
+    <ul>
+        <li>300 g mực ống: Mực ống loại 3 (16-20 con/kg ): 180.000 – 200.000 đồng/kg</li>
+        <li>100 g dứa</li>
+        <li>2 cây cần tây</li>
+        <li>1 củ hành tây nhỏ</li>
+        <li>8 tép tỏi</li>
+        <li>1½ thìa cà phê hạt nêm</li>
+        <li>½ thìa cà phê tiêu xay</li>
+        <li>1 thìa cà phê nước mắm</li>
+    </ul>
+
+    <h2>Hướng dẫn</h2>
+    <p><strong>Bước 1: Sơ chế mực</strong></p>
+    <ol>
+        <li>Mực tươi mua về rút đầu, tách bỏ nội tạng, xương sống và cả lớp da tím (nếu muốn).</li>
+        <li>Rửa lại mực với nước sạch nhiều lần, để cho ráo nước và thái mực theo hình tùy thích (bông hoa, vảy rồng, ống tròn,...)</li>
+        <li>Tỏi và gừng bỏ vỏ, rửa với nước và đập dập.</li>
+        <li>Đun sôi nồi nước với gừng rồi cho mực vào chần trong 30 giây rồi vớt ra để ráo nước.</li>
+    </ol>
+   <p><strong>Bước 2: Sơ chế các nguyên liệu khác</strong></p>
+    <ol>
+        <li>Dứa gọt bỏ vỏ, khoét mắt, rửa qua nước sạch rồi thái lát dày cỡ 1 cm.</li>
+        <li>Cần tây cắt gốc, rửa với nước sạch rồi thái đoạn 3 cm.</li>
+        <li>Hành tây bóc vỏ, cắt rễ, rửa qua và bổ múi cau.</li>
+    </ol>
+     <p><strong>Bước 3: Xào các nguyên liệu</strong></p>
+    <ol>
+        <li>Phi thơm ½ phần tỏi cùng chút dầu ăn, xào mực cùng gia vị rồi trút ra một chiếc đĩa sạch.</li>
+        <li>Vẫn sử dụng chiếc chảo nóng đó, phi thơm nốt chỗ tỏi còn lại.</li>
+        <li>Cho lần lượt hành tây, dứa và cần tây vào xào, nêm nếm gia vị cho vừa.</li>
+        <li>Sau khi rau củ chín, cho mực vào đảo cùng khoảng 1 phút trên lửa vừa rồi tắt bếp.</li>
+    </ol>
+    <p><strong>Bước 4: Hoàn thành</strong></p>
+    <p>Múc mực xào dứa ra đĩa, rắc hạt tiêu lên trên và thưởng thức cùng cơm khi còn nóng.</p>
+    <h2 id="hdct">Chi tiết cách làm:</h2>
+    <h4>Bước 1: Sơ chế mực</h4>
+    <p>
+    Món ăn có tên là mực xào dứa thì bạn đã đoán được nguyên liệu chính của món ăn là gì rồi phải không?!
+    </p>
+<p>
+Mình sẽ bật mí cho các bạn một số lưu ý để chọn mua được mực và dứa tươi ngon nhé!
+</p>
+<p>
+Có rất nhiều loại mực khác nhau, nhưng để xào dứa thì bạn nên chọn mua mực ống, mực cơm hoặc mực nút.
+</p>
+<p>
+Bạn có thể mua mực ở chợ, siêu thị hoặc các cửa hàng chuyên bán hải sản. Khi chọn mực, bạn chú ý những đặc điểm sau:
+</p>
+<ul>
+<li>
+Chọn những con mực mình căng bóng, không có mùi hôi.
+</li>
+<li>
+Khi ấn nhẹ vào phần thịt cho cảm giác săn chắc, nếu là mực tươi có độ đàn hồi cao sẽ nhanh chóng trở lại trạng thái ban đầu.
+</li>
+<li>
+Bạn có thể quan sát phần mắt của mực. Mực tươi thì mắt đen láy, trong, không bị lồi, không bị chảy dịch.
+</li>
+<li>
+Đầu mực gắn chặt với thân, không bị đứt, không bị mủn ra.
+</li>
+<li>
+Khi cầm vào râu mực, các giác hút trên xúc tu có độ bám dính vào da mình.
+</li>
+</ul>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua1.jpg">
+<p>Tiếp theo, bạn lần lượt sơ chế theo các bước sau:</p>
+    <ol>
+    <li>
+    Bạn rửa qua mực với nước. Bạn sử dụng tay sạch, một tay giữ thân mực còn một tay kéo nhẹ đầu mực ra.
+    </li>
+    <li>
+Túi mực lúc này có thể bị vỡ, tiết ra nhiều mực màu đen. Không phải chất bẩn độc hại gì đâu bạn! Chỉ cần rửa lại với nước sạch là mực sẽ trôi hết.
+    </li>
+    <li>
+Khi sơ chế đầu mực, nhất là những con mực to thì bạn cần dùng dao xẻ đầu mực. Bạn cắt mắt và lấy phần cứng bên trong ra.
+    </li>
+    <li>
+Nội tạng mực khi ăn rất đắng, không ngon đâu. Bạn dùng tay luồn vào phía bên trong thân mực, móc bỏ nội tạng đi. Đối với mực trứng thì bạn cần thao tác nhẹ tay hơn, chỉ luồn tay lấy nội tạng thôi, tránh tác động tới phần trứng nhé!
+    </li>
+    <li>
+Phía bên trong thân mực, bạn sẽ thấy xương sống màu trắng trong. Phần này không ăn được, thậm chí còn khá cứng, bạn rút bỏ đi.
+    </li>
+    <li>
+Với loại mực to, bạn cũng có thể dùng dao sắc để dọc một đường trên thân mực, mở bên trong ra sẽ dễ làm sạch nội tạng của mực hơn.
+    </li>
+    <li>
+Bám chắc trên thân mực là lớp da màu tím hồng. Bạn bóc hoặc không đều được, không ảnh hưởng gì đến món ăn cả.
+    </li>
+    <li>
+Ngoài cách cắt khoanh truyền thống, tùy theo sở thích, bạn thái mực hình bông hoa, hình vảy rồng, hình ống tròn,... Khi mực chín, thịt nở ra trông sẽ rất đẹp.
+    </li>
+    <li>
+Làm sạch mực xong, bạn rửa lại với nước sạch và để ráo.
+    </li>
+    </ol>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua2.jpg">
+  <p>
+    Nếu sử dụng mực cơm/ mực nút, bạn cần thao tác thật nhanh chóng để mực không bị nát và giữ nguyên giá trị dinh dưỡng.
+  </p>
+<p>
+Khi sơ chế bạn chỉ cần rửa nhiều lần bằng nước sạch rồi để ráo. Túi mực và ruột bên trong khá nhỏ nên hơi khó lấy ra. Hơn nữa, vị của chúng không đắng như những loại mực có kích thước to, có thể ăn được nên thường người ta sẽ để nguyên.
+</p>
+<p>
+Làm mực xong, bạn hãy chuẩn bị một nồi nước, đập dập ít gừng cho vào đun sôi. Khi nước sôi bùng lên, bạn thả mực vào chần sơ 30 giây rồi vớt ra ngay. Nếu dùng mực cơm/ mực nút, kích thước chúng khá nhỏ, sẽ rất nhanh chín nên bạn không cần chần mực qua nước sôi cũng được.
+</p>
+<p>
+Việc chần qua nước gừng sôi có tác dụng làm bì mực săn lại, khi xào mực sẽ nhanh chín, ít bị ra nước và giữ được độ giòn dai sần sật. Ngoài ra, bước này còn giúp khử bớt mùi tanh của mực. Nếu nhà có người nhạy cảm với mùi hải sản thì bạn càng không nên bỏ qua bước này.
+</p>
+<p>
+Mực là một loại nguyên liệu rất nhạy với nhiệt, dễ bị dai nếu nấu lâu. Vậy nên khi chế biến mực, bạn lưu ý một chút đến mức nhiệt và thời gian nấu để có thể bảo toàn được hương vị và dưỡng chất của nguyên liệu nhé!
+</p>
+    <h4>Bước 2: Sơ chế các nguyên liệu khác</h4>
+    <p>
+    Đối với dứa tươi, bạn chọn mua dựa trên những đặc điểm ngoại quan sau:
+    </p>
+<p>
+Chọn mua quả có mắt to, mắt thưa để cùi dứa được dày hơn, thơm ngọt.
+</p>
+<p>
+Quả dứa cầm lên có cảm giác nặng chắc tay, không bị dập mềm.
+</p>
+<p>
+Nên chọn quả dứa có vỏ vẫn còn hơi xanh một chút thì độ chín vừa phải, xào sẽ ngon hơn. Những quả vỏ đã chuyển sang màu vàng cam, có mùi thơm đậm nghĩa là đã khá chín, sẽ thích hợp để ăn tươi hơn.
+</p>
+<p>
+Hành tây bạn chọn mua những củ trông tròn tròn, nhiều rễ bên dưới.
+</p>
+<p>
+Cần tây bạn mua những cây thẳng, màu xanh lá đẹp mắt, còn nguyên phần lá tươi tốt bên trên, không dập úa. Nếu không có cần tây bạn có thể dùng hành lá thay thế.
+</p>
+<p>
+Một số gia đình hay dùng cần ta thay cho cần tây vì thích vị của nó, tuy mùi không thơm bằng. Nếu dùng cần ta, thường mình chỉ sử dùng phần lá thôi. Phần thân cần ta khi xào sẽ có vị hơi nhẫn một chút, bạn nên cân nhắc khi dùng.
+</p>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua3.jpg">
+    <p>
+    Phần rau củ, bạn lần lượt sơ chế nhé!
+    </p>
+<p>
+Dứa khi mua bạn có thể nhờ người bán gọt vỏ, bỏ sạch mắt dứa. Họ quen tay nên làm sẽ nhanh hơn. Khi đem về nhà bạn rửa qua nước sạch, để cho ráo nước rồi thái thành từng miếng dày cỡ 1 cm.
+</p>
+<p>
+Cần tây bạn cắt gốc, rửa vài lần với nước cho sạch rồi cắt khúc dài khoảng 3 cm. Phần lá chứa nhiều chất xơ, ăn cũng rất ngon nên bạn đừng bỏ đi nhé!
+</p>
+<p>
+Hành tây bạn cắt rễ, bỏ vỏ, rửa sạch rồi đem bổ múi cau.
+</p>
+<p>
+Tỏi bạn bóc vỏ, rửa qua rồi đập dập, băm nhỏ.
+</p>
+    <h4>Bước 3: Xào các nguyên liệu</h4>
+    <p>
+Mực sau khi chần cần được đem xào ngay, nếu để lâu ngoài không khí, hơi nước trong mực bay hơi hết sẽ khiến thịt mực bị khô và dai.
+    </p>
+<p>
+Bạn phi thơm một nửa chỗ tỏi đã đập dập rồi cho toàn bộ mực vào xào trong 3 phút và nêm nếm gia vị. Xào mực xong, bạn trút ra một chiếc đĩa để riêng. Bước này giúp mực ngấm đều gia vị hơn.
+</p>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua4.jpg">
+  <p>
+Phần tỏi còn lại bạn phi thơm rồi lần lượt cho hành tây, dứa và cần tây vào xào khoảng 2 phút rồi nêm nếm vừa ăn. Nếu nhà bạn có người thích ăn cay thì có thể thêm ớt quả thái lát vào để xào cùng.
+  </p>
+<p>
+Sau khi xào phần rau củ chín, bạn cho mực vào đảo cùng chừng 1 phút rồi tắt bếp.
+</p>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua5.jpg">
+  <p>
+Bước này giúp hương vị của mực thấm đượm vào từng miếng rau củ. Đồng thời, vị chua ngọt của dứa, vị cay nhẹ của hành tây, vị thơm nồng của cần tây cũng sẽ ngấm vào từng miếng mực xào. Ngoài dứa, nếu thích, bạn có thể cho thêm các loại rau củ khác (cà chua, cà rốt, tiêu xanh..) vào xào cùng cũng được nhé!
+  </p>
+<p>
+Đối với những loại mực nhỏ (mực cơm, mực nút..), bạn nên xào rau củ trước rồi cho mực vào đảo trực tiếp cùng luôn. Những loại mực nhỏ rất nhanh chín, nếu xào nhiều lần mực sẽ mất nước và bị dai.
+</p>
+    <h4 id="ht">Bước 4: Hoàn thành</h4>
+<p>
+Bạn múc mực xào dứa ra đĩa, rắc chút tiêu xay bên trên.
+</p>
+<p>
+Vậy là món ăn đã sẵn sàng lên mâm rồi!
+</p>
+  <img src="../../../assert/imageFood/mucxaodua/mucxaodua6.jpg">
+
+    <p><em>Nguồn: <a href="https://thalangon.com">thalangon.com</a></em></p>
