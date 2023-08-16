@@ -8,11 +8,11 @@ export async function GET(req: NextRequest) {
     if (p == null || p == undefined) {
         data = await articleService.findAll();
     } else {
-        let article = await articleService.findByPage(p * 9);
+        let article = await articleService.findByPage(p * 8);
         let sum = await articleService.getSum();
         data = {
             article: article,
-            pageCount: Math.ceil(sum[0].count * 1 / 9),
+            pageCount: Math.ceil(sum[0].count * 1 / 8),
         }
     }
     return NextResponse.json(data);
