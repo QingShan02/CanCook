@@ -1,20 +1,21 @@
 import { Article } from '@/common/model/Article';
 import db from '../../db'
 import { query } from '../constant/article'
+import { create } from 'domain';
 
 export const articleService = {
 
     findAll: async () => {
         return (await db.query(query.findAll)).rows;
     },
-    deleteById: async(id) =>{
-        return (await db.query(query.deleteById,[id])).rows;
+    deleteById: async (id) => {
+        return (await db.query(query.deleteById, [id])).rows;
     },
-    findByPage:async(p)=>{
-        let data = (await db.query(query.findByPage,[p])).rows;
+    findByPage: async (p) => {
+        let data = (await db.query(query.findByPage, [p])).rows;
         return data;
     },
-    getSum:async () =>{
+    getSum: async () => {
         return (await db.query(query.getSum)).rows;
     },
     findCountLikeAll: async () => {
@@ -45,7 +46,7 @@ export const articleService = {
         const result = data.rows;
 
         const formattedResult = result.reduce((acc, curr) => {
-            const { articleid, title, content, createdate, staffid, categoryname, categoryid, totallike, totalcomment, directoryid, directoryname,view } = curr;
+            const { articleid, title, content, createdate, staffid, categoryname, categoryid, totallike, totalcomment, directoryid, directoryname, view } = curr;
             if (!acc.articleid) acc.articleid = articleid;
             if (!acc.title) acc.title = title;
             if (!acc.content) acc.content = content;
@@ -63,12 +64,16 @@ export const articleService = {
 
         return formattedResult;
     },
-    update: async (title, content, createdate, id) => {
-        const data = (await db.query(query.update, [title, content, createdate, id]))
+    update: async (title, id) => {
+        const data = (await db.query(query.update, [title, id]))
     },
 
     insert: async (article) => {
         await db.query(query.insert, [article.title, article.content, article.image, article.createDate, article.staffId, article.categoryid, article.directory])
+    },
+    updatea: async (id, article) => {
+        return (await db.query(query.updatea, [id, article.title, article.content, article.image, article.createDate, article.staffId, article.categoryid, article.directory])).rows;
+        // await db.query(query.updatea, [article.title, article.content, article.image, article.createDate, article.staffId, article.categoryid, article.directory,])
     },
 
     lastInsertId: async () => {
@@ -78,10 +83,18 @@ export const articleService = {
         const data = (await db.query(query.findContent, [content]));
         return data.rows[0];
     },
-    updateView: async (id) =>{
-        return (await db.query(query.updateView,[id])).rows;
+    updateView: async (id) => {
+        return (await db.query(query.updateView, [id])).rows;
     },
-    sumView:async () =>{
+    sumView: async () => {
         return (await db.query(query.sumView)).rows[0];
+    },
+    findByCategoryId: async (id) => {
+        return (await db.query(query.findByCategoryId, [id])).rows[0];
     }
+    ,
+    findByDirectoryId: async (id) => {
+        return (await db.query(query.findByDirectoryId, [id])).rows;
+    }
+
 }

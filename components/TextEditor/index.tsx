@@ -19,12 +19,13 @@ interface Data {
 
 }
 
-const TextEditor = ({ Submit }) => {
+const TextEditor = ({ Submit, title, img, content, category, directory }) => {
     const { data: session } = useSession();
     const [data, setData] = useState<Data>({
         category: [],
         directory: []
     });
+
     const { register, setValue, handleSubmit, formState: { errors } } = useForm<Article>();
     useEffect(() => {
         const now = new Date().getFullYear() + "-" + (new Date().getMonth() + 1) + "-" + new Date().getDate();
@@ -51,7 +52,7 @@ const TextEditor = ({ Submit }) => {
         // c.height = name.naturalHeight;
         // c.width = name.naturalWidth;
         // var ctx = c.getContext('2d');
-        
+
         // ctx.drawImage(name, 0, 0, c.width, c.height);
         // var base64String = c.toDataURL();
         if (name) {
@@ -79,7 +80,7 @@ const TextEditor = ({ Submit }) => {
                     { indent: "-1" },
                     { indent: "+1" }
                 ],
-                ["link","image"]
+                ["link", "image"]
             ]
         };
     }, []);
@@ -88,7 +89,7 @@ const TextEditor = ({ Submit }) => {
 
             <div className="form-outline">
                 <h3>Tiêu đề bài viết</h3>
-                <Input className='form-control' type='text' name='title' register={register("title", {
+                <Input defaultValue={title} className='form-control' type='text' name='title' register={register("title", {
                     required: {
                         value: true,
                         message: "Bạn không được bỏ trống",
@@ -103,7 +104,7 @@ const TextEditor = ({ Submit }) => {
             </div>
             <div className="form-outline">
                 <h3>Nội dung</h3>
-                <ReactQuill style={{height:"300px"}}  theme='snow' modules={modules} onChange={onEditorStateChange} />
+                <ReactQuill value={content} style={{ height: "300px" }} theme='snow' modules={modules} onChange={onEditorStateChange} />
                 <div className='text-danger mt-1'>{errors.content?.message}</div>
             </div>
             <div className="form-outline mt-5">
@@ -117,7 +118,7 @@ const TextEditor = ({ Submit }) => {
                                     message: "Bạn không được bỏ trống",
                                 }
                             })}
-                                className='form-check-input' type='radio' name='categoryId' value={value.id} key={index} />
+                                className='form-check-input' type='radio' name='categoryId' value={value.id} key={index} checkedValue={category} />
                             <label className="form-check-label" >{value.name}</label>
                         </div>
                     </>
@@ -135,7 +136,7 @@ const TextEditor = ({ Submit }) => {
                                     message: "Bạn không được bỏ trống",
                                 }
                             })}
-                                className='form-check-input' type='checkbox' name='directory' value={value.id} key={index} />
+                                className='form-check-input' type='checkbox' name='directory' value={value.id} key={index} checkedValue={directory} />
                             <label className="form-check-label" >{value.name}</label>
                         </div>
                     </>

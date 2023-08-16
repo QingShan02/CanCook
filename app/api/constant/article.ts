@@ -13,13 +13,16 @@ export const query = {
     LEFT JOIN directoryofarticle AS dop ON p.id = dop.articleid LEFT JOIN category AS c ON cop2.categoryid = c.id 
     LEFT JOIN directory AS d ON dop.directoryid = d.id WHERE p.id = $1 
     GROUP BY p.id, p.title, c.id, c.name, d.id, d.name,c.id,c.name; `,
-    update:"UPDATE article SET title = $1, content = $2, createdate = $3 WHERE id = $4",
-    insert:"SELECT insert_article($1,$2,$3,$4,$5,$6,$7);",
-    lastInsertId:"SELECT last_insert_id();",
-    findContent:"select * from article where content = $1",
-    findByPage:"select a.id ,a.title, a.content, a.thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, s.name as staffName, a.view from article a join staff s on s.id = a.staffId order by a.id ASC  offset $1 limit 2",
+    update: "UPDATE article SET title = $1, content = $2, createdate = $3 WHERE id = $4",
+    updatea: "SELECT update_article($1,$2,$3,$4,$5,$6,$7,$8);",
+    insert: "SELECT insert_article($1,$2,$3,$4,$5,$6,$7);",
+    lastInsertId: "SELECT last_insert_id();",
+    findContent: "select * from article where content = $1",
+    findByPage: "select a.id ,a.title, a.content, a.thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, s.name as staffName, a.view from article a join staff s on s.id = a.staffId order by a.id ASC  offset $1 limit 2",
     getSum: "select count(id) from article",
-    deleteById:"delete from article where id = $1",
-    updateView:"update article set view = view+1 where id =$1",
-    sumView: "select sum(view) as sumView from article"
+    deleteById: "delete from article where id = $1",
+    updateView: "update article set view = view+1 where id =$1",
+    sumView: "select sum(view) as sumView from article",
+    findByCategoryId: "SELECT category.id as categoryid ,category.name, article.* FROM public.article JOIN public.categoryofarticle ON article.id = categoryofarticle.articleid JOIN public.category ON categoryofarticle.categoryid = category.id WHERE article.id = $1",
+    findByDirectoryId: "SELECT directory.id as directoryid ,directory.name, article.* FROM public.article JOIN public.directoryofarticle ON article.id = directoryofarticle.articleid JOIN public.directory ON directoryofarticle.directoryid = directory.id WHERE article.id = $1"
 }

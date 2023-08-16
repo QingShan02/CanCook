@@ -6,7 +6,7 @@ export interface InputProps {
     name: string,
     placeholder?: string,
     value?: any,
-    defaultValue?: string,
+    defaultValue?: any,
     disabled?: string,
     min?: number,
     max?: number,
@@ -14,4 +14,5 @@ export interface InputProps {
     onClick?: () => void,
     onChange?: (event: any) => void,
     register?: UseFormRegisterReturn;
+    checkedValue?: any
 }

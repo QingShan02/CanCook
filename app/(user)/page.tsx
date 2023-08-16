@@ -22,9 +22,13 @@ const User = () => {
         const commentsRef = ref(database, `comments`);
         onValue(commentsRef, (snapshot) => {
             const commentsData = snapshot.val() || [];
+            // Object.keys(comment[a.id]).length}
             setComment(commentsData);
         });
     }, []);
+
+    console.log(comment);
+
     useEffect(() => {
         getArticleList();
 
@@ -69,7 +73,7 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={Object.keys(comment[a.id]).length} view={a.view}></Card >
+                            <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
                         </>
                     )
                     )

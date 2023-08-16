@@ -3,16 +3,16 @@ import { NextRequest, NextResponse } from "next/server"
 import { articleService } from "../service/article";
 import path from 'path';
 export async function GET(req: NextRequest) {
-    const p : any = req.nextUrl.searchParams.get("p");
+    const p: any = req.nextUrl.searchParams.get("p");
     let data = null;
     if (p == null || p == undefined) {
         data = await articleService.findAll();
-    }else{
-        let article = await articleService.findByPage(p*8);
+    } else {
+        let article = await articleService.findByPage(p * 9);
         let sum = await articleService.getSum();
         data = {
-            article:article,
-            pageCount:Math.ceil(sum[0].count*1/8),
+            article: article,
+            pageCount: Math.ceil(sum[0].count * 1 / 9),
         }
     }
     return NextResponse.json(data);

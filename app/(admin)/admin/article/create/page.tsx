@@ -14,7 +14,7 @@ const Create = () => {
   }
   return (
     <div>
-      <TextEditor Submit={Submit} />
+      <TextEditor Submit={Submit} title={null} category={null} img={null} content={null} directory={null} />
     </div>
   )
 };
