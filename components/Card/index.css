@@ -111,6 +111,14 @@
     .product-grid {
         margin-bottom: 30px;
     }
-     
 }
 
+@media screen and (max-width: 2000px) {
+    .product-grid {
+        margin-bottom: 30px;
+    }
+
+    .cardAr {
+        height: 480px;
+    }
+}
