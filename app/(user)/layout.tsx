@@ -18,11 +18,11 @@ export default function RootLayout({
   children,
   session
 }: IProps) {
-  const [view,setView] = useState(0);
+  const [view, setView] = useState(0);
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
-    const init = async () =>{
-      const {data:result} = await axios.get("/api/article/sumView");
+    const init = async () => {
+      const { data: result } = await axios.get("/api/article/sumView");
       setView(result);
     }
     init();
@@ -44,11 +44,11 @@ export default function RootLayout({
       </head>
       <body>
         <div className="container-fluid">
-            <SessionProvider session={session}>
-              <Header />
-              {children}
-              <Footer view={view}/>
-            </SessionProvider>
+          <SessionProvider session={session}>
+            <Header />
+            {children}
+            <Footer view={view} />
+          </SessionProvider>
         </div >
       </body >
     </html >
