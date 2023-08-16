@@ -13,9 +13,11 @@ import Tab from "@/components/Tab";
 import { onValue, ref } from "firebase/database";
 import { database } from "@/util/Firebase/firebase";
 import Link from "next/link";
+import { Result } from "postcss";
 
 const User = () => {
     const [data, setData] = useState(null);
+    const [data2, setData2] = useState(null);
     const [itemOffset, setItemOffset] = useState(0);
     const [comment, setComment] = useState([]);
     useEffect(() => {
@@ -65,6 +67,17 @@ const User = () => {
         }
     }
 
+    useEffect(() => {
+        // Gọi API để lấy danh sách sản phẩm
+        axios.get("/api/article")
+            .then(response => {
+                setData2(response.data);
+            })
+            .catch(error => {
+                console.error('Error fetching products:', error);
+            });
+    }, []);
+
     const Items = ({ currentItems }) => {
         return (
             <>
@@ -88,7 +101,16 @@ const User = () => {
         setItemOffset(newOffset);
     };
 
-    
+    const dulieu = data2?.slice(0, 6).map((a, index) => {
+        {
+            return <>
+                <div className="col-lg-4 mb-5">
+                    <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
+                </div>
+            </>
+        }
+    })
+
     return (
         <div className="container">
             {
@@ -96,16 +118,16 @@ const User = () => {
                     <PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
                     <div className="row">
                         {/* w-100 d-flex justify-content-around */}
-                        <div className="col-md-12 col-lg-6">
+                        <div className="col-md-12 col-lg-12">
                             <div  >
                                 {data && <CarouselMutil>
                                     {
                                         data?.article.map((a, index) =>
                                         (
                                             <>
-                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} 
-                                                // sumComment={0} 
-                                                view={a.view}></CarouselItem>
+                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`}
+                                                    // sumComment={0} 
+                                                    view={a.view}></CarouselItem>
                                             </>
                                         )
                                         )
@@ -113,14 +135,29 @@ const User = () => {
                                 </CarouselMutil>}
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 ">
-                            <div className="mb-3" >
-                                <Items key={"page"} currentItems={data.article} />
+
+                        <div className="row mt-5">
+                            {/* <div className="col-md-6 col-lg-3 ">
+                                <div className="mb-3" >
+                                    <Items key={"page"} currentItems={data.article} />
+                                </div>
+                            </div> */}
+
+                            <div className="col-md-6 col-lg-9 ">
+                                <div className="row mb-2 text-primary">
+                                    <h3>Món ăn đơn giản</h3>
+                                </div>
+                                <div className="row" >
+                                    {dulieu}
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-md-6 col-lg-3">
-                            <div className="mb-3">
-                                <Tab comment={comment}/>
+                            <div className="col-md-6 col-lg-3">
+                                <div className="row mb-2 text-primary">
+                                    <h3>Dinh dưỡng & Mẹo vặt</h3>
+                                </div>
+                                <div className="mb-3">
+                                    <Tab comment={comment} />
+                                </div>
                             </div>
                         </div>
                     </div>
