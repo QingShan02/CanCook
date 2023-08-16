@@ -8,6 +8,9 @@ export const articleService = {
     findAll: async () => {
         return (await db.query(query.findAll)).rows;
     },
+    findStaffName: async () => {
+        return (await db.query(query.findStaffName)).rows;
+    },
     deleteById: async (id) => {
         return (await db.query(query.deleteById, [id])).rows;
     },
