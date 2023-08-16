@@ -20,6 +20,8 @@ const ListArticle = () => {
                 const response = await fetch(`/api/article`);
                 const data = await response.json();
                 setData(data);
+                console.log(data);
+
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -36,7 +38,7 @@ const ListArticle = () => {
                 return (
                     <div>
                         <p>{record.title}</p>
-                        <p style={{fontSize: "12px", fontWeight: "lighter"}}>Nhân viên: {record.staffname}</p>
+                        <p style={{ fontSize: "12px", fontWeight: "lighter" }}>Nhân viên: {record.staffname}</p>
                     </div>
                 );
             },

@@ -52,7 +52,8 @@ const Tab = ({ comment }) => {
         return (
             <>
                 <Items key={pageCount} currentItems={currentItems} />
-                <div className="justify-content-center d-flex">
+                <div className="row"></div>
+                <div className="justify-content-center d-flex  mt-5">
                     <ReactPaginate key="1" containerClassName='react-pagination-js-border-bottom'
                         pageClassName='page'
                         activeClassName="is-active"

@@ -1,6 +1,6 @@
 
 export const query = {
-    findAll: "select id ,title, content, thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, staffId from article",
+    findAll: "select id ,title, content, thumbnail,view, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, staffId from article",
     findStaffName: `select article.id ,title, content, thumbnail, TO_CHAR(createDate, 'dd/MM/yyyy') as createDate, staff.name as staffName
                     from article join staff on article.staffid = staff.id`,
     findById: "select * from article where id = $1",

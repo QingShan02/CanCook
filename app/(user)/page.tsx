@@ -31,9 +31,9 @@ const User = () => {
 
     console.log(comment);
 
-    useEffect(() => {
-        getArticleList();
-    }, [itemOffset]);
+    // useEffect(() => {
+    //     getArticleList();
+    // }, [itemOffset]);
 
     const hotTopics = [
         {
@@ -54,18 +54,18 @@ const User = () => {
         }
     ]
 
-    const getArticleList = async () => {
+    // const getArticleList = async () => {
 
-        try {
-            if (!data) {
-                const res = await axios.get("/api/article?p=" + itemOffset);
-                setData(res.data);
+    //     try {
+    //         if (!data) {
+    //             const res = await axios.get("/api/article?p=" + itemOffset);
+    //             setData(res.data);
 
-            }
-        } catch (error) {
-            console.error('Error fetching data:', error);
-        }
-    }
+    //         }
+    //     } catch (error) {
+    //         console.error('Error fetching data:', error);
+    //     }
+    // }
 
     useEffect(() => {
         // Gọi API để lấy danh sách sản phẩm
@@ -85,14 +85,43 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
-                        </>
+                            <div className="col-lg-4 mb-5 mt-1">
+                                <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
+                            </div></>
                     )
                     )
                 }
             </>
         );
     }
+    function PaginatedItems({ itemsPerPage }) {
+        const [itemOffset, setItemOffset] = useState(0);
+        const endOffset = itemOffset + itemsPerPage;
+        const currentItems = data2.slice(itemOffset, endOffset);
+        const pageCount = Math.ceil(data2.length / itemsPerPage);
+
+        const handlePageClick = (event) => {
+            const newOffset = (event.selected * itemsPerPage) % data2.length;
+            setItemOffset(newOffset);
+        };
+        return (
+            <>
+                <Items key={pageCount} currentItems={currentItems} />
+                <ReactPaginate key="1" containerClassName='react-pagination-js-border-bottom'
+                    pageClassName='page'
+                    activeClassName="is-active"
+                    nextClassName={pageCount === 1 ? 'page disabled' : 'page'}
+                    nextLabel="⟩"
+                    onPageChange={handlePageClick}
+                    pageCount={pageCount}
+                    previousClassName={pageCount === itemOffset ? 'page disabled' : 'page'}
+                    previousLabel="⟨"
+                />
+
+            </>
+        );
+    }
+
     const itemsPerPage = data?.pageCount;
     const pageCount = itemsPerPage;
 
@@ -101,28 +130,31 @@ const User = () => {
         setItemOffset(newOffset);
     };
 
-    const dulieu = data2?.slice(0, 6).map((a, index) => {
-        {
-            return <>
-                <div className="col-lg-4 mb-5">
-                    <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
-                </div>
-            </>
-        }
-    })
+    console.log(data2);
+
+
+    // const dulieu = data2?.map((a, index) => {
+    //     {
+    //         return <>
+    //             <div className="col-lg-4 mb-5">
+    //                 <Card key={index.id} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
+    //             </div>
+    //         </>
+    //     }
+    // })
 
     return (
         <div className="container">
             {
-                !data ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}>
+                !data2 ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}>
                     <PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
                     <div className="row">
                         {/* w-100 d-flex justify-content-around */}
-                        <div className="col-md-12 col-lg-12">
+                        <div className="col-md-6 col-lg-6">
                             <div  >
-                                {data && <CarouselMutil>
+                                {data2 && <CarouselMutil>
                                     {
-                                        data?.article.map((a, index) =>
+                                        data2?.map((a, index) =>
                                         (
                                             <>
                                                 <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`}
@@ -135,7 +167,12 @@ const User = () => {
                                 </CarouselMutil>}
                             </div>
                         </div>
-
+                        <div className="col-lg-3">
+                            <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?cs=srgb&dl=pexels-valeria-boltneva-842571.jpg&fm=jpg" className="h-100 w-100 " alt="" />
+                        </div>
+                        <div className="col-lg-3">
+                            <img src="https://i.pinimg.com/564x/b5/1d/01/b51d0123430cb2f3c222e5448afe26f4.jpg" className="h-100 w-100 " alt="" />
+                        </div>
                         <div className="row mt-5">
                             {/* <div className="col-md-6 col-lg-3 ">
                                 <div className="mb-3" >
@@ -148,7 +185,7 @@ const User = () => {
                                     <h3>Món ăn đơn giản</h3>
                                 </div>
                                 <div className="row" >
-                                    {dulieu}
+                                    <PaginatedItems itemsPerPage={6} />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
