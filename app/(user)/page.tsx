@@ -18,6 +18,8 @@ const User = () => {
     const [data, setData] = useState(null);
     const [itemOffset, setItemOffset] = useState(0);
     const [comment, setComment] = useState([]);
+    const [hotTopics, setHotTopics] = useState([]);
+
     useEffect(() => {
         const commentsRef = ref(database, `comments`);
         onValue(commentsRef, (snapshot) => {
@@ -31,26 +33,10 @@ const User = () => {
 
     useEffect(() => {
         getArticleList();
+        getHotTopics();
+        
+        console.log(hotTopics)
     }, [itemOffset]);
-
-    const hotTopics = [
-        {
-            name: "Cơm tấm",
-            image: "https://cdn.tgdd.vn/Files/2021/08/09/1373996/tu-lam-com-tam-suon-trung-don-gian-thom-ngon-nhu-ngoai-hang-202201071248422991.jpg"
-        },
-        {
-            name: "Bún chả",
-            image: "https://cdn.tgdd.vn/Files/2017/04/12/971481/cach-lam-bun-cha-ha-noi-truyen-thong-202112211431417496.jpg"
-        },
-        {
-            name: "Cơm gà",
-            image: "https://cdn.tgdd.vn/2021/05/content/comga3-800x450.jpg"
-        },
-        {
-            name: "Chuối chiên",
-            image: "https://bloganchoi.com/wp-content/uploads/2022/09/banh-chuoi-chien-gion-rum-thom-ngon-1.jpg"
-        }
-    ]
 
     const getArticleList = async () => {
 
@@ -63,6 +49,13 @@ const User = () => {
         } catch (error) {
             console.error('Error fetching data:', error);
         }
+    }
+
+    const getHotTopics = async () => {
+        
+                const response = await axios.get("/api/article/hotTopics");
+                setHotTopics(response.data);
+            
     }
 
     const Items = ({ currentItems }) => {
@@ -130,12 +123,11 @@ const User = () => {
                 <h3 className="text-start">Hot topic</h3>
                 <section className="row">
                     {hotTopics.map((ht, index) => (
-
                         <div className=" col-12 col-sm-12 col-md-6 col-lg-3" key={index}
                             style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "", textDecoration: "none" }} >
-                            <Link href="">
-                                <img src={`${ht.image}`} style={{ width: "262px", height: "150px" }} className="imgHotTopic" /></Link>
-                            <p className="mt-3 fs-5">{ht.name}</p>
+                            <Link href={`/article/${ht.id}`}>
+                                <img src={`./assert/ArticleImage/${ht.thumbnail}`} style={{ width: "262px", height: "150px" }} className="imgHotTopic" /></Link>
+                            <p className="mt-3 text-center">{ht.title}</p>
                         </div>
                     ))}
                 </section>

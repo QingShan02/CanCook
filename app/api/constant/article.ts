@@ -26,5 +26,6 @@ export const query = {
     updateView: "update article set view = view+1 where id =$1",
     sumView: "select sum(view) as sumView from article",
     findByCategoryId: "SELECT category.id as categoryid ,category.name, article.* FROM public.article JOIN public.categoryofarticle ON article.id = categoryofarticle.articleid JOIN public.category ON categoryofarticle.categoryid = category.id WHERE article.id = $1",
-    findByDirectoryId: "SELECT directory.id as directoryid ,directory.name, article.* FROM public.article JOIN public.directoryofarticle ON article.id = directoryofarticle.articleid JOIN public.directory ON directoryofarticle.directoryid = directory.id WHERE article.id = $1"
+    findByDirectoryId: "SELECT directory.id as directoryid ,directory.name, article.* FROM public.article JOIN public.directoryofarticle ON article.id = directoryofarticle.articleid JOIN public.directory ON directoryofarticle.directoryid = directory.id WHERE article.id = $1",
+    findTop4View: `SELECT id, title, view, thumbnail FROM article ORDER BY view DESC, id ASC LIMIT 4`
 }
