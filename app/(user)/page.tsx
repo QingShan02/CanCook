@@ -157,7 +157,7 @@ const User = () => {
                                     <Items key={"page"} currentItems={data.article} />
                                 </div>
                             </div> */}
-
+                            <div></div>
                             <div className="col-md-6 col-lg-9">
                                 <div className="row mb-2 text-primary">
                                     <h3>Món ăn đơn giản</h3>
