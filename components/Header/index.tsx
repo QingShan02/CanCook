@@ -1,9 +1,7 @@
 'use client'
-import { signIn, signOut, useSession } from 'next-auth/react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Link from 'next/link';
 const Header = () => {
-    const { data: session } = useSession();
 
     return (
         <>
@@ -49,38 +47,12 @@ const Header = () => {
                                         <li className="nav-item">
                                             <a className="nav-link" href="/about">Về chúng tôi</a>
                                         </li>
-                                        <li className="m-auto float-lg-end">
-                                            {session ? (
-                                                <>
-                                                    <span className='me-2 d-inline'>{session.user.name}</span>
-                                                    {/* <img style={{ borderRadius: "50%", width: "4%" }} className='me-5 d-inline' src={`${session.user.image}`} alt="" /> */}
-                                                    <a onClick={() => signOut()} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
-                                                        Đăng xuất</a>
-                                                </>
-                                            ) : (
-                                                <a onClick={(e) => {
-                                                    e.preventDefault()
-                                                    signIn('facebook')
-                                                    { callbackUrl: "https://cancook.vercel.app/" }
-                                                }} className="text-decoration-none text-secondary-emphasis" aria-current="page" href="#"><i className="bi bi-person-circle me-1"></i>
-                                                    Đăng nhập</a>
-                                            )}
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-1 my-auto">
-                            <a className="navbar-brand float-lg-end float-sm-end ms-5" href="/">
-                                {session ? (
-                                    <>
-                                        <img style={{ borderRadius: "50%", width: "100%" }} className='me-5 d-inline' src={`${session.user.image}`} alt="" />
-                                    </>
-                                ) : (
-                                    <img style={{ borderRadius: "50%", width: "4%" }} className='me-5 d-inline' alt="" />
-                                )}
-                            </a>
-                        </div>
+
                     </div>
                 </div>
             </nav>

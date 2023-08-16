@@ -33,7 +33,7 @@ const Detail = ({ params }) => {
         } catch (error) {
             console.log(error);
         }
-        // window.location.href = "/admin/article";
+        window.location.href = "/admin/article";
     }
     return (
         <>{params.id}
