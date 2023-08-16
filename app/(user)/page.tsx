@@ -109,7 +109,6 @@ const User = () => {
                     previousClassName={pageCount === itemOffset ? 'page disabled' : 'page'}
                     previousLabel="⟨"
                 />
-
             </>
         );
     }
@@ -121,19 +120,6 @@ const User = () => {
         const newOffset = event.selected;
         setItemOffset(newOffset);
     };
-
-    console.log(data2);
-
-
-    // const dulieu = data2?.map((a, index) => {
-    //     {
-    //         return <>
-    //             <div className="col-lg-4 mb-5">
-    //                 <Card key={index.id} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
-    //             </div>
-    //         </>
-    //     }
-    // })
 
     return (
         <div className="container">
@@ -172,40 +158,42 @@ const User = () => {
                                 </div>
                             </div> */}
 
-                            <div className="col-md-6 col-lg-9 ">
+                            <div className="col-md-6 col-lg-9">
                                 <div className="row mb-2 text-primary">
                                     <h3>Món ăn đơn giản</h3>
                                 </div>
-                                <div className="row" >
-                                    <PaginatedItems itemsPerPage={6} />
+                                <div className="row">
+                                    <PaginatedItems itemsPerPage={9} />
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
                                 <div className="row mb-2 text-primary">
-                                    <h3>Dinh dưỡng & Mẹo vặt</h3>
+                                    <h3 className="text-center">Dinh dưỡng & Mẹo vặt</h3>
                                 </div>
-                                <div className="mb-3">
-                                    <Tab comment={comment} />
+                                <div className="mb-3 ps-4 border-start border-dark-subtle">
+                                    <Tab comment={comment}/>
                                 </div>
                             </div>
                         </div>
                     </div>
             }
 
-            <div className="container">
-                <h3 className="text-start">Hot topic</h3>
-                <section className="row">
-                    {hotTopics.map((ht, index) => (
-                        <div className=" col-12 col-sm-12 col-md-6 col-lg-3" key={index}
-                            style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "", textDecoration: "none" }} >
-                            <Link href={`/article/${ht.id}`}>
-                                <img src={`./assert/ArticleImage/${ht.thumbnail}`} style={{ width: "262px", height: "150px" }} className="imgHotTopic" /></Link>
-                            <p className="mt-3 text-center">{ht.title}</p>
-                        </div>
-                    ))}
-                </section>
+            {
+                hotTopics.length > 0 ? <div className="container">
+                    <h3 className="text-start">Chủ đề nổi bật</h3>
+                    <section className="row">
+                        {hotTopics.map((ht, index) => (
+                            <div className=" col-12 col-sm-12 col-md-6 col-lg-3" key={index}
+                                style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "", textDecoration: "none" }} >
+                                <Link href={`/article/${ht.id}`}>
+                                    <img src={`./assert/ArticleImage/${ht.thumbnail}`} style={{ width: "262px", height: "150px" }} className="imgHotTopic" /></Link>
+                                <p className="mt-3 text-center">{ht.title}</p>
+                            </div>
+                        ))}
+                    </section>
+                </div> : null
+            }
 
-            </div>
 
         </div>
     );
