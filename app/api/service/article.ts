@@ -98,6 +98,9 @@ export const articleService = {
     ,
     findByDirectoryId: async (id) => {
         return (await db.query(query.findByDirectoryId, [id])).rows;
-    }
-
+    },
+    findTop4View: async () => {
+        const data = (await db.query(query.findTop4View));
+        return data.rows;
+    },
 }

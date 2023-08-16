@@ -5,10 +5,11 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { DeleteOutlined } from '@ant-design/icons';
 import { EditOutlined } from '@ant-design/icons';
-import { Table } from "antd";
+import { Modal, Table } from "antd";
 const ListArticle = () => {
     const [data, setData] = useState<any[]>();
     const [pageCurrent, setPageCurrent] = useState(0);
+    const [isDeleting, setIsDeleting] = useState<boolean>(false);
 
     const deleteItem = async (id) => {
         await axios.delete("/api/article/" + id);
@@ -64,7 +65,7 @@ const ListArticle = () => {
 
                         <DeleteOutlined
                             onClick={() => {
-                                deleteItem(record.id);
+                                onDeleteProduct(record);
                             }}
                             style={{ color: "red", marginLeft: 12 }}
                         />
@@ -73,6 +74,20 @@ const ListArticle = () => {
             },
         },
     ];
+
+    const onDeleteProduct = (record: any) => {
+        Modal.confirm({
+          title: "Bạn có chắc xóa món ăn này chứ?",
+          okText: "Có",
+          cancelText:"Hủy",
+          okType: "danger",
+          onOk: () => {
+            setIsDeleting(true);
+            deleteItem(record.id);
+          },
+        });
+      };
+
     return (
         <Table
             columns={columns}

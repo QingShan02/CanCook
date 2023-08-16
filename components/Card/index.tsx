@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Card = ({ ...props }: Article) => {
     return (
         <>
-            <div className="mb-3 border cardAr" style={{ backgroundColor: "white" }}>
+            <div className="mb-3 border cardAr">
                 <div className="product-grid">
                     <div className="product-image">
                         <Link
