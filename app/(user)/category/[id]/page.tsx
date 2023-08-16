@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "../../page";
 import dynamic from "next/dynamic";
-const ReactPaginate = dynamic(()=>import('react-paginate'),{ssr:false})
+import { database, onValue, ref } from "@/util/Firebase/firebase";
+const ReactPaginate = dynamic(() => import('react-paginate'), { ssr: false })
 
 const Category = ({ params }) => {
     const [data, setData] = useState([]);
-    
+
     useEffect(() => {
         getArticleList();
     }, []);
@@ -22,6 +23,15 @@ const Category = ({ params }) => {
             console.error('Error fetching data:', error);
         }
     }
+    const [comment, setComment] = useState([]);
+    useEffect(() => {
+        const commentsRef = ref(database, `comments`);
+        onValue(commentsRef, (snapshot) => {
+            const commentsData = snapshot.val() || [];
+            // Object.keys(comment[a.id]).length}
+            setComment(commentsData);
+        });
+    }, []);
 
     function Items({ currentItems }) {
         return (
@@ -31,7 +41,7 @@ const Category = ({ params }) => {
                     (
                         <>
                             <div className="col-md-3 col-lg-3 col-xs-6">
-                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} view={a.view}></Card>
+                                <Card key={index} id={a.id} image={`../assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} view={a.view} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0}></Card>
                             </div>
                         </>
                     )
