@@ -26,14 +26,8 @@ const Detail = ({ params }) => {
     }, []);
 
     const Submit: SubmitHandler<Article> = async (data) => {
-        try {
-            await axios.put(`/api/article/${params.id}/update`, data);
-            console.log("ok");
-            window.location.href = "/admin/article";
-        } catch (error) {
-            console.log(error);
-        }
-
+        await axios.put(`/api/article/${params.id}/update`, data).then().catch(er => console.log(er));
+        window.location.href = "/admin/article";
     }
     return (
         <>{params.id}
