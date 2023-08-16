@@ -81,7 +81,7 @@ const Tab = ({ comment }) => {
                 {
                     label: 'Dinh dưỡng',
                     key: 'L01',
-                    children: <PaginatedItems itemsPerPage={2} />,
+                    children: <PaginatedItems itemsPerPage={3} />,
                     // aofcate.map((a, index) => {
                     //     return (<Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`}
                     //         sumComment={Object.keys(comment[a.id]).length}
@@ -92,7 +92,7 @@ const Tab = ({ comment }) => {
                 {
                     label: 'Mẹo vặt',
                     key: 'L04',
-                    children: <PaginatedItems itemsPerPage={2} />,
+                    children: <PaginatedItems itemsPerPage={3} />,
                 },
             ]}
             onChange={onTabClick} />

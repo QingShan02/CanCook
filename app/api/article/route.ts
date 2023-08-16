@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
     //         pageCount: Math.ceil(sum[0].count * 1 / 8),
     //     }
     // }
-    const data = await articleService.findStaffName();
+    const data = await articleService.findAll();
     return NextResponse.json(data);
 }
 

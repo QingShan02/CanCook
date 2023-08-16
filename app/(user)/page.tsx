@@ -77,7 +77,7 @@ const User = () => {
                     currentItems.map((a, index) =>
                     (
                         <>
-                            <div className="col-lg-4 mb-5 mt-1">
+                            <div className="col-lg-4 mb-4 mt-1">
                                 <Card key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={comment[a.id] ? Object.keys(comment[a.id]).length : 0} view={a.view}></Card >
                             </div></>
                     )
@@ -171,7 +171,7 @@ const User = () => {
                                     <h3 className="text-center">Dinh dưỡng & Mẹo vặt</h3>
                                 </div>
                                 <div className="mb-3 ps-4 border-start border-dark-subtle">
-                                    <Tab comment={comment}/>
+                                    <Tab comment={comment} />
                                 </div>
                             </div>
                         </div>
