@@ -29,11 +29,11 @@ const Detail = ({ params }) => {
         try {
             await axios.put(`/api/article/${params.id}/update`, data);
             console.log("ok");
-
+            window.location.href = "/admin/article";
         } catch (error) {
             console.log(error);
         }
-        window.location.href = "/admin/article";
+
     }
     return (
         <>{params.id}
