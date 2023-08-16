@@ -19,12 +19,14 @@
 }
 
 .product-grid:hover .product-image img {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    opacity: 0.3;
 }
 
 .product-grid .product-links {
-    background: #fff;
+    background: none;
     width: 150px;
+    overflow: hidden;
     padding: 10px 20px;
     margin: 0;
     list-style: none;
@@ -44,13 +46,13 @@
 }
 
 .product-grid .product-links li {
-    width: 48%;
-    margin: 10px 0;
+    width: 100%;
+    margin: 5px 0;
     display: inline-block;
 }
 
 .product-grid .product-links li a {
-    color: #788090;
+    color: black;
     font-size: 18px;
     transition: all .3s;
 }
