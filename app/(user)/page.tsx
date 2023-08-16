@@ -31,7 +31,6 @@ const User = () => {
 
     useEffect(() => {
         getArticleList();
-
     }, [itemOffset]);
 
     const hotTopics = [
@@ -54,12 +53,12 @@ const User = () => {
     ]
 
     const getArticleList = async () => {
+
         try {
             if (!data) {
                 const res = await axios.get("/api/article?p=" + itemOffset);
-
-                console.log(res.data);
                 setData(res.data);
+
             }
         } catch (error) {
             console.error('Error fetching data:', error);
@@ -88,63 +87,61 @@ const User = () => {
         const newOffset = event.selected;
         setItemOffset(newOffset);
     };
+
+    
     return (
         <div className="container">
             {
-                !data ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}><PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
-                    <div className="container" >
-                        <div className="w-100 d-flex justify-content-around">
-                            <div style={{ width: "45%" }} >
+                !data ? <div className="container d-flex align-items-center" style={{ height: "50vh" }}>
+                    <PacmanLoader color="#765827" className="d-block mx-auto" /></div> :
+                    <div className="row">
+                        {/* w-100 d-flex justify-content-around */}
+                        <div className="col-md-12 col-lg-6">
+                            <div  >
                                 {data && <CarouselMutil>
                                     {
                                         data?.article.map((a, index) =>
                                         (
                                             <>
-                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} sumComment={0} view={a.view}></CarouselItem>
+                                                <CarouselItem key={index} id={a.id} image={`/assert/ArticleImage/${a.thumbnail}`} title={`${a.title}`} 
+                                                // sumComment={0} 
+                                                view={a.view}></CarouselItem>
                                             </>
                                         )
                                         )
                                     }
                                 </CarouselMutil>}
                             </div>
-                            <div className="mb-3" style={{ width: "15%" }}>
+                        </div>
+                        <div className="col-md-6 col-lg-3 ">
+                            <div className="mb-3" >
                                 <Items key={"page"} currentItems={data.article} />
                             </div>
-                            <div className="mb-3" style={{ width: "15%" }}>
-                                <Tab />
+                        </div>
+                        <div className="col-md-6 col-lg-3">
+                            <div className="mb-3">
+                                <Tab comment={comment}/>
                             </div>
                         </div>
                     </div>
             }
-            <div className="mb-5" style={{ textAlign: 'center' }}>
+
+            <div className="container">
                 <h3 className="text-start">Hot topic</h3>
-                <section>
-                    <div style={{ display: "flex" }}>
-                        {hotTopics.map((ht, index) => (
-                            <div
-                                key={index}
-                                style={{
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    alignItems: "center",
-                                    margin: "0 16px",
-                                    textDecoration: "none"
-                                }}
-                            >
-                                <Link
-                                    href=""
-                                >
-                                    <img
-                                        src={`${ht.image}`}
-                                        style={{ width: "262px", height: "150px" }}
-                                        className="imgHotTopic"
-                                    /></Link>
-                                <p className="mt-3 fs-5">{ht.name}</p>
-                            </div>
-                        ))}
-                    </div>
+                <section className="row">
+                    {hotTopics.map((ht, index) => (
+
+                        <div className=" col-12 col-sm-12 col-md-6 col-lg-3" key={index}
+                            style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "", textDecoration: "none" }} >
+                            <Link href="">
+                                <img src={`${ht.image}`} style={{ width: "262px", height: "150px" }} className="imgHotTopic" /></Link>
+                            <p className="mt-3 fs-5">{ht.name}</p>
+                        </div>
+                    ))}
                 </section>
+
             </div>
+
         </div>
     );
 }
@@ -152,4 +149,5 @@ export default User;
 function setComments(arg0: unknown[]) {
     throw new Error("Function not implemented.");
 }
+
 

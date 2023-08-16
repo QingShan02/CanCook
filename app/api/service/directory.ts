@@ -9,11 +9,11 @@ export const directoryService = {
         const data = (await db.query(query.findById, [id]));
         const result = data.rows;
         const formattedResult = result.reduce((acc, curr) => {
-            const { directoryid, name, id, title, thumbnail, content, createdate, staffid } = curr;
+            const { directoryid, name, id, title, thumbnail, content, createdate, staffid, view } = curr;
             if (!acc.directoryid) acc.directoryid = directoryid;
             if (!acc.name) acc.name = name;
             if (!acc.listArticle) acc.listArticle = [];
-            acc.listArticle.push({ id, title, thumbnail, content, createdate, staffid });
+            acc.listArticle.push({ id, title, thumbnail, content, createdate, staffid, view });
             return acc;
         }, {});
 
